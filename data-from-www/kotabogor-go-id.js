@@ -14,6 +14,7 @@ var raw = [
 ];
 
 const LINE_NO_COL = 3;
+const NAME_COL = 4;
 const STOPS_COL = 5;
 
 var lat = {};
@@ -24,6 +25,7 @@ for (var i in indices) {
   var cells = raw[indices[i]].split('\t');
   var lineNo = cells[LINE_NO_COL].trim();
   routes[lineNo] = {
+    name: cells[NAME_COL].trim(),
     stops: []
   };
   var stops = cells[STOPS_COL].split(/[–-]/);

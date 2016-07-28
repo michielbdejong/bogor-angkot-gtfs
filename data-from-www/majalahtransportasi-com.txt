@@ -5,6 +5,7 @@ Rute: Terminal Merdeka - JL.Dr.Semeru - JL.Mawar - JL.Merdeka - JL.Moh A. Salmun
 
 AK-01A
 Trayek: Baranangsiang - Tajur - Ciawi
+Warna: ?
 Rute: Baranangsiang - JL.Bangka - JL.Otista - Pajajaran - JL. Raya Tajur - Ciawi
 
 AK-02
@@ -39,6 +40,7 @@ Rute: Terminal Merdeka - JL.Perintis Kemerdekaan - JL.Mawar - JL.Merdeka - Kodam
 
 AK-07A
 Trayek: Pasar Anyar - Pondok Rumput PP
+Warna: ?
 Rute: Pasar Anyar - JL.Pengadilan - JL.Jend.Sudirman - Air Mancur - JL.RE Martadinata - Pondok Rumput
 
 AK-08
@@ -53,15 +55,13 @@ Rute: Ramayana - BTM - Taman Kencana - Warung Jambu
 
 AK-09
 Trayek: Ciparigi - Sukasari
-Warna; Hijau-Ungu
+Warna: Hijau-Ungu
 Rute: Ciparigi - Warung Jambu - JL. Raya Pajajaran - Gedung Dinas Pendidikan Kota Bogor - Galeri Indosat Ooredoo Bogor - SMA Plus YPHB Bogor - Arch Hotel Bogor - Rumah Sakit RS. Azra Bogor - Villa Indah Pajajaran Bogor - SMK Negeri 3 Kota Bogor - Kampus Pascasarjana MB IPB Bogor - Gedung OPMC Bogor - Kantor Telkom Bogor - Hotel Pangrango 3 Bogor - Sukasari
 
 AK-10
 Trayek: Bantar Kemang - Sukasari - Terminal Merdeka
 Warna: Hijau-Silver
-Rute: Bantar Kemang - JL.Pajajaran - JL.Siliwangi - JL.Lawang Gintung - JL.Pahlawan - JL.Empang - JL.Ir.H.Juanda - JL.Paledang - JL.Veteran - JL.Perintis Kemerdekaan - Terminal Merdeka
-
-Terminal Merdeka - JL.Dr.Semeru - JL.Mawar - JL.Merdeka - JL.Moh A. Salmun - Pasar Anyar Bogor - PGN Bogor - JL.Nyai Raja Permas - Masjid Agung Bogor - JL.Dewi Sartika - Bank BRI Cabang Bogor - JL.Kapten Muslihat - Gedung DPRD Kota Bogor - Bantar Kemang
+Rute: Bantar Kemang - JL.Pajajaran - JL.Siliwangi - JL.Lawang Gintung - JL.Pahlawan - JL.Empang - JL.Ir.H.Juanda - JL.Paledang - JL.Veteran - JL.Perintis Kemerdekaan - Terminal Merdeka - JL.Dr.Semeru - JL.Mawar - JL.Merdeka - JL.Moh A. Salmun - Pasar Anyar Bogor - PGN Bogor - JL.Nyai Raja Permas - Masjid Agung Bogor - JL.Dewi Sartika - Bank BRI Cabang Bogor - JL.Kapten Muslihat - Gedung DPRD Kota Bogor - Bantar Kemang
 
 AK-11
 Trayek: Pajajaran Indah - Pasar Bogor
@@ -75,6 +75,7 @@ Rute: Cimanggu Permai - JL.Cimanggu - JL.Merdeka - JL. MA Salmun - Pasar Anyar
 
 AK-13
 Trayek: Ramayana - Mutiara Bogor Raya/ Bantar Kemang
+Warna: ?
 Rute: Ramayana - Kebun Raya Bogor - JL.Otto Iskandardinata - Tugu Kujang Bogor - Kampus IPB Bogr - Botani Square - Terminal Baranangsiang - JL.Raya Pajajaran - Puri Begawan Bogor Wedding - Amaris Hotel Pakuan Bogor - Bale Binarum Bogor - JL.Durian Raya - Kampus 1 Pondok Pesantren Modern Daarul Uluum Bogor - JL.Rambutan -  Stasiun Tas Bogor - SKI Tas Tajur - JL.Raya Parung Banteng - Mutiara Bogor Raya
 
 AK-14
@@ -92,42 +93,49 @@ Trayek: Pasar Anyar - Salabenda
 Warna: Hijau-Putih
 Rute: Pasar Anyar - JL.Pengadilan - Pengadilan Negeri Bogor - SMA Regina Pacis Bogor - JL.Jendral Sudirman Bogor - Rumah Sakit RS.Salak Bogor - Yogya Bogor Junction - Gedung Wanita Bogor - Kodim 0606 Kota Bogor - Monumen dan Museum PETA Bogor - Pusat Pendidikan Zeni Bogor - Taman Air Mancur Bogor - JL.Pemuda - Global Halal Centre Bogor - PT.GoodYear Indonesia Bogor - Stadion Pajajaran Bogor - Perpustakaan Kota Bogor - Dinas Pendapatan Daerah Kota Bogor - SMPN 12 Kota Bogor - Tanah Sereal Bogor - SMK Tri Dharma 2 Bogor - JL.Kebon Pedes - JL. Soleh Iskandar - UPBJJ Universitas Terbuka Bogor - Griya Cimanggu Indah - Universitas Ibn Khaldun Bogor - Perumahan Budi Agung Bogor - Bogor Square - Bogor Icon - Bukit Cimanggu City - Pool Bus ALS Bogor - Lotte Mart Bogor - Kantor Pos Bogor - RS.Bunda Suryatni Bogor - Universitas Nusa Bangsa Bogor - Perumahan Bogor Raya Permai - Graha Dewi Sartika Bogor - Taman Sari Persada Bogor - Pertigaan Salabenda
 
-
 AK-17
 Trayek: Pomad - Tanah Baru - Bina Marga
+Warna: ?
 Rute: Pomad - JL.Pengera Sogiri (Tanah Baru) - JL.R.Kan An - Pasar Tanah Baru - JL.Pandu Raya - JL.Padi - JL.Bina Marga
 
 AK-18
 Trayek: Ramayana - Mulyaharja
+Warna: ?
 Rute: Ramayana - Empang - Cibeureum - Mulyaharja
 
 AK-19
 Trayek: Terminal Bubulak - Kencana
+Warna: ?
 Rute: Terminal Bubulak - JL.R-1 - JL.Yasmin - JL.Soleh Iskandar - JL.Kayu Manis - JL.Mekar Wangi - Kencana
 
 AK-20
 Trayek: Pasar Anyar - Kencana
+Warna: ?
 Rute: Pasar Anyar - JL.Kebon Pedes - JL.Soleh Iskandar - Kencana
-
-Angkutan Perkotaan Bogor
 
 01
 Trayek: Terminal Merdeka - Cipaku
+Warna: ?
+Rute: Terminal Merdeka - Cipaku
 
 02
 Trayek: Sukasari - Cicurug
+Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Ciawi - Cicurug
 
 02A
 Trayek: Sukasari - Cisarua
+Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Cisarua
 
 02B
 Trayek: Sukasari - Cibedug
+Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Ciawi - Cibedug
 
 03
 Trayek: Ramayana - Ciapus
+Warna: ?
 Rute: Ramayana - Jl.Otista - Lw.Saketeng - Jl.Lolongok - Pulo Empang - Ciapus
 
 04A
@@ -142,14 +150,17 @@ Rute: Terminal Merdeka - JL.Perintis Kemerdekaan -  Bogor Golf Club - Rumah Saki
 
 06
 Trayek: Terminal Merdeka - Parung
+Warna: ?
 Rute: Terminal Merdeka - Jl.dr.Semeru - Semplak - Pasar Parung
 
 06A
 Trayek: Terminal Merdeka - Bantar Kambing
+Warna: ?
 Rute: Terminal Merdeka - Jl.dr.Semeru - Semplak - Bantar Kambing
 
 07
 Trayek: Pasar Anyar - Bojong Gede
+Warna: ?
 Rute: Pasar Anyar - JL.Pengadilan - Pengadilan Negeri Bogor - SMA Regina Pacis Bogor - JL.Jendral Sudirman Bogor - Rumah Sakit RS.Salak Bogor - Yogya Bogor Junction - Gedung Wanita Bogor - Kodim 0606 Kota Bogor - Monumen dan Museum PETA Bogor - Pusat Pendidikan Zeni Bogor - Taman Air Mancur Bogor - JL.Pemuda - Global Halal Centre Bogor - PT.GoodYear Indonesia Bogor - Stadion Pajajaran Bogor - Perpustakaan Kota Bogor - Dinas Pendapatan Daerah Kota Bogor - SMPN 12 Kota Bogor - Tanah Sereal Bogor - SMK Tri Dharma 2 Bogor - JL.Kebon Pedes - JL.Raya Cilebut - PLN Gardu Induk Kedung Badak Bogor - Pesona Intiland Cilebut - Perumahan RS.PMI Bogor - Stasiun Cilebut - Stasiun Bojong Gede
 
 08
@@ -189,6 +200,7 @@ Rute: JL.Rajawali - Perum Taman Pagelaran Ciomas - JL.Raya Taman Pagelaran - Gri
 
 31
 Trayek: Bojong Gede - Ciluar
+Warna: ?
 Rute: Stasiun Bojong Gede - Perumahan Gaperi - Ciluar
 
 34
@@ -206,10 +218,12 @@ Trayek: Citeureup - Babakan Madang
 Warna: Biru
 Rute: Citeureup - Sentul City - Babakan Madang
 
-Leuwiliang - Bubulak Bogor
+LB
+Trayek: Leuwiliang - Bubulak Bogor
 Warna: Biru
-Rute:
+Rute: Leuwiliang - Bubulak Bogor
 
-Jasinga - Bubulak
+JB
+Trayek: Jasinga - Bubulak
 Warna: Biru
-Rute:
+Rute: Jasinga - Bubulak
