@@ -8,3 +8,4 @@ node ./kotabogor-go-id.js > ../release/kotabogor.json
 node ./majalahtransportasi-com.js > ../release/majalah.json
 node ./bogor-2menit-com.js > ../release/2menit.json
 cd ..
+node ./joinData.js > release/joined.json
