@@ -84,85 +84,7 @@
     "antar Kemang"
   ],
   "routes": {
-    "10": {
-      "name": "Bantar Kemang -Merdeka",
-      "stops": [
-        "antar Kemang",
-        "Pajajaran",
-        "Terminal Baranangsiang",
-        "Ir. H Juanda",
-        "Kapt. Muslihat",
-        "Merdeka"
-      ]
-    },
-    "11": {
-      "name": "Ramayana – Baranangsiang",
-      "stops": [
-        "Jl.Pajajaran",
-        "Terminal Bis",
-        "Sempur",
-        "Jl. Ir.H. Juanda",
-        "Pasar Bogor"
-      ]
-    },
-    "12": {
-      "name": "Pasar Anyar – Cimanggu",
-      "stops": [
-        "Pasar Anyar",
-        "Sudirma",
-        "RE. Martadinata",
-        "Tentara Pelajar",
-        "Cimanggu Taman/BTN"
-      ]
-    },
-    "13": {
-      "name": "Bantar Kemang – Ramayana",
-      "stops": [
-        "Bantar Kemang",
-        "Pajajaran",
-        "Ir. H Juanda",
-        "Ramayana"
-      ]
-    },
-    "14": {
-      "name": "Laladon – Empang",
-      "stops": [
-        "Laladon",
-        "Pertigaan Ciomas",
-        "Pasir Kuda",
-        "Empang"
-      ]
-    },
-    "15": {
-      "name": "Bubulak – Pasar Anyar",
-      "stops": [
-        "Bubulak",
-        "Pasar Anyar"
-      ]
-    },
-    "16": {
-      "name": "Salabenda – Pasar Anyar",
-      "stops": [
-        "Pasar Anyar",
-        "Air Mancur",
-        "Kebon Pedes",
-        "Jalan Baru",
-        "Kayu Manis",
-        "Jalan Baru",
-        "Kebon Pedes",
-        "A Yani",
-        "Pasar Anyar"
-      ]
-    },
-    "17": {
-      "name": "Tanahbaru – Pomad",
-      "stops": [
-        "Tanahbaru",
-        "Kampus ST Kimia Analisis",
-        "Pomad"
-      ]
-    },
-    "01": {
+    "AK-01": {
       "name": "Ciawi – Baranang Siang",
       "stops": [
         "Ciawi",
@@ -176,7 +98,7 @@
         "Ciawi"
       ]
     },
-    "02": {
+    "AK-02": {
       "name": "Sukasari – Bubulak",
       "stops": [
         "Sukasari",
@@ -196,7 +118,7 @@
         "Sukasari"
       ]
     },
-    "03": {
+    "AK-03": {
       "name": "Bubulak – Baranang Siang",
       "stops": [
         "Terminal Bubulak",
@@ -215,7 +137,7 @@
         "Teminal Baranangsiang"
       ]
     },
-    "04": {
+    "AK-04": {
       "name": "Rancamaya – Ramayana",
       "stops": [
         "Rancamaya",
@@ -230,7 +152,7 @@
         "Rancamaya"
       ]
     },
-    "04A": {
+    "AK-04A": {
       "name": "Cihideung – Ramayana",
       "stops": [
         "Cihideung",
@@ -245,7 +167,7 @@
         "Cihideung"
       ]
     },
-    "05": {
+    "AK-05": {
       "name": "Cimahpar- Ramayana",
       "stops": [
         "Cimahpar",
@@ -256,7 +178,7 @@
         "Ramayana"
       ]
     },
-    "06": {
+    "AK-06": {
       "name": "Ciheuleut – Ramayana",
       "stops": [
         "Ciheuleut",
@@ -267,7 +189,7 @@
         "Ramayana"
       ]
     },
-    "07": {
+    "AK-07": {
       "name": "Ciparigi (Jambu Dua)- Merdeka",
       "stops": [
         "Ciparigi",
@@ -281,7 +203,7 @@
         "Mayor Merdeka"
       ]
     },
-    "07A": {
+    "AK-07A": {
       "name": "Pasar Anyar – Pondok Rumput",
       "stops": [
         "Pondok Rumput",
@@ -292,7 +214,7 @@
         "Pengadilan"
       ]
     },
-    "08": {
+    "AK-08": {
       "name": "Ciparigi (Jambu Dua) – Ramayana",
       "stops": [
         "Ciparigi",
@@ -312,6 +234,84 @@
         "Tugu Kujang",
         "Terminal Baranangsiang",
         "Sukasari"
+      ]
+    },
+    "AK-10": {
+      "name": "Bantar Kemang -Merdeka",
+      "stops": [
+        "antar Kemang",
+        "Pajajaran",
+        "Terminal Baranangsiang",
+        "Ir. H Juanda",
+        "Kapt. Muslihat",
+        "Merdeka"
+      ]
+    },
+    "AK-11": {
+      "name": "Ramayana – Baranangsiang",
+      "stops": [
+        "Jl.Pajajaran",
+        "Terminal Bis",
+        "Sempur",
+        "Jl. Ir.H. Juanda",
+        "Pasar Bogor"
+      ]
+    },
+    "AK-12": {
+      "name": "Pasar Anyar – Cimanggu",
+      "stops": [
+        "Pasar Anyar",
+        "Sudirma",
+        "RE. Martadinata",
+        "Tentara Pelajar",
+        "Cimanggu Taman/BTN"
+      ]
+    },
+    "AK-13": {
+      "name": "Bantar Kemang – Ramayana",
+      "stops": [
+        "Bantar Kemang",
+        "Pajajaran",
+        "Ir. H Juanda",
+        "Ramayana"
+      ]
+    },
+    "AK-14": {
+      "name": "Laladon – Empang",
+      "stops": [
+        "Laladon",
+        "Pertigaan Ciomas",
+        "Pasir Kuda",
+        "Empang"
+      ]
+    },
+    "AK-15": {
+      "name": "Bubulak – Pasar Anyar",
+      "stops": [
+        "Bubulak",
+        "Pasar Anyar"
+      ]
+    },
+    "AK-16": {
+      "name": "Salabenda – Pasar Anyar",
+      "stops": [
+        "Pasar Anyar",
+        "Air Mancur",
+        "Kebon Pedes",
+        "Jalan Baru",
+        "Kayu Manis",
+        "Jalan Baru",
+        "Kebon Pedes",
+        "A Yani",
+        "Pasar Anyar"
+      ]
+    },
+    "AK-17": {
+      "name": "Tanahbaru – Pomad",
+      "stops": [
+        "Tanahbaru",
+        "Kampus ST Kimia Analisis",
+        "Pomad"
       ]
     }
   }

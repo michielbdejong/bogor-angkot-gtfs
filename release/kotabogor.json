@@ -37,61 +37,6 @@
     "warung jambu"
   ],
   "routes": {
-    "11": {
-      "name": "Ramayana - Baranangsiang",
-      "stops": [
-        "ramayana",
-        "baranangsiang"
-      ]
-    },
-    "12": {
-      "name": "Pasar Anyar - Cimanggu",
-      "stops": [
-        "pasar anyar",
-        "sudirman",
-        "re. martadinata",
-        "tentara pelajar",
-        "cimanggu taman/btn"
-      ]
-    },
-    "13": {
-      "name": "Bantar Kemang - Ramayana",
-      "stops": [
-        "bantar kemang",
-        "pajajaran",
-        "ir. h juanda",
-        "ramayana"
-      ]
-    },
-    "15": {
-      "name": "Bubulak - Pasar Anyar",
-      "stops": [
-        "bubulak",
-        "pasar anyar"
-      ]
-    },
-    "16": {
-      "name": "Salabenda - Pasar Anyar",
-      "stops": [
-        "salabenda",
-        "air mancur",
-        "kebon pedes",
-        "jalan baru",
-        "kayu manis",
-        "jalan baru",
-        "kebon pedes",
-        "a. yani",
-        "pasar anyar"
-      ]
-    },
-    "17": {
-      "name": "Tanah Baru - Pomad",
-      "stops": [
-        "tanahbaru",
-        "kampus st kimia analisis",
-        "pomad"
-      ]
-    },
     "bus1": {
       "name": "Depok - Bogor",
       "stops": [
@@ -125,7 +70,62 @@
         "terminal baranangsiang"
       ]
     },
-    "08": {
+    "AK-17": {
+      "name": "Tanah Baru - Pomad",
+      "stops": [
+        "tanahbaru",
+        "kampus st kimia analisis",
+        "pomad"
+      ]
+    },
+    "AK-16": {
+      "name": "Salabenda - Pasar Anyar",
+      "stops": [
+        "salabenda",
+        "air mancur",
+        "kebon pedes",
+        "jalan baru",
+        "kayu manis",
+        "jalan baru",
+        "kebon pedes",
+        "a. yani",
+        "pasar anyar"
+      ]
+    },
+    "AK-15": {
+      "name": "Bubulak - Pasar Anyar",
+      "stops": [
+        "bubulak",
+        "pasar anyar"
+      ]
+    },
+    "AK-13": {
+      "name": "Bantar Kemang - Ramayana",
+      "stops": [
+        "bantar kemang",
+        "pajajaran",
+        "ir. h juanda",
+        "ramayana"
+      ]
+    },
+    "AK-12": {
+      "name": "Pasar Anyar - Cimanggu",
+      "stops": [
+        "pasar anyar",
+        "sudirman",
+        "re. martadinata",
+        "tentara pelajar",
+        "cimanggu taman/btn"
+      ]
+    },
+    "AK-11": {
+      "name": "Ramayana - Baranangsiang",
+      "stops": [
+        "ramayana",
+        "baranangsiang"
+      ]
+    },
+    "AK-08": {
       "name": "Ciparigi (Jambu Dua) - Ramayana",
       "stops": [
         "ciparigi",

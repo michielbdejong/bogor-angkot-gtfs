@@ -1,223 +1,6 @@
 {
   "places": [],
   "routes": {
-    "12": {
-      "name": "Bojong Gede - Ciampea",
-      "colour": "Biru",
-      "stops": [
-        "Stasiun Bojong Gede",
-        "Tajur Halang",
-        "Danau Tonjong",
-        "Jalan Baru Kemang Bogor",
-        "JL.Kemang Inpres",
-        "JL.Situ Bakti Kemang",
-        "Desa Pabuaran Kemang",
-        "Kampung Cipanggulan Bogor",
-        "JL.Dudung Sukarta Desa Candali Bogor",
-        "JL.Sukajadi Desa Mekarsari Rancabungur Bogor",
-        "JL.Raya Rancabungur Bogor",
-        "Pusat Teknologi Satelit LAPAN Rancabungur Bogor",
-        "Ciampea"
-      ]
-    },
-    "27": {
-      "name": "Parung - BSD",
-      "colour": "Biru",
-      "stops": [
-        "Pasar Parung",
-        "JL.Permata",
-        "Alfamart Distribution Center Parung",
-        "Gunung Sindur",
-        "Kantor Desa Curug Gunung Sindur",
-        "Komplek Griya Cendekia Gunung Sindur",
-        "JL.Mutiara",
-        "JL.Pendidikan",
-        "Rawa Kalong Gunung Sindur",
-        "Perumahan Bukit Dago",
-        "JL.Raya Pasar Jengkol",
-        "Kantor Kelurahan Babakan Setu, Tangerang Selatan",
-        "Perempatan Viktor",
-        "Komplek Tropicana Residence Serpong",
-        "JL. Raya Ciater",
-        "BSD",
-        "Buaran Serpong",
-        "Pertigaan Taman Tekno Serpong",
-        "Perumahan De Latinos Serpong",
-        "JL.Raya Rawa Buntu",
-        "Stasiun Rawa Buntu",
-        "JL.Pelayangan",
-        "Ruko Tol Boulevard BSD",
-        "Giant BSD",
-        "Taman Jajan BSD"
-      ]
-    },
-    "31": {
-      "name": "Bojong Gede - Ciluar",
-      "colour": "?",
-      "stops": [
-        "Stasiun Bojong Gede",
-        "Perumahan Gaperi",
-        "Ciluar"
-      ]
-    },
-    "32": {
-      "name": "Taman Pagelaran Ciomas - Cibinong",
-      "colour": "Biru",
-      "stops": [
-        "JL.Rajawali",
-        "Perum Taman Pagelaran Ciomas",
-        "JL.Raya Taman Pagelaran",
-        "Griya Laladon Grande",
-        "SMK Negeri 1 Ciomas",
-        "Komplek Laladon Permai",
-        "Terminal Laladon",
-        "Pasar Laladon",
-        "JL.Letjen Ibrahim Adjie",
-        "JL.K.H.Abdullah Bin Nuh",
-        "Terminal Bubulak",
-        "JL.Raya Cibadak Ciampea",
-        "Perempatan Lampu Merah Semplak Bogor",
-        "SMK YKTB 1 Bogor",
-        "Taman Yasmin",
-        "Rumah Sakit Hermina Bogor",
-        "Taman Cimanggu Bogor",
-        "Lotte Mart Bogor",
-        "JL.KH. Soleh Iskandar Pool Bus ALS Bogor",
-        "Bukit Cimanggu City",
-        "Bogor Icon",
-        "Bogor Square",
-        "Perumahan Budi Agung Bogor",
-        "Universitas Ibn Khaldun Bogor",
-        "Griya Cimanggu Indah",
-        "UPBJJ Universitas Terbuka Bogor",
-        "Perumahan Duta Kencana 2 Bogor",
-        "Karoseri Delima Jaya Bogor",
-        "JL.Raya Bogor",
-        "JL.Kedung Halang",
-        "Kantor Kelurahan Kedung Halang",
-        "Villa Bogor Indah Kedung Halang",
-        "JL.Raya Pemda",
-        "SMK Bina Mandiri Bogor",
-        "Madrasah Aliyah Sirojul Falah",
-        "SMA Negeri 2 Cibinong",
-        "JL.Raya Karadenan",
-        "SMK Negeri 1 Cibinong",
-        "Sekolah Islam Terpadu Al Madinah Cibinong",
-        "Perumahan Acropolis Cibinong",
-        "JL.Raya Sukahati",
-        "Bogor Gading Residence",
-        "Perempatan Pemda Cibinong",
-        "JL.KSR Dadi Kusmayadi",
-        "Pengadilan Agama Cibinong",
-        "KPP Pratama Cibinong",
-        "RSUD Cibinong",
-        "Setu Cikaret Danau Cikaret Cibinong",
-        "JL.Raya Cikaret",
-        "JL.Raya Bogor",
-        "Mall Cibinong City Point",
-        "Robinson Cibinong",
-        "Terminal Cibinong"
-      ]
-    },
-    "34": {
-      "name": "Bambu Kuning - Gerbang Depan Pemda Cibinong",
-      "colour": "Biru",
-      "stops": [
-        "Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong",
-        "JL.Raya Tegar Beriman",
-        "Komplek Pemda Cibinong",
-        "Cibinong City Mall"
-      ]
-    },
-    "35": {
-      "name": "Bambu Kuning - Cibinong",
-      "colour": "Biru",
-      "stops": [
-        "Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong",
-        "JL.Raya Tegar Beriman",
-        "JL.Raya Sukahati",
-        "JL.KSR Dadi Kusmayadi",
-        "Pengadilan Agama Cibinong",
-        "KPP Pratama Cibinong",
-        "RSUD Cibinong",
-        "Setu Cikaret Danau Cikaret Cibinong",
-        "JL.Raya Cikaret",
-        "JL.Raya Bogor",
-        "Mall Cibinong City Point",
-        "Robinson Cibinong",
-        "Terminal Cibinong"
-      ]
-    },
-    "44": {
-      "name": "Citeureup - Babakan Madang",
-      "colour": "Biru",
-      "stops": [
-        "Citeureup",
-        "Sentul City",
-        "Babakan Madang"
-      ]
-    },
-    "53": {
-      "name": "Terminal Laladon - Segog - Gunung Salak",
-      "colour": "Biru",
-      "stops": [
-        "Terminal Laladon",
-        "Pasar Laladon",
-        "Segog",
-        "Gunung Salak"
-      ]
-    },
-    "106": {
-      "name": "Parung - Lebak Bulus",
-      "colour": "Biru",
-      "stops": [
-        "Pasar Parung",
-        "Ramayana Parung",
-        "Cinangka",
-        "Perempatan Gaplek",
-        "Universitas Terbuka Pondok Cabe",
-        "Bandara Pondok Cabe",
-        "Cirendeu",
-        "Lebak Bulus"
-      ]
-    },
-    "117": {
-      "name": "arung - Bojong Gede",
-      "colour": "Biru",
-      "stops": [
-        "Pasar Parung",
-        "Sawangan Elok",
-        "Pondok Pesantren Daarul Rahman III Sawangan",
-        "ATC Area Trade Centre Parung",
-        "Kantor Pos Parung",
-        "JL.Raya Parung",
-        "SMP SMA Proklamasi 1945 Parung",
-        "Gedung P4TK Penjas dan BK Parung Bogor",
-        "Perumahan Permata Lebak Wangi",
-        "JL.Arco Raya",
-        "JL.Kalisuren Raya",
-        "Pasar Modern Kalisuren",
-        "Perumahan Inkopad Parung",
-        "JL.Raya Tonjong",
-        "Komplek BPN/DDN Tonjong",
-        "Danau Tonjong Situ Tonjong",
-        "Polsek Bojong Gede",
-        "Bilabong Permai Bojong Gede Bogor",
-        "JL.Sudi Mampir",
-        "SDN Cimanggis 1 Bojong Gede",
-        "Puskesmas Kemuning Bojong Gede",
-        "Perumahan Surya Regency Cimanggis Bojong Gede",
-        "JL.Kedungwaringin Cimanggis",
-        "Madrasah Tsanawiyah Bahrul Ulum Bojong Gede",
-        "Situ Kemuning Bogor",
-        "Perumahan Waringin Elok Bojong Gede",
-        "SMP Negeri 1 Bojong Gede",
-        "Perumahan Bukit Waringin Bojong Gede",
-        "JL.Kedung Waringin",
-        "JL.Raya Bojong Gede",
-        "Stasiu Bojong Gede"
-      ]
-    },
     "AK-01": {
       "name": "Terminal Merdeka - Cipaku - Cipinang Gading",
       "colour": "Hijau-Biru Muda",
@@ -494,7 +277,7 @@
         "Ramayana"
       ]
     },
-    "AK-08A / 23": {
+    "AK-08A-23": {
       "name": "Ramayana - Taman Kencana - Warung Jambu",
       "colour": "Hijau-Silver",
       "stops": [
@@ -742,7 +525,7 @@
         "Kencana"
       ]
     },
-    "01": {
+    "AP-01": {
       "name": "Terminal Merdeka - Cipaku",
       "colour": "?",
       "stops": [
@@ -750,7 +533,7 @@
         "Cipaku"
       ]
     },
-    "02": {
+    "AP-02": {
       "name": "Sukasari - Cicurug",
       "colour": "?",
       "stops": [
@@ -761,7 +544,7 @@
         "Cicurug"
       ]
     },
-    "02A": {
+    "AP-02A": {
       "name": "Sukasari - Cisarua",
       "colour": "?",
       "stops": [
@@ -771,7 +554,7 @@
         "Cisarua"
       ]
     },
-    "02B": {
+    "AP-02B": {
       "name": "Sukasari - Cibedug",
       "colour": "?",
       "stops": [
@@ -782,7 +565,7 @@
         "Cibedug"
       ]
     },
-    "03": {
+    "AP-03": {
       "name": "Ramayana - Ciapus",
       "colour": "?",
       "stops": [
@@ -794,7 +577,7 @@
         "Ciapus"
       ]
     },
-    "04A": {
+    "AP-04A": {
       "name": "Ramayana - Cihideung",
       "colour": "Hijau",
       "stops": [
@@ -809,7 +592,7 @@
         "Cihideung"
       ]
     },
-    "05A": {
+    "AP-05A": {
       "name": "Terminal Merdeka - Ciomas",
       "colour": "Hijau",
       "stops": [
@@ -825,7 +608,7 @@
         "Ciomas"
       ]
     },
-    "06": {
+    "AP-06": {
       "name": "Terminal Merdeka - Parung",
       "colour": "?",
       "stops": [
@@ -835,7 +618,7 @@
         "Pasar Parung"
       ]
     },
-    "06A": {
+    "AP-06A": {
       "name": "Terminal Merdeka - Bantar Kambing",
       "colour": "?",
       "stops": [
@@ -845,7 +628,7 @@
         "Bantar Kambing"
       ]
     },
-    "07": {
+    "AP-07": {
       "name": "Pasar Anyar - Bojong Gede",
       "colour": "?",
       "stops": [
@@ -879,7 +662,7 @@
         "Stasiun Bojong Gede"
       ]
     },
-    "08": {
+    "AP-08": {
       "name": "Pasar Anyar - Citeureup",
       "colour": "Hijau, ada juga yang Biru",
       "stops": [
@@ -947,6 +730,223 @@
         "JL.Baru Puspa Negara",
         "SMA Indocement Citeureup",
         "Pasar Citeureup"
+      ]
+    },
+    "AP-12": {
+      "name": "Bojong Gede - Ciampea",
+      "colour": "Biru",
+      "stops": [
+        "Stasiun Bojong Gede",
+        "Tajur Halang",
+        "Danau Tonjong",
+        "Jalan Baru Kemang Bogor",
+        "JL.Kemang Inpres",
+        "JL.Situ Bakti Kemang",
+        "Desa Pabuaran Kemang",
+        "Kampung Cipanggulan Bogor",
+        "JL.Dudung Sukarta Desa Candali Bogor",
+        "JL.Sukajadi Desa Mekarsari Rancabungur Bogor",
+        "JL.Raya Rancabungur Bogor",
+        "Pusat Teknologi Satelit LAPAN Rancabungur Bogor",
+        "Ciampea"
+      ]
+    },
+    "AP-27": {
+      "name": "Parung - BSD",
+      "colour": "Biru",
+      "stops": [
+        "Pasar Parung",
+        "JL.Permata",
+        "Alfamart Distribution Center Parung",
+        "Gunung Sindur",
+        "Kantor Desa Curug Gunung Sindur",
+        "Komplek Griya Cendekia Gunung Sindur",
+        "JL.Mutiara",
+        "JL.Pendidikan",
+        "Rawa Kalong Gunung Sindur",
+        "Perumahan Bukit Dago",
+        "JL.Raya Pasar Jengkol",
+        "Kantor Kelurahan Babakan Setu, Tangerang Selatan",
+        "Perempatan Viktor",
+        "Komplek Tropicana Residence Serpong",
+        "JL. Raya Ciater",
+        "BSD",
+        "Buaran Serpong",
+        "Pertigaan Taman Tekno Serpong",
+        "Perumahan De Latinos Serpong",
+        "JL.Raya Rawa Buntu",
+        "Stasiun Rawa Buntu",
+        "JL.Pelayangan",
+        "Ruko Tol Boulevard BSD",
+        "Giant BSD",
+        "Taman Jajan BSD"
+      ]
+    },
+    "AP-106": {
+      "name": "Parung - Lebak Bulus",
+      "colour": "Biru",
+      "stops": [
+        "Pasar Parung",
+        "Ramayana Parung",
+        "Cinangka",
+        "Perempatan Gaplek",
+        "Universitas Terbuka Pondok Cabe",
+        "Bandara Pondok Cabe",
+        "Cirendeu",
+        "Lebak Bulus"
+      ]
+    },
+    "AP-117": {
+      "name": "arung - Bojong Gede",
+      "colour": "Biru",
+      "stops": [
+        "Pasar Parung",
+        "Sawangan Elok",
+        "Pondok Pesantren Daarul Rahman III Sawangan",
+        "ATC Area Trade Centre Parung",
+        "Kantor Pos Parung",
+        "JL.Raya Parung",
+        "SMP SMA Proklamasi 1945 Parung",
+        "Gedung P4TK Penjas dan BK Parung Bogor",
+        "Perumahan Permata Lebak Wangi",
+        "JL.Arco Raya",
+        "JL.Kalisuren Raya",
+        "Pasar Modern Kalisuren",
+        "Perumahan Inkopad Parung",
+        "JL.Raya Tonjong",
+        "Komplek BPN/DDN Tonjong",
+        "Danau Tonjong Situ Tonjong",
+        "Polsek Bojong Gede",
+        "Bilabong Permai Bojong Gede Bogor",
+        "JL.Sudi Mampir",
+        "SDN Cimanggis 1 Bojong Gede",
+        "Puskesmas Kemuning Bojong Gede",
+        "Perumahan Surya Regency Cimanggis Bojong Gede",
+        "JL.Kedungwaringin Cimanggis",
+        "Madrasah Tsanawiyah Bahrul Ulum Bojong Gede",
+        "Situ Kemuning Bogor",
+        "Perumahan Waringin Elok Bojong Gede",
+        "SMP Negeri 1 Bojong Gede",
+        "Perumahan Bukit Waringin Bojong Gede",
+        "JL.Kedung Waringin",
+        "JL.Raya Bojong Gede",
+        "Stasiu Bojong Gede"
+      ]
+    },
+    "AP-53": {
+      "name": "Terminal Laladon - Segog - Gunung Salak",
+      "colour": "Biru",
+      "stops": [
+        "Terminal Laladon",
+        "Pasar Laladon",
+        "Segog",
+        "Gunung Salak"
+      ]
+    },
+    "AP-32": {
+      "name": "Taman Pagelaran Ciomas - Cibinong",
+      "colour": "Biru",
+      "stops": [
+        "JL.Rajawali",
+        "Perum Taman Pagelaran Ciomas",
+        "JL.Raya Taman Pagelaran",
+        "Griya Laladon Grande",
+        "SMK Negeri 1 Ciomas",
+        "Komplek Laladon Permai",
+        "Terminal Laladon",
+        "Pasar Laladon",
+        "JL.Letjen Ibrahim Adjie",
+        "JL.K.H.Abdullah Bin Nuh",
+        "Terminal Bubulak",
+        "JL.Raya Cibadak Ciampea",
+        "Perempatan Lampu Merah Semplak Bogor",
+        "SMK YKTB 1 Bogor",
+        "Taman Yasmin",
+        "Rumah Sakit Hermina Bogor",
+        "Taman Cimanggu Bogor",
+        "Lotte Mart Bogor",
+        "JL.KH. Soleh Iskandar Pool Bus ALS Bogor",
+        "Bukit Cimanggu City",
+        "Bogor Icon",
+        "Bogor Square",
+        "Perumahan Budi Agung Bogor",
+        "Universitas Ibn Khaldun Bogor",
+        "Griya Cimanggu Indah",
+        "UPBJJ Universitas Terbuka Bogor",
+        "Perumahan Duta Kencana 2 Bogor",
+        "Karoseri Delima Jaya Bogor",
+        "JL.Raya Bogor",
+        "JL.Kedung Halang",
+        "Kantor Kelurahan Kedung Halang",
+        "Villa Bogor Indah Kedung Halang",
+        "JL.Raya Pemda",
+        "SMK Bina Mandiri Bogor",
+        "Madrasah Aliyah Sirojul Falah",
+        "SMA Negeri 2 Cibinong",
+        "JL.Raya Karadenan",
+        "SMK Negeri 1 Cibinong",
+        "Sekolah Islam Terpadu Al Madinah Cibinong",
+        "Perumahan Acropolis Cibinong",
+        "JL.Raya Sukahati",
+        "Bogor Gading Residence",
+        "Perempatan Pemda Cibinong",
+        "JL.KSR Dadi Kusmayadi",
+        "Pengadilan Agama Cibinong",
+        "KPP Pratama Cibinong",
+        "RSUD Cibinong",
+        "Setu Cikaret Danau Cikaret Cibinong",
+        "JL.Raya Cikaret",
+        "JL.Raya Bogor",
+        "Mall Cibinong City Point",
+        "Robinson Cibinong",
+        "Terminal Cibinong"
+      ]
+    },
+    "AP-31": {
+      "name": "Bojong Gede - Ciluar",
+      "colour": "?",
+      "stops": [
+        "Stasiun Bojong Gede",
+        "Perumahan Gaperi",
+        "Ciluar"
+      ]
+    },
+    "AP-34": {
+      "name": "Bambu Kuning - Gerbang Depan Pemda Cibinong",
+      "colour": "Biru",
+      "stops": [
+        "Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong",
+        "JL.Raya Tegar Beriman",
+        "Komplek Pemda Cibinong",
+        "Cibinong City Mall"
+      ]
+    },
+    "AP-35": {
+      "name": "Bambu Kuning - Cibinong",
+      "colour": "Biru",
+      "stops": [
+        "Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong",
+        "JL.Raya Tegar Beriman",
+        "JL.Raya Sukahati",
+        "JL.KSR Dadi Kusmayadi",
+        "Pengadilan Agama Cibinong",
+        "KPP Pratama Cibinong",
+        "RSUD Cibinong",
+        "Setu Cikaret Danau Cikaret Cibinong",
+        "JL.Raya Cikaret",
+        "JL.Raya Bogor",
+        "Mall Cibinong City Point",
+        "Robinson Cibinong",
+        "Terminal Cibinong"
+      ]
+    },
+    "AP-44": {
+      "name": "Citeureup - Babakan Madang",
+      "colour": "Biru",
+      "stops": [
+        "Citeureup",
+        "Sentul City",
+        "Babakan Madang"
       ]
     },
     "LB": {

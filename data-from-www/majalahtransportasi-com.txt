@@ -48,7 +48,7 @@ Trayek: Warung Jambu - Ramayana
 Warna: Hijau-Merah Tua
 Rute: Warung Jambu - JL. Raya Pajajaran - Gedung Dinas Pendidikan Kota Bogor - Galeri Indosat Ooredoo Bogor - SMA Plus YPHB Bogor- Arch Hotel Bogor - Rumah Sakit RS. Azra Bogor - Villa Indah Pajajaran Bogor - SMK Negeri 3 Kota Bogor - Kampus Pascasarjana MB IPB Bogor - Gedung OPMC Bogor - Kantor Telkom Bogor - Hotel Pangrango 3 Bogor - JL.Lodaya - Kampus Diploma IPB Bogor - JL.Kumbang - STTIF Bogor - JL.Jalak Harupat - JL.Ir.H.Juanda - Ramayana
 
-AK-08A / 23
+AK-08A-23
 Trayek: Ramayana - Taman Kencana - Warung Jambu
 Warna: Hijau-Silver
 Rute: Ramayana - BTM - Taman Kencana - Warung Jambu
@@ -113,107 +113,107 @@ Trayek: Pasar Anyar - Kencana
 Warna: ?
 Rute: Pasar Anyar - JL.Kebon Pedes - JL.Soleh Iskandar - Kencana
 
-01
+AP-01
 Trayek: Terminal Merdeka - Cipaku
 Warna: ?
 Rute: Terminal Merdeka - Cipaku
 
-02
+AP-02
 Trayek: Sukasari - Cicurug
 Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Ciawi - Cicurug
 
-02A
+AP-02A
 Trayek: Sukasari - Cisarua
 Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Cisarua
 
-02B
+AP-02B
 Trayek: Sukasari - Cibedug
 Warna: ?
 Rute: Sukasari - Jl.Siliwangi - Jl.Raya Tajur - Ciawi - Cibedug
 
-03
+AP-03
 Trayek: Ramayana - Ciapus
 Warna: ?
 Rute: Ramayana - Jl.Otista - Lw.Saketeng - Jl.Lolongok - Pulo Empang - Ciapus
 
-04A
+AP-04A
 Trayek: Ramayana - Cihideung
 Warna: Hijau
 Rute: Ramayana - Jl.Otista - Lw.Saketeng - Jl.Roda - Jl.Raya Pahlawan - Stasiun Batutulis Bogor - Jl.Batu Tulis - Cipaku - Cihideung
 
-05A
+AP-05A
 Trayek: Terminal Merdeka - Ciomas
 Warna: Hijau
 Rute: Terminal Merdeka - JL.Perintis Kemerdekaan -  Bogor Golf Club - Rumah Sakit Dr.Marzoeki Mahdi Bogor - Akademi Keperawatan Departemen Kesehatan Bogor - RSUD Kota Bogor - JL.Darul Quran - Pasar Gunung Batu - JL.Gunung Batu - Ciomas
 
-06
+AP-06
 Trayek: Terminal Merdeka - Parung
 Warna: ?
 Rute: Terminal Merdeka - Jl.dr.Semeru - Semplak - Pasar Parung
 
-06A
+AP-06A
 Trayek: Terminal Merdeka - Bantar Kambing
 Warna: ?
 Rute: Terminal Merdeka - Jl.dr.Semeru - Semplak - Bantar Kambing
 
-07
+AP-07
 Trayek: Pasar Anyar - Bojong Gede
 Warna: ?
 Rute: Pasar Anyar - JL.Pengadilan - Pengadilan Negeri Bogor - SMA Regina Pacis Bogor - JL.Jendral Sudirman Bogor - Rumah Sakit RS.Salak Bogor - Yogya Bogor Junction - Gedung Wanita Bogor - Kodim 0606 Kota Bogor - Monumen dan Museum PETA Bogor - Pusat Pendidikan Zeni Bogor - Taman Air Mancur Bogor - JL.Pemuda - Global Halal Centre Bogor - PT.GoodYear Indonesia Bogor - Stadion Pajajaran Bogor - Perpustakaan Kota Bogor - Dinas Pendapatan Daerah Kota Bogor - SMPN 12 Kota Bogor - Tanah Sereal Bogor - SMK Tri Dharma 2 Bogor - JL.Kebon Pedes - JL.Raya Cilebut - PLN Gardu Induk Kedung Badak Bogor - Pesona Intiland Cilebut - Perumahan RS.PMI Bogor - Stasiun Cilebut - Stasiun Bojong Gede
 
-08
+AP-08
 Trayek: Pasar Anyar - Citeureup
 Warna: Hijau, ada juga yang Biru
 Rute: Pasar Anyar - JL.Pengadilan - Pengadilan Negeri Bogor - SMA Regina Pacis Bogor - JL.Jendral Sudirman Bogor - Rumah Sakit RS. Salak Bogor - Yogya Bogor Junction - Gedung Wanita Bogor - Kodim 0606 Kota Bogor - Monumen dan Museum PETA Bogor - Pusat Pendidikan Zeni Bogor - Taman Air Mancur Bogor - JL.Pemuda - Global Halal Centre Bogor - PT.GoodYear Indonesia Bogor - Stadion Pajajaran Bogor - Perpustakaan Kota Bogor - Dinas Pendapatan Daerah Kota Bogor - SMPN 12 Kota Bogor - JL.Dadali - KKP Pratama Ciawi - Plaza Jambu Dua - Warung Jambu - JL.K.S Tubun - Karoseri Delima Jaya Bogor - JL.Raya Kedung Halang - Polres Bogor Kota - Badan Lingkungan Hidup Bogor - Resimen II Korps Brimob Polri Bogor - PT. Citra Abadi Sejati Kedung Halang Bogor - Polsek Sukaraja Bogor - Apartemen Gardenia Bogor - Simpang Pomad Bogor - Ruko Simpang Pomad - JL.Raya Ciluar - Pasar Ciluar Bogor - PT. Galenium Pharmasia Bogor - RS. Family Medical Center Bogor / RS.FMC Bogor - JL.Raya Bogor - DLLAJ Kabupaten Bogor - M One Hotel Bogor - Metro Residence Sentul Bogor - Pusat Pengambangan dan Pemasaran Ikan Hias Cibinong - Hotel Taman Cibinong 2 -JL.Raya Bogor - Komplek LIPI Cibinong - PemKab Bogor / Pemda Cibinong -Cibinong City Mall - Cibinong Square - Mall Cibinong City Point - Robinson Cibinong - Terminal Cibinong - Fly Over Cibinong - JL.Raya Mayor Oking - Komplek Ruko Permata Cibinong - SMP Negeri 1 Cibinong - RS. Bina Husada Cibinong - Cibinong Mall - RS. Sentra Medika Cibinong - Astra Kompenen Indonesia ASKI Cibinong - Gerbang Tol Citeureup - JL.Baru Puspa Negara - SMA Indocement Citeureup - Pasar Citeureup
 
-12
+AP-12
 Trayek: Bojong Gede - Ciampea
 Warna: Biru
 Rute: Stasiun Bojong Gede - Tajur Halang - Danau Tonjong - Jalan Baru Kemang Bogor - JL.Kemang Inpres - JL.Situ Bakti Kemang - Desa Pabuaran Kemang - Kampung Cipanggulan Bogor -JL.Dudung Sukarta Desa Candali Bogor - JL.Sukajadi Desa Mekarsari Rancabungur Bogor - JL.Raya Rancabungur Bogor - Pusat Teknologi Satelit LAPAN Rancabungur Bogor - Ciampea
 
-27
+AP-27
 Trayek: Parung - BSD
 Warna: Biru
 Rute: Pasar Parung - JL.Permata - Alfamart Distribution Center Parung - Gunung Sindur - Kantor Desa Curug Gunung Sindur - Komplek Griya Cendekia Gunung Sindur - JL.Mutiara - JL.Pendidikan - Rawa Kalong Gunung Sindur - Perumahan Bukit Dago - JL.Raya Pasar Jengkol - Kantor Kelurahan Babakan Setu, Tangerang Selatan - Perempatan Viktor - Komplek Tropicana Residence Serpong - JL. Raya Ciater-BSD - Buaran Serpong - Pertigaan Taman Tekno Serpong - Perumahan De Latinos Serpong - JL.Raya Rawa Buntu - Stasiun Rawa Buntu - JL.Pelayangan - Ruko Tol Boulevard BSD - Giant BSD - Taman Jajan BSD
 
-106
+AP-106
 Trayek: Parung - Lebak Bulus
 Warna: Biru
 Rute: Pasar Parung - Ramayana Parung - Cinangka - Perempatan Gaplek - Universitas Terbuka Pondok Cabe - Bandara Pondok Cabe - Cirendeu - Lebak Bulus
 
-117
+AP-117
 Trayek:Parung - Bojong Gede
 Warna: Biru
 Rute: Pasar Parung - Sawangan Elok - Pondok Pesantren Daarul Rahman III Sawangan - ATC Area Trade Centre Parung - Kantor Pos Parung - JL.Raya Parung - SMP SMA Proklamasi 1945 Parung - Gedung P4TK Penjas dan BK Parung Bogor - Perumahan Permata Lebak Wangi - JL.Arco Raya - JL.Kalisuren Raya - Pasar Modern Kalisuren - Perumahan Inkopad Parung - JL.Raya Tonjong - Komplek BPN/DDN Tonjong - Danau Tonjong Situ Tonjong - Polsek Bojong Gede - Bilabong Permai Bojong Gede Bogor - JL.Sudi Mampir - SDN Cimanggis 1 Bojong Gede - Puskesmas Kemuning Bojong Gede - Perumahan Surya Regency Cimanggis Bojong Gede - JL.Kedungwaringin Cimanggis - Madrasah Tsanawiyah Bahrul Ulum Bojong Gede - Situ Kemuning Bogor - Perumahan Waringin Elok Bojong Gede - SMP Negeri 1 Bojong Gede - Perumahan Bukit Waringin Bojong Gede - JL.Kedung Waringin - JL.Raya Bojong Gede - Stasiu Bojong Gede
 
-53
+AP-53
 Trayek: Terminal Laladon - Segog - Gunung Salak
 Warna: Biru
 Rute: Terminal Laladon-Pasar Laladon - Segog - Gunung Salak
 
-32
+AP-32
 Trayek: Taman Pagelaran Ciomas - Cibinong
 Warna: Biru
 Rute: JL.Rajawali - Perum Taman Pagelaran Ciomas - JL.Raya Taman Pagelaran - Griya Laladon Grande - SMK Negeri 1 Ciomas - Komplek Laladon Permai - Terminal Laladon - Pasar Laladon - JL.Letjen Ibrahim Adjie - JL.K.H.Abdullah Bin Nuh - Terminal Bubulak - JL.Raya Cibadak Ciampea - Perempatan Lampu Merah Semplak Bogor - SMK YKTB 1 Bogor - Taman Yasmin - Rumah Sakit Hermina Bogor - Taman Cimanggu Bogor - Lotte Mart Bogor - JL.KH. Soleh Iskandar Pool Bus ALS Bogor - Bukit Cimanggu City - Bogor Icon - Bogor Square - Perumahan Budi Agung Bogor - Universitas Ibn Khaldun Bogor - Griya Cimanggu Indah - UPBJJ Universitas Terbuka Bogor - Perumahan Duta Kencana 2 Bogor - Karoseri Delima Jaya Bogor - JL.Raya Bogor - JL.Kedung Halang - Kantor Kelurahan Kedung Halang - Villa Bogor Indah Kedung Halang - JL.Raya Pemda - SMK Bina Mandiri Bogor - Madrasah Aliyah Sirojul Falah - SMA Negeri 2 Cibinong - JL.Raya Karadenan - SMK Negeri 1 Cibinong -  Sekolah Islam Terpadu Al Madinah Cibinong - Perumahan Acropolis Cibinong - JL.Raya Sukahati - Bogor Gading Residence - Perempatan Pemda Cibinong - JL.KSR Dadi Kusmayadi - Pengadilan Agama Cibinong - KPP Pratama Cibinong - RSUD Cibinong - Setu Cikaret Danau Cikaret Cibinong - JL.Raya Cikaret - JL.Raya Bogor - Mall Cibinong City Point - Robinson Cibinong - Terminal Cibinong
 
-31
+AP-31
 Trayek: Bojong Gede - Ciluar
 Warna: ?
 Rute: Stasiun Bojong Gede - Perumahan Gaperi - Ciluar
 
-34
+AP-34
 Trayek: Bambu Kuning - Gerbang Depan Pemda Cibinong
 Warna: Biru
 Rute: Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong - JL.Raya Tegar Beriman - Komplek Pemda Cibinong - Cibinong City Mall
 
-35
+AP-35
 Trayek: Bambu Kuning - Cibinong
 Warna: Biru
 Rute: Pertigaan Bambu Kuning Bojonggede/ Pertigaan jalan baru Pemda Cibinong - JL.Raya Tegar Beriman - JL.Raya Sukahati - JL.KSR Dadi Kusmayadi - Pengadilan Agama Cibinong - KPP Pratama Cibinong - RSUD Cibinong - Setu Cikaret Danau Cikaret Cibinong - JL.Raya Cikaret - JL.Raya Bogor - Mall Cibinong City Point - Robinson Cibinong - Terminal Cibinong
 
-44
+AP-44
 Trayek: Citeureup - Babakan Madang
 Warna: Biru
 Rute: Citeureup - Sentul City - Babakan Madang
