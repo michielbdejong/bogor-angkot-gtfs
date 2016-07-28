@@ -18,10 +18,12 @@ var lon = {};
 var indices = Object.keys(raw);
 for (var i in indices) {
   var cells = raw[indices[i]].split('\t');
-  var stops = cells[5].split(/ [–-] /);
+  var stops = cells[5].split(/[–-]/);
   for (var j=0; j<stops.length; j++) {
-    lat[stops[j]] = -6.6;
-    lon[stops[j]] = 106.8;
-    console.log([cells[3].trim(), lat[stops[j]], lon[stops[j]], j, j*0.01, stops[j]].join(','));
+    var place = stops[j].toLowerCase().trim();
+    lat[place] = -6.6;
+    lon[place] = 106.8;
+    console.log([cells[3].trim(), lat[place], lon[place], j, j*0.01, place].join(','));
   }
 }
+console.log(Object.keys(lat).sort());
