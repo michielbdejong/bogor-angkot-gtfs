@@ -1,0 +1,60 @@
+Kat.-I	11	terminal leuwiliang - terminal ciampea
+Kat.-I	12	terminal ciampea - ranca bungur - candali - kemang - tonjong - pasar salasa - susukan - perum griya yasa lestari - terminal bojonggede
+Kat.-I	32	terminal cibinong - cikaret - ds.tengah - karadenan - k.b. talang - k.b. jl. s.iskander - k.b. jl.kh.abd bin nuh - terminal laladon - tmn.pagelaran
+Kat.-I	33	terminal cibinong - jl.baru - jl.raya gn.putri - cicadas - wanaherang - cikuda - terminal cileungsi
+Kat.-I	35	terminal cibinong - cikaret - rm.sakit - ds.tengah - btn - pdam - pangkalan bambu kuning
+Kat.-I	38	terminal cileungsi - nagrak - wanaherang - jl.raya gn.putri - citeureup - terminal cibinong - ds.tengah (pengadilan agama)
+Kat.-I	64	terminal cibinong - citeureup - jl.raya gn.putri - proyek - cileungsi - terminal jonggol
+Kat.-I	65	terminal cibinong - citeureup - jl.raya gn.putri - proyek - terminal cileungsi
+Kat.-I	77	terminal bojonggede - billabong - villa mutiara - bmw - prempatan kayu manis - selabanda - jl.ry semplak - jl.abd b nuh - terminal laladon
+Kat.-I	117	terminal parung - sasak panjang - terminal bojonggede
+Kat.-I	05B_1	terminal leuwiliang - dramaga - terminal bubulak
+Kat.-I	05B_2	terminal leuwiliang - dramaga - terminal laladon
+Kat.-I	05C_1	terminal jasinga - leuwiliang - terminal bubulak
+Kat.-I	05C_2	terminal jasinga - leuwiliang - terminal laladon
+Kat.-I	T05	terminal cileungsi - pintu tol cibubur - toll jarorawi - pintu toll sentul city - borr - k.b. jl.s. iskander - k.b. jl.kh.abd bin nuh - terminal laladon
+Kat.-II	13_1	terminal laladon - cibanteng - situ daun - gunung malang - pangkalan curug luhur
+Kat.-II	13_2	terminal bubulak - cibanteng - situ daun - gunung malang - pangkalan curug luhur
+Kat.-II	14	terminal laladon - pagelaran - cibinong - pangkalan curug luhur
+Kat.-II	15_1	terminal laladon - dramaga - cibeureum - petir - cisasah - gondokilan - pangkalan curug nangka
+Kat.-II	15_2	terminal bubulak - dramaga - cibeureum - petir - cisasah - gondokilan - pangkalan curug nangka
+Kat.-II	16_1	terminal laladon - ciherang - kuripan - nambo - pangkalan curug nangka
+Kat.-II	16_2	terminal bubulak - ciherang - kuripan - nambo - pangkalan curug nangka
+Kat.-II	17_1	terminal laladon - dramaga - kampus ipb - cangkurawok - pangkalan cangkrang
+Kat.-II	17_2	terminal bubulak - dramaga - kampus ipb - cangkurawok - pangkalan cangkrang
+Kat.-II	22	terminal jasinga - pangkalan tenjo
+Kat.-II	25	terminal parung - ciseeng - babakan - pasar selasa - pangkalan jampang
+Kat.-II	26	terminal parung - prungpung - pangkalan ciseeng
+Kat.-II	27	terminal parung - ciseeng - babakan - pasar selasa -pangkalan jampang
+Kat.-II	28	terminal parung - ciseeng - pangkalan kuripan
+Kat.-II	30	terminal parung - lebak wangi - arco - pangkalan tajur halang
+Kat.-II	31	pangkalan pasar ciluar - smp uswatan hasanah - kandang roda - muara beres - slb - karadenan - pangkalan perum pura bojonggede (gaveri)
+Kat.-II	34	pangkalan bambu kuning - ds.tengah - jl.bersih - jl.tegar beriman - daralon - asr.angmor - pangkalan jl.dr.nurdin
+Kat.-II	40	terminal cileungsi - rawa ingkik - perum griya alam sentosa - pangkalan limusnunggal
+Kat.-II	42	terminal cileungsi - klapanunggal - bojong - cikahuripan - pangkalan situsari
+Kat.-II	45	terminal cileungsi - samik - mampir - perum puri nyalindung - pangkalan perum graha prima
+Kat.-II	46	terminal jonggol - terminal cileungsi - proyek - jl.raya gn.putri - pangkalan citeureup
+Kat.-II	49	terminal cileungsi - pasar lama - nagrag - pangkalan bojong kulur
+Kat.-II	50_1	terminal laladon - cinangneng - cibitung - tapos - pangkalan tenjolaya
+Kat.-II	50_2	terminal bubulak - cinangneng - cibitung - tapos - pangkalan tenjolaya
+Kat.-II	52	terminal leuwiliang - cibatok - cimayang - cibeneng - gn.picung - pangkalan gn.salak endah
+Kat.-II	53	terminal laladon - cikampang - pangkalan segog
+Kat.-II	60	terminal cileungsi - jonggol - pangkalan pasir tanjung
+Kat.-II	66	terminal cibinong - jl.rh.lukman - jl.kayu manis - jl.dr.nurdin - jl.mayor oking - jl.kranggan - pangkalan perum gunung putri
+Kat.-II	68	terminal cibinong - tapos - leuwinanggung - pangkalan sanding
+Kat.-II	71	terminal cibinong - cikaret - puri nirwana II - al falah - pangkalan kp.bulak
+Kat.-II	72	terminal cibinong - cikaret - pangkalan kampung sawah
+Kat.-II	86	terminal parung - pangkalan citeureup
+Kat.-II	88	kodim - prempatan bunda - slb - karadenan - pangkalan perum pura bojonggede - terminal bojonggede
+Kat.-II	111	terminal parung - arco - pangkalan citayam
+Kat.-II	05_1	terminal laladon - dramaga - terminal ciampea - pangkalan gobang
+Kat.-II	05_2	terminal bubulak - dramaga - terminal ciampea - pangkalan gobang
+Kat.-II	40A	terminal cileungsi - rawa ingkik - pangkalan pasir angin
+Kat.-II	T.02	terminal cileungsi - pintu toll cibubur - toll jagowari - pangkalan ciawi
+Kat.-III	02C	pangkalan pasir muncang - pangkalan ciawi
+Kat.-III	37	pangkalan pasar ciluar - simpang pomad - pasir jambu - pangkalan cilebut
+Kat.-III	44	pangkalan citeureup - pangkalan babakan madang
+Kat.-III	112	pangkalan jampang - ciseeng - prungpung - pangkalan pabuaran
+Kat.-III	44A	pangkalan jl.sirojul munir - bogor asri - kandang roda - jl.baru - tol jagorawi - sentul selatan - babakan madang - karang tengah - pangkalan wangun
+Kat.-III	44B	pangkalan citeureup - babakan madang - karan tenga - pangkalan cipanas
+Kat.-III	T.02A	pangkalan ciawi - toll jagorawi - pangkalan gunung putri
