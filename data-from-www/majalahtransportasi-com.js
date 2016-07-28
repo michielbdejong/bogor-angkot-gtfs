@@ -10,7 +10,7 @@ for (var i=0; i<lines.length; i++) {
     routes[cells[0]] = {
       name: cells[1].substring('Trayek: '.length),
       colour: cells[2].substring('Warna: '.length),
-      stops: cells[3].substring('Rute: '.length).split('-').map(stop => stop.trim())
+      stops: cells[3].substring('Rute: '.length).split(/[-–]/).map(stop => stop.trim())
     };
   } catch (e) {
     routes[cells[0]] = cells;
