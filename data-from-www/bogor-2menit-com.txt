@@ -4,13 +4,13 @@ Rute: Ciawi – Tajur – Raya Pajajaran – Sambu – Term. Baranangsiang – B
 Trayek 02, Jurusan: Sukasari – Bubulak
 Rute: Sukasari – Lawang Gintung – Batutulis – Pahlawan – Empang – Ramayana Kemerdekaan – Veteran – Bubulak – Dr. Semeru – Pasar Mawar – M. Muslihat – Ir. H. Juanda – Ramayana – Suryakencana – Sukasari
 
-Trayek 03, Jurusan : Bubulak – Baranang Siang
+Trayek 03, Jurusan: Bubulak – Baranang Siang
 Rute: Terminal Bubulak – Sindang Barang–Gunung Batu-Pusat Grosir Merdeka – Jembatan Merah – Matahari / Taman Topi(Kapten Muslihat) – Stasiun Kereta Api Bogor – Istana Bogor  (Ir. H. Juanda) – Taman Kencana – Lapangan Sempur – Jl Raya Pajajaran – Pangrango Plaza – PMI – Teminal Baranangsiang
 
 Trayek 04, Jurusan: Rancamaya – Ramayana
 Rute: Rancamaya – Batutulis – Gang Aut – Pasar Cumpok – Ramayana – Empang – Bondongan – Pahlawan – Batutulis - Rancamaya
 
-Trayek 04A , Jurusan: Cihideung – Ramayana
+Trayek 04A, Jurusan: Cihideung – Ramayana
 Rute: Cihideung – Batutulis – Gang Aut – Pasar Cumpok – Ramayana – Empang – Bondongan – Pahlawan – Batutulis – Cihideung
 
 Trayek 05, Jurusan: Cimahpar- Ramayana
