@@ -55,4 +55,4 @@ for (var i in indices) {
 console.log(JSON.stringify({
   places: Object.keys(lat).sort(),
   routes
-}));
+}, null, 2));

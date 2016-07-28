@@ -17,6 +17,4 @@ for (var i=0; i<lines.length; i++) {
   }
 }
 
-console.log(routes);
-
-
+console.log(JSON.stringify({routes}, null, 2));

@@ -1,0 +1,219 @@
+{
+  "routes": {
+    "10": {
+      "name": "Bantar Kemang -Merdeka",
+      "stops": [
+        "antar Kemang",
+        "Pajajaran",
+        "Terminal Baranangsiang",
+        "Ir. H Juanda",
+        "Kapt. Muslihat",
+        "Merdeka"
+      ]
+    },
+    "11": {
+      "name": "Ramayana – Baranangsiang",
+      "stops": [
+        "Jl.Pajajaran",
+        "Terminal Bis",
+        "Sempur",
+        "Jl. Ir.H. Juanda",
+        "Pasar Bogor"
+      ]
+    },
+    "12": {
+      "name": "Pasar Anyar – Cimanggu",
+      "stops": [
+        "Pasar Anyar",
+        "Sudirma",
+        "RE. Martadinata",
+        "Tentara Pelajar",
+        "Cimanggu Taman/BTN"
+      ]
+    },
+    "13": {
+      "name": "Bantar Kemang – Ramayana",
+      "stops": [
+        "Bantar Kemang",
+        "Pajajaran",
+        "Ir. H Juanda",
+        "Ramayana"
+      ]
+    },
+    "14": {
+      "name": "Laladon – Empang",
+      "stops": [
+        "Laladon",
+        "Pertigaan Ciomas",
+        "Pasir Kuda",
+        "Empang"
+      ]
+    },
+    "15": {
+      "name": "Bubulak – Pasar Anyar",
+      "stops": [
+        "Bubulak",
+        "Pasar Anyar"
+      ]
+    },
+    "16": {
+      "name": "Salabenda – Pasar Anyar",
+      "stops": [
+        "Pasar Anyar",
+        "Air Mancur",
+        "Kebon Pedes",
+        "Jalan Baru",
+        "Kayu Manis",
+        "Jalan Baru",
+        "Kebon Pedes",
+        "A Yani",
+        "Pasar Anyar"
+      ]
+    },
+    "17": {
+      "name": "Tanahbaru – Pomad",
+      "stops": [
+        "Tanahbaru",
+        "Kampus ST Kimia Analisis",
+        "Pomad"
+      ]
+    },
+    "01": {
+      "name": "Ciawi – Baranang Siang",
+      "stops": [
+        "Ciawi",
+        "Tajur",
+        "Raya Pajajaran",
+        "Sambu",
+        "Term. Baranangsiang",
+        "Bangka",
+        "Raya Pajajaran",
+        "Tajur",
+        "Ciawi"
+      ]
+    },
+    "02": {
+      "name": "Sukasari – Bubulak",
+      "stops": [
+        "Sukasari",
+        "Lawang Gintung",
+        "Batutulis",
+        "Pahlawan",
+        "Empang",
+        "Ramayana Kemerdekaan",
+        "Veteran",
+        "Bubulak",
+        "Dr. Semeru",
+        "Pasar Mawar",
+        "M. Muslihat",
+        "Ir. H. Juanda",
+        "Ramayana",
+        "Suryakencana",
+        "Sukasari"
+      ]
+    },
+    "03, Jurusan : Bubulak – Baranang Siang": [
+      "Trayek 03, Jurusan : Bubulak – Baranang Siang",
+      "Rute: Terminal Bubulak – Sindang Barang–Gunung Batu-Pusat Grosir Merdeka – Jembatan Merah – Matahari / Taman Topi(Kapten Muslihat) – Stasiun Kereta Api Bogor – Istana Bogor  (Ir. H. Juanda) – Taman Kencana – Lapangan Sempur – Jl Raya Pajajaran – Pangrango Plaza – PMI – Teminal Baranangsiang"
+    ],
+    "04": {
+      "name": "Rancamaya – Ramayana",
+      "stops": [
+        "Rancamaya",
+        "Batutulis",
+        "Gang Aut",
+        "Pasar Cumpok",
+        "Ramayana",
+        "Empang",
+        "Bondongan",
+        "Pahlawan",
+        "Batutulis",
+        "Rancamaya"
+      ]
+    },
+    "04A ": {
+      "name": "Cihideung – Ramayana",
+      "stops": [
+        "Cihideung",
+        "Batutulis",
+        "Gang Aut",
+        "Pasar Cumpok",
+        "Ramayana",
+        "Empang",
+        "Bondongan",
+        "Pahlawan",
+        "Batutulis",
+        "Cihideung"
+      ]
+    },
+    "05": {
+      "name": "Cimahpar- Ramayana",
+      "stops": [
+        "Cimahpar",
+        "Bogor baru",
+        "Pajajaran",
+        "Ir. H Juanda",
+        "Suryakencana",
+        "Ramayana"
+      ]
+    },
+    "06": {
+      "name": "Ciheuleut – Ramayana",
+      "stops": [
+        "Ciheuleut",
+        "Pakuan",
+        "Pajajaran",
+        "Ir. H Juanda",
+        "Suryakencana",
+        "Ramayana"
+      ]
+    },
+    "07": {
+      "name": "Ciparigi (Jambu Dua)- Merdeka",
+      "stops": [
+        "Ciparigi",
+        "Warung Jambu",
+        "A. Yani",
+        "Air Mancur",
+        "Sudirman",
+        "Ir. H Juanda",
+        "Kapten Muslihat",
+        "Veteran",
+        "Mayor Merdeka"
+      ]
+    },
+    "07A": {
+      "name": "Pasar Anyar – Pondok Rumput",
+      "stops": [
+        "Pondok Rumput",
+        "Air Mancur",
+        "Jl.Sudirman",
+        "Sawojajar",
+        "Pasar Anyar",
+        "Pengadilan"
+      ]
+    },
+    "08": {
+      "name": "Ciparigi (Jambu Dua) – Ramayana",
+      "stops": [
+        "Ciparigi",
+        "Warung Jambu",
+        "Pajajaran",
+        "Ir. H Juanda",
+        "Suryakencana",
+        "Ramayana"
+      ]
+    },
+    " 09": {
+      "name": "Ciparigi (Jambu Dua) – Sukasari",
+      "stops": [
+        "Ciparigi",
+        "Warung Jambu",
+        "Pajajaran",
+        "Tugu Kujang",
+        "Terminal Baranangsiang",
+        "Sukasari"
+      ]
+    }
+  }
+}
