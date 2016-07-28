@@ -9,7 +9,6 @@ A gtfs feed for public minibuses ("angkots") in Bogor, Indonesia.
 # To use:
 
 * clone this repo, and run a webserver in the `viewer` folder of the checked out repo, for instance with `cd viewer; python -m SimpleHTTPServer`.
-* `cd kota/ ; zip -r ../kota.zip *`
-* `cd kabupaten/ ; zip -r ../kabupaten.zip *`
-* Open http://localhost:8000/ with your browser and select kota.zip (Bogor capital) or kabupaten.zip (Bogor area) as the gtfs feed to view.
+* `Run `sh ./build.sh
+* Open http://localhost:8000/ with your browser and select ./release/kota.zip (Bogor capital) or ./release/kabupaten.zip (Bogor area) as the gtfs feed to view.
 * You'll see a map of angkot lines in Kota Bogor (Indonesia).

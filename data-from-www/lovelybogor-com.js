@@ -28,17 +28,29 @@ var raw = [
   '23 	RAMAYANA – TAMAN KENCANA – WARUNG JAMBU	BERANGKAT 	RAMAYANA – TAMAN KENCANA – WARUNG JAMBU		KEMBALI 	WARUNG JAMBU – TAMAN KENCANA – RAMAYANA'
 ];
 
+const LINE_NO_COL = 0;
+const STOPS_COL = 3;
+
 var lat = {};
 var lon = {};
+var routes = {};
 var indices = Object.keys(raw);
 for (var i in indices) {
   var cells = raw[indices[i]].split('\t');
-  var stops = cells[3].split(/[–-]/);
+  var lineNo = cells[LINE_NO_COL].trim();
+  routes[lineNo] = {
+    stops: []
+  };
+  var stops = cells[STOPS_COL].split(/[–-]/);
   for (var j=0; j<stops.length; j++) {
     var place = stops[j].toLowerCase().trim();
     lat[place] = -6.6;
     lon[place] = 106.8;
-    console.log([cells[0].trim(), lat[stops[j]], lon[place], j, j*0.01, place].join(','));
+    console.log([lineNo, lat[place], lon[place], j, j*0.01, place].join(','));
+    routes[lineNo].stops.push(place);
   }
 }
-console.log(Object.keys(lat).sort());
+console.log(JSON.stringify({
+  places: Object.keys(lat).sort(),
+  routes
+}));
