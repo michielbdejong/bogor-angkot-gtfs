@@ -46,7 +46,7 @@ for (var i in indices) {
     var place = stops[j].toLowerCase().trim();
     lat[place] = -6.6;
     lon[place] = 106.8;
-    console.log([lineNo, lat[place], lon[place], j, j*0.01, place].join(','));
+    // console.log([lineNo, lat[place], lon[place], j, j*0.01, place].join(','));
     routes[lineNo].stops.push(place);
   }
 }
