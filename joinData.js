@@ -30,4 +30,8 @@ for (var source in data) {
   }
 }
 joined.places = Object.keys(joined.places).sort();
+
+// For creating coords.txt:
+// console.log(joined.places.join('\n-6.6\t106.8\t'));
+
 console.log(JSON.stringify(joined, null, 2));

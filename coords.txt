@@ -1,0 +1,102 @@
+1
+-6.6	106.8	air mancur
+-6.6	106.8	bantar kemang
+-6.6	106.8	baranangsiang
+-6.6	106.8	bina marga
+-6.6	106.8	ciawi
+-6.6	106.8	cibeureum
+-6.6	106.8	ciheuleut
+-6.6	106.8	cimahpar
+-6.6	106.8	cimanggu permai
+-6.6	106.8	cipaku
+-6.6	106.8	ciparigi
+-6.6	106.8	cipinang gading
+-6.6	106.8	ciremai ujung
+-6.6	106.8	detour road / cogreg
+-6.6	106.8	empang
+-6.6	106.8	gg.aut
+-6.6	106.8	jl,kapten muslihat
+-6.6	106.8	jl. jend. sudirman
+-6.6	106.8	jl. kayumanis
+-6.6	106.8	jl. kebon pedes
+-6.6	106.8	jl. kedung halang
+-6.6	106.8	jl. mekar wangi
+-6.6	106.8	jl. pembangunan (kopem)
+-6.6	106.8	jl. r.1
+-6.6	106.8	jl. soleh iskandar
+-6.6	106.8	jl. yasmin
+-6.6	106.8	jl.bangka
+-6.6	106.8	jl.bina marga
+-6.6	106.8	jl.cimanggu
+-6.6	106.8	jl.cipaku
+-6.6	106.8	jl.darul qur’an
+-6.6	106.8	jl.dr.semeru
+-6.6	106.8	jl.empang
+-6.6	106.8	jl.gunung batu
+-6.6	106.8	jl.ir.h.djuanda
+-6.6	106.8	jl.jalak harupat
+-6.6	106.8	jl.jend.a.yani
+-6.6	106.8	jl.jend.sudirman
+-6.6	106.8	jl.k.h.abdullah bin nuh
+-6.6	106.8	jl.kapten muslihat
+-6.6	106.8	jl.kumbang
+-6.6	106.8	jl.lawang gintung
+-6.6	106.8	jl.lawang saketeng
+-6.6	106.8	jl.layungsari
+-6.6	106.8	jl.letjen ibrahim adjie
+-6.6	106.8	jl.lodaya
+-6.6	106.8	jl.ma salmun
+-6.6	106.8	jl.mawar
+-6.6	106.8	jl.mayjen ishak djuarsa
+-6.6	106.8	jl.merdeka
+-6.6	106.8	jl.otista
+-6.6	106.8	jl.padi
+-6.6	106.8	jl.pahlawan
+-6.6	106.8	jl.pajajaran
+-6.6	106.8	jl.paledang
+-6.6	106.8	jl.pandu raya (r3)
+-6.6	106.8	jl.pangeran sogiri (tanah baru)
+-6.6	106.8	jl.pangrango
+-6.6	106.8	jl.pemuda
+-6.6	106.8	jl.pengadilan
+-6.6	106.8	jl.perintis kemerdekaan
+-6.6	106.8	jl.r
+-6.6	106.8	jl.r.1
+-6.6	106.8	jl.r.aria surialaga
+-6.6	106.8	jl.r.aria suriawinata
+-6.6	106.8	jl.r.e.abdullah
+-6.6	106.8	jl.r.kan an (pasar tanah baru)
+-6.6	106.8	jl.raya pajajaran
+-6.6	106.8	jl.raya pemda kd. halang
+-6.6	106.8	jl.re martadinata
+-6.6	106.8	jl.sadane
+-6.6	106.8	jl.sambu
+-6.6	106.8	jl.sancang
+-6.6	106.8	jl.sawojajar
+-6.6	106.8	jl.siliwangi
+-6.6	106.8	jl.sindang barang
+-6.6	106.8	jl.sindang barang pilar
+-6.6	106.8	jl.soleh iskandar
+-6.6	106.8	jl.tajur
+-6.6	106.8	jl.veteran
+-6.6	106.8	kebon pedes
+-6.6	106.8	kencana
+-6.6	106.8	lawang saketeng
+-6.6	106.8	mulyaharja
+-6.6	106.8	pajajaran
+-6.6	106.8	pajajaran indah
+-6.6	106.8	pasar anyar
+-6.6	106.8	pasar bogor
+-6.6	106.8	pomad
+-6.6	106.8	pondok rumput
+-6.6	106.8	ramayana
+-6.6	106.8	rancamaya
+-6.6	106.8	sbj
+-6.6	106.8	selabenda
+-6.6	106.8	simpang talang
+-6.6	106.8	sukasari
+-6.6	106.8	taman kencana
+-6.6	106.8	terminal bubulak
+-6.6	106.8	terminal merdeka
+-6.6	106.8	warung jambu
+-6.6	106.8	warung nangka
