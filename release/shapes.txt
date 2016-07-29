@@ -1,185 +1,29 @@
-AK-01,-6.625674,106.802845,0,0,cipinang gading
-AK-01,-6.633810,106.813084,1,1,cipaku
-AK-01,-6.6,106.8,2,2,jl.pahlawan
-AK-01,-6.6,106.8,3,3,jl.empang
-AK-01,-6.6,106.8,4,4,jl.ir.h.djuanda
-AK-01,-6.6,106.8,5,5,jl.paledang
-AK-01,-6.6,106.8,6,6,jl.kapten muslihat
-AK-01,-6.6,106.8,7,7,jl.veteran
-AK-01,-6.6,106.8,8,8,jl.perintis kemerdekaan
-AK-01,-6.6,106.8,9,9,terminal merdeka
-AK-02,-6.6,106.8,0,0,sukasari
-AK-02,-6.6,106.8,1,1,jl.lawang gintung
-AK-02,-6.6,106.8,2,2,jl.pahlawan
-AK-02,-6.6,106.8,3,3,jl.empang
-AK-02,-6.6,106.8,4,4,jl.ir.h.djuanda
-AK-02,-6.6,106.8,5,5,jl.paledang
-AK-02,-6.6,106.8,6,6,jl.kapten muslihat
-AK-02,-6.6,106.8,7,7,jl.veteran
-AK-02,-6.6,106.8,8,8,jl.gunung batu
-AK-02,-6.6,106.8,9,9,jl.sindang barang
-AK-02,-6.6,106.8,10,10,jl.sindang barang pilar
-AK-02,-6.6,106.8,11,11,jl.r.1
-AK-02,-6.6,106.8,12,12,terminal bubulak
-AK-03,-6.603959,106.806450,0,0,baranangsiang
-AK-03,-6.6,106.8,1,1,jl.bangka
-AK-03,-6.6,106.8,2,2,jl.otista
-AK-03,-6.6,106.8,3,3,jl.raya pajajaran
-AK-03,-6.6,106.8,4,4,jl.jalak harupat
-AK-03,-6.6,106.8,5,5,jl.ir.h.djuanda
-AK-03,-6.595840,106.789514,6,6,jl,kapten muslihat
-AK-03,-6.6,106.8,7,7,jl.veteran
-AK-03,-6.6,106.8,8,8,jl.gunung batu
-AK-03,-6.6,106.8,9,9,jl.sindang barang
-AK-03,-6.6,106.8,10,10,jl.sindang barang pilar
-AK-03,-6.6,106.8,11,11,jl.r.1
-AK-03,-6.6,106.8,12,12,terminal bubulak
-AK-04,-6.6,106.8,0,0,warung nangka
-AK-04,-6.6,106.8,1,1,rancamaya
-AK-04,-6.421755,106.693018,2,2,detour road / cogreg
-AK-04,-6.6,106.8,3,3,jl.cipaku
-AK-04,-6.6,106.8,4,4,jl.pahlawan
-AK-04,-6.610677,106.803466,5,5,gg.aut
-AK-04,-6.6,106.8,6,6,jl.lawang saketeng
-AK-04,-6.6,106.8,7,7,ramayana
-AK-05,-6.589856,106.830165,0,0,cimahpar
-AK-05,-6.6,106.8,1,1,jl.sancang
-AK-05,-6.6,106.8,2,2,jl.kumbang
-AK-05,-6.6,106.8,3,3,jl.lodaya
-AK-05,-6.6,106.8,4,4,jl.pangrango
-AK-05,-6.6,106.8,5,5,jl.jalak harupat
-AK-05,-6.6,106.8,6,6,jl.ir.h.djuanda
-AK-05,-6.6,106.8,7,7,ramayana
-AK-06,-6.602714,106.813602,0,0,ciheuleut
-AK-06,-6.6,106.8,1,1,jl.pajajaran
-AK-06,-6.6,106.8,2,2,jl.sambu
-AK-06,-6.6,106.8,3,3,jl.bangka
-AK-06,-6.6,106.8,4,4,jl.otista
-AK-06,-6.6,106.8,5,5,jl.pajajaran
-AK-06,-6.6,106.8,6,6,jl.jalak harupat
-AK-06,-6.6,106.8,7,7,jl.ir.h.djuanda
-AK-06,-6.6,106.8,8,8,ramayana
-AK-07,-6.54374,106.816631,0,0,ciparigi
-AK-07,-6.6,106.8,1,1,jl.raya pemda kd. halang
-AK-07,-6.6,106.8,2,2,simpang talang
-AK-07,-6.6,106.8,3,3,warung jambu
-AK-07,-6.6,106.8,4,4,jl.jend.a.yani
-AK-07,-6.586040,106.796876,5,5,jl.jend.sudirman
-AK-07,-6.6,106.8,6,6,jl.ir.h.djuanda
-AK-07,-6.6,106.8,7,7,jl.kapten muslihat
-AK-07,-6.6,106.8,8,8,jl.veteran
-AK-07,-6.6,106.8,9,9,jl.perintis kemerdekaan
-AK-07,-6.6,106.8,10,10,terminal merdeka
-AK-08,-6.6,106.8,0,0,warung jambu
-AK-08,-6.6,106.8,1,1,jl.pajajaran
-AK-08,-6.6,106.8,2,2,jl.pangrango
-AK-08,-6.6,106.8,3,3,jl.jalak harupat
-AK-08,-6.6,106.8,4,4,jl.ir.h.djuanda
-AK-08,-6.6,106.8,5,5,ramayana
-AK-09,-6.54374,106.816631,0,0,ciparigi
-AK-09,-6.552702,106.812374,1,1,jl. pembangunan (kopem)
-AK-09,-6.553200,106.807779,2,2,jl. kedung halang
-AK-09,-6.6,106.8,3,3,warung jambu
-AK-09,-6.6,106.8,4,4,jl.pajajaran
-AK-09,-6.6,106.8,5,5,sukasari
-AK-10,-6.615052,106.818270,0,0,bantar kemang
-AK-10,-6.6,106.8,1,1,jl.pajajaran
-AK-10,-6.6,106.8,2,2,jl.siliwangi
-AK-10,-6.6,106.8,3,3,jl.lawang gintung
-AK-10,-6.6,106.8,4,4,jl.pahlawan
-AK-10,-6.6,106.8,5,5,jl.empang
-AK-10,-6.6,106.8,6,6,jl.ir.h.djuanda
-AK-10,-6.6,106.8,7,7,jl.paledang
-AK-10,-6.6,106.8,8,8,jl.veteran
-AK-10,-6.6,106.8,9,9,jl.perintis kemerdekaan
-AK-10,-6.6,106.8,10,10,terminal merdeka
-AK-11,-6.6,106.8,0,0,pajajaran indah
-AK-11,-6.6,106.8,1,1,jl.pajajaran
-AK-11,-6.6,106.8,2,2,jl.sambu
-AK-11,-6.6,106.8,3,3,jl.bangka
-AK-11,-6.6,106.8,4,4,jl.otista
-AK-11,-6.6,106.8,5,5,pasar bogor
-AK-12,-6.561016,106.790155,0,0,cimanggu permai
-AK-12,-6.6,106.8,1,1,jl.cimanggu
-AK-12,-6.6,106.8,2,2,jl.merdeka
-AK-12,-6.6,106.8,3,3,jl.ma salmun
-AK-12,-6.6,106.8,4,4,pasar anyar
-AK-13,-6.615052,106.818270,0,0,bantar kemang
-AK-13,-6.6,106.8,1,1,jl.raya pajajaran
-AK-13,-6.6,106.8,2,2,jl.sambu
-AK-13,-6.6,106.8,3,3,jl.bangka
-AK-13,-6.6,106.8,4,4,jl.otista
-AK-13,-6.6,106.8,5,5,jl.raya pajajaran
-AK-13,-6.6,106.8,6,6,jl.jalak harupat
-AK-13,-6.6,106.8,7,7,jl.ir.h.djuanda
-AK-13,-6.6,106.8,8,8,ramayana
-AK-14,-6.6,106.8,0,0,sukasari
-AK-14,-6.6,106.8,1,1,jl.lawang gintung
-AK-14,-6.6,106.8,2,2,jl.pahlawan
-AK-14,-6.6,106.8,3,3,jl.layungsari
-AK-14,-6.6,106.8,4,4,jl.sadane
-AK-14,-6.6,106.8,5,5,jl.r.aria suriawinata
-AK-14,-6.6,106.8,6,6,jl.r.aria surialaga
-AK-14,-6.6,106.8,7,7,jl.r.e.abdullah
-AK-14,-6.6,106.8,8,8,jl.mayjen ishak djuarsa
-AK-14,-6.6,106.8,9,9,jl.letjen ibrahim adjie
-AK-14,-6.6,106.8,10,10,jl.k.h.abdullah bin nuh
-AK-14,-6.6,106.8,11,11,terminal bubulak
-AK-15,-6.6,106.8,0,0,sbj
-AK-15,-6.6,106.8,1,1,terminal bubulak
-AK-15,-6.6,106.8,2,2,jl. r.1
-AK-15,-6.6,106.8,3,3,jl.sindang barang
-AK-15,-6.6,106.8,4,4,jl.darul qur’an
-AK-15,-6.6,106.8,5,5,jl.dr.semeru
-AK-15,-6.6,106.8,6,6,jl.mawar
-AK-15,-6.6,106.8,7,7,jl.merdeka
-AK-15,-6.6,106.8,8,8,terminal merdeka
-AK-16,-6.6,106.8,0,0,pasar anyar
-AK-16,-6.6,106.8,1,1,jl.pengadilan
-AK-16,-6.586040,106.796876,2,2,jl.jend.sudirman
-AK-16,-6.6,106.8,3,3,jl.pemuda
-AK-16,-6.6,106.8,4,4,kebon pedes
-AK-16,-6.6,106.8,5,5,jl.soleh iskandar
-AK-16,-6.6,106.8,6,6,selabenda
-AK-17,-6.6,106.8,0,0,pomad
-AK-17,-6.6,106.8,1,1,jl.pangeran sogiri (tanah baru)
-AK-17,-6.6,106.8,2,2,jl.r.kan an (pasar tanah baru)
-AK-17,-6.6,106.8,3,3,jl.pandu raya (r3)
-AK-17,-6.6,106.8,4,4,jl.padi
-AK-17,-6.6,106.8,5,5,jl.bina marga
-AK-17,-6.603110,106.810297,6,6,bina marga
-AK-18,-6.6,106.8,0,0,mulyaharja
-AK-18,-6.723238,106.951197,1,1,cibeureum
-AK-18,-6.612722,106.798637,2,2,empang
-AK-18,-6.610677,106.803466,3,3,gg.aut
-AK-18,-6.6,106.8,4,4,lawang saketeng
-AK-18,-6.6,106.8,5,5,ramayana
-AK-19,-6.6,106.8,0,0,terminal bubulak
-AK-19,-6.6,106.8,1,1,jl. r.1
-AK-19,-6.6,106.8,2,2,jl. yasmin
-AK-19,-6.6,106.8,3,3,jl. soleh iskandar
-AK-19,-6.537241,106.769941,4,4,jl. kayumanis
-AK-19,-6.949776,107.603172,5,5,jl. mekar wangi
-AK-19,-6.6,106.8,6,6,kencana
-AK-20,-6.6,106.8,0,0,pasar anyar
-AK-20,-6.563572,106.802038,1,1,jl. kebon pedes
-AK-20,-6.6,106.8,2,2,jl. soleh iskandar
-AK-20,-6.6,106.8,3,3,kencana
-AK-01-A,-6.603959,106.806450,0,0,baranangsiang
-AK-01-A,-6.6,106.8,1,1,jl.bangka
-AK-01-A,-6.6,106.8,2,2,jl.otista
-AK-01-A,-6.6,106.8,3,3,pajajaran
-AK-01-A,-6.6,106.8,4,4,jl.tajur
-AK-01-A,-6.655322,106.846882,5,5,ciawi
-AK-21,-6.6,106.8,0,0,pasar bogor
-AK-21,-6.6,106.8,1,1,taman kencana
-AK-21,-6.575890,106.803391,2,2,ciremai ujung
-AK-22,-6.6,106.8,0,0,pondok rumput
-AK-22,-6.6,106.8,1,1,jl.re martadinata
-AK-22,-6.580906,106.796861,2,2,air mancur
-AK-22,-6.586040,106.796876,3,3,jl. jend. sudirman
-AK-22,-6.6,106.8,4,4,jl.sawojajar
-AK-22,-6.6,106.8,5,5,pasar anyar
-AK-23,-6.6,106.8,0,0,ramayana
-AK-23,-6.6,106.8,1,1,taman kencana
-AK-23,-6.6,106.8,2,2,warung jambu
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+AK-01,-6.625674,106.802845,1,0,cipinang gading
+AK-01,-6.633810,106.813084,2,0.01,cipaku
+AK-03,-6.603959,106.806450,1,0,baranangsiang
+AK-04,-6.421755,106.693018,1,0.02,detour road / cogreg
+AK-04,-6.610677,106.803466,2,0.05,gg.aut
+AK-05,-6.589856,106.830165,1,0,cimahpar
+AK-06,-6.602714,106.813602,1,0,ciheuleut
+AK-07,-6.54374,106.816631,1,0,ciparigi
+AK-07,-6.586040,106.796876,2,0.05,jl.jend.sudirman
+AK-09,-6.54374,106.816631,1,0,ciparigi
+AK-09,-6.552702,106.812374,2,0.01,jl. pembangunan (kopem)
+AK-09,-6.553200,106.807779,3,0.02,jl. kedung halang
+AK-10,-6.615052,106.818270,1,0,bantar kemang
+AK-12,-6.561016,106.790155,1,0,cimanggu permai
+AK-13,-6.615052,106.818270,1,0,bantar kemang
+AK-16,-6.586040,106.796876,1,0.02,jl.jend.sudirman
+AK-17,-6.603110,106.810297,1,0.06,bina marga
+AK-18,-6.723238,106.951197,1,0.01,cibeureum
+AK-18,-6.612722,106.798637,2,0.02,empang
+AK-18,-6.610677,106.803466,3,0.03,gg.aut
+AK-19,-6.537241,106.769941,1,0.04,jl. kayumanis
+AK-19,-6.949776,107.603172,2,0.05,jl. mekar wangi
+AK-20,-6.563572,106.802038,1,0.01,jl. kebon pedes
+AK-01-A,-6.603959,106.806450,1,0,baranangsiang
+AK-01-A,-6.655322,106.846882,2,0.05,ciawi
+AK-21,-6.575890,106.803391,1,0.02,ciremai ujung
+AK-22,-6.580906,106.796861,1,0.02,air mancur
+AK-22,-6.586040,106.796876,2,0.03,jl. jend. sudirman

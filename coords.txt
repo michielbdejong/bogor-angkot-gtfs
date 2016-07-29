@@ -14,7 +14,7 @@
 -6.421755	106.693018	detour road / cogreg
 -6.612722	106.798637	empang
 -6.610677	106.803466	gg.aut
--6.595840	106.789514	jl,kapten muslihat
+-6.595840	106.789514	jl.kapten muslihat
 -6.586040	106.796876	jl. jend. sudirman
 -6.586040	106.796876	jl.jend.sudirman
 -6.537241	106.769941	jl. kayumanis
