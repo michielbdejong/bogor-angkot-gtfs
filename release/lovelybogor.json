@@ -1,6 +1,5 @@
 {
   "places": [
-    "1",
     "air mancur",
     "bantar kemang",
     "baranangsiang",
@@ -62,7 +61,7 @@
     "jl.pemuda",
     "jl.pengadilan",
     "jl.perintis kemerdekaan",
-    "jl.r",
+    "jl.r 1",
     "jl.r.1",
     "jl.r.aria surialaga",
     "jl.r.aria suriawinata",
@@ -162,8 +161,7 @@
         "jl.gunung batu",
         "jl.sindang barang",
         "jl.sindang barang pilar",
-        "jl.r",
-        "1",
+        "jl.r 1",
         "terminal bubulak"
       ]
     },
