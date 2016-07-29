@@ -1,26 +1,27 @@
--6.6	106.8	air mancur
--6.6	106.8	bantar kemang
--6.6	106.8	baranangsiang
--6.6	106.8	bina marga
--6.6	106.8	ciawi
--6.6	106.8	cibeureum
--6.6	106.8	ciheuleut
--6.6	106.8	cimahpar
--6.6	106.8	cimanggu permai
--6.6	106.8	cipaku
--6.6	106.8	ciparigi
--6.6	106.8	cipinang gading
--6.6	106.8	ciremai ujung
--6.6	106.8	detour road / cogreg
--6.6	106.8	empang
--6.6	106.8	gg.aut
--6.6	106.8	jl,kapten muslihat
--6.6	106.8	jl. jend. sudirman
--6.6	106.8	jl. kayumanis
--6.6	106.8	jl. kebon pedes
--6.6	106.8	jl. kedung halang
--6.6	106.8	jl. mekar wangi
--6.6	106.8	jl. pembangunan (kopem)
+-6.580906	106.796861	air mancur
+-6.615052	106.818270	bantar kemang
+-6.603959	106.806450	baranangsiang
+-6.603110	106.810297	bina marga
+-6.655322	106.846882	ciawi
+-6.723238	106.951197	cibeureum
+-6.602714	106.813602	ciheuleut
+-6.589856	106.830165	cimahpar
+-6.561016	106.790155	cimanggu permai
+-6.633810	106.813084	cipaku
+-6.54374	106.816631	ciparigi
+-6.625674	106.802845	cipinang gading
+-6.575890	106.803391	ciremai ujung
+-6.421755	106.693018	detour road / cogreg
+-6.612722	106.798637	empang
+-6.610677	106.803466	gg.aut
+-6.595840	106.789514	jl,kapten muslihat
+-6.586040	106.796876	jl. jend. sudirman
+-6.586040	106.796876	jl.jend.sudirman
+-6.537241	106.769941	jl. kayumanis
+-6.563572	106.802038	jl. kebon pedes
+-6.553200	106.807779	jl. kedung halang
+-6.949776	107.603172	jl. mekar wangi
+-6.552702	106.812374	jl. pembangunan (kopem)
 -6.6	106.8	jl. r.1
 -6.6	106.8	jl. soleh iskandar
 -6.6	106.8	jl. yasmin
@@ -35,7 +36,6 @@
 -6.6	106.8	jl.ir.h.djuanda
 -6.6	106.8	jl.jalak harupat
 -6.6	106.8	jl.jend.a.yani
--6.6	106.8	jl.jend.sudirman
 -6.6	106.8	jl.k.h.abdullah bin nuh
 -6.6	106.8	jl.kapten muslihat
 -6.6	106.8	jl.kumbang
