@@ -1,4 +1,3 @@
-1
 -6.6	106.8	air mancur
 -6.6	106.8	bantar kemang
 -6.6	106.8	baranangsiang
@@ -60,7 +59,6 @@
 -6.6	106.8	jl.pemuda
 -6.6	106.8	jl.pengadilan
 -6.6	106.8	jl.perintis kemerdekaan
--6.6	106.8	jl.r
 -6.6	106.8	jl.r.1
 -6.6	106.8	jl.r.aria surialaga
 -6.6	106.8	jl.r.aria suriawinata
