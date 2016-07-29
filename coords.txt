@@ -95,6 +95,6 @@
 -6.617822	106.813875	sukasari
 -6.588842	106.801922	taman kencana
 -6.570229	106.754515	terminal bubulak
--6.592565,	106.786766	terminal merdeka
+-6.592565	106.786766	terminal merdeka
 -6.565621	106.810168	warung jambu
 -6.676241	106.848102	warung nangka
