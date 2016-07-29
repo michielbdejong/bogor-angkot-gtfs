@@ -680,7 +680,8 @@
           "jl.perintis kemerdekaan",
           "terminal merdeka"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-01A": {
       "name": {
@@ -698,7 +699,8 @@
           "JL. Raya Tajur",
           "Ciawi"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-02": {
       "name": {
@@ -785,7 +787,8 @@
           "jl.r.1",
           "terminal bubulak"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-03": {
       "name": {
@@ -868,7 +871,8 @@
           "jl.r.1",
           "terminal bubulak"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-04": {
       "name": {
@@ -919,7 +923,8 @@
           "jl.lawang saketeng",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-05": {
       "name": {
@@ -978,7 +983,8 @@
           "jl.ir.h.djuanda",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-06": {
       "name": {
@@ -1020,7 +1026,8 @@
           "jl.ir.h.djuanda",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-07": {
       "name": {
@@ -1083,7 +1090,8 @@
           "jl.perintis kemerdekaan",
           "terminal merdeka"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-07A": {
       "name": {
@@ -1110,7 +1118,8 @@
           "Pasar Anyar",
           "Pengadilan"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-08": {
       "name": {
@@ -1169,7 +1178,8 @@
           "suryakencana",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-08A-23": {
       "name": {
@@ -1185,7 +1195,8 @@
           "Taman Kencana",
           "Warung Jambu"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-09": {
       "name": {
@@ -1221,7 +1232,8 @@
           "jl.pajajaran",
           "sukasari"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-10": {
       "name": {
@@ -1280,7 +1292,8 @@
           "jl.perintis kemerdekaan",
           "terminal merdeka"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-11": {
       "name": {
@@ -1321,7 +1334,8 @@
           "ramayana",
           "baranangsiang"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-12": {
       "name": {
@@ -1362,7 +1376,8 @@
           "tentara pelajar",
           "cimanggu taman/btn"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-13": {
       "name": {
@@ -1418,7 +1433,8 @@
           "ir. h juanda",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-14": {
       "name": {
@@ -1468,7 +1484,8 @@
           "jl.k.h.abdullah bin nuh",
           "terminal bubulak"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-15": {
       "name": {
@@ -1521,7 +1538,8 @@
           "bubulak",
           "pasar anyar"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-16": {
       "name": {
@@ -1606,7 +1624,8 @@
           "a. yani",
           "pasar anyar"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-17": {
       "name": {
@@ -1647,7 +1666,8 @@
           "kampus st kimia analisis",
           "pomad"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-18": {
       "name": {
@@ -1672,7 +1692,8 @@
           "lawang saketeng",
           "ramayana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-19": {
       "name": {
@@ -1702,7 +1723,8 @@
           "jl. mekar wangi",
           "kencana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-20": {
       "name": {
@@ -1725,7 +1747,8 @@
           "jl. soleh iskandar",
           "kencana"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-01": {
       "name": {
@@ -1739,7 +1762,8 @@
           "Terminal Merdeka",
           "Cipaku"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-02": {
       "name": {
@@ -1756,7 +1780,8 @@
           "Ciawi",
           "Cicurug"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-02A": {
       "name": {
@@ -1772,7 +1797,8 @@
           "Jl.Raya Tajur",
           "Cisarua"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-02B": {
       "name": {
@@ -1789,7 +1815,8 @@
           "Ciawi",
           "Cibedug"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-03": {
       "name": {
@@ -1807,7 +1834,8 @@
           "Pulo Empang",
           "Ciapus"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-04A": {
       "name": {
@@ -1828,7 +1856,8 @@
           "Cipaku",
           "Cihideung"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-05A": {
       "name": {
@@ -1850,7 +1879,8 @@
           "JL.Gunung Batu",
           "Ciomas"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-06": {
       "name": {
@@ -1866,7 +1896,8 @@
           "Semplak",
           "Pasar Parung"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-06A": {
       "name": {
@@ -1882,7 +1913,8 @@
           "Semplak",
           "Bantar Kambing"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-07": {
       "name": {
@@ -1922,7 +1954,8 @@
           "Stasiun Cilebut",
           "Stasiun Bojong Gede"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-08": {
       "name": {
@@ -1998,7 +2031,8 @@
           "SMA Indocement Citeureup",
           "Pasar Citeureup"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-12": {
       "name": {
@@ -2023,7 +2057,8 @@
           "Pusat Teknologi Satelit LAPAN Rancabungur Bogor",
           "Ciampea"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-27": {
       "name": {
@@ -2060,7 +2095,8 @@
           "Giant BSD",
           "Taman Jajan BSD"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-106": {
       "name": {
@@ -2080,7 +2116,8 @@
           "Cirendeu",
           "Lebak Bulus"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-117": {
       "name": {
@@ -2123,7 +2160,8 @@
           "JL.Raya Bojong Gede",
           "Stasiu Bojong Gede"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-53": {
       "name": {
@@ -2139,7 +2177,8 @@
           "Segog",
           "Gunung Salak"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-32": {
       "name": {
@@ -2204,7 +2243,8 @@
           "Robinson Cibinong",
           "Terminal Cibinong"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-31": {
       "name": {
@@ -2219,7 +2259,8 @@
           "Perumahan Gaperi",
           "Ciluar"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-34": {
       "name": {
@@ -2235,7 +2276,8 @@
           "Komplek Pemda Cibinong",
           "Cibinong City Mall"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-35": {
       "name": {
@@ -2260,7 +2302,8 @@
           "Robinson Cibinong",
           "Terminal Cibinong"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AP-44": {
       "name": {
@@ -2275,7 +2318,8 @@
           "Sentul City",
           "Babakan Madang"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "LB": {
       "name": {
@@ -2289,7 +2333,8 @@
           "Leuwiliang",
           "Bubulak Bogor"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "JB": {
       "name": {
@@ -2303,7 +2348,8 @@
           "Jasinga",
           "Bubulak"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-04A": {
       "name": {
@@ -2323,7 +2369,8 @@
           "Batutulis",
           "Cihideung"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     " 09": {
       "name": {
@@ -2339,7 +2386,8 @@
           "Terminal Baranangsiang",
           "Sukasari"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-01-A": {
       "name": {
@@ -2355,7 +2403,8 @@
           "jl.tajur",
           "ciawi"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-21": {
       "name": {
@@ -2368,7 +2417,8 @@
           "taman kencana",
           "ciremai ujung"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-22": {
       "name": {
@@ -2384,7 +2434,8 @@
           "jl.sawojajar",
           "pasar anyar"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "AK-23": {
       "name": {
@@ -2397,7 +2448,8 @@
           "taman kencana",
           "warung jambu"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "bus1": {
       "name": {
@@ -2417,7 +2469,8 @@
           "pajajaran",
           "terminal baranangsiang"
         ]
-      }
+      },
+      "stopsBack": {}
     },
     "bus2": {
       "name": {
@@ -2440,7 +2493,8 @@
           "pajajaran",
           "terminal baranangsiang"
         ]
-      }
+      },
+      "stopsBack": {}
     }
   }
 }

@@ -21,12 +21,14 @@ for (var source in data) {
       joined.routes[lineNo] = {
         name: {},
         colour: {},
-        stops: {}
+        stops: {},
+        stopsBack: {}
       };
     }
     joined.routes[lineNo].name[source] = data[source].routes[lineNo].name;
     joined.routes[lineNo].colour[source] = data[source].routes[lineNo].colour;
     joined.routes[lineNo].stops[source] = data[source].routes[lineNo].stops;
+    joined.routes[lineNo].stopsBack[source] = data[source].routes[lineNo].stopsBack;
   }
 }
 joined.places = Object.keys(joined.places).sort();
