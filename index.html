@@ -45,15 +45,41 @@ console.log(canvasX, canvasY);
         xhr.send();
       });
     }
-    getPoints().then(points => {
-      var routeNames = [];
-      for (var routeName in points) {
-        for (var pointName in points[routeName]) {
-          var coords = points[routeName][pointName];
-          drawPoint(parseFloat(coords[0]), parseFloat(coords[1]), pointName);
+
+    var points;
+    var routeNames = {};
+
+    function drawRoute(routeName, dryRun) {
+      var missing = [];
+      for (var pointName in points[routeName]) {
+        var coords = points[routeName][pointName];
+        if (coords[0] == '-6.6') {
+          console.log('missing', routeName, pointName);
+          missing.push(pointName);
+        } else {
+          console.log('drawing', routeName, pointName, coords);
+          if (!dryRun) {
+            drawPoint(parseFloat(coords[0]), parseFloat(coords[1]), pointName);
+          }
         }
-        routeNames.push(routeName);
       }
+      return missing;
+    }
+
+    function drawAll(dryRun) {
+      for (var routeName in points) {
+        if (routeName.substring(0, 'AK-'.length) == 'AK-') {
+          routeNames[routeName] = drawRoute(routeName, dryRun);
+        } else {
+          console.log('skipping', routeName);
+        }
+      }
+    }
+
+    // ...
+    getPoints().then(gotPoints => {
+      points = gotPoints;
+      drawAll(true);
       console.log(routeNames);
     });
   </script>
