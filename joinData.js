@@ -4,7 +4,8 @@ var data = {
   majalah: JSON.parse(fs.readFileSync('./build/majalah.json')),
   '2menit': JSON.parse(fs.readFileSync('./build/2menit.json')),
   lovelybogor: JSON.parse(fs.readFileSync('./build/lovelybogor.json')),
-  kotabogor: JSON.parse(fs.readFileSync('./build/kotabogor.json'))
+  kotabogor: JSON.parse(fs.readFileSync('./build/kotabogor.json')),
+  enterbogor: JSON.parse(fs.readFileSync('./build/enterbogor.json')),
 }
 
 var joined = {
@@ -21,14 +22,13 @@ for (var source in data) {
       joined.routes[lineNo] = {
         name: {},
         colour: {},
-        stops: {},
-        stopsBack: {}
+        stops: {}
       };
     }
     joined.routes[lineNo].name[source] = data[source].routes[lineNo].name;
     joined.routes[lineNo].colour[source] = data[source].routes[lineNo].colour;
     joined.routes[lineNo].stops[source] = data[source].routes[lineNo].stops;
-    joined.routes[lineNo].stopsBack[source] = data[source].routes[lineNo].stopsBack;
+    joined.routes[lineNo].stops[`${source}-back`] = data[source].routes[lineNo].stopsBack;
   }
 }
 joined.places = Object.keys(joined.places).sort();

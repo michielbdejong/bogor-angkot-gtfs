@@ -1,4 +1,4 @@
-Trayek AK-01, Jurusan: Ciawi – Baranang Siang
+Trayek AK-01A, Jurusan: Ciawi – Baranang Siang
 Rute: Ciawi – Tajur – Raya Pajajaran – Sambu – Term. Baranangsiang – Bangka – Raya Pajajaran – Tajur – Ciawi
 
 Trayek AK-02, Jurusan: Sukasari – Bubulak
@@ -28,7 +28,7 @@ Rute: Pondok Rumput-Air Mancur-Jl.Sudirman-Sawojajar-Pasar Anyar-Pengadilan
 Trayek AK-08, Jurusan: Ciparigi (Jambu Dua) – Ramayana
 Rute: Ciparigi – Warung Jambu – Pajajaran – Ir. H Juanda – Suryakencana – Ramayana
 
-Trayek: 09, Jurusan: Ciparigi (Jambu Dua) – Sukasari
+Trayek: AK-09, Jurusan: Ciparigi (Jambu Dua) – Sukasari
 Rute: Ciparigi – Warung Jambu – Pajajaran – Tugu Kujang – Terminal Baranangsiang – Sukasari
 
 Trayek AK-10, Jurusan: Bantar Kemang -Merdeka

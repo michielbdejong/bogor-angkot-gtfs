@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #000000;"></canvas> 
+  </body>
+  <script>
+    function warp(x) {
+      if (x<0) {
+        return -Math.sqrt(Math.abs(x));
+      } else {
+        return Math.sqrt(x);
+      }
+    }
+
+    function drawPoint(lon, lat, text) {
+      var canvasWidth = 1000;
+      var canvasHeight = 1000;
+      var canvasScale = 1500*1000;
+
+      // center around (-6.6, 106.8) which is right in the Kebun Raya (Bogor, Indonesia).
+      var x = lat - 106.8;
+      var y = lon + 6.6;
+
+      var canvasX = (canvasWidth/2)+warp(canvasScale*x);
+      var canvasY = (canvasHeight/2)-warp(canvasScale*y);
+console.log(canvasX, canvasY);
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+
+      ctx.beginPath();
+      ctx.arc(canvasX, canvasY, 5, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.font = "10px Arial";
+      ctx.fillText(text,canvasX+8,canvasY+4);
+    }
+
+    function getPoints() {
+      return new Promise(resolve => {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', './build/stopsPerRoute.json');
+        xhr.onload = function() {
+          console.log('resolving');
+          resolve(JSON.parse(xhr.responseText));
+        }
+        xhr.send();
+      });
+    }
+    getPoints().then(points => {
+      var routeNames = [];
+      for (var routeName in points) {
+        for (var pointName in points[routeName]) {
+          var coords = points[routeName][pointName];
+          drawPoint(parseFloat(coords[0]), parseFloat(coords[1]), pointName);
+        }
+        routeNames.push(routeName);
+      }
+      console.log(routeNames);
+    });
+  </script>
+</html>

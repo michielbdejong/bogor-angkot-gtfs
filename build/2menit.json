@@ -84,7 +84,7 @@
     "antar Kemang"
   ],
   "routes": {
-    "AK-01": {
+    "AK-01A": {
       "name": "Ciawi – Baranang Siang",
       "stops": [
         "Ciawi",
@@ -225,7 +225,7 @@
         "Ramayana"
       ]
     },
-    " 09": {
+    " AK-09": {
       "name": "Ciparigi (Jambu Dua) – Sukasari",
       "stops": [
         "Ciparigi",

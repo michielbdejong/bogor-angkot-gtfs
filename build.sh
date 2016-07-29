@@ -14,3 +14,4 @@ node ./make-gtfs.js > release/shapes.txt
 cd release
 zip -r ../release.zip *
 cd ..
+node listAllStopsPerRoute.js > build/stopsPerRoute.json
