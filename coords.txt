@@ -2,12 +2,15 @@
 -6.615052	106.818270	bantar kemang
 -6.603959	106.806450	baranangsiang
 -6.603110	106.810297	bina marga
+-6.603110	106.810297	jl.bina marga
 -6.655322	106.846882	ciawi
 -6.723238	106.951197	cibeureum
 -6.602714	106.813602	ciheuleut
 -6.589856	106.830165	cimahpar
 -6.561016	106.790155	cimanggu permai
+-6.561016	106.790155	jl.cimanggu
 -6.633810	106.813084	cipaku
+-6.633810	106.813084	jl.cipaku
 -6.54374	106.816631	ciparigi
 -6.625674	106.802845	cipinang gading
 -6.575890	106.803391	ciremai ujung
@@ -20,81 +23,78 @@
 -6.537241	106.769941	jl. kayumanis
 -6.563572	106.802038	jl. kebon pedes
 -6.553200	106.807779	jl. kedung halang
--6.949776	107.603172	jl. mekar wangi
+-6.6	106.8	jl. mekar wangi
 -6.552702	106.812374	jl. pembangunan (kopem)
 -6.6	106.8	jl. r.1
--6.6	106.8	jl. soleh iskandar
--6.6	106.8	jl. yasmin
--6.6	106.8	jl.bangka
--6.6	106.8	jl.bina marga
--6.6	106.8	jl.cimanggu
--6.6	106.8	jl.cipaku
--6.6	106.8	jl.darul qur’an
--6.6	106.8	jl.dr.semeru
--6.6	106.8	jl.empang
--6.6	106.8	jl.gunung batu
--6.6	106.8	jl.ir.h.djuanda
--6.6	106.8	jl.jalak harupat
--6.6	106.8	jl.jend.a.yani
--6.6	106.8	jl.k.h.abdullah bin nuh
--6.6	106.8	jl.kapten muslihat
--6.6	106.8	jl.kumbang
--6.6	106.8	jl.lawang gintung
--6.6	106.8	jl.lawang saketeng
--6.6	106.8	jl.layungsari
--6.6	106.8	jl.letjen ibrahim adjie
--6.6	106.8	jl.lodaya
--6.6	106.8	jl.ma salmun
--6.6	106.8	jl.mawar
--6.6	106.8	jl.mayjen ishak djuarsa
--6.6	106.8	jl.merdeka
--6.6	106.8	jl.otista
--6.6	106.8	jl.padi
--6.6	106.8	jl.pahlawan
--6.6	106.8	jl.pajajaran
--6.6	106.8	jl.paledang
--6.6	106.8	jl.pandu raya (r3)
--6.6	106.8	jl.pangeran sogiri (tanah baru)
--6.6	106.8	jl.pangrango
--6.6	106.8	jl.pemuda
--6.6	106.8	jl.pengadilan
--6.6	106.8	jl.perintis kemerdekaan
+-6.550892	106.789959	jl. soleh iskandar
+-6.550892	106.789959	jl.soleh iskandar
+-6.565163	106.774998	jl. yasmin
+-6.603692	106.804496	jl.bangka
+-6.584156	106.773165	jl.darul qur’an
+-6.577290	106.772687	jl.dr.semeru
+-6.607644	106.794352	jl.empang
+-6.593401	106.778498	jl.gunung batu
+-6.599226	106.794493	jl.ir.h.djuanda
+-6.593216	106.802558	jl.jalak harupat
+-6.573802	106.801814	jl.jend.a.yani
+-6.571403	106.754787	jl.k.h.abdullah bin nuh
+-6.590442	106.805694	jl.kumbang
+-6.623341	106.812468	jl.lawang gintung
+-6.604700	106.798673	jl.lawang saketeng
+-6.604700	106.798673	lawang saketeng
+-6.613369	106.799640	jl.layungsari
+-6.575335	106.752678	jl.letjen ibrahim adjie
+-6.589277	106.807170	jl.lodaya
+-6.590519	106.789986	jl.ma salmun
+-6.590519	106.789986	jl. moh. a. salamun
+-6.558742	106.773085	jl.mawar
+-6.595354	106.778836	jl.mayjen ishak djuarsa
+-6.588651	106.787758	jl.merdeka
+-6.603380	106.802073	jl.otista
+-6.599187	106.815516	jl.padi
+-6.612679	106.802600	jl.pahlawan
+-6.580982	106.806668	jl.pajajaran
+-6.580982	106.806668	pajajaran
+-6.580982	106.806668	jl.raya pajajaran
+-6.599215	106.790475	jl.paledang
+-6.576953	106.818489	jl.pandu raya (r3)
+-6.577120	106.822752	jl.pangeran sogiri (tanah baru)
+-6.592178	106.804179	jl.pangrango
+-6.573320	106.796477	jl.pemuda
+-6.591937	106.794486	jl.pengadilan
+-6.593473	106.786670	jl.perintis kemerdekaan
 -6.6	106.8	jl.r.1
--6.6	106.8	jl.r.aria surialaga
--6.6	106.8	jl.r.aria suriawinata
--6.6	106.8	jl.r.e.abdullah
--6.6	106.8	jl.r.kan an (pasar tanah baru)
--6.6	106.8	jl.raya pajajaran
--6.6	106.8	jl.raya pemda kd. halang
--6.6	106.8	jl.re martadinata
--6.6	106.8	jl.sadane
--6.6	106.8	jl.sambu
--6.6	106.8	jl.sancang
--6.6	106.8	jl.sawojajar
--6.6	106.8	jl.siliwangi
--6.6	106.8	jl.sindang barang
+-6.603412	106.786082	jl.r.aria surialaga
+-6.605942	106.792061	jl.r.aria suriawinata
+-6.598399	106.779210	jl.r.e.abdullah
+-6.582531	106.820698	jl.r.kan an (pasar tanah baru)
+-6.553616	106.808123	jl.raya pemda kd. halang
+-6.583035	106.792493	jl.re martadinata
+-6.610744	106.794916	jl.sadane
+-6.606509	106.807405	jl.sambu
+-6.591285	106.808210	jl.sancang
+-6.588616	106.794781	jl.sawojajar
+-6.587873	106.794815	jl.siliwangi
+-6.579284	106.760931	jl.sindang barang
 -6.6	106.8	jl.sindang barang pilar
--6.6	106.8	jl.soleh iskandar
--6.6	106.8	jl.tajur
--6.6	106.8	jl.veteran
--6.6	106.8	kebon pedes
--6.6	106.8	kencana
--6.6	106.8	lawang saketeng
--6.6	106.8	mulyaharja
--6.6	106.8	pajajaran
--6.6	106.8	pajajaran indah
--6.6	106.8	pasar anyar
--6.6	106.8	pasar bogor
+-6.627439	106.824956	jl.tajur
+-6.595498	106.785957	jl.veteran
+-6.569669	106.796074	kebon pedes
+-6.534300	106.789110	kencana
+-6.638976	106.791127	mulyaharja
+-6.612118	106.813915	pajajaran indah
+-6.590913	106.792644	pasar anyar
+-6.607312	106.801758	pasar bogor
 -6.6	106.8	pomad
--6.6	106.8	pondok rumput
--6.6	106.8	ramayana
--6.6	106.8	rancamaya
--6.6	106.8	sbj
--6.6	106.8	selabenda
+-6.571545	106.793631	pondok rumput
+-6.593640	106.792091	ramayana
+-6.671143	106.827322	rancamaya
+-6.577129	106.762327	sbj
+-6.524285	106.762747	selabenda
 -6.6	106.8	simpang talang
--6.6	106.8	sukasari
--6.6	106.8	taman kencana
--6.6	106.8	terminal bubulak
--6.6	106.8	terminal merdeka
--6.6	106.8	warung jambu
--6.6	106.8	warung nangka
+-6.617822	106.813875	sukasari
+-6.588842	106.801922	taman kencana
+-6.570229	106.754515	terminal bubulak
+-6.592565,	106.786766	terminal merdeka
+-6.565621	106.810168	warung jambu
+-6.676241	106.848102	warung nangka
