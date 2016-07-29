@@ -7,6 +7,7 @@ node ./lovelybogor-com.js > ../build/lovelybogor.json
 node ./kotabogor-go-id.js > ../build/kotabogor.json
 node ./majalahtransportasi-com.js > ../build/majalah.json
 node ./bogor-2menit-com.js > ../build/2menit.json
+node ./enterbogor-blogspot-co-id.js > ../build/enterbogor.json
 cd ..
 node ./joinData.js > build/joined.json
 node ./make-gtfs.js > release/shapes.txt
