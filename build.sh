@@ -15,3 +15,4 @@ cd release
 zip -r ../release.zip *
 cd ..
 node listAllStopsPerRoute.js > build/stopsPerRoute.json
+node makeTables.js > tables.html

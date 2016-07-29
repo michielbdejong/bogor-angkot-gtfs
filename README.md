@@ -22,3 +22,4 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 * `Run `sh ./build.sh
 * Open http://localhost:8000/ with your browser and select ./release.zip as the gtfs feed to view (the viewer seems to work better in Chromium than in Firefox).
 * You'll see a map of angkot lines in Kota Bogor (Indonesia).
+* You can also look at http://localhost:8000/tables.html to see the list of stops per line, with source info next to it.

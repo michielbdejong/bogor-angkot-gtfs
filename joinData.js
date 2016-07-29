@@ -13,6 +13,16 @@ var joined = {
   routes: {}
 };
 
+function normalize(data) {
+  if (typeof data === 'string') {
+    return data.split(' ').join('').toLowerCase();
+  } else if (Array.isArray(data)) {
+    return data.map(elt => normalize(elt));
+  } else {
+    return data;
+  }
+}
+
 for (var source in data) {
   for (var i=0; i < data[source].places.length; i++) {
     joined.places[data[source].places[i]] = true;
@@ -25,10 +35,10 @@ for (var source in data) {
         stops: {}
       };
     }
-    joined.routes[lineNo].name[source] = data[source].routes[lineNo].name;
-    joined.routes[lineNo].colour[source] = data[source].routes[lineNo].colour;
-    joined.routes[lineNo].stops[source] = data[source].routes[lineNo].stops;
-    joined.routes[lineNo].stops[`${source}-back`] = data[source].routes[lineNo].stopsBack;
+    joined.routes[lineNo].name[source] = normalize(data[source].routes[lineNo].name);
+    joined.routes[lineNo].colour[source] = normalize(data[source].routes[lineNo].colour);
+    joined.routes[lineNo].stops[source] = normalize(data[source].routes[lineNo].stops);
+    joined.routes[lineNo].stops[`${source}-back`] = normalize(data[source].routes[lineNo].stopsBack);
   }
 }
 joined.places = Object.keys(joined.places).sort();
