@@ -1,11 +1,15 @@
 cd manual-from-transitwand/kota
-zip -r ../../release/kota.zip *
+zip -r ../../build/kota.zip *
 cd ../kabupaten
-zip -r ../../release/kabupaten.zip *
+zip -r ../../build/kabupaten.zip *
 cd ../../data-from-www
-node ./lovelybogor-com.js > ../release/lovelybogor.json
-node ./kotabogor-go-id.js > ../release/kotabogor.json
-node ./majalahtransportasi-com.js > ../release/majalah.json
-node ./bogor-2menit-com.js > ../release/2menit.json
+node ./lovelybogor-com.js > ../build/lovelybogor.json
+node ./kotabogor-go-id.js > ../build/kotabogor.json
+node ./majalahtransportasi-com.js > ../build/majalah.json
+node ./bogor-2menit-com.js > ../build/2menit.json
 cd ..
-node ./joinData.js > release/joined.json
+node ./joinData.js > build/joined.json
+node ./make-gtfs.js > release/shapes.txt
+cd release
+zip -r ../release.zip *
+cd ..

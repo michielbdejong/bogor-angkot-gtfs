@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var joined = JSON.parse(fs.readFileSync('./release/joined.json'));
+var joined = JSON.parse(fs.readFileSync('./build/joined.json'));
 var coordEntries = fs.readFileSync('./coords.txt').toString().split('\n').map(line => line.split('\t'));
 var coords = {};
 

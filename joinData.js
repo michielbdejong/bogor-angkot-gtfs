@@ -1,10 +1,10 @@
 var fs = require('fs');
 
 var data = {
-  majalah: JSON.parse(fs.readFileSync('./release/majalah.json')),
-  '2menit': JSON.parse(fs.readFileSync('./release/2menit.json')),
-  lovelybogor: JSON.parse(fs.readFileSync('./release/lovelybogor.json')),
-  kotabogor: JSON.parse(fs.readFileSync('./release/kotabogor.json'))
+  majalah: JSON.parse(fs.readFileSync('./build/majalah.json')),
+  '2menit': JSON.parse(fs.readFileSync('./build/2menit.json')),
+  lovelybogor: JSON.parse(fs.readFileSync('./build/lovelybogor.json')),
+  kotabogor: JSON.parse(fs.readFileSync('./build/kotabogor.json'))
 }
 
 var joined = {
