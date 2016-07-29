@@ -6,12 +6,23 @@ var data = {
   lovelybogor: JSON.parse(fs.readFileSync('./build/lovelybogor.json')),
   kotabogor: JSON.parse(fs.readFileSync('./build/kotabogor.json')),
   enterbogor: JSON.parse(fs.readFileSync('./build/enterbogor.json')),
-}
+};
+
+var coordLines = fs.readFileSync('./coords.txt').toString().split('\n').map(line => {
+  return line.split('\t');
+});
 
 var joined = {
   places: {},
-  routes: {}
+  routes: {},
+  coords: {},
 };
+
+for (var i=0; i<coordLines.length; i++) {
+  if (coordLines[i].length>2) {
+    joined.coords[coordLines[i][2]] = coordLines[i];
+  }
+}
 
 function normalize(data) {
   if (typeof data === 'string') {

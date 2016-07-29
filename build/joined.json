@@ -2822,5 +2822,507 @@
         ]
       }
     }
+  },
+  "coords": {
+    "air mancur": [
+      "-6.580906",
+      "106.796861",
+      "air mancur"
+    ],
+    "bantar kemang": [
+      "-6.615052",
+      "106.818270",
+      "bantar kemang"
+    ],
+    "baranangsiang": [
+      "-6.603959",
+      "106.806450",
+      "baranangsiang"
+    ],
+    "bina marga": [
+      "-6.603110",
+      "106.810297",
+      "bina marga"
+    ],
+    "jl.bina marga": [
+      "-6.603110",
+      "106.810297",
+      "jl.bina marga"
+    ],
+    "ciawi": [
+      "-6.655322",
+      "106.846882",
+      "ciawi"
+    ],
+    "cibeureum": [
+      "-6.6",
+      "106.8",
+      "cibeureum"
+    ],
+    "ciheuleut": [
+      "-6.602714",
+      "106.813602",
+      "ciheuleut"
+    ],
+    "cimahpar": [
+      "-6.589856",
+      "106.830165",
+      "cimahpar"
+    ],
+    "cimanggu permai": [
+      "-6.561016",
+      "106.790155",
+      "cimanggu permai"
+    ],
+    "jl.cimanggu": [
+      "-6.561016",
+      "106.790155",
+      "jl.cimanggu"
+    ],
+    "cipaku": [
+      "-6.633810",
+      "106.813084",
+      "cipaku"
+    ],
+    "jl.cipaku": [
+      "-6.633810",
+      "106.813084",
+      "jl.cipaku"
+    ],
+    "ciparigi": [
+      "-6.54374",
+      "106.816631",
+      "ciparigi"
+    ],
+    "cipinang gading": [
+      "-6.625674",
+      "106.802845",
+      "cipinang gading"
+    ],
+    "ciremai ujung": [
+      "-6.575890",
+      "106.803391",
+      "ciremai ujung"
+    ],
+    "detour road / cogreg": [
+      "-6.6",
+      "106.8",
+      "detour road / cogreg"
+    ],
+    "empang": [
+      "-6.612722",
+      "106.798637",
+      "empang"
+    ],
+    "gg.aut": [
+      "-6.610677",
+      "106.803466",
+      "gg.aut"
+    ],
+    "jl.kapten muslihat": [
+      "-6.595840",
+      "106.789514",
+      "jl.kapten muslihat"
+    ],
+    "jl. jend. sudirman": [
+      "-6.586040",
+      "106.796876",
+      "jl. jend. sudirman"
+    ],
+    "jl.jend.sudirman": [
+      "-6.586040",
+      "106.796876",
+      "jl.jend.sudirman"
+    ],
+    "jl. kayumanis": [
+      "-6.537241",
+      "106.769941",
+      "jl. kayumanis"
+    ],
+    "jl. kebon pedes": [
+      "-6.563572",
+      "106.802038",
+      "jl. kebon pedes"
+    ],
+    "jl. kedung halang": [
+      "-6.553200",
+      "106.807779",
+      "jl. kedung halang"
+    ],
+    "jl. mekar wangi": [
+      "-6.6",
+      "106.8",
+      "jl. mekar wangi"
+    ],
+    "jl. pembangunan (kopem)": [
+      "-6.552702",
+      "106.812374",
+      "jl. pembangunan (kopem)"
+    ],
+    "jl. r.1": [
+      "-6.6",
+      "106.8",
+      "jl. r.1"
+    ],
+    "jl. soleh iskandar": [
+      "-6.550892",
+      "106.789959",
+      "jl. soleh iskandar"
+    ],
+    "jl.soleh iskandar": [
+      "-6.550892",
+      "106.789959",
+      "jl.soleh iskandar"
+    ],
+    "jl. yasmin": [
+      "-6.565163",
+      "106.774998",
+      "jl. yasmin"
+    ],
+    "jl.bangka": [
+      "-6.603692",
+      "106.804496",
+      "jl.bangka"
+    ],
+    "jl.darul qur’an": [
+      "-6.584156",
+      "106.773165",
+      "jl.darul qur’an"
+    ],
+    "jl.dr.semeru": [
+      "-6.577290",
+      "106.772687",
+      "jl.dr.semeru"
+    ],
+    "jl.empang": [
+      "-6.607644",
+      "106.794352",
+      "jl.empang"
+    ],
+    "jl.gunung batu": [
+      "-6.593401",
+      "106.778498",
+      "jl.gunung batu"
+    ],
+    "jl.ir.h.djuanda": [
+      "-6.599226",
+      "106.794493",
+      "jl.ir.h.djuanda"
+    ],
+    "jl.jalak harupat": [
+      "-6.593216",
+      "106.802558",
+      "jl.jalak harupat"
+    ],
+    "jl.jend.a.yani": [
+      "-6.573802",
+      "106.801814",
+      "jl.jend.a.yani"
+    ],
+    "jl.k.h.abdullah bin nuh": [
+      "-6.571403",
+      "106.754787",
+      "jl.k.h.abdullah bin nuh"
+    ],
+    "jl.kumbang": [
+      "-6.590442",
+      "106.805694",
+      "jl.kumbang"
+    ],
+    "jl.lawang gintung": [
+      "-6.623341",
+      "106.812468",
+      "jl.lawang gintung"
+    ],
+    "jl.lawang saketeng": [
+      "-6.604700",
+      "106.798673",
+      "jl.lawang saketeng"
+    ],
+    "lawang saketeng": [
+      "-6.604700",
+      "106.798673",
+      "lawang saketeng"
+    ],
+    "jl.layungsari": [
+      "-6.613369",
+      "106.799640",
+      "jl.layungsari"
+    ],
+    "jl.letjen ibrahim adjie": [
+      "-6.575335",
+      "106.752678",
+      "jl.letjen ibrahim adjie"
+    ],
+    "jl.lodaya": [
+      "-6.589277",
+      "106.807170",
+      "jl.lodaya"
+    ],
+    "jl.ma salmun": [
+      "-6.590519",
+      "106.789986",
+      "jl.ma salmun"
+    ],
+    "jl. moh. a. salamun": [
+      "-6.590519",
+      "106.789986",
+      "jl. moh. a. salamun"
+    ],
+    "jl.mawar": [
+      "-6.558742",
+      "106.773085",
+      "jl.mawar"
+    ],
+    "jl.mayjen ishak djuarsa": [
+      "-6.595354",
+      "106.778836",
+      "jl.mayjen ishak djuarsa"
+    ],
+    "jl.merdeka": [
+      "-6.588651",
+      "106.787758",
+      "jl.merdeka"
+    ],
+    "jl.otista": [
+      "-6.603380",
+      "106.802073",
+      "jl.otista"
+    ],
+    "jl.padi": [
+      "-6.599187",
+      "106.815516",
+      "jl.padi"
+    ],
+    "jl.pahlawan": [
+      "-6.612679",
+      "106.802600",
+      "jl.pahlawan"
+    ],
+    "jl.pajajaran": [
+      "-6.580982",
+      "106.806668",
+      "jl.pajajaran"
+    ],
+    "pajajaran": [
+      "-6.580982",
+      "106.806668",
+      "pajajaran"
+    ],
+    "jl.raya pajajaran": [
+      "-6.580982",
+      "106.806668",
+      "jl.raya pajajaran"
+    ],
+    "jl.paledang": [
+      "-6.599215",
+      "106.790475",
+      "jl.paledang"
+    ],
+    "jl.pandu raya (r3)": [
+      "-6.576953",
+      "106.818489",
+      "jl.pandu raya (r3)"
+    ],
+    "jl.pangeran sogiri (tanah baru)": [
+      "-6.577120",
+      "106.822752",
+      "jl.pangeran sogiri (tanah baru)"
+    ],
+    "jl.pangrango": [
+      "-6.592178",
+      "106.804179",
+      "jl.pangrango"
+    ],
+    "jl.pemuda": [
+      "-6.573320",
+      "106.796477",
+      "jl.pemuda"
+    ],
+    "jl.pengadilan": [
+      "-6.591937",
+      "106.794486",
+      "jl.pengadilan"
+    ],
+    "jl.perintis kemerdekaan": [
+      "-6.593473",
+      "106.786670",
+      "jl.perintis kemerdekaan"
+    ],
+    "jl.r.1": [
+      "-6.6",
+      "106.8",
+      "jl.r.1"
+    ],
+    "jl.r.aria surialaga": [
+      "-6.603412",
+      "106.786082",
+      "jl.r.aria surialaga"
+    ],
+    "jl.r.aria suriawinata": [
+      "-6.605942",
+      "106.792061",
+      "jl.r.aria suriawinata"
+    ],
+    "jl.r.e.abdullah": [
+      "-6.598399",
+      "106.779210",
+      "jl.r.e.abdullah"
+    ],
+    "jl.r.kan an (pasar tanah baru)": [
+      "-6.582531",
+      "106.820698",
+      "jl.r.kan an (pasar tanah baru)"
+    ],
+    "jl.raya pemda kd. halang": [
+      "-6.553616",
+      "106.808123",
+      "jl.raya pemda kd. halang"
+    ],
+    "jl.re martadinata": [
+      "-6.583035",
+      "106.792493",
+      "jl.re martadinata"
+    ],
+    "jl.sadane": [
+      "-6.610744",
+      "106.794916",
+      "jl.sadane"
+    ],
+    "jl.sambu": [
+      "-6.606509",
+      "106.807405",
+      "jl.sambu"
+    ],
+    "jl.sancang": [
+      "-6.591285",
+      "106.808210",
+      "jl.sancang"
+    ],
+    "jl.sawojajar": [
+      "-6.588616",
+      "106.794781",
+      "jl.sawojajar"
+    ],
+    "jl.siliwangi": [
+      "-6.587873",
+      "106.794815",
+      "jl.siliwangi"
+    ],
+    "jl.sindang barang": [
+      "-6.579284",
+      "106.760931",
+      "jl.sindang barang"
+    ],
+    "jl.sindang barang pilar": [
+      "-6.6",
+      "106.8",
+      "jl.sindang barang pilar"
+    ],
+    "jl.tajur": [
+      "-6.627439",
+      "106.824956",
+      "jl.tajur"
+    ],
+    "jl.veteran": [
+      "-6.595498",
+      "106.785957",
+      "jl.veteran"
+    ],
+    "kebon pedes": [
+      "-6.569669",
+      "106.796074",
+      "kebon pedes"
+    ],
+    "kencana": [
+      "-6.534300",
+      "106.789110",
+      "kencana"
+    ],
+    "mulyaharja": [
+      "-6.638976",
+      "106.791127",
+      "mulyaharja"
+    ],
+    "pajajaran indah": [
+      "-6.612118",
+      "106.813915",
+      "pajajaran indah"
+    ],
+    "pasar anyar": [
+      "-6.590913",
+      "106.792644",
+      "pasar anyar"
+    ],
+    "pasar bogor": [
+      "-6.607312",
+      "106.801758",
+      "pasar bogor"
+    ],
+    "pomad": [
+      "-6.6",
+      "106.8",
+      "pomad"
+    ],
+    "pondok rumput": [
+      "-6.571545",
+      "106.793631",
+      "pondok rumput"
+    ],
+    "ramayana": [
+      "-6.593640",
+      "106.792091",
+      "ramayana"
+    ],
+    "rancamaya": [
+      "-6.671143",
+      "106.827322",
+      "rancamaya"
+    ],
+    "sbj": [
+      "-6.577129",
+      "106.762327",
+      "sbj"
+    ],
+    "selabenda": [
+      "-6.524285",
+      "106.762747",
+      "selabenda"
+    ],
+    "simpang talang": [
+      "-6.6",
+      "106.8",
+      "simpang talang"
+    ],
+    "sukasari": [
+      "-6.617822",
+      "106.813875",
+      "sukasari"
+    ],
+    "taman kencana": [
+      "-6.588842",
+      "106.801922",
+      "taman kencana"
+    ],
+    "terminal bubulak": [
+      "-6.570229",
+      "106.754515",
+      "terminal bubulak"
+    ],
+    "terminal merdeka": [
+      "-6.592565",
+      "106.786766",
+      "terminal merdeka"
+    ],
+    "warung jambu": [
+      "-6.565621",
+      "106.810168",
+      "warung jambu"
+    ],
+    "warung nangka": [
+      "-6.676241",
+      "106.848102",
+      "warung nangka"
+    ]
   }
 }

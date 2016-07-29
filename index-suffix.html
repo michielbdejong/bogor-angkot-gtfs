@@ -30,10 +30,10 @@ console.log(canvasX, canvasY);
       ctx.fillText(text,canvasX+8,canvasY+4);
     }
 
-    function getPoints() {
+    function getJSON(name) {
       return new Promise(resolve => {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', './build/stopsPerRoute.json');
+        xhr.open('GET', `./build/${name}.json`);
         xhr.onload = function() {
           console.log('resolving');
           resolve(JSON.parse(xhr.responseText));
@@ -43,6 +43,7 @@ console.log(canvasX, canvasY);
     }
 
     var points;
+    var coords;
     var routeNames = {};
 
     function drawRoute(routeName, dryRun) {
@@ -72,8 +73,20 @@ console.log(canvasX, canvasY);
       }
     }
 
+    function drawSource(lineNo, source, stops) {
+      console.log('drawSource', lineNo, source, stops);
+    }
+
     // ...
-    getPoints().then(gotPoints => {
+    getJSON('joined').then(data => {
+      for (var lineNo in data.routes) {
+        for (var source in data.routes[lineNo].stops) {
+          drawSource(lineNo, source, data.routes[lineNo].stops[source]);
+        }
+      }
+    }).then(() => {
+      return getJSON('stopsPerRoute');
+    }).then(gotPoints => {
       points = gotPoints;
       drawAll(true);
       console.log(routeNames);
