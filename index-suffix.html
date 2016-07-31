@@ -56,7 +56,13 @@
     function drawRoute(routeName, dryRun) {
       var missing = [];
       for (var pointName in points[routeName]) {
-        var coords = points[routeName][pointName];
+        var coords;
+        if (pointName.substring(0, 'll_'.length) === 'll_') {
+          var parts = pointName.split('_');
+          coords = [parts[1], parts[2]];
+        } else {
+          coords = points[routeName][pointName];
+        }
         if (coords[0] == '-6.6') {
           console.log('missing', routeName, pointName);
           missing.push(pointName);
@@ -80,7 +86,7 @@
       }
     }
 
-    function drawSource(lineNo, source, stops) {
+    function drawSource(lineNo, source, stops, canvas, color) {
       var filteredStops = [];
       for (var i=0; i<stops.length; i++) {
         if (Array.isArray(stops[i])) {
@@ -91,16 +97,20 @@
       if (filteredStops.length < 2) {
         return;
       }
-      var c = document.getElementById(`canvas-${lineNo}`);
+      var c = document.getElementById(canvas || `canvas-${lineNo}`);
       var ctx = c.getContext("2d");
-      ctx.strokeStyle = {
+      ctx.strokeStyle = color || {
         majalah: 'rgb(255,0,0)',
         lovelybogor: 'rgb(0,255,0)',
         kotabogor: 'rgb(0,0,255)',
         enterbogor: 'rgb(0,128,128)',
         'enterbogor-back': 'rgb(128,0,128)',
         '2menit': 'rgb(128,128,0)',
+        manual: 'rgb(0,0,0)',
       }[source];
+      console.log(ctx.strokeStyle);
+      ctx.lineWidth = 3.0;
+      ctx.beginPath();
       var startPoint = toCanvas(filteredStops[0][0], filteredStops[0][1]);
       ctx.moveTo(startPoint[0], startPoint[1]);
       console.log('ctx.moveTo', startPoint[0], startPoint[1]);
@@ -119,14 +129,20 @@
         console.log('route', lineNo);
         for (var source in data.routes[lineNo].stops) {
           console.log('source', source, data.routes[lineNo].stops[source]);
-          drawSource(lineNo, source, data.routes[lineNo].stops[source].map(stopName => data.coords[stopName]));
+          // drawSource(lineNo, source, data.routes[lineNo].stops[source].map(stopName => data.coords[stopName]));
         }
       }
+      function drawManual(lineNo, color) {
+        drawSource(lineNo, 'manual', data.routes[lineNo].stops.manual.map(stopName => stopName.split('_').slice(1)), 'myCanvas', color);
+      }
+      drawManual('AK-01', 'lightblue');
+      drawManual('AK-07', 'silver');
+      drawManual('AK-08', 'purple');
     }).then(() => {
       return getJSON('stopsPerRoute');
     }).then(gotPoints => {
       points = gotPoints;
-      drawAll(true);
+      // drawAll(true);
       console.log(routeNames);
     });
   </script>
