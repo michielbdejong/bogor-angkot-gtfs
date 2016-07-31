@@ -12,6 +12,10 @@ var coordLines = fs.readFileSync('./coords.txt').toString().split('\n').map(line
   return line.split('\t');
 });
 
+var manualLines = fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\n').map(line => {
+  return line.split(',');
+});
+
 var joined = {
   places: {},
   routes: {},
@@ -52,6 +56,21 @@ for (var source in data) {
     joined.routes[lineNo].stops[`${source}-back`] = normalize(data[source].routes[lineNo].stopsBack);
   }
 }
+for (var i=1; i<manualLines.length; i++) {
+  var lineNo = manualLines[i][0];
+  if (typeof joined.routes[lineNo] === 'undefined') {
+    joined.routes[lineNo] = {
+      name: {},
+      colour: {},
+      stops: {}
+    };
+  }
+  if (typeof joined.routes[lineNo].stops.manual == 'undefined') {
+    joined.routes[lineNo].stops.manual = [];
+  }
+  joined.routes[lineNo].stops.manual.push(`ll_${manualLines[i][1]}_${manualLines[i][2]}`);
+}
+
 joined.places = Object.keys(joined.places).sort();
 
 // For creating coords.txt:
