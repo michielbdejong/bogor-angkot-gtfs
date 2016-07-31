@@ -17,5 +17,5 @@ cd ..
 node listAllStopsPerRoute.js > build/stopsPerRoute.json
 node makeTables.js > tables.html
 cp index-prefix.html index.html
-node makeCanvases.js >> index.html
+# node makeCanvases.js >> index.html
 cat index-suffix.html >> index.html
