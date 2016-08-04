@@ -1,7 +1,7 @@
   </body>
   <script>
     function warp(x) {
-      return x/250;
+      return x/100;
       //:
       if (x<0) {
         return -Math.sqrt(Math.abs(x));
@@ -37,6 +37,16 @@
       ctx.stroke();
       ctx.font = "10px Arial";
       ctx.fillText(text,xy[0]+8,xy[1]+4);
+    }
+
+    function drawText(lon, lat, text) {
+      var xy = toCanvas(lon, lat);
+
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+
+      ctx.font = "10px Arial";
+      ctx.fillText(text,xy[0],xy[1]);
     }
 
     function getJSON(name) {
@@ -137,8 +147,23 @@
       function drawManual(lineNo, color) {
         drawSource(lineNo, 'manual', data.routes[lineNo].stops.manual.map(stopName => stopName.split('_').slice(1)), 'myCanvas', color);
       }
+      drawPoint(-6.5849, 106.8168, 'Das Brot');
+      drawText(-6.5890, 106.8168, '05');
+      drawText(-6.5890, 106.8062, '08,09');
+      drawText(-6.6000, 106.8120, '06');
+      drawText(-6.6050, 106.8080, '01,09');
+      drawText(-6.6150, 106.8150, '01,09');
+      drawText(-6.6250, 106.8180, '01');
+      drawText(-6.6078, 106.8055, '06,09');
+      drawText(-6.5800, 106.8168, '23');
+      drawText(-6.5800, 106.8100, '08');
+      drawText(-6.5755, 106.8082, '08');
+      drawText(-6.5765, 106.8080, '09');
+      drawText(-6.5800, 106.8025, '23');
+      drawText(-6.5800, 106.7955, '07');
       drawManual('AK-01', 'lightblue');
       drawManual('AK-05', 'green');
+      drawManual('AK-06', 'yellow');
       drawManual('AK-07', 'silver');
       drawManual('AK-08', 'brown');
       drawManual('AK-09', 'purple');
