@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #000000;"></canvas> 
+    <canvas id="myCanvas" width="1500" height="1500" style="border:1px solid #000000;"></canvas> 
   </body>
   <script>
     function warp(x) {
@@ -16,16 +16,18 @@
 
 
     function toCanvas(lon, lat) {
-      var canvasWidth = 1000;
-      var canvasHeight = 1000;
+      var canvasWidth = 1500;
+      var canvasHeight = 1500;
       var canvasScale = 1500*1000;
 
       // center around (-6.6, 106.8) which is right in the Kebun Raya (Bogor, Indonesia).
       var x = parseFloat(lat) - 106.8;
       var y = parseFloat(lon) + 6.6;
 
-      var canvasX = (canvasWidth/2)+warp(canvasScale*x);
-      var canvasY = (canvasHeight/2)-warp(canvasScale*y);
+      var centerX = 3.2; // <2 means down, >2 means up
+      var centerY = 2.6; // <2 means right, >2 means left
+      var canvasX = (canvasWidth/centerX)+warp(canvasScale*x);
+      var canvasY = (canvasHeight/centerY)-warp(canvasScale*y);
       console.log('returning', lon, lat, canvasX, canvasY);
       return [canvasX, canvasY];
     }
