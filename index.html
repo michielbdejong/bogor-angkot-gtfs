@@ -153,7 +153,6 @@
       function drawManual(lineNo, color) {
         drawSource(lineNo, 'manual', data.routes[lineNo].stops.manual.map(stopName => stopName.split('_').slice(1)), 'myCanvas', color);
       }
-      drawPoint(-6.5849, 106.8168, 'Das Brot');
       drawText(-6.5890, 106.8168, '05');
       drawText(-6.5890, 106.8062, '08,09');
       drawText(-6.6000, 106.8120, '06');
@@ -167,9 +166,10 @@
       drawText(-6.5765, 106.8080, '09');
       drawText(-6.5800, 106.8025, '23');
       drawText(-6.5800, 106.7955, '07');
-      drawManual('AK-01', 'lightblue');
+      // 1 Cipaku
       drawManual('AK-02', 'orange');
       drawManual('AK-03', 'blue');
+      // 4 Nangka
       drawManual('AK-05', 'pink');
       drawManual('AK-06', 'yellow');
       drawManual('AK-07', 'black');
@@ -178,6 +178,9 @@
       drawManual('AK-10', 'silver');
       drawManual('AK-11', 'brown');
       drawManual('AK-12', 'yellow');
+      // 13-20
+      drawManual('AK-21', 'lightblue');
+      // 22?
       drawManual('AK-23', 'silver');
     }).then(() => {
       return getJSON('stopsPerRoute');
