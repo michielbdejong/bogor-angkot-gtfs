@@ -11,6 +11,7 @@ node ./enterbogor-blogspot-co-id.js > ../build/enterbogor.json
 cd ..
 node ./joinData.js > build/joined.json
 node ./make-gtfs.js > release/shapes.txt
+node ./gen-gtfs.js
 cd release
 zip -r ../release.zip *
 cd ..
