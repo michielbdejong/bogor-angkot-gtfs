@@ -1,0 +1,4 @@
+fare_id,price,currency_type,payment_method,transfers,transfer_duration
+biasa,3500,IDR,0,0,
+siswa,2500.25,IDR,0,0,
+kabupaten,6000,IDR,0,0,

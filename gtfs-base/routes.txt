@@ -1,0 +1,13 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+AK-02,DLLAJ,AK-02,02 Bubulak - ,,1,,orange,
+AK-03,DLLAJ,AK-03,03 Bubulak - ,,1,,red,
+AK-05,DLLAJ,AK-05,05 Cihampar - ,,1,,pink,
+AK-06,DLLAJ,AK-06,06 Cileuheut - ,,1,,yellow,
+AK-07,DLLAJ,AK-07,07 Wr Jambu - Merdeka,,1,,white,
+AK-08,DLLAJ,AK-08,08 Wr Jambu - ,,1,,blue,
+AK-09,DLLAJ,AK-09,09 Ciparigi - Sukasari,,1,,blue,
+AK-10,DLLAJ,AK-10,10 ,,1,,blue,
+AK-11,DLLAJ,AK-11,11 ,,1,,blue,
+AK-12,DLLAJ,AK-12,12 ,,1,,yellow,
+AK-21,DLLAJ,AK-21,21 (aka 01a),,1,,blue,
+AK-23,DLLAJ,AK-23,23 (aka 08a) ,,1,,blue,
