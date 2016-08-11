@@ -5,7 +5,7 @@ var headers = {
   calendar: 'service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date',
   fare_rules: 'fare_id,route_id,origin_id,destination_id,contains_id',
   routes: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color',
-  stops: 'stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url',
+  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
   trips: 'route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id',
   calendar_dates: 'service_id,date,exception_type',
   fare_attributes: 'fare_id,price,currency_type,payment_method,transfers,transfer_duration',
@@ -37,7 +37,8 @@ function getStop(lat, lon, name) {
   }
   if (!stops[name]) {
     stops[name] = [lat, lon];
-    stopsArr.push(`${name},${name},${name},${lat},${lon}`);
+    // stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
+    stopsArr.push(`${name},${name},${lat},${lon},2`);
   }
   return name;
 }
