@@ -10,7 +10,7 @@ var headers = {
   calendar_dates: 'service_id,date,exception_type',
   frequencies: 'trip_id,start_time,end_time,headway_secs,exact_times',
   shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled',
-  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
+  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,dropoff_type,shape_dist_traveled,timepoint',
 };
 
 var fixed = {
@@ -23,6 +23,7 @@ var data = fs.readFileSync('manual-from-transitwand/kota/shapes.txt').toString()
 console.log('Processing...');
 
 var stopTimes = [];
+var shapes = [];
 var seq = [];
 var stops = {};
 var stopsArr = [];
@@ -60,14 +61,10 @@ for (var i=1; i<data.length; i++) {
   } else {
     seq[line[0]]++;
   }
-  stopTimes.push([
-    line[0],
-    toTime(seq[line[0]]),
-    toTime(seq[line[0]]),
-    getStop(line[1], line[2], line[5]),
-    seq[line[0]],
-    0
-  ]);
+//  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,dropoff_type,shape_dist_traveled,timepoint',
+  stopTimes.push(`${line[0]},${toTime(seq[line[0]])},${toTime(seq[line[0]])},${getStop(line[1], line[2], line[5])},${seq[line[0]]},,,,,0`);
+//  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
+  shapes.push(`${line[0]},${line[1]},${line[2]},${seq[line[0]]}`);
 }
 
 for (var fileName in fixed) {
@@ -85,7 +82,6 @@ fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `
 fs.writeFileSync('release/frequencies.txt', headers.frequencies + '\n' +
   trips.map(name => `${name},06:00:00,24:00:00,60,0`).join('\n') + '\n');
 //  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
-fs.writeFileSync('release/shapes.txt', headers.shapes + '\n' +
-  stopTimes.map(line => `${line[0]},${stops[line[3]].join(',')},${line[4]}`).join('\n') + '\n');
-//  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
-fs.writeFileSync('release/stop_times.txt', headers.stop_times + '\n' + stopTimes.map(line => line.join(',')).join('\n') + '\n');
+fs.writeFileSync('release/shapes.txt', headers.shapes + '\n' + shapes.join('\n') + '\n');
+//  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,dropoff_type,shape_dist_traveled,timepoint',
+fs.writeFileSync('release/stop_times.txt', headers.stop_times + '\n' + stopTimes.join('\n') + '\n');
