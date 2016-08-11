@@ -83,7 +83,7 @@ fs.writeFileSync('release/stops.txt', headers.stops+'\n'+stopsArr.join('\n'));
 fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name}`).join('\n') + '\n');
 //  frequencies: 'trip_id,start_time,end_time,headway_secs',
 //  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
-fs.writeFileSync('release/stop_times.txt', headers.shapes + '\n' +
-  stopTimes.map(line => `${line[0]},${stops[line[3]].join(',')},line[4]`).join('\n') + '\n');
+fs.writeFileSync('release/shapes.txt', headers.shapes + '\n' +
+  stopTimes.map(line => `${line[0]},${stops[line[3]].join(',')},${line[4]}`).join('\n') + '\n');
 //  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
 fs.writeFileSync('release/stop_times.txt', headers.stop_time + '\n' + stopTimes.map(line => line.join(',')).join('\n') + '\n');
