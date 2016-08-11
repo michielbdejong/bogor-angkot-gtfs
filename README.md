@@ -25,5 +25,6 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 * You can also look at http://localhost:8000/tables.html to see the list of stops per line, with source info next to it.
 
 # License
+<img src="http://i.creativecommons.org/p/zero/1.0/88x31.png">
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Bogor angkot gtfs</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/michielbdejong" property="cc:attributionName" rel="cc:attributionURL">Michiel de Jong</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/michielbdejong/bogor-angkot-gtfs" rel="dct:source">https://github.com/michielbdejong/bogor-angkot-gtfs</a>.
+This work is released to the public domain under [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/)
