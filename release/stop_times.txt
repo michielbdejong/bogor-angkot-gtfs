@@ -1,4 +1,4 @@
-trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,dropoff_type,shape_dist_traveled,timepoint
+trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,drop_off_type,shape_dist_traveled,timepoint
 AK-02,12:00:00,12:00:00,kb-btm-2,0,,,,,0
 AK-02,12:01:00,12:01:00,kb-muslihat,1,,,,,0
 AK-02,12:02:00,12:02:00,stasiun-paledang,2,,,,,0
