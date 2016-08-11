@@ -26,7 +26,7 @@ suryakencana-1,,suryakencana-1,,-6.6048,106.7997,,,,,,2
 suryakencana-2,,suryakencana-2,,-6.6082,106.8025,,,,,,2
 siliwangi-1,,siliwangi-1,,-6.6118,106.8065,,,,,,2
 siliwangi-2,,siliwangi-2,,-6.6164,106.8103,,,,,,2
-siliwangi-3,,siliwangi-3,,-6.6201,106.8145,,,,,,2
+siliwangi-lawanggintung,,siliwangi-lawanggintung,,-6.6201,106.8145,,,,,,2
 lawanggintung-1,,lawanggintung-1,,-6.6208,106.8124,,,,,,2
 lawanggintung-2,,lawanggintung-2,,-6.6235,106.8123,,,,,,2
 lawanggintung-3,,lawanggintung-3,,-6.6238,106.8101,,,,,,2
@@ -57,7 +57,6 @@ pajajaran-michelle-bakery,,pajajaran-michelle-bakery,,-6.6087,106.8105,,,,,,2
 bangka-1,,bangka-1,,-6.6066,106.8087,,,,,,2
 bangka-2,,bangka-2,,-6.6069,106.8080,,,,,,2
 bangka-3,,bangka-3,,-6.6065,106.8074,,,,,,2
-bangka-4,,bangka-4,,-6.6066,106.8087,,,,,,2
 bangka-5,,bangka-5,,-6.6066,106.8067,,,,,,2
 bangka-6,,bangka-6,,-6.6052,106.8058,,,,,,2
 bangka-7,,bangka-7,,-6.6052,106.8051,,,,,,2
@@ -130,7 +129,7 @@ muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
 01,,01,,-6.5693,106.8092,,,,,,2
 ll_-6.5864_106.8058,,ll_-6.5864_106.8058,,-6.5864,106.8058,,,,,,2
 ll_-6.5885_106.8052,,ll_-6.5885_106.8052,,-6.5885,106.8052,,,,,,2
-ll_-6.5889_106.8059,,ll_-6.5889_106.8059,,-6.5889,106.8059,,,,,,2
+lodaya-1,,lodaya-1,,-6.5889,106.8059,,,,,,2
 ll_-6.5922_106.8058,,ll_-6.5922_106.8058,,-6.5922,106.8058,,,,,,2
 ll_-6.5922_106.8049,,ll_-6.5922_106.8049,,-6.5922,106.8049,,,,,,2
 pajajaran-sobana,,pajajaran-sobana,,-6.5808,106.8067,,,,,,2
@@ -140,17 +139,14 @@ ciparigi-1,,ciparigi-1,,-6.5784,106.8112,,,,,,2
 ciparigi-2,,ciparigi-2,,-6.5770,106.8109,,,,,,2
 ciparigi-3,,ciparigi-3,,-6.5699,106.8125,,,,,,2
 pajajaran-jambudua,,pajajaran-jambudua,,-6.5689,106.8091,,,,,,2
-lodaya-1,,lodaya-1,,-6.5889,106.8059,,,,,,2
 lodaya-2,,lodaya-2,,-6.5921,106.8057,,,,,,2
-pajajaran-tunjungbiru,,pajajaran-tunjungbiru,,-6.6125,106.8130,,,,,,2
+pajajaran-pjjindah,,pajajaran-pjjindah,,-6.6125,106.8130,,,,,,2
 sukasari-1,,sukasari-1,,-6.6210,106.8164,,,,,,2
 sukasari-2`,,sukasari-2`,,-6.6212,106.8162,,,,,,2
-siliwangi-lawanggintung,,siliwangi-lawanggintung,,-6.6201,106.8145,,,,,,2
 lippo-w,,lippo-w,,-6.6211,106.8159,,,,,,2
 lippo-n,,lippo-n,,-6.6210,106.8163,,,,,,2
 lippo-e,,lippo-e,,-6.6212,106.8164,,,,,,2
 lippo-s,,lippo-s,,-6.6214,106.8162,,,,,,2
-pajajaran-pjjindah,,pajajaran-pjjindah,,-6.6125,106.8130,,,,,,2
 pajajaran-ggmesjid,,pajajaran-ggmesjid,,-6.6175,106.8150,,,,,,2
 otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 roda-1,,roda-1,,-6.6044,106.8002,,,,,,2
