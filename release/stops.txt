@@ -1,4 +1,4 @@
-stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding
+stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding,stop_code,stop_desc,zone_id,stop_url,location_type,parent_station,stop_timezone
 kb-btm-2,kb-btm-2,-6.6038,106.7961,2
 kb-muslihat,kb-muslihat,-6.5969,106.7937,2
 stasiun-paledang,stasiun-paledang,-6.5959,106.7897,2

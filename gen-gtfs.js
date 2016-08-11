@@ -5,11 +5,11 @@ var headers = {
   calendar: 'service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date',
   fare_attributes: 'fare_id,price,currency_type,payment_method,transfers,transfer_duration',
   routes: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color',
-  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
-  trips: 'route_id,service_id,trip_id',
+  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding,stop_code,stop_desc,zone_id,stop_url,location_type,parent_station,stop_timezone',
+  trips: 'route_id,service_id,trip_id,shape_id,wheelchair_accessible,bikes_allowed,trip_headsign,trip_short_name,direction_id,block_id',
   calendar_dates: 'service_id,date,exception_type',
   frequencies: 'trip_id,start_time,end_time,headway_secs,exact_times',
-  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
+  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled',
   stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
 };
 
@@ -76,11 +76,11 @@ for (var fileName in fixed) {
 
 //  routes: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color',
 fs.writeFileSync('release/routes.txt', headers.routes + '\n' +
-  trips.map(name => `${name},DLLAJ,${name},${name},,,3,,00FF00,000000`).join('\n') + '\n');
-//  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
+  trips.map(name => `${name},DLLAJ,${name},${name},,3,,00FF00,000000`).join('\n') + '\n');
+//  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding,stop_code,stop_desc,zone_id,stop_url,location_type,parent_station,stop_timezone',
 fs.writeFileSync('release/stops.txt', headers.stops+'\n'+stopsArr.join('\n'));
-//  trips: 'route_id,service_id,trip_id',
-fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name}`).join('\n') + '\n');
+//  trips: 'route_id,service_id,trip_id,shape_id,wheelchair_accessible,bikes_allowed,trip_headsign,trip_short_name,direction_id,block_id',
+fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name},${name},2,2,,,,`).join('\n') + '\n');
 //  frequencies: 'trip_id,start_time,end_time,headway_secs',
 fs.writeFileSync('release/frequencies.txt', headers.frequencies + '\n' +
   trips.map(name => `${name},06:00:00,24:00:00,60,0`).join('\n') + '\n');

@@ -1,4 +1,4 @@
-shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
 AK-02,-6.6038,106.7961,0
 AK-02,-6.5969,106.7937,1
 AK-02,-6.5959,106.7897,2
