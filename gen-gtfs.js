@@ -3,14 +3,13 @@ var fs = require('fs');
 var headers = {
   agency: 'agency_id,agency_name,agency_url,agency_timezone',
   calendar: 'service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date',
-  fare_rules: 'fare_id,route_id,origin_id,destination_id,contains_id',
+  fare_attributes: 'fare_id,price,currency_type,payment_method,transfers,transfer_duration',
   routes: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color',
   stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
-  trips: 'route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id',
+  trips: 'route_id,service_id,trip_id',
   calendar_dates: 'service_id,date,exception_type',
-  fare_attributes: 'fare_id,price,currency_type,payment_method,transfers,transfer_duration',
   frequencies: 'trip_id,start_time,end_time,headway_secs',
-  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled',
+  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
   stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
 };
 
@@ -72,9 +71,19 @@ for (var i=1; i<data.length; i++) {
 }
 
 for (var fileName in fixed) {
-  fs.writeFileSync(`release/${fileName}.txt`, headers[fileName]+'\n'+fixed[fileName]+'\n');
+  fs.writeFileSync(`release/${fileName}.txt`, headers[fileName] + '\n' + fixed[fileName] + '\n');
 }
+
+//  routes: 'route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color',
+fs.writeFileSync('release/routes.txt', headers.routes + '\n' +
+  trips.map(name => `${name},DLLAJ,${name},${name},3,00FF00,000000`).join('\n') + '\n');
+//  stops: 'stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding',
 fs.writeFileSync('release/stops.txt', headers.stops+'\n'+stopsArr.join('\n'));
-fs.writeFileSync('release/trips.txt', headers.trips+'\n'+trips.map(name => `${name},0,${name}`).join('\n')+'\n');
-fs.writeFileSync('release/routes.txt', headers.routes+'\n'+trips.map(name => `${name},0,${name}`).join('\n')+'\n');
-fs.writeFileSync('release/stop_times.txt', headers.stop_time+'\n'+stopTimes.map(line => line.join(',')).join('\n')+'\n');
+//  trips: 'route_id,service_id,trip_id',
+fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name}`).join('\n') + '\n');
+//  frequencies: 'trip_id,start_time,end_time,headway_secs',
+//  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
+fs.writeFileSync('release/stop_times.txt', headers.shapes + '\n' +
+  stopTimes.map(line => `${line[0]},${stops[line[3]].join(',')},line[4]`).join('\n') + '\n');
+//  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
+fs.writeFileSync('release/stop_times.txt', headers.stop_time + '\n' + stopTimes.map(line => line.join(',')).join('\n') + '\n');
