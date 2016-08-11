@@ -11,7 +11,7 @@ var headers = {
   fare_attributes: 'fare_id,price,currency_type,payment_method,transfers,transfer_duration',
   frequencies: 'trip_id,start_time,end_time,headway_secs',
   shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled',
-  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,drop_off_time,shape_dist_traveled',
+  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,timepoint',
 };
 
 var fixed = {
@@ -61,7 +61,14 @@ for (var i=1; i<data.length; i++) {
   } else {
     seq[line[0]]++;
   }
-  stopTimes.push([line[0],toTime(seq[line[0]]),toTime(seq[line[0]]),getStop(line[1], line[2], line[5]), seq[line[0]]]);
+  stopTimes.push([
+    line[0],
+    toTime(seq[line[0]]),
+    toTime(seq[line[0]]),
+    getStop(line[1], line[2], line[5]),
+    seq[line[0]],
+    0
+  ]);
 }
 
 for (var fileName in fixed) {
