@@ -4,6 +4,32 @@
     <canvas id="myCanvas" width="1500" height="1500" style="border:1px solid #000000;"></canvas> 
   </body>
   <script>
+    var routeColors = {
+      'AK-01': 'blue',
+      'AK-02': 'orange',
+      'AK-03': 'blue',
+      'AK-04': 'blue',
+      'AK-05': 'lightpurple',
+      'AK-06': 'yellow',
+      'AK-07': 'lightgrey',
+      'AK-08': 'red',
+      'AK-09': 'purple',
+      'AK-10': 'silver',
+      'AK-11': 'brown',
+      'AK-12': 'yellow',
+      'AK-13': 'orange',
+      'AK-14': 'pink',
+      'AK-15': 'lightbrown',
+      'AK-16': 'lightgrey',
+      'AK-17': 'black',
+      'AK-18': 'black',
+      'AK-19': 'black',
+      'AK-20': 'black',
+      'AK-21': 'black',
+      'AK-22': 'black',
+      'AK-23': 'black',
+    };
+
     function warp(x) {
       return x/100;
       //:
@@ -70,7 +96,7 @@
       console.log('drawLane', lane);
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
-      ctx.strokeStyle = 'rgb(0,0,0)';
+      ctx.strokeStyle = routeColors[lane[0]];
       ctx.lineWidth = 3.0;
       ctx.beginPath();
       var startPoint = toCanvas(lane[1], lane[2]);
