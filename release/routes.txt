@@ -1,4 +1,5 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+AK-01,DLLAJ,AK-01,AK-01,,3,,00FF00,000000
 AK-02,DLLAJ,AK-02,AK-02,,3,,00FF00,000000
 AK-03,DLLAJ,AK-03,AK-03,,3,,00FF00,000000
 AK-05,DLLAJ,AK-05,AK-05,,3,,00FF00,000000
