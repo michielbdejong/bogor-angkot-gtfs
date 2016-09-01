@@ -5,7 +5,7 @@ var lastLine;
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
-
+const LANE_FACTOR = 10000;
 
 //...
 fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\n').map(line => {
@@ -20,7 +20,7 @@ fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\
 
 function perpendicularVector(fromX, fromY, toX, toY) {
   var distance = mathjs.distance([fromX, fromY], [toX, toY]);
-  var normalized = [(toX-fromX)/distance, (toY-fromY)/distance];
+  var normalized = [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
   // NE, shift NW
   // SE, shift NE
   // East, shift North

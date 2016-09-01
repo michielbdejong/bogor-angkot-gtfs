@@ -17,6 +17,4 @@ zip -r ../release.zip *
 cd ..
 node listAllStopsPerRoute.js > build/stopsPerRoute.json
 node makeTables.js > tables.html
-# cp index-prefix.html index.html
-# node makeCanvases.js >> index.html
-# cat index-suffix.html >> index.html
+node migrate-data.js > build/stretches.txt

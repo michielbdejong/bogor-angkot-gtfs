@@ -68,7 +68,7 @@
 
     function drawLane(lane) {
       console.log('drawLane', lane);
-      var c = document.getElementById(canvas || `canvas-${lineNo}`);
+      var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
       ctx.strokeStyle = 'rgb(0,0,0)';
       ctx.lineWidth = 3.0;
@@ -82,10 +82,10 @@
 
     // ...
     console.log('fetching stretches');
-    getCSV('stretches').then(data => {
+    getCSV('stretches').then(stretches => {
       console.log('got stretches', stretches);
-      for (var lineNo=0; lineNo<data.length; lineNo++) {
-        console.log(data[lineNo]);
+      for (var lineNo=0; lineNo<stretches.length; lineNo++) {
+        drawLane(stretches[lineNo]);
       }
     });
   </script>
