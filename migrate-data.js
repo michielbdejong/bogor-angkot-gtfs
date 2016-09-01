@@ -25,7 +25,16 @@ fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\
 function perpendicularVector(coords) {
   var distance = mathjs.distance([coords[0], coords[1]], [coords[2], coords[3]]);
   var normalized = [(coords[2]-coords[0])/distance, (coords[3]-coords[1])/distance];
-  return [normalized[1], -normalized[0]];
+  // NE, shift NW
+  // SE, shift NE
+  // East, shift North
+  // NW, shift SW
+  // SW, shift SE
+  // West, shift South
+  // North, shift West
+  // South, shift East
+  // Stationary, don't shift
+  return [-normalized[1], normalized[0]);
 }
 
 
