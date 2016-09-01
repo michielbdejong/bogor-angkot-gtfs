@@ -21,16 +21,15 @@ fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\
 function perpendicularVector(fromX, fromY, toX, toY) {
   var distance = mathjs.distance([fromX, fromY], [toX, toY]);
   var normalized = [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
-  // NE, shift NW
-  // SE, shift NE
-  // East, shift North
-  // NW, shift SW
-  // SW, shift SE
-  // West, shift South
-  // North, shift West
-  // South, shift East
-  // Stationary, don't shift
-  return [-normalized[1], normalized[0]];
+  // I would have thought this should be:
+  // return [-normalized[1], normalized[0]];
+  // to make the angkots drive on the left
+  // side of the road, but apparently
+  // when looking at the result,
+  // (-, +) makes them drive on the right
+  // side and (+, -) makes them drive on
+  // the left:
+  return [normalized[1], -normalized[0]];
 }
 
 function processStretch(routeName, fromX, fromY, toX, toY) {
