@@ -17,9 +17,14 @@ fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\
   }
   lastLine = columns;
 });
+// curve last route back to start
+processStretch();
 
 function perpendicularVector(fromX, fromY, toX, toY) {
   var distance = mathjs.distance([fromX, fromY], [toX, toY]);
+  if (distance === 0) {
+    return [0, 0];
+  }
   var normalized = [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
   // I would have thought this should be:
   // return [-normalized[1], normalized[0]];
@@ -43,43 +48,49 @@ var thisRouteStart;
 var thisRouteLast;
 
 function processStretch(routeName, fromX, fromY, toX, toY) {
-  var laneVector = perpendicularVector(fromX, fromY, toX, toY);
-  var stretchDef = [fromX, fromY, toX, toY].join(',');
-  if (typeof numLanes[stretchDef] === 'undefined') {
-    numLanes[stretchDef] = 0;
-  }
-  var lane = ++numLanes[stretchDef];
-  var [laneFromX, laneFromY, laneToX, laneToY] = makeSpaceForCurve(
-    fromX + lane * laneVector[0],
-    fromY + lane * laneVector[1],
-    toX + lane * laneVector[0],
-    toY + lane * laneVector[1],
-    laneVector[0],
-    laneVector[1]
-  );
+  // console.log('processStretch', routeName, fromX, fromY, toX, toY);
+
   function outputStretch() {
-    console.log([routeName, laneFromX, laneFromY, laneToX, laneToY].join(','));
+    console.log([routeName, laneFromX, laneFromY, laneToX, laneToY, 'stretch'].join(','));
   }
   function outputCurveBefore() {
     console.log([routeName,
       thisRouteLast[0], thisRouteLast[1],
-      laneFromX, laneFromY].join(','));
+      laneFromX, laneFromY, 'curve-before'].join(','));
   }
   function outputCurveBackToStart(lastRouteName) {
     console.log([lastRouteName,
-      laneToX, laneToY,
-      thisRouteStart[0], thisRouteStart[1]].join(','));
+      thisRouteLast[0], thisRouteLast[1],
+      thisRouteStart[0], thisRouteStart[1], 'curve-back'].join(','));
   }
-  if (thisRouteName === routeName) { // continuing on same route
-     outputCurveBefore();
-     outputStretch();
-  } else { // started a new route
-    if (thisRouteName) { // this is not the first, there was a previous route
-      outputCurveBackToStart(thisRouteName);
+  if (routeName) {
+    var laneVector = perpendicularVector(fromX, fromY, toX, toY);
+    var stretchDef = [fromX, fromY, toX, toY].join(',');
+    if (typeof numLanes[stretchDef] === 'undefined') {
+      numLanes[stretchDef] = 0;
     }
-    thisRouteName = routeName;
-    thisRouteStart = [laneFromX, laneFromY];
-    outputStretch();
+    var lane = ++numLanes[stretchDef];
+    var [laneFromX, laneFromY, laneToX, laneToY] = makeSpaceForCurve(
+      fromX + lane * laneVector[0],
+      fromY + lane * laneVector[1],
+      toX + lane * laneVector[0],
+      toY + lane * laneVector[1],
+      laneVector[0],
+      laneVector[1]
+    );
+    if (thisRouteName === routeName) { // continuing on same route
+       outputCurveBefore();
+       outputStretch();
+    } else { // started a new route
+      if (thisRouteName) { // this is not the first, there was a previous route
+        outputCurveBackToStart(thisRouteName);
+      }
+      thisRouteName = routeName;
+      thisRouteStart = [laneFromX, laneFromY];
+      outputStretch();
+    }
+    thisRouteLast = [laneToX, laneToY];
+  } else {
+    outputCurveBackToStart(thisRouteName);
   }
-  thisRouteLast = [laneToX, laneToY];
 }
