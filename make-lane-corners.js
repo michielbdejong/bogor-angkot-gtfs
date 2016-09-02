@@ -8,7 +8,12 @@ const STOP_COL = 5;
 const LANE_FACTOR = 10000;
 
 function readPoints() {
+  var firstLine = true;
   fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\n').map(line => {
+    if (firstLine) {
+      firstLine = false;
+      return;
+    }
     var columns = line.split(',');
     if (columns.length < 5) {
       return;
@@ -61,7 +66,7 @@ function perpendicularVector(fromX, fromY, toX, toY) {
 }
 
 function lineThrough(a, b) {
-  console.log('line through', a, b);
+  //console.log('line through', a, b);
   // two points define a line
   //      fix x, var x,    fix y, var y
   return [a[0], b[0]-a[0], a[1], b[1]-a[1]];
@@ -80,8 +85,34 @@ function cutLines(a, b) {
   // group terms                    (b[1]   - (b[3]/(a[3]/a[1]))) * l =  (b[2]-a[2])/(a[3]/a[1]) - b[0] + a[0]
   // divide                                                         l = ((b[2]-a[2])/(a[3]/a[1]) - b[0] + a[0]) / (b[1]   - (b[3]/(a[3]/a[1])))
   var l = ((b[2]-a[2])/(a[3]/a[1]) - b[0] + a[0]) / (b[1]   - (b[3]/(a[3]/a[1])));
+  // x = b[0] + b[1]*l = a[0] + a[1]*k
+  // move terms  b[1]*l = a[0] + a[1]*k - b[0]
+  // divide      l = (a[0] + a[1]*k - b[0]) / b[1]
+  // y = b[2] + b[3]*(         l           ) = a[2] + a[3]*k
+  // fil in l   b[2] + b[3]*(a[0]+a[1]*k-b[0])/b[1] = a[2] + a[3]*k
+  // move terms  b[3]*(a[0]+a[1]*k-b[0])/b[1] - a[3]*k = a[2] - b[2]
+  // divide            a[0]+a[1]*k-b[0] - a[3]*k/(b[3]/b[1]) = (a[2] - b[2])/(b[3]/b[1])
+  // group terms       a[0] - b[0] + a[1]*k - (a[3]/(b[3]/b[1]))*k = (a[2]-b[2])/(b[3]/b[1])
+  // move terms                      a[1]*k - (a[3]/(b[3]/b[1]))*k = (a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]
+  // group terms                    (a[1]   - (a[3]/(b[3]/b[1]))) * k =  (a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]
+  // divide                                                         k = ((a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]) / (a[1]   - (a[3]/(b[3]/b[1])))
+  var k = ((a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]) / (a[1]   - (a[3]/(b[3]/b[1])));
   var x = b[0] + b[1]*l;
   var y = b[2] + b[3]*l;
+  if (isNaN(x) || isNaN(y)) {
+    x = a[0] + a[1]*k;
+    y = a[2] + a[3]*k;
+  }
+  if (isNaN(x) || isNaN(y)) {
+    var turningX = (a[2] + b[0])/2;
+    var turningY = (a[3] + b[1])/2;
+    var turnVecX = (b[0] - a[2]);
+    var turnVecY = (b[1] - a[3]);
+    var perpVecX = -turnVecY;
+    var perpVecY = turnVecX;
+    x = turningX + perpVecX;
+    y = turningY + perpVecY;
+  }
   return [x, y];
 }
 
@@ -105,8 +136,9 @@ function traceRoute(routeName) {
 
 readPoints();
 assignLanes();
-console.log(routes['AK-09']);
-traceRoute('AK-09');
+for (var routeName in routes) {
+  traceRoute(routeName);
+}
 
 //     stretch.laneVector = perpendicularVector(stretch.fromX, stretch.fromY, stretch.toX, stretch.toY);
 //     var stretchDef = [stretch.fromX, stretch.fromY, stretch.toX, stretch.toY].join(',');
