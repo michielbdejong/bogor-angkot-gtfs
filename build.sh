@@ -17,4 +17,4 @@
 # cd ..
 # node listAllStopsPerRoute.js > build/stopsPerRoute.json
 # node makeTables.js > tables.html
-node --harmony_destructuring make-lane-corners.js > build/shapes.txt
+node --harmony_destructuring make-lane-corners.js > build/stretches.txt

@@ -1,6 +1,7 @@
 var fs = require('fs');
 var mathjs = require('mathjs');
 var routes = {};
+var cornerPoints = {};
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
@@ -43,6 +44,7 @@ function assignLanes() {
         numLanes[stretchDef] = 0;
       }
       var lane = ++numLanes[stretchDef];
+      // to each point, add the lane to be used after that point
       routes[routeName][i].push(lane);
     }
   }
@@ -67,9 +69,15 @@ function perpendicularVector(fromX, fromY, toX, toY) {
 
 function lineThrough(a, b) {
   //console.log('line through', a, b);
+  var numLanes = a[2];
+  var laneVector = perpendicularVector(a[0], a[1], b[0], b[1]);
+  var fromX = a[0] + numLanes * laneVector[0];
+  var fromY = a[1] + numLanes * laneVector[1];
+  var toX = b[0] + numLanes * laneVector[0];
+  var toY = b[1] + numLanes * laneVector[1];
   // two points define a line
   //      fix x, var x,    fix y, var y
-  return [a[0], b[0]-a[0], a[1], b[1]-a[1]];
+  return [fromX, toX-fromX, fromY, toY-fromY];
 }
 
 function cutLines(a, b) {
@@ -104,33 +112,40 @@ function cutLines(a, b) {
     y = a[2] + a[3]*k;
   }
   if (isNaN(x) || isNaN(y)) {
-    var turningX = (a[2] + b[0])/2;
-    var turningY = (a[3] + b[1])/2;
-    var turnVecX = (b[0] - a[2]);
-    var turnVecY = (b[1] - a[3]);
-    var perpVecX = -turnVecY;
-    var perpVecY = turnVecX;
-    x = turningX + perpVecX;
-    y = turningY + perpVecY;
+    var finishXA = a[0]+a[1];
+    var finishYA = a[2]+a[3];
+    var startXB = b[0];
+    var startYB = b[2];
+    var x = (finishXA + startXB)/2;
+    var y = (finishYA + startYB)/2;
   }
   return [x, y];
 }
 
-function outputCornerPoint(routeName, before, here, after) {
+function makeCornerPoint(routeName, before, here, after) {
   var beforeLine = lineThrough(before, here);
   var afterLine = lineThrough(here, after);
-  var cornerPoint = cutLines(beforeLine, afterLine);
-  console.log([routeName,cornerPoint[0], cornerPoint[1]].join(','));
+  return cutLines(beforeLine, afterLine);
 }
 
 function traceRoute(routeName) {
+  var cornerPoints = [];
   var points = routes[routeName];
   for (var i=0; i<points.length; i++) {
-    outputCornerPoint(
+    cornerPoints.push(makeCornerPoint(
       routeName,
       points[i],
       points[(i+1) % points.length],
-      points[(i+2) % points.length]);
+      points[(i+2) % points.length]));
+  }
+  for (var i=0; i<cornerPoints.length; i++) {
+    console.log([
+      routeName,
+      cornerPoints[i][0],
+      cornerPoints[i][1],
+      cornerPoints[(i+1) % cornerPoints.length][0],
+      cornerPoints[(i+1) % cornerPoints.length][1],
+    ].join(','));
   }
 }
 
