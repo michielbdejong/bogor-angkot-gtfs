@@ -32,6 +32,16 @@ function perpendicularVector(fromX, fromY, toX, toY) {
   return [normalized[1], -normalized[0]];
 }
 
+function makeSpaceForCurve(fromX, fromY, toX, toY, laneVectorX, laneVectorY) {
+  var spaceX = -laneVectorY;
+  var spaceY = laneVectorX;
+  return [fromX + spaceX, fromY + spaceY, toX - spaceX, toY - spaceY];
+}
+
+var thisRouteName;
+var thisRouteStart;
+var thisRouteLast;
+
 function processStretch(routeName, fromX, fromY, toX, toY) {
   var laneVector = perpendicularVector(fromX, fromY, toX, toY);
   var stretchDef = [fromX, fromY, toX, toY].join(',');
@@ -39,9 +49,37 @@ function processStretch(routeName, fromX, fromY, toX, toY) {
     numLanes[stretchDef] = 0;
   }
   var lane = ++numLanes[stretchDef];
-  var laneFromX = fromX + lane * laneVector[0];
-  var laneFromY = fromY + lane * laneVector[1];
-  var laneToX = toX + lane * laneVector[0];
-  var laneToY = toY + lane * laneVector[1];
-  console.log([routeName, laneFromX, laneFromY, laneToX, laneToY].join(','));
+  var [laneFromX, laneFromY, laneToX, laneToY] = makeSpaceForCurve(
+    fromX + lane * laneVector[0],
+    fromY + lane * laneVector[1],
+    toX + lane * laneVector[0],
+    toY + lane * laneVector[1],
+    laneVector[0],
+    laneVector[1]
+  );
+  function outputStretch() {
+    console.log([routeName, laneFromX, laneFromY, laneToX, laneToY].join(','));
+  }
+  function outputCurveBefore() {
+    console.log([routeName,
+      thisRouteLast[0], thisRouteLast[1],
+      laneFromX, laneFromY].join(','));
+  }
+  function outputCurveBackToStart(lastRouteName) {
+    console.log([lastRouteName,
+      laneToX, laneToY,
+      thisRouteStart[0], thisRouteStart[1]].join(','));
+  }
+  if (thisRouteName === routeName) { // continuing on same route
+     outputCurveBefore();
+     outputStretch();
+  } else { // started a new route
+    if (thisRouteName) { // this is not the first, there was a previous route
+      outputCurveBackToStart(thisRouteName);
+    }
+    thisRouteName = routeName;
+    thisRouteStart = [laneFromX, laneFromY];
+    outputStretch();
+  }
+  thisRouteLast = [laneToX, laneToY];
 }
