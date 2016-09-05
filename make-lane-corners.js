@@ -6,7 +6,7 @@ const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
-const LANE_FACTOR = 10000;
+const LANE_FACTOR = 5000;
 
 function readPoints() {
   var firstLine = true;
