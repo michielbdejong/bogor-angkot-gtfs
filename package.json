@@ -1,0 +1,37 @@
+{
+  "name": "bogor-angkot-gtfs",
+  "version": "0.1.0",
+  "description": "Map of public minibuses in the city of Bogor (Indonesia).",
+  "author": {
+    "name": "Michiel de Jong",
+    "email": "michiel@unhosted.org",
+    "url": "https://github.com/michielbdejong"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michielbdejong/bogor-angkot-gtfs.git"
+  },
+  "license": "CC-BY-SA-3.0",
+  "keywords": [
+    "Bogor",
+    "angkot",
+    "angutan kota",
+    "minibuses",
+    "gtfs"
+  ],
+  "dependencies": {
+    "mathjs": "^3.4.1",
+    "svg-builder": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "build.sh"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "bugs": {
+    "url": "https://github.com/michielbdejong/bogor-angkot-gtfs/issues"
+  }
+}
