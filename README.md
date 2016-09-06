@@ -20,8 +20,7 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 
 * clone this repo
 * Run `sh ./build.sh`
-
-![map.svg](https://raw.githubusercontent.com/michielbdejong/bogor-angkot-gtfs/master/release/map.svg)
+* It will generate a gtfs feed and a [map svg-file](https://github.com/michielbdejong/bogor-angkot-gtfs/blob/master/release/map.svg) in the release folder.
 
 # License
 <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png">
