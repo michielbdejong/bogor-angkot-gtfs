@@ -1,0 +1,420 @@
+{
+  "places": [
+    "Air Mancur",
+    "Bangka",
+    "Bantar Kemang",
+    "Baranangsiang",
+    "Berangkat",
+    "Cermai",
+    "Cermai Ujung",
+    "Ciawi",
+    "Ciheuleut",
+    "Cimahpar",
+    "Cipaku",
+    "Ciparigi",
+    "Cipinang Gading",
+    "Empang",
+    "Gunung Batu",
+    "Jalak Harupat",
+    "Jl. A. Yani",
+    "Jl. Bangka",
+    "Jl. Kedunghalang",
+    "Jl. Kumbang",
+    "Jl. Lodaya",
+    "Jl. Merdeka",
+    "Jl. Otista",
+    "Jl. Pajajaran",
+    "Jl. Pembangunan (Kopem)",
+    "Jl. R.E Martadinata",
+    "Jl. R1",
+    "Jl. Raya Pemda",
+    "Jl. Sancang",
+    "Juanda",
+    "Kapten Muslihat",
+    "Kedunghalang",
+    "Lawang Gintung",
+    "Otista",
+    "Pahlawan",
+    "Pajajaran",
+    "Pajajaran (berputar di Tugu Kujang)",
+    "Pajajaran Indah",
+    "Paledang",
+    "Pasar Bogor",
+    "Pasar Jambu Dua",
+    "Pemuda",
+    "Perintis Kemerdekaan",
+    "Ramayana",
+    "Salak",
+    "Sambu",
+    "Siliwangi",
+    "Simpang Talang",
+    "Sindangbarang",
+    "Sindangbarang Pilar",
+    "Sudirman",
+    "Sukasari",
+    "Tajur",
+    "Taman Kencana",
+    "Terminal Bubulak",
+    "Terminal Merdeka",
+    "Veteran",
+    "Warung Jambu",
+    "undefined"
+  ],
+  "routes": {
+    "AK-01": {
+      "stops": [
+        "Cipinang Gading",
+        "Cipaku",
+        "Pahlawan",
+        "Empang",
+        "Juanda",
+        "Paledang",
+        "Kapten Muslihat",
+        "Veteran",
+        "Perintis Kemerdekaan",
+        "Terminal Merdeka"
+      ],
+      "stopsBack": [
+        "Terminal Merdeka",
+        "Semeru",
+        "Mawar",
+        "Merdeka",
+        "MA Salmun",
+        "Mayor Oking",
+        "Kapten Muslihat",
+        "Dewi Sartika",
+        "Gg. Mekah",
+        "Gedong Sawah",
+        "Juanda",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Otista",
+        "Surya Kencana",
+        "Siliwangi",
+        "Lawang Gintung",
+        "Cipaku",
+        "Cipinang Gading"
+      ]
+    },
+    "AK-02": {
+      "stops": [
+        "Sukasari",
+        "Lawang Gintung",
+        "Pahlawan",
+        "Empang",
+        "Juanda",
+        "Paledang",
+        "Kapten Muslihat",
+        "Veteran",
+        "Gunung Batu",
+        "Sindangbarang",
+        "Sindangbarang Pilar",
+        "Jl. R1",
+        "Terminal Bubulak"
+      ],
+      "stopsBack": [
+        "Terminal Bubulak",
+        "Jl. R1",
+        "Sindangbarang Pilar",
+        "Sindangbarang",
+        "Gunung Batu",
+        "Veteran",
+        "Perintis Kemerdekaan",
+        "Dr. Semeru",
+        "Mawar",
+        "MA. Salmun",
+        "Mayor Oking",
+        "Kapten Muslihat",
+        "Juanda",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Otista",
+        "Surya Kencana",
+        "Siliwangi",
+        "Sukasari"
+      ]
+    },
+    "AK-03": {
+      "stops": [
+        "Baranangsiang",
+        "Bangka",
+        "Otista",
+        "Juanda",
+        "Kapten Muslihat",
+        "Veteran",
+        "Gunung Batu",
+        "Sindangbarang",
+        "Sindangbarang Pilar",
+        "Jl. R1",
+        "Terminal Bubulak"
+      ],
+      "stopsBack": [
+        "Terminal Bubulak",
+        "Jl. R1",
+        "Sindangbarang Pilar",
+        "Sindangbarang",
+        "Gunung Batu",
+        "Veteran",
+        "Perintis Kemerdekaan",
+        "Dr. Semeru",
+        "Mawar",
+        "Merdeka",
+        "MA. Salmun",
+        "Mayor Oking",
+        "Kapten Muslihat",
+        "Dewi Sartika",
+        "Gg. Mekah",
+        "Gedong Sawah",
+        "Juanda",
+        "Jalak Harupat",
+        "Jl. Salak",
+        "Pajajaran",
+        "Sambu",
+        "Baranangsiang"
+      ]
+    },
+    "AK-05": {
+      "stops": [
+        "Cimahpar",
+        "Jl. Sancang",
+        "Jl. Kumbang",
+        "Jl. Lodaya",
+        "Jl. Otista",
+        "Ramayana"
+      ],
+      "stopsBack": [
+        "Ramayana",
+        "Juanda",
+        "Jalak Harupat",
+        "Jl. Pangrango",
+        "Jl. Lodaya",
+        "Jl. Kumbang",
+        "Jl. Sancang",
+        "Cimahpar"
+      ]
+    },
+    "AK-06": {
+      "stops": [
+        "Ciheuleut",
+        "Pajajaran",
+        "Sambu",
+        "Jl. Bangka",
+        "Jl. Otista",
+        "Ramayana"
+      ],
+      "stopsBack": [
+        "Ramayana",
+        "Juanda",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Ciheuleut"
+      ]
+    },
+    "AK-07_1": {
+      "stops": [
+        "Ciparigi",
+        "Jl. Raya Pemda",
+        "Kedunghalang",
+        "Simpang Talang",
+        "Warung Jambu",
+        "Jl. A. Yani",
+        "Sudirman",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Otista",
+        "Juanda"
+      ],
+      "stopsBack": [
+        "Juanda",
+        "Sudirman",
+        "Pemuda",
+        "Dadali",
+        "Warung Jambu",
+        "Simpang Talang",
+        "Kedunghalang",
+        "Jl. Raya Pemda",
+        "Ciparigi"
+      ]
+    },
+    "AK-07_2": {
+      "stops": [
+        "Ciparigi",
+        "Jl. Raya Pemda",
+        "Kedunghalang",
+        "Simpang Talang",
+        "Warung Jambu",
+        "Jl. A. Yani",
+        "Air Mancur",
+        "Jl. R.E Martadinata",
+        "Jl. Merdeka",
+        "Terminal Merdeka"
+      ],
+      "stopsBack": [
+        "Terminal Merdeka",
+        "Dr. Semeru",
+        "Mawar",
+        "Merdeka",
+        "Kapten Muslihat",
+        "Juanda",
+        "Sudirman",
+        "Pemuda",
+        "Dadali",
+        "Warung Jambu",
+        "Simpang Talang",
+        "Jl. Raya Pemda",
+        "Ciparigi"
+      ]
+    },
+    "AK-07_3": {
+      "stops": [
+        "Ciparigi",
+        "Jl. Raya Pemda",
+        "Simpang Talang",
+        "Warung Jambu",
+        "Jl. A. Yani",
+        "Sudirman",
+        "Pemuda"
+      ],
+      "stopsBack": [
+        "Pemuda",
+        "Dadali",
+        "Warung Jambu",
+        "Simpang Talang",
+        "Jl. Raya Pemda",
+        "Ciparigi"
+      ]
+    },
+    "": {
+      "stops": [
+        "Berangkat"
+      ],
+      "stopsBack": [
+        "Pulang"
+      ]
+    },
+    "AK-09": {
+      "stops": [
+        "Ciparigi",
+        "Jl. Pembangunan (Kopem)",
+        "Jl. Kedunghalang",
+        "Warung Jambu",
+        "Pajajaran",
+        "Sukasari"
+      ],
+      "stopsBack": [
+        "Sukasari",
+        "Pajajaran",
+        "Warung Jambu",
+        "Jl. Kedunghalang",
+        "Jl. Pembangunan (Kopem)",
+        "Kedunghalang"
+      ]
+    },
+    "AK-10": {
+      "stops": [
+        "Bantar Kemang",
+        "Pajajaran",
+        "Siliwangi",
+        "Lawang Gintung",
+        "Pahlawan",
+        "Empang",
+        "Juanda",
+        "Paledang",
+        "Veteran",
+        "Perintis Kemerdekaan",
+        "Terminal Merdeka"
+      ],
+      "stopsBack": [
+        "Terminal Merdeka",
+        "Semeru",
+        "Mawar",
+        "Merdeka",
+        "MA. Salmun",
+        "Mayor Oking",
+        "Kapten Muslihat",
+        "Juanda",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Otista",
+        "Surya Kencana",
+        "Siliwangi",
+        "Pajajaran",
+        "Bantar Kemang"
+      ]
+    },
+    "AK-11": {
+      "stops": [
+        "Pajajaran Indah",
+        "Jl. Pajajaran",
+        "Sambu",
+        "Bangka",
+        "Otista",
+        "Pasar Bogor"
+      ],
+      "stopsBack": [
+        "Pasar Bogor",
+        "Jl. Roda",
+        "Gg. Aut",
+        "Siliwangi",
+        "Sukasari III",
+        "Pajajaran",
+        "Pajajaran Indah"
+      ]
+    },
+    "AK-13": {
+      "stops": [
+        "Bantar Kemang",
+        "Pajajaran",
+        "Sambu",
+        "Bangka",
+        "Otista",
+        "Ramayana"
+      ],
+      "stopsBack": [
+        "Ramayana",
+        "Juanda",
+        "Jalak Harupat",
+        "Pajajaran",
+        "Bantar Kemang"
+      ]
+    },
+    "AK-21": {
+      "stops": [
+        "Baranangsiang",
+        "Pajajaran (berputar di Tugu Kujang)",
+        "Pajajaran",
+        "Tajur",
+        "Ciawi"
+      ],
+      "stopsBack": [
+        "Ciawi",
+        "Tajur",
+        "Pajajaran",
+        "Baranangsiang"
+      ]
+    },
+    "AK-23": {
+      "stops": [
+        "Ramayana",
+        "Juanda",
+        "Jalak Harupat",
+        "Salak",
+        "Taman Kencana",
+        "Cermai",
+        "Cermai Ujung",
+        "Pasar Jambu Dua",
+        "Warung Jambu"
+      ],
+      "stopsBack": [
+        "Warung Jambu",
+        "Achmad Adnawijaya",
+        "Simpang Marwan",
+        "Kumbang",
+        "Lodaya",
+        "Pajajaran",
+        "Otista",
+        "Ramayana"
+      ]
+    }
+  }
+}

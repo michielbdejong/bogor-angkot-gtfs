@@ -68,20 +68,20 @@ for (var i=1; i<data.length; i++) {
 }
 
 for (var fileName in fixed) {
-  fs.writeFileSync(`release/${fileName}.txt`, headers[fileName] + '\n' + fixed[fileName] + '\n');
+  fs.writeFileSync(`gtfs/${fileName}.txt`, headers[fileName] + '\n' + fixed[fileName] + '\n');
 }
 
 //  routes: 'route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color',
-fs.writeFileSync('release/routes.txt', headers.routes + '\n' +
+fs.writeFileSync('gtfs/routes.txt', headers.routes + '\n' +
   trips.map(name => `${name},DLLAJ,${name},${name},,3,,00FF00,000000`).join('\n') + '\n');
 //  stops: 'stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding',
-fs.writeFileSync('release/stops.txt', headers.stops+'\n'+stopsArr.join('\n'));
+fs.writeFileSync('gtfs/stops.txt', headers.stops+'\n'+stopsArr.join('\n'));
 //  trips: 'route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible,bikes_allowed',
-fs.writeFileSync('release/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name},${name},,,,${name},2,2`).join('\n') + '\n');
+fs.writeFileSync('gtfs/trips.txt', headers.trips + '\n' + trips.map(name => `${name},FULL,${name},${name},,,,${name},2,2`).join('\n') + '\n');
 //  frequencies: 'trip_id,start_time,end_time,headway_secs',
-fs.writeFileSync('release/frequencies.txt', headers.frequencies + '\n' +
+fs.writeFileSync('gtfs/frequencies.txt', headers.frequencies + '\n' +
   trips.map(name => `${name},06:00:00,24:00:00,60,0`).join('\n') + '\n');
 //  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
-fs.writeFileSync('release/shapes.txt', headers.shapes + '\n' + shapes.join('\n') + '\n');
+fs.writeFileSync('gtfs/shapes.txt', headers.shapes + '\n' + shapes.join('\n') + '\n');
 //  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,dropoff_type,shape_dist_traveled,timepoint',
-fs.writeFileSync('release/stop_times.txt', headers.stop_times + '\n' + stopTimes.join('\n') + '\n');
+fs.writeFileSync('gtfs/stop_times.txt', headers.stop_times + '\n' + stopTimes.join('\n') + '\n');

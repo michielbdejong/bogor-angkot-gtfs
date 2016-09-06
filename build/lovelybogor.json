@@ -1,0 +1,410 @@
+{
+  "places": [
+    "air mancur",
+    "bantar kemang",
+    "baranangsiang",
+    "bina marga",
+    "ciawi",
+    "cibeureum",
+    "ciheuleut",
+    "cimahpar",
+    "cimanggu permai",
+    "cipaku",
+    "ciparigi",
+    "cipinang gading",
+    "ciremai ujung",
+    "detour road / cogreg",
+    "empang",
+    "gg.aut",
+    "jl. jend. sudirman",
+    "jl. kayumanis",
+    "jl. kebon pedes",
+    "jl. kedung halang",
+    "jl. mekar wangi",
+    "jl. pembangunan (kopem)",
+    "jl. r.1",
+    "jl. soleh iskandar",
+    "jl. yasmin",
+    "jl.bangka",
+    "jl.bina marga",
+    "jl.cimanggu",
+    "jl.cipaku",
+    "jl.darul qur’an",
+    "jl.dr.semeru",
+    "jl.empang",
+    "jl.gunung batu",
+    "jl.ir.h.djuanda",
+    "jl.jalak harupat",
+    "jl.jend.a.yani",
+    "jl.jend.sudirman",
+    "jl.k.h.abdullah bin nuh",
+    "jl.kapten muslihat",
+    "jl.kumbang",
+    "jl.lawang gintung",
+    "jl.lawang saketeng",
+    "jl.layungsari",
+    "jl.letjen ibrahim adjie",
+    "jl.lodaya",
+    "jl.ma salmun",
+    "jl.mawar",
+    "jl.mayjen ishak djuarsa",
+    "jl.merdeka",
+    "jl.otista",
+    "jl.padi",
+    "jl.pahlawan",
+    "jl.pajajaran",
+    "jl.paledang",
+    "jl.pandu raya (r3)",
+    "jl.pangeran sogiri (tanah baru)",
+    "jl.pangrango",
+    "jl.pemuda",
+    "jl.pengadilan",
+    "jl.perintis kemerdekaan",
+    "jl.r.1",
+    "jl.r.aria surialaga",
+    "jl.r.aria suriawinata",
+    "jl.r.e.abdullah",
+    "jl.r.kan an (pasar tanah baru)",
+    "jl.raya pajajaran",
+    "jl.raya pemda kd. halang",
+    "jl.re martadinata",
+    "jl.sadane",
+    "jl.sambu",
+    "jl.sancang",
+    "jl.sawojajar",
+    "jl.siliwangi",
+    "jl.sindang barang",
+    "jl.sindang barang pilar",
+    "jl.soleh iskandar",
+    "jl.tajur",
+    "jl.veteran",
+    "kebon pedes",
+    "kencana",
+    "lawang saketeng",
+    "mulyaharja",
+    "pajajaran",
+    "pajajaran indah",
+    "pasar anyar",
+    "pasar bogor",
+    "pomad",
+    "pondok rumput",
+    "ramayana",
+    "rancamaya",
+    "sbj",
+    "selabenda",
+    "simpang talang",
+    "sukasari",
+    "taman kencana",
+    "terminal bubulak",
+    "terminal merdeka",
+    "warung jambu",
+    "warung nangka"
+  ],
+  "routes": {
+    "AK-01": {
+      "name": "CIPINANG GADING – CIPAKU – MERDEKA PP.",
+      "stops": [
+        "cipinang gading",
+        "cipaku",
+        "jl.pahlawan",
+        "jl.empang",
+        "jl.ir.h.djuanda",
+        "jl.paledang",
+        "jl.kapten muslihat",
+        "jl.veteran",
+        "jl.perintis kemerdekaan",
+        "terminal merdeka"
+      ]
+    },
+    "AK-01-A": {
+      "name": "BARANANGSIANG – TAJUR – CIAWI PP.",
+      "stops": [
+        "baranangsiang",
+        "jl.bangka",
+        "jl.otista",
+        "pajajaran",
+        "jl.tajur",
+        "ciawi"
+      ]
+    },
+    "AK-02": {
+      "name": "SUKASARI – TERMINAL BUBULAK PP.",
+      "stops": [
+        "sukasari",
+        "jl.lawang gintung",
+        "jl.pahlawan",
+        "jl.empang",
+        "jl.ir.h.djuanda",
+        "jl.paledang",
+        "jl.kapten muslihat",
+        "jl.veteran",
+        "jl.gunung batu",
+        "jl.sindang barang",
+        "jl.sindang barang pilar",
+        "jl.r.1",
+        "terminal bubulak"
+      ]
+    },
+    "AK-03": {
+      "name": "BARANANGSIANG – TERMINAL BUBULAK PP.",
+      "stops": [
+        "baranangsiang",
+        "jl.bangka",
+        "jl.otista",
+        "jl.raya pajajaran",
+        "jl.jalak harupat",
+        "jl.ir.h.djuanda",
+        "jl.kapten muslihat",
+        "jl.veteran",
+        "jl.gunung batu",
+        "jl.sindang barang",
+        "jl.sindang barang pilar",
+        "jl.r.1",
+        "terminal bubulak"
+      ]
+    },
+    "AK-04": {
+      "name": "WARUNG NANGKA – RANCAMAYA – RAMAYANA PP.",
+      "stops": [
+        "warung nangka",
+        "rancamaya",
+        "detour road / cogreg",
+        "jl.cipaku",
+        "jl.pahlawan",
+        "gg.aut",
+        "jl.lawang saketeng",
+        "ramayana"
+      ]
+    },
+    "AK-05": {
+      "name": "CIMAHPAR – PANGRANGO – RAMAYANA PP.",
+      "stops": [
+        "cimahpar",
+        "jl.sancang",
+        "jl.kumbang",
+        "jl.lodaya",
+        "jl.pangrango",
+        "jl.jalak harupat",
+        "jl.ir.h.djuanda",
+        "ramayana"
+      ]
+    },
+    "AK-06": {
+      "name": "CIHEULEUT – JL.BANGKA – RAMAYANA",
+      "stops": [
+        "ciheuleut",
+        "jl.pajajaran",
+        "jl.sambu",
+        "jl.bangka",
+        "jl.otista",
+        "jl.pajajaran",
+        "jl.jalak harupat",
+        "jl.ir.h.djuanda",
+        "ramayana"
+      ]
+    },
+    "AK-07": {
+      "name": "CIPARIGI – TERMINAL MERDEKA PP.",
+      "stops": [
+        "ciparigi",
+        "jl.raya pemda kd. halang",
+        "simpang talang",
+        "warung jambu",
+        "jl.jend.a.yani",
+        "jl.jend.sudirman",
+        "jl.ir.h.djuanda",
+        "jl.kapten muslihat",
+        "jl.veteran",
+        "jl.perintis kemerdekaan",
+        "terminal merdeka"
+      ]
+    },
+    "AK-08": {
+      "name": "WR. JAMBU – JL.Ir.H.DJUANDA – RAMAYANA PP.",
+      "stops": [
+        "warung jambu",
+        "jl.pajajaran",
+        "jl.pangrango",
+        "jl.jalak harupat",
+        "jl.ir.h.djuanda",
+        "ramayana"
+      ]
+    },
+    "AK-09": {
+      "name": "CIPARIGI – SUKASARI PP.",
+      "stops": [
+        "ciparigi",
+        "jl. pembangunan (kopem)",
+        "jl. kedung halang",
+        "warung jambu",
+        "jl.pajajaran",
+        "sukasari"
+      ]
+    },
+    "AK-10": {
+      "name": "BANTAR KEMANG – SUKASARI – MERDEKA PP.",
+      "stops": [
+        "bantar kemang",
+        "jl.pajajaran",
+        "jl.siliwangi",
+        "jl.lawang gintung",
+        "jl.pahlawan",
+        "jl.empang",
+        "jl.ir.h.djuanda",
+        "jl.paledang",
+        "jl.veteran",
+        "jl.perintis kemerdekaan",
+        "terminal merdeka"
+      ]
+    },
+    "AK-11": {
+      "name": "PAJAJARAN INDAH – PASAR BOGOR PP.",
+      "stops": [
+        "pajajaran indah",
+        "jl.pajajaran",
+        "jl.sambu",
+        "jl.bangka",
+        "jl.otista",
+        "pasar bogor"
+      ]
+    },
+    "AK-12": {
+      "name": "CIMANGGU – MA. SALMUN – PASAR ANYAR PP.",
+      "stops": [
+        "cimanggu permai",
+        "jl.cimanggu",
+        "jl.merdeka",
+        "jl.ma salmun",
+        "pasar anyar"
+      ]
+    },
+    "AK-13": {
+      "name": "BANTAR KEMANG – JL.BANGKA – RAMAYANA PP.",
+      "stops": [
+        "bantar kemang",
+        "jl.raya pajajaran",
+        "jl.sambu",
+        "jl.bangka",
+        "jl.otista",
+        "jl.raya pajajaran",
+        "jl.jalak harupat",
+        "jl.ir.h.djuanda",
+        "ramayana"
+      ]
+    },
+    "AK-14": {
+      "name": "SUKASARI – PASIR KUDA – BUBULAK PP.",
+      "stops": [
+        "sukasari",
+        "jl.lawang gintung",
+        "jl.pahlawan",
+        "jl.layungsari",
+        "jl.sadane",
+        "jl.r.aria suriawinata",
+        "jl.r.aria surialaga",
+        "jl.r.e.abdullah",
+        "jl.mayjen ishak djuarsa",
+        "jl.letjen ibrahim adjie",
+        "jl.k.h.abdullah bin nuh",
+        "terminal bubulak"
+      ]
+    },
+    "AK-15": {
+      "name": "MERDEKA – BUBULAK – SBJ PP.",
+      "stops": [
+        "sbj",
+        "terminal bubulak",
+        "jl. r.1",
+        "jl.sindang barang",
+        "jl.darul qur’an",
+        "jl.dr.semeru",
+        "jl.mawar",
+        "jl.merdeka",
+        "terminal merdeka"
+      ]
+    },
+    "AK-16": {
+      "name": "PASAR ANYAR – SELABENDA PP.",
+      "stops": [
+        "pasar anyar",
+        "jl.pengadilan",
+        "jl.jend.sudirman",
+        "jl.pemuda",
+        "kebon pedes",
+        "jl.soleh iskandar",
+        "selabenda"
+      ]
+    },
+    "AK-17": {
+      "name": "POMAD – TANAH BARU – BINA MARGA PP.",
+      "stops": [
+        "pomad",
+        "jl.pangeran sogiri (tanah baru)",
+        "jl.r.kan an (pasar tanah baru)",
+        "jl.pandu raya (r3)",
+        "jl.padi",
+        "jl.bina marga",
+        "bina marga"
+      ]
+    },
+    "AK-18": {
+      "name": "RAMAYANA – MULYAHARJA PP.",
+      "stops": [
+        "mulyaharja",
+        "cibeureum",
+        "empang",
+        "gg.aut",
+        "lawang saketeng",
+        "ramayana"
+      ]
+    },
+    "AK-19": {
+      "name": "TERMINAL BUBULAK – KENCANA PP.",
+      "stops": [
+        "terminal bubulak",
+        "jl. r.1",
+        "jl. yasmin",
+        "jl. soleh iskandar",
+        "jl. kayumanis",
+        "jl. mekar wangi",
+        "kencana"
+      ]
+    },
+    "AK-20": {
+      "name": "PASAR ANYAR – KENCANA PP.",
+      "stops": [
+        "pasar anyar",
+        "jl. kebon pedes",
+        "jl. soleh iskandar",
+        "kencana"
+      ]
+    },
+    "AK-21": {
+      "name": "Pasar Bogor-Taman Kencana-Ciremai Ujung",
+      "stops": [
+        "pasar bogor",
+        "taman kencana",
+        "ciremai ujung"
+      ]
+    },
+    "AK-22": {
+      "name": "PASAR ANYAR – PONDOK RUMPUT PP.",
+      "stops": [
+        "pondok rumput",
+        "jl.re martadinata",
+        "air mancur",
+        "jl. jend. sudirman",
+        "jl.sawojajar",
+        "pasar anyar"
+      ]
+    },
+    "AK-23": {
+      "name": "RAMAYANA – TAMAN KENCANA – WARUNG JAMBU",
+      "stops": [
+        "ramayana",
+        "taman kencana",
+        "warung jambu"
+      ]
+    }
+  }
+}
