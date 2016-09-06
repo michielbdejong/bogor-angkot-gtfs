@@ -21,8 +21,7 @@
     "gtfs"
   ],
   "dependencies": {
-    "mathjs": "^3.4.1",
-    "svg-builder": "0.0.4"
+    "mathjs": "^3.4.1"
   },
   "devDependencies": {},
   "scripts": {

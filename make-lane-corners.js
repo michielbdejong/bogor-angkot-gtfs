@@ -1,7 +1,6 @@
 // packages
 var fs = require('fs');
 var mathjs = require('mathjs');
-var svgBuilder = require('svg-builder');
 
 // constants
 const CANVAS_WIDTH = 1500;
@@ -39,7 +38,8 @@ const ROUTE_COLOURS = {
 };
 
 // globals
-var svg = svgBuilder.width(CANVAS_WIDTH).height(CANVAS_HEIGHT);
+var xmlAttr = 'xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"';
+var svg = `<svg width="${CANVAS_WIDTH}" height="${CANVAS_HEIGHT}" ${xmlAttr} >\n`;
 var routes = {};
 var cornerPoints = {};
 
@@ -67,15 +67,15 @@ function toCanvas(lon, lat) {
   return [canvasX, canvasY];
 }
 
-function drawLine(routeName, fromLonLat, toLonLat) {
-  var [x1, y1] = toCanvas(fromLonLat);
-  var [x2, y2] = toCanvas(toLonLat);
-  var line = {
-    stroke: ROUTE_COLOURS[routeName],
-    'stroke-width': 40,
-    x1, y1, x2, y2,
+function drawPath(routeName, cornerPoints) {
+  var canvasPoints = cornerPoints.map(lonLat => toCanvas(lonLat[0], lonLat[1]));
+  var path = [];
+  for (var i=0; i<canvasPoints.length; i++) {
+    path.push(`${canvasPoints[i][0]} ${canvasPoints[i][1]}`);
   }
-  svg.line(line);
+  path.push('Z');
+  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="4" fill="none"`;
+  svg += `  <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 
 function readPoints() {
@@ -208,17 +208,13 @@ function traceRoute(routeName) {
       points[(i+1) % points.length],
       points[(i+2) % points.length]));
   }
-  for (var i=0; i<cornerPoints.length; i++) {
-    drawLine(routeName,
-      cornerPoints[i],
-      cornerPoints[(i+1)%cornerPoints.length]);
-  }
+  return cornerPoints;
 }
 
 readPoints();
 assignLanes();
 for (var routeName in routes) {
-  traceRoute(routeName);
+  drawPath(routeName, traceRoute(routeName));
 }
 
-fs.writeFileSync('./release/map.svg', svg.render());
+fs.writeFileSync('./release/map.svg', svg + '</svg>\n');
