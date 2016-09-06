@@ -1,20 +1,18 @@
-# cd manual-from-transitwand/kota
-# zip -r ../../build/kota.zip *
-# cd ../kabupaten
-# zip -r ../../build/kabupaten.zip *
-# cd ../../data-from-www
+# # parse raw text from websites into json:
+# cd data-from-www
 # node ./lovelybogor-com.js > ../build/lovelybogor.json
 # node ./kotabogor-go-id.js > ../build/kotabogor.json
 # node ./majalahtransportasi-com.js > ../build/majalah.json
 # node ./bogor-2menit-com.js > ../build/2menit.json
 # node ./enterbogor-blogspot-co-id.js > ../build/enterbogor.json
 # cd ..
+# # join those json files into one joined file for easy comparison:
 # node ./joinData.js > build/joined.json
-# node ./make-gtfs.js > release/shapes.txt
+# # generate a gtfs feed (currently broken because routes don't loop, see #3)
+# # and save it as ./release/gtfs.zip:
 # node ./gen-gtfs.js
-# cd release
-# zip -r ../release.zip *
+# cd gtfs
+# zip -r ../release/gtfs.zip *
 # cd ..
-# node listAllStopsPerRoute.js > build/stopsPerRoute.json
-# node makeTables.js > tables.html
-node --harmony_destructuring make-lane-corners.js > build/stretches.txt
+# # generate the map and save it as ./release/map.svg:
+node --harmony_destructuring make-lane-corners.js

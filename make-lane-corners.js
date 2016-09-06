@@ -1,12 +1,82 @@
+// packages
 var fs = require('fs');
 var mathjs = require('mathjs');
-var routes = {};
-var cornerPoints = {};
+var svgBuilder = require('svg-builder');
+
+// constants
+const CANVAS_WIDTH = 1500;
+const CANVAS_HEIGHT = 1500;
+const CANVAS_SCALE = 1500*1000;
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
 const LANE_FACTOR = 5000;
+const ROUTE_COLOURS = {
+  'AK-01': 'blue',
+  'AK-02': 'orange',
+  'AK-03': 'blue',
+  'AK-04': 'blue',
+  'AK-05': 'lightpurple',
+  'AK-06': 'yellow',
+  'AK-07': 'lightgrey',
+  'AK-08': 'red',
+  'AK-09': 'purple',
+  'AK-10': 'silver',
+  'AK-11': 'brown',
+  'AK-12': 'yellow',
+  'AK-13': 'orange',
+  'AK-14': 'pink',
+  'AK-15': 'lightbrown',
+  'AK-16': 'lightgrey',
+  'AK-17': 'black',
+  'AK-18': 'black',
+  'AK-19': 'black',
+  'AK-20': 'black',
+  'AK-21': 'black',
+  'AK-22': 'black',
+  'AK-23': 'black',
+};
+
+// globals
+var svg = svgBuilder.width(CANVAS_WIDTH).height(CANVAS_HEIGHT);
+var routes = {};
+var cornerPoints = {};
+
+// functions
+function warp(x) {
+  return x/100;
+  //:
+  if (x<0) {
+    return -Math.sqrt(Math.abs(x));
+  } else {
+    return Math.sqrt(x);
+  }
+}
+
+function toCanvas(lon, lat) {
+  // center around (-6.6, 106.8) which is right in the Kebun Raya (Bogor, Indonesia).
+  var x = parseFloat(lat) - 106.8;
+  var y = parseFloat(lon) + 6.6;
+
+  var centerX = 3.2; // <2 means down, >2 means up
+  var centerY = 2.6; // <2 means right, >2 means left
+  var canvasX = (CANVAS_WIDTH/centerX)+warp(CANVAS_SCALE*x);
+  var canvasY = (CANVAS_HEIGHT/centerY)-warp(CANVAS_SCALE*y);
+  // console.log('returning', lon, lat, canvasX, canvasY);
+  return [canvasX, canvasY];
+}
+
+function drawLine(routeName, fromLonLat, toLonLat) {
+  var [x1, y1] = toCanvas(fromLonLat);
+  var [x2, y2] = toCanvas(toLonLat);
+  var line = {
+    stroke: ROUTE_COLOURS[routeName],
+    'stroke-width': 40,
+    x1, y1, x2, y2,
+  }
+  svg.line(line);
+}
 
 function readPoints() {
   var firstLine = true;
@@ -139,13 +209,9 @@ function traceRoute(routeName) {
       points[(i+2) % points.length]));
   }
   for (var i=0; i<cornerPoints.length; i++) {
-    console.log([
-      routeName,
-      cornerPoints[i][0],
-      cornerPoints[i][1],
-      cornerPoints[(i+1) % cornerPoints.length][0],
-      cornerPoints[(i+1) % cornerPoints.length][1],
-    ].join(','));
+    drawLine(routeName,
+      cornerPoints[i],
+      cornerPoints[(i+1)%cornerPoints.length]);
   }
 }
 
@@ -155,86 +221,4 @@ for (var routeName in routes) {
   traceRoute(routeName);
 }
 
-//     stretch.laneVector = perpendicularVector(stretch.fromX, stretch.fromY, stretch.toX, stretch.toY);
-//     var stretchDef = [stretch.fromX, stretch.fromY, stretch.toX, stretch.toY].join(',');
-//     if (typeof numLanes[stretchDef] === 'undefined') {
-//       numLanes[stretchDef] = 0;
-//     }
-//     stretch.lane = ++numLanes[stretchDef];
-//     sendStretch(stretch);
-//   }
-//   lastLine = columns;
-// });
-// // curve last route back to start
-// sendStretch();
-// 
-// 
-// var currentRoute;
-// var buffer = [];
-// function sendStretch(params) {
-//   if (Array.isArray(params)) {
-//     if (currentRoute !== params[0]) {
-//       if (currentRoute) {
-//         finishRoute();
-//         buffer = [];
-//       }
-//       currentRoute = params[0];
-//     }
-//     buffer.push(params);
-//   } else {
-//     finishRoute();
-//   }
-// }
-// 
-// function finishRoute() {
-//   processStretch(buffer[buffer.length-1], buffer[0], buffer[1]);
-//   for (var i=1; i<buffer.length-1; i++) {
-//     processStretch(buffer[i-1], buffer[i], buffer[i+1]);
-//   }
-//   processStretch(buffer[buffer.length-2], buffer[buffer.length-1], buffer[0]);
-//   curr
-// }
-// 
-// 
-// var thisRouteName;
-// var thisRouteStart;
-// var lastToPoint;
-// var firstLaneVector;
-// var lastLaneVector;
-// 
-// function processStretch(previous, current, next) {
-//   // draw current from its crossing point with previous to its crossing point with next
-//   var [routeName, fromX, fromY, toX, toY] = current;
-// 
-//   function outputStretch() {
-//     console.log([routeName, laneFromX, laneFromY, laneToX, laneToY, 'stretch'].join(','));
-//   }
-//   function outputCurveBefore() {
-// //    console.log([routeName,
-// //      lastToPoint[0], lastToPoint[1],
-// //      laneFromX, laneFromY, 'curve-before'].join(','));
-//   }
-//   function outputCurveBackToStart(lastRouteName) {
-// //    console.log([lastRouteName,
-// //      lastToPoint[0], lastToPoint[1],
-// //      thisRouteStart[0], thisRouteStart[1], 'curve-back'].join(','));
-//   }
-//   if (routeName) {
-//     if (thisRouteName === routeName) { // continuing on same route
-//        outputCurveBefore();
-//        outputStretch();
-//     } else { // started a new route
-//       if (thisRouteName) { // this is not the first, there was a previous route
-//         outputCurveBackToStart(thisRouteName);
-//       }
-//       thisRouteName = routeName;
-//       thisRouteStart = [laneFromX, laneFromY];
-//       firstLaneVector = laneVector;
-//       outputStretch();
-//     }
-//     lastToPoint = [laneToX, laneToY];
-//     lastLaneVector = laneVector;
-//   } else {
-//     outputCurveBackToStart(thisRouteName);
-//   }
-// }
+fs.writeFileSync('./release/map.svg', svg.render());
