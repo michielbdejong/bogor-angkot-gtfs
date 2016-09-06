@@ -21,8 +21,7 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 * clone this repo
 * Run `sh ./build.sh`
 
-<object data="https://raw.githubusercontent.com/michielbdejong/bogor-angkot-gtfs/master/release/map.svg" type="image/svg+xml">
-</object>
+![map.svg](https://raw.githubusercontent.com/michielbdejong/bogor-angkot-gtfs/master/release/map.svg)
 
 # License
 <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png">
