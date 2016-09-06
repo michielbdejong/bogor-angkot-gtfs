@@ -18,11 +18,10 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 
 # To use:
 
-* clone this repo, and run a webserver in the `viewer` folder of the checked out repo, for instance with `cd viewer; python -m SimpleHTTPServer`.
-* `Run `sh ./build.sh
-* Open http://localhost:8000/ with your browser and select ./release.zip as the gtfs feed to view (the viewer seems to work better in Chromium than in Firefox).
-* You'll see a map of angkot lines in Kota Bogor (Indonesia).
-* You can also look at http://localhost:8000/tables.html to see the list of stops per line, with source info next to it.
+* clone this repo
+* Run `sh ./build.sh`
+
+<img src="https://raw.githubusercontent.com/michielbdejong/bogor-angkot-gtfs/master/release/map.svg" />
 
 # License
 <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png">
