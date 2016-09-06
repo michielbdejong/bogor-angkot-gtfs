@@ -10,30 +10,30 @@ const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
-const LANE_FACTOR = 5000;
+const LANE_FACTOR = 10000;
 const ROUTE_COLOURS = {
-  'AK-01': 'blue',
+//  'AK-01': 'blue',
   'AK-02': 'orange',
   'AK-03': 'blue',
-  'AK-04': 'blue',
-  'AK-05': 'lightpurple',
-  'AK-06': 'yellow',
+//  'AK-04': 'blue',
+//  'AK-05': 'lightpurple',
+//  'AK-06': 'yellow',
   'AK-07': 'lightgrey',
   'AK-08': 'red',
   'AK-09': 'purple',
-  'AK-10': 'silver',
-  'AK-11': 'brown',
+//  'AK-10': 'silver',
+//  'AK-11': 'brown',
   'AK-12': 'yellow',
-  'AK-13': 'orange',
-  'AK-14': 'pink',
-  'AK-15': 'lightbrown',
-  'AK-16': 'lightgrey',
-  'AK-17': 'black',
-  'AK-18': 'black',
-  'AK-19': 'black',
-  'AK-20': 'black',
+//  'AK-13': 'orange',
+//  'AK-14': 'pink',
+//  'AK-15': 'lightbrown',
+//  'AK-16': 'lightgrey',
+//  'AK-17': 'black',
+//  'AK-18': 'black',
+//  'AK-19': 'black',
+//  'AK-20': 'black',
   'AK-21': 'black',
-  'AK-22': 'black',
+//  'AK-22': 'black',
   'AK-23': 'black',
 };
 
@@ -45,8 +45,8 @@ var cornerPoints = {};
 
 // functions
 function warp(x) {
-  return x/100;
-  //:
+  // return x/100;
+  // :
   if (x<0) {
     return -Math.sqrt(Math.abs(x));
   } else {
@@ -68,13 +68,13 @@ function toCanvas(lon, lat) {
 }
 
 function drawPath(routeName, cornerPoints) {
+  // console.log('drawPath', routeName, cornerPoints);
   var canvasPoints = cornerPoints.map(lonLat => toCanvas(lonLat[0], lonLat[1]));
   var path = [];
   for (var i=0; i<canvasPoints.length; i++) {
     path.push(`${canvasPoints[i][0]} ${canvasPoints[i][1]}`);
   }
-  path.push('Z');
-  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="4" fill="none"`;
+  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="0.5" fill="none"`;
   svg += `  <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 
@@ -174,22 +174,39 @@ function cutLines(a, b) {
   // move terms                      a[1]*k - (a[3]/(b[3]/b[1]))*k = (a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]
   // group terms                    (a[1]   - (a[3]/(b[3]/b[1]))) * k =  (a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]
   // divide                                                         k = ((a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]) / (a[1]   - (a[3]/(b[3]/b[1])))
-  var k = ((a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]) / (a[1]   - (a[3]/(b[3]/b[1])));
   var x = b[0] + b[1]*l;
   var y = b[2] + b[3]*l;
-  if (isNaN(x) || isNaN(y)) {
-    x = a[0] + a[1]*k;
-    y = a[2] + a[3]*k;
+
+  function coordsOK(x, y) {
+    if (isNaN(x)) return false;
+    if (isNaN(y)) return false;
+    if (Math.abs(x) === Infinity) return false;
+    if (Math.abs(y) === Infinity) return false;
+    return true;
   }
-  if (isNaN(x) || isNaN(y)) {
-    var finishXA = a[0]+a[1];
-    var finishYA = a[2]+a[3];
-    var startXB = b[0];
-    var startYB = b[2];
-    var x = (finishXA + startXB)/2;
-    var y = (finishYA + startYB)/2;
+
+  if (coordsOK(x, y)) {
+    // console.log('cutting with l', a, b, [x, y]);
+    return [x, y];
   }
-  return [x, y];
+  var k = ((a[2]-b[2])/(b[3]/b[1]) - a[0] + b[0]) / (a[1]   - (a[3]/(b[3]/b[1])));
+  x = a[0] + a[1]*k;
+  y = a[2] + a[3]*k;
+  if (coordsOK(x, y)) {
+    // console.log('cutting with k', a, b, [x, y]);
+    return [x, y];
+  }
+  var finishXA = a[0]+a[1];
+  var finishYA = a[2]+a[3];
+  var startXB = b[0];
+  var startYB = b[2];
+  x = (finishXA + startXB)/2;
+  y = (finishYA + startYB)/2;
+  if (coordsOK(x, y)) {
+    // console.log('end point - lines are parallel', a, b, [x, y]);
+    return [x, y];
+  }
+  console.error('Failure to cut lines', a, b, [x, y]);
 }
 
 function makeCornerPoint(routeName, before, here, after) {
@@ -214,7 +231,17 @@ function traceRoute(routeName) {
 readPoints();
 assignLanes();
 for (var routeName in routes) {
-  drawPath(routeName, traceRoute(routeName));
+  if (ROUTE_COLOURS[routeName]) {
+    drawPath(routeName, traceRoute(routeName));
+  }
 }
 
 fs.writeFileSync('./release/map.svg', svg + '</svg>\n');
+for (var routeName in routes) {
+  if (ROUTE_COLOURS[routeName]) {
+    svg = `<svg width="${CANVAS_WIDTH}" height="${CANVAS_HEIGHT}" ${xmlAttr} >\n`;
+    drawPath(routeName, traceRoute(routeName));
+    fs.writeFileSync(`./release/${routeName}.svg`, svg + '</svg>\n');
+  }
+}
+

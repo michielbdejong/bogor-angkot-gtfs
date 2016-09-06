@@ -2,8 +2,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 kb-gedong-sawah,,kb-gedong-sawah,,-6.5945,106.7946,,,,,,2
 kb-polisi-militer,,kb-polisi-militer,,-6.5930,106.7973,,,,,,2
 kb-jalak-harupat,,kb-jalak-harupat,,-6.5935,106.7984,,,,,,2
-kb-sempur,,kb-sempur,,-6.5922,106.8009,,,,,,2
-kb-salak,,kb-salak,,-6.5926,106.8018,,,,,,2
+kb-sempur,,kb-sempur,,-6.592262,106.800814,,,,,,2
+kb-salak,,kb-salak,,-6.592667,106.801806,,,,,,2
 kb-pangrango,,kb-pangrango,,-6.5935,106.8029,,,,,,2
 kb-astrid,,kb-astrid,,-6.5959,106.8044,,,,,,2
 kb-botani-1,,kb-botani-1,,-6.6009,106.8052,,,,,,2
@@ -78,9 +78,9 @@ batutulis-2,,batutulis-2,,-6.6218,106.8086,,,,,,2
 batutulis-3,,batutulis-3,,-6.6215,106.8079,,,,,,2
 batutulis-pahlawan,,batutulis-pahlawan,,-6.6188,106.8069,,,,,,2
 pahlawan-1,,pahlawan-1,,-6.6163,106.8045,,,,,,2
-salak-1,,salak-1,,-6.5919,106.8021,,,,,,2
-salak-2,,salak-2,,-6.5912,106.8021,,,,,,2
-salak-3,,salak-3,,-6.5900,106.8016,,,,,,2
+salak-1,,salak-1,,-6.591937,106.802112,,,,,,2
+salak-2,,salak-2,,-6.591191,106.802069,,,,,,2
+salak-3,,salak-3,,-6.589918,106.801645,,,,,,2
 kencana-1,,kencana-1,,-6.5893,106.8018,,,,,,2
 kencana-2,,kencana-2,,-6.5888,106.8024,,,,,,2
 salak-4,,salak-4,,-6.5884,106.8030,,,,,,2
@@ -146,8 +146,8 @@ line-05-5,,line-05-5,,-6.591868,106.814436,,,,,,2
 line-05-4,,line-05-4,,-6.591665,106.808631,,,,,,2
 line-05-3,,line-05-3,,-6.591259,106.808235,,,,,,2
 line-05-2,,line-05-2,,-6.591272,106.805734,,,,,,2
-lodaya-M,,lodaya-M,,-6.5921,106.8057,,,,,,2
-lodaya-S,,lodaya-S,,-6.5921,106.8057,,,,,,2
+lodaya-M,,lodaya-M,,-6.591276,106.805706,,,,,,2
+lodaya-S,,lodaya-S,,-6.592177,106.805701,,,,,,2
 line-05-22,,line-05-22,,-6.589352,106.865159,,,,,,2
 ciheuleut-tegallega,,ciheuleut-tegallega,,-6.5990,106.8126,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
@@ -175,7 +175,7 @@ gedongsawah-3,,gedongsawah-3,,-6.5943,106.7930,,,,,,2
 gedongsawah-4,,gedongsawah-4,,-6.5943,106.7927,,,,,,2
 gedongsawah-dewisartika,,gedongsawah-dewisartika,,-6.5941,106.7920,,,,,,2
 pajajaran-sobana,,pajajaran-sobana,,-6.5808,106.8067,,,,,,2
-lodaya-N,,lodaya-N,,-6.5889,106.8059,,,,,,2
+lodaya-N,,lodaya-N,,-6.588862,106.805904,,,,,,2
 sobana-sungai,,sobana-sungai,,-6.5811,106.8110,,,,,,2
 sobana-palapuhraya,,sobana-palapuhraya,,-6.5816,106.8132,,,,,,2
 ciparigi-1,,ciparigi-1,,-6.5784,106.8112,,,,,,2
