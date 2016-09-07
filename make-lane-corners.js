@@ -3,7 +3,7 @@ var fs = require('fs');
 var mathjs = require('mathjs');
 
 // constants
-const CANVAS_WIDTH = 1500;
+const CANVAS_WIDTH = 2500;
 const CANVAS_HEIGHT = 1500;
 const CANVAS_SCALE = 1500*1000;
 const NAME_COL = 0;

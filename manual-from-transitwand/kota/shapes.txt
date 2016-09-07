@@ -633,7 +633,6 @@ AK-13,-6.6045,106.8071,8,0.08,tol-3
 AK-13,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
 AK-13,-6.6087,106.8105,8,0.08,pajajaran-michelle-bakery
 AK-13,-6.6125,106.8130,8,0.08,pajajaran-pjjindah
-
 AK-14,-6.6208,106.8124,10,0.10,lawanggintung-1
 AK-14,-6.6235,106.8123,10,0.10,lawanggintung-2
 AK-14,-6.6238,106.8101,10,0.10,lawanggintung-3
