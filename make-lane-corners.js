@@ -3,8 +3,8 @@ var fs = require('fs');
 var mathjs = require('mathjs');
 
 // constants
-const CANVAS_WIDTH = 2500;
-const CANVAS_HEIGHT = 1500;
+const CANVAS_WIDTH = 3500;
+const CANVAS_HEIGHT = 2500;
 const CANVAS_SCALE = 1500*1000;
 const NAME_COL = 0;
 const LAT_COL = 1;
@@ -26,7 +26,7 @@ const ROUTE_COLOURS = {
   'AK-12': 'yellow',
   'AK-13': 'orange',
   'AK-14': 'pink',
-//  'AK-15': 'lightbrown',
+  'AK-15': 'brown',
 //  'AK-16': 'lightgrey',
 //  'AK-17': 'cream',
 //  'AK-18': 'yellow',
