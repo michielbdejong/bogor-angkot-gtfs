@@ -226,6 +226,13 @@ martadinata-3,,martadinata-3,,-6.5832,106.7915,,,,,,2
 martadinata-tentpelajar,,martadinata-tentpelajar,,-6.5829,106.7877,,,,,,2
 tentpelajar,,tentpelajar,,-6.5729,106.7880,,,,,,2
 tentpelajar-cimanggu,,tentpelajar-cimanggu,,-6.5702,106.7877,,,,,,2
+rambutan,,rambutan,,-6.618061,106.820295,,,,,,2
+banteng-sungai,,banteng-sungai,,-6.624926,106.827982,,,,,,2
+katulampa,,katulampa,,-6.627059,106.829010,,,,,,2
+banteng-busyro,,banteng-busyro,,-6.622076,106.829696,,,,,,2
+banteng-tol,,banteng-tol,,-6.618545,106.833810,,,,,,2
+pasirangin-1,,pasirangin-1,,-6.613043,106.837166,,,,,,2
+pasirangin-novotel,,pasirangin-novotel,,-6.605049,106.838754,,,,,,2
 ll_-6.60187_106.80531,,ll_-6.60187_106.80531,,-6.60187,106.80531,,,,,,2
 ll_-6.60146_106.80480,,ll_-6.60146_106.80480,,-6.60146,106.80480,,,,,,2
 ll_-6.60109_106.80525,,ll_-6.60109_106.80525,,-6.60109,106.80525,,,,,,2
