@@ -151,6 +151,7 @@ lodaya-S,,lodaya-S,,-6.592177,106.805701,,,,,,2
 line-05-22,,line-05-22,,-6.589352,106.865159,,,,,,2
 ciheuleut-tegallega,,ciheuleut-tegallega,,-6.5990,106.8126,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
+padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
 ll_-6.5802_106.7967,,ll_-6.5802_106.7967,,-6.5802,106.7967,,,,,,2
 ll_-6.5734_106.7964,,ll_-6.5734_106.7964,,-6.5734,106.7964,,,,,,2
