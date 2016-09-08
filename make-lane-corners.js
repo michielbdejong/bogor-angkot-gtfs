@@ -3,10 +3,10 @@ var fs = require('fs');
 var mathjs = require('mathjs');
 
 // constants
-const CANVAS_WIDTH = 2000;
-const CANVAS_HEIGHT = 3000;
+const CANVAS_WIDTH = 2100;
+const CANVAS_HEIGHT = 2970;
 const CANVAS_SCALE = 1500*1000;
-const CANVAS_TRANSFORM = 'rotate(30) translate(1000 0)';
+const CANVAS_TRANSFORM = 'translate(280 20) rotate(30) scale(0.5)';
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
