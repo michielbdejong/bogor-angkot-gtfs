@@ -3,15 +3,26 @@ var fs = require('fs');
 var mathjs = require('mathjs');
 
 // constants
-const CANVAS_WIDTH = 2100;
-const CANVAS_HEIGHT = 2970;
-const CANVAS_SCALE = 1500*1000;
-const CANVAS_TRANSFORM = 'translate(280 20) rotate(30) scale(0.5)';
+const MAP_WEST = 106.76;
+const MAP_EAST = 106.865;
+const MAP_NORTH = -6.50;
+const MAP_SOUTH = -6.685;
+
+const MAP_CENTER_LON = (MAP_WEST + MAP_EAST)/2;
+const MAP_CENTER_LAT = (MAP_NORTH + MAP_SOUTH)/2;
+const MAP_WIDTH = MAP_EAST - MAP_WEST;
+const MAP_HEIGHT = MAP_NORTH - MAP_SOUTH;
+
+const CANVAS_SCALE = 10000;
+const CANVAS_WIDTH = MAP_WIDTH * CANVAS_SCALE;
+const CANVAS_HEIGHT = MAP_HEIGHT * CANVAS_SCALE;
+const MAP_ROTATION = 30;
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
 const LANE_FACTOR = 10000;
+const STROKE_WIDTH = 1;
 const ROUTE_COLOURS = {
   'AK-01': 'blue',
   'AK-02': 'orange',
@@ -45,8 +56,48 @@ const CANVAS_ATTR = [
   `xmlns:xlink="http://www.w3.org/1999/xlink"`,
 ];
 
+// svg has its y axis upside down (i.e., (0,0 is in the top left),
+// so put a minus sign in front of the y scale factor and the y translation.
+// These transformations are applied in reverse order:
+const TRANSFORMS = [
+  // lastly, move the scaled, rotated center into the
+  // center of the canvas
+  `translate(${CANVAS_WIDTH/2} ${CANVAS_HEIGHT/2})`,
+  // rotate the map around (0,0) to taste
+  `rotate(${MAP_ROTATION})`,
+  // scale it from lat/lon degrees to pixels
+  `scale(${CANVAS_SCALE} -${CANVAS_SCALE})`,
+  // first, center (0,0) on Bogor
+  `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
+];
+
+
+const BOUNDING_BOX_PATH = [
+  `M${MAP_WEST} ${MAP_NORTH}`,
+  `L${MAP_EAST} ${MAP_NORTH}`,
+  `L${MAP_EAST} ${MAP_SOUTH}`,
+  `L${MAP_WEST} ${MAP_SOUTH}`,
+  `Z`,
+];
+
+const BOUNDING_BOX_TRANSFORMATIONS = [
+  `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
+  `rotate(${MAP_ROTATION})`,
+  // `rotate(30)`,
+  `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`
+];
+
+const BOUNDING_BOX_ATTR = [
+  `d="${BOUNDING_BOX_PATH.join(' ')}"`,
+  `fill="none"`,
+  `stroke="black"`,
+  `stroke-width="${5*STROKE_WIDTH/CANVAS_SCALE}"`,
+  `transform="${BOUNDING_BOX_TRANSFORMATIONS.join(' ')}"`,
+];
+
 const SVG_PREFIX = `<svg ${CANVAS_ATTR.join(' ')} >\n` +
-                   `  <g transform="${CANVAS_TRANSFORM}">`;
+                   `  <g transform="${TRANSFORMS.join(' ')}">\n` +
+                   `    <path ${BOUNDING_BOX_ATTR.join(' ')} />\n`;
 
 const SVG_SUFFIX = `  </g>\n` +
                    `</svg>\n`;
@@ -69,8 +120,13 @@ function warp(x) {
 
 function toCanvas(lon, lat) {
   // center around (-6.6, 106.8) which is right in the Kebun Raya (Bogor, Indonesia).
-  var x = parseFloat(lat) - 106.8;
-  var y = parseFloat(lon) + 6.6;
+
+  // var x = parseFloat(lat) - 106.8;
+  // var y = parseFloat(lon) + 6.6;
+  // use svg transform to go from lon/lat to pixel distances:
+  var x = parseFloat(lat);
+  var y = parseFloat(lon);
+  return [x, y];
 
   var centerX = 3.2; // <2 means down, >2 means up
   var centerY = 2.6; // <2 means right, >2 means left
@@ -87,7 +143,7 @@ function drawPath(routeName, cornerPoints) {
   for (var i=0; i<canvasPoints.length; i++) {
     path.push(`${canvasPoints[i][0]} ${canvasPoints[i][1]}`);
   }
-  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="0.5" fill="none"`;
+  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 
