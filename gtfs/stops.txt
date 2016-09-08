@@ -305,6 +305,7 @@ pedes-bendrightatstart,,pedes-bendrightatstart,,-6.569210,106.799029,,,,,,2
 pedes-sungai,,pedes-sungai,,-6.565255,106.801904,,,,,,2
 pedes-iskandar,,pedes-iskandar,,-6.561887,106.801968,,,,,,2
 iskandar-majujaya,,iskandar-majujaya,,-6.562889,106.797108,,,,,,2
+iskandar-20-rejions,,iskandar-20-rejions,,-6.560033,106.787495,,,,,,2
 iskandar-ciampea-Y,,iskandar-ciampea-Y,,-6.556041,106.778477,,,,,,2
 iskandar-bendright,,iskandar-bendright,,-6.554080,106.776396,,,,,,2
 iskandar-kencana,,iskandar-kencana,,-6.537281,106.769948,,,,,,2
@@ -369,6 +370,16 @@ kalimurni-1-right,,kalimurni-1-right,,-6.531504,106.796126,,,,,,2
 kalimurni-2-left,,kalimurni-2-left,,-6.531461,106.796491,,,,,,2
 kalimurni-pendidikan,,kalimurni-pendidikan,,-6.530971,106.796598,,,,,,2
 pendidikan-cilebut,,pendidikan-cilebut,,-6.530774,106.800305,,,,,,2
+cimanggu-wates-1,,cimanggu-wates-1,,-6.558221,106.788353,,,,,,2
+cimanggu-wates-setapak,,cimanggu-wates-setapak,,-6.553675,106.788187,,,,,,2
+setapak-1,,setapak-1,,-6.548708,106.787608,,,,,,2
+setapak-2,,setapak-2,,-6.546746,106.786342,,,,,,2
+setapak-3,,setapak-3,,-6.546874,106.785719,,,,,,2
+setapak-bukitcimanggu,,setapak-bukitcimanggu,,-6.543024,106.784000,,,,,,2
+setapak-4,,setapak-4,,-6.541881,106.783536,,,,,,2
+setapak-5,,setapak-5,,-6.541369,106.782742,,,,,,2
+setapak-6,,setapak-6,,-6.537894,106.782506,,,,,,2
+setapak-7,,setapak-7,,-6.535784,106.782828,,,,,,2
 ll_-6.60187_106.80531,,ll_-6.60187_106.80531,,-6.60187,106.80531,,,,,,2
 ll_-6.60146_106.80480,,ll_-6.60146_106.80480,,-6.60146,106.80480,,,,,,2
 ll_-6.60109_106.80525,,ll_-6.60109_106.80525,,-6.60109,106.80525,,,,,,2

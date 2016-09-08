@@ -31,7 +31,7 @@ const ROUTE_COLOURS = {
   'AK-17': 'grey',
   'AK-18': 'yellow',
   'AK-19': 'darkgreen',
-//  'AK-20': 'black',
+  'AK-20': 'black',
   'AK-21': 'black',
 //  'AK-22': 'black',
   'AK-23': 'black',
