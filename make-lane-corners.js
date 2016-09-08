@@ -83,7 +83,6 @@ const BOUNDING_BOX_PATH = [
 const BOUNDING_BOX_TRANSFORMATIONS = [
   `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
   `rotate(${MAP_ROTATION})`,
-  // `rotate(30)`,
   `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`
 ];
 
@@ -122,7 +121,23 @@ function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
   var path = [];
   for (var i=0; i<cornerPoints.length; i++) {
-    path.push(`${cornerPoints[i][0]} ${cornerPoints[i][1]}`);
+    var x = cornerPoints[i][0];
+    var y = cornerPoints[i][1];
+    path.push(`${x} ${y}`);
+    var thisTextTrans = [
+      `translate(${x} ${y})`,
+      `scale(${1/CANVAS_SCALE} ${-1/CANVAS_SCALE})`,
+      `rotate(-30)`,
+      `translate(${-x} ${-y})`
+    ];
+
+    var textAttr = [
+      `x="${cornerPoints[i][0]}"`,
+      `y="${cornerPoints[i][1]}"`,
+      `fill="black"`,
+      `transform="${thisTextTrans.join(' ')}"`
+    ];
+    svg += `    <text ${textAttr.join(' ')}>${routeName.substring(3)}</text>\n`;
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
