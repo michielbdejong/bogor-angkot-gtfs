@@ -22,7 +22,7 @@ const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
 const LANE_FACTOR = 10000;
-const STROKE_WIDTH = 1;
+const STROKE_WIDTH = .2;
 const ROUTE_COLOURS = {
   'AK-01': 'blue',
   'AK-02': 'orange',
@@ -126,7 +126,7 @@ function drawPath(routeName, cornerPoints) {
     path.push(`${x} ${y}`);
     var thisTextTrans = [
       `translate(${x} ${y})`,
-      `scale(${1/CANVAS_SCALE} ${-1/CANVAS_SCALE})`,
+      `scale(${.2/CANVAS_SCALE} ${-.2/CANVAS_SCALE})`,
       `rotate(-30)`,
       `translate(${-x} ${-y})`
     ];
