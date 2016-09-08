@@ -228,7 +228,7 @@ pjjindah-bigroadbend,,pjjindah-bigroadbend,,-6.6130,106.8201,,,,,,2
 pjjindah-bigroadturnsouth,,pjjindah-bigroadturnsouth,,-6.6135,106.8207,,,,,,2
 dewisartika-pengadilan,,dewisartika-pengadilan,,-6.5920,106.7925,,,,,,2
 martadinata-airmancur,,martadinata-airmancur,,-6.5813,106.7965,,,,,,2
-martadinata-1,,martadinata-1,,-6.5821,106.7932,,,,,,2
+martadinata-bubulak,,martadinata-bubulak,,-6.582045,106.793232,,,,,,2
 martadinata-2,,martadinata-2,,-6.5827,106.7931,,,,,,2
 martadinata-3,,martadinata-3,,-6.5832,106.7915,,,,,,2
 martadinata-tentpelajar,,martadinata-tentpelajar,,-6.5829,106.7877,,,,,,2
@@ -417,6 +417,9 @@ ll_-6.6152_106.8141,,ll_-6.6152_106.8141,,-6.6152,106.8141,,,,,,2
 ll_-6.6117_106.8123,,ll_-6.6117_106.8123,,-6.6117,106.8123,,,,,,2
 ll_-6.6079_106.8096,,ll_-6.6079_106.8096,,-6.6079,106.8096,,,,,,2
 ll_-6.60366_106.80612,,ll_-6.60366_106.80612,,-6.60366,106.80612,,,,,,2
+jl-bubulak-1,,jl-bubulak-1,,-6.577126,106.792647,,,,,,2
+jl-bubulak-pondok-rumput,,jl-bubulak-pondok-rumput,,-6.573673,106.793655,,,,,,2
+pondok-rumput-end,,pondok-rumput-end,,-6.568567,106.793859,,,,,,2
 adnawijaya-1,,adnawijaya-1,,-6.5704,106.8152,,,,,,2
 adnawijaya-2,,adnawijaya-2,,-6.5735,106.8176,,,,,,2
 adnawijaya-3,,adnawijaya-3,,-6.5770,106.8178,,,,,,2
