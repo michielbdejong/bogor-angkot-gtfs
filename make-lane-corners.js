@@ -3,9 +3,10 @@ var fs = require('fs');
 var mathjs = require('mathjs');
 
 // constants
-const CANVAS_WIDTH = 3500;
-const CANVAS_HEIGHT = 3500;
+const CANVAS_WIDTH = 2000;
+const CANVAS_HEIGHT = 3000;
 const CANVAS_SCALE = 1500*1000;
+const CANVAS_TRANSFORM = 'rotate(30) translate(1000 0)';
 const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
@@ -37,9 +38,21 @@ const ROUTE_COLOURS = {
   'AK-23': 'black',
 };
 
+const CANVAS_ATTR = [
+  `width="${CANVAS_WIDTH}"`,
+  `height="${CANVAS_HEIGHT}"`,
+  `xmlns="http://www.w3.org/2000/svg"`,
+  `xmlns:xlink="http://www.w3.org/1999/xlink"`,
+];
+
+const SVG_PREFIX = `<svg ${CANVAS_ATTR.join(' ')} >\n` +
+                   `  <g transform="${CANVAS_TRANSFORM}">`;
+
+const SVG_SUFFIX = `  </g>\n` +
+                   `</svg>\n`;
+
 // globals
-var xmlAttr = 'xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"';
-var svg = `<svg width="${CANVAS_WIDTH}" height="${CANVAS_HEIGHT}" ${xmlAttr} >\n`;
+var svg;
 var routes = {};
 var cornerPoints = {};
 
@@ -75,7 +88,7 @@ function drawPath(routeName, cornerPoints) {
     path.push(`${canvasPoints[i][0]} ${canvasPoints[i][1]}`);
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="0.5" fill="none"`;
-  svg += `  <path d="M${path.join(' L')} Z" ${attributes} />\n`;
+  svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 
 function readPoints() {
@@ -230,18 +243,22 @@ function traceRoute(routeName) {
 
 readPoints();
 assignLanes();
+
+// draw map.svg
+svg = SVG_PREFIX;
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
     drawPath(routeName, traceRoute(routeName));
   }
 }
+fs.writeFileSync('./release/map.svg', svg + SVG_SUFFIX);
 
-fs.writeFileSync('./release/map.svg', svg + '</svg>\n');
+// draw per-route maps
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
-    svg = `<svg width="${CANVAS_WIDTH}" height="${CANVAS_HEIGHT}" ${xmlAttr} >\n`;
+    svg = SVG_PREFIX;
     drawPath(routeName, traceRoute(routeName));
-    fs.writeFileSync(`./release/${routeName}.svg`, svg + '</svg>\n');
+    fs.writeFileSync(`./release/${routeName}.svg`, svg + SVG_SUFFIX);
   }
 }
 
