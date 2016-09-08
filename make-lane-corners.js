@@ -118,30 +118,11 @@ function warp(x) {
   }
 }
 
-function toCanvas(lon, lat) {
-  // center around (-6.6, 106.8) which is right in the Kebun Raya (Bogor, Indonesia).
-
-  // var x = parseFloat(lat) - 106.8;
-  // var y = parseFloat(lon) + 6.6;
-  // use svg transform to go from lon/lat to pixel distances:
-  var x = parseFloat(lat);
-  var y = parseFloat(lon);
-  return [x, y];
-
-  var centerX = 3.2; // <2 means down, >2 means up
-  var centerY = 2.6; // <2 means right, >2 means left
-  var canvasX = (CANVAS_WIDTH/centerX)+warp(CANVAS_SCALE*x);
-  var canvasY = (CANVAS_HEIGHT/centerY)-warp(CANVAS_SCALE*y);
-  // console.log('returning', lon, lat, canvasX, canvasY);
-  return [canvasX, canvasY];
-}
-
 function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
-  var canvasPoints = cornerPoints.map(lonLat => toCanvas(lonLat[0], lonLat[1]));
   var path = [];
-  for (var i=0; i<canvasPoints.length; i++) {
-    path.push(`${canvasPoints[i][0]} ${canvasPoints[i][1]}`);
+  for (var i=0; i<cornerPoints.length; i++) {
+    path.push(`${cornerPoints[i][0]} ${cornerPoints[i][1]}`);
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
@@ -195,31 +176,26 @@ function perpendicularVector(fromX, fromY, toX, toY) {
     return [0, 0];
   }
   var normalized = [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
-  // I would have thought this should be:
-  // return [-normalized[1], normalized[0]];
-  // to make the angkots drive on the left
-  // side of the road, but apparently
-  // when looking at the result,
-  // (-, +) makes them drive on the right
-  // side and (+, -) makes them drive on
-  // the left:
-  return [normalized[1], -normalized[0]];
+  return [-normalized[1], normalized[0]];
 }
 
 function lineThrough(a, b) {
+  // a = [lat, lon] -> [y, x]
+  // b = [lat, lon] -> [y, x]
+
   //console.log('line through', a, b);
   var numLanes = a[2];
-  var laneVector = perpendicularVector(a[0], a[1], b[0], b[1]);
-  var fromX = a[0] + numLanes * laneVector[0];
-  var fromY = a[1] + numLanes * laneVector[1];
-  var toX = b[0] + numLanes * laneVector[0];
-  var toY = b[1] + numLanes * laneVector[1];
+  var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
+  var fromX = a[1] + numLanes * laneVector[0];
+  var fromY = a[0] + numLanes * laneVector[1];
+  var toX = b[1] + numLanes * laneVector[0];
+  var toY = b[0] + numLanes * laneVector[1];
   // two points define a line
   //      fix x, var x,    fix y, var y
   return [fromX, toX-fromX, fromY, toY-fromY];
 }
 
-function cutLines(a, b) {
+function cutLines(a, b, fallbackCoords) {
   // x = a[0] + a[1]*k = b[0] + b[1]*l
   // move terms  a[1]*k = b[0] + b[1]*l - a[0]
   // divide      k = (b[0] + b[1]*l - a[0]) / a[1]
@@ -247,10 +223,15 @@ function cutLines(a, b) {
   var y = b[2] + b[3]*l;
 
   function coordsOK(x, y) {
+    // console.log('coordsOK', x, y);
     if (isNaN(x)) return false;
     if (isNaN(y)) return false;
     if (Math.abs(x) === Infinity) return false;
     if (Math.abs(y) === Infinity) return false;
+    if (x > 106.9) return false;
+    if (x < 106.7) return false;
+    if (y > -6.5) return false;
+    if (y < -6.7) return false;
     return true;
   }
 
@@ -265,12 +246,15 @@ function cutLines(a, b) {
     // console.log('cutting with k', a, b, [x, y]);
     return [x, y];
   }
-  var finishXA = a[0]+a[1];
-  var finishYA = a[2]+a[3];
-  var startXB = b[0];
-  var startYB = b[2];
-  x = (finishXA + startXB)/2;
-  y = (finishYA + startYB)/2;
+  x = fallbackCoords[1];
+  y = fallbackCoords[0];
+
+  // var finishXA = a[0]+a[1];
+  // var finishYA = a[2]+a[3];
+  // var startXB = b[0];
+  // var startYB = b[2];
+  // x = (finishXA + startXB)/2;
+  // y = (finishYA + startYB)/2;
   if (coordsOK(x, y)) {
     // console.log('end point - lines are parallel', a, b, [x, y]);
     return [x, y];
@@ -281,7 +265,7 @@ function cutLines(a, b) {
 function makeCornerPoint(routeName, before, here, after) {
   var beforeLine = lineThrough(before, here);
   var afterLine = lineThrough(here, after);
-  return cutLines(beforeLine, afterLine);
+  return cutLines(beforeLine, afterLine, here);
 }
 
 function traceRoute(routeName) {
