@@ -165,31 +165,112 @@
     <text x="106.80768902300943" y="-6.604575946118022" fill="black" text-anchor="middle" transform="translate(106.80768902300943 -6.604575946118022) scale(0.00001 -0.00001) translate(-106.80768902300943 6.604575946118022) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">06</text>
     <text x="106.81008708176721" y="-6.607402229653979" fill="black" text-anchor="middle" transform="translate(106.81008708176721 -6.607402229653979) scale(0.00001 -0.00001) translate(-106.81008708176721 6.607402229653979) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">06</text>
     <line x1="106.8126" y1="-6.599" x2="106.8137" y2="-6.6007" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81276791403144" y1="-6.5988913497443695" x2="106.81386791403143" y2="-6.600591349744369" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8126" cy="-6.599" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8126" y="-6.599" stroke="rgb(0,0,0)" transform="translate(106.8126 -6.599),scale(0.00001 -0.00001),translate(-106.8126 6.599),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-tegallega</text>
     <line x1="106.8137" y1="-6.6007" x2="106.8172" y2="-6.5982" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81358375236125" y1="-6.600537253305759" x2="106.81708375236126" y2="-6.598037253305759" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8137" cy="-6.6007" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8137" y="-6.6007" stroke="rgb(0,0,0)" transform="translate(106.8137 -6.6007),scale(0.00001 -0.00001),translate(-106.8137 6.6007),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-binamarga</text>
     <line x1="106.8172" y1="-6.5982" x2="106.8137" y2="-6.6007" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81731624763874" y1="-6.598362746694241" x2="106.81381624763874" y2="-6.600862746694241" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8172" cy="-6.5982" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8172" y="-6.5982" stroke="rgb(0,0,0)" transform="translate(106.8172 -6.5982),scale(0.00001 -0.00001),translate(-106.8172 6.5982),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >padi-jagung</text>
     <line x1="106.8137" y1="-6.6007" x2="106.813" y2="-6.6054" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81389781803557" y1="-6.600729462260618" x2="106.81319781803558" y2="-6.605429462260618" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8137" cy="-6.6007" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8137" y="-6.6007" stroke="rgb(0,0,0)" transform="translate(106.8137 -6.6007),scale(0.00001 -0.00001),translate(-106.8137 6.6007),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-binamarga</text>
     <line x1="106.813" y1="-6.6054" x2="106.8099" y2="-6.6078" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8131224346386" y1="-6.605558144741523" x2="106.8100224346386" y2="-6.607958144741523" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.813" cy="-6.6054" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.813" y="-6.6054" stroke="rgb(0,0,0)" transform="translate(106.813 -6.6054),scale(0.00001 -0.00001),translate(-106.813 6.6054),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-pakuanindah</text>
     <line x1="106.8099" y1="-6.6078" x2="106.8105" y2="-6.6087" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81023282011773" y1="-6.6075781199215085" x2="106.81083282011774" y2="-6.608478119921508" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8099" cy="-6.6078" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8099" y="-6.6078" stroke="rgb(0,0,0)" transform="translate(106.8099 -6.6078),scale(0.00001 -0.00001),translate(-106.8099 6.6078),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pajajaran-ciheuleut</text>
     <line x1="106.8105" y1="-6.6087" x2="106.7996" y2="-6.6027" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81040355455069" y1="-6.6088752092329335" x2="106.79950355455068" y2="-6.602875209232933" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8105" cy="-6.6087" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8105" y="-6.6087" stroke="rgb(0,0,0)" transform="translate(106.8105 -6.6087),scale(0.00001 -0.00001),translate(-106.8105 6.6087),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pajajaran-michelle-bakery</text>
     <line x1="106.7996" y1="-6.6027" x2="106.7967" y2="-6.6042" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79978376916755" y1="-6.603055287057262" x2="106.79688376916755" y2="-6.604555287057262" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7996" cy="-6.6027" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7996" y="-6.6027" stroke="rgb(0,0,0)" transform="translate(106.7996 -6.6027),scale(0.00001 -0.00001),translate(-106.7996 6.6027),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-otista</text>
     <line x1="106.7967" y1="-6.6042" x2="106.7961" y2="-6.6038" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79636717988227" y1="-6.604699230176604" x2="106.79576717988226" y2="-6.604299230176604" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7967" cy="-6.6042" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7967" y="-6.6042" stroke="rgb(0,0,0)" transform="translate(106.7967 -6.6042),scale(0.00001 -0.00001),translate(-106.7967 6.6042),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-btm-1</text>
     <line x1="106.7961" y1="-6.6038" x2="106.7937" y2="-6.5969" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79515550320329" y1="-6.60412852062494" x2="106.7927555032033" y2="-6.59722852062494" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7961" cy="-6.6038" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7961" y="-6.6038" stroke="rgb(0,0,0)" transform="translate(106.7961 -6.6038),scale(0.00001 -0.00001),translate(-106.7961 6.6038),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-btm-2</text>
     <line x1="106.7937" y1="-6.5969" x2="106.7946" y2="-6.5945" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79295093665795" y1="-6.596619101246729" x2="106.79385093665795" y2="-6.594219101246729" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7937" cy="-6.5969" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7937" y="-6.5969" stroke="rgb(0,0,0)" transform="translate(106.7937 -6.5969),scale(0.00001 -0.00001),translate(-106.7937 6.5969),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-muslihat</text>
     <line x1="106.7946" y1="-6.5945" x2="106.7973" y2="-6.593" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79411435706882" y1="-6.5936258427238785" x2="106.79681435706883" y2="-6.5921258427238785" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7946" cy="-6.5945" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7946" y="-6.5945" stroke="rgb(0,0,0)" transform="translate(106.7946 -6.5945),scale(0.00001 -0.00001),translate(-106.7946 6.5945),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-gedong-sawah</text>
     <line x1="106.7973" y1="-6.593" x2="106.7984" y2="-6.5935" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79771380294432" y1="-6.592089633522538" x2="106.79881380294431" y2="-6.592589633522538" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7973" cy="-6.593" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7973" y="-6.593" stroke="rgb(0,0,0)" transform="translate(106.7973 -6.593),scale(0.00001 -0.00001),translate(-106.7973 6.593),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-polisi-militer</text>
     <line x1="106.7984" y1="-6.5935" x2="106.800814" y2="-6.592262" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79794366838573" y1="-6.592610190212563" x2="106.80035766838573" y2="-6.591372190212563" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7984" cy="-6.5935" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7984" y="-6.5935" stroke="rgb(0,0,0)" transform="translate(106.7984 -6.5935),scale(0.00001 -0.00001),translate(-106.7984 6.5935),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-jalak-harupat</text>
     <line x1="106.800814" y1="-6.592262" x2="106.801806" y2="-6.592667" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80119197862885" y1="-6.591336185679452" x2="106.80218397862885" y2="-6.591741185679452" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.800814" cy="-6.592262" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.800814" y="-6.592262" stroke="rgb(0,0,0)" transform="translate(106.800814 -6.592262),scale(0.00001 -0.00001),translate(-106.800814 6.592262),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-sempur</text>
     <line x1="106.801806" y1="-6.592667" x2="106.8029" y2="-6.5935" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80229064172865" y1="-6.592030507741722" x2="106.80338464172864" y2="-6.592863507741722" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.801806" cy="-6.592667" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.801806" y="-6.592667" stroke="rgb(0,0,0)" transform="translate(106.801806 -6.592667),scale(0.00001 -0.00001),translate(-106.801806 6.592667),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-salak</text>
     <line x1="106.8029" y1="-6.5935" x2="106.8044" y2="-6.5959" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8034087989824" y1="-6.593182000635997" x2="106.80490879898241" y2="-6.595582000635997" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8029" cy="-6.5935" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8029" y="-6.5935" stroke="rgb(0,0,0)" transform="translate(106.8029 -6.5935),scale(0.00001 -0.00001),translate(-106.8029 6.5935),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-pangrango</text>
     <line x1="106.8044" y1="-6.5959" x2="106.8052" y2="-6.6009" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80538744063192" y1="-6.595742009498894" x2="106.80618744063192" y2="-6.600742009498894" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8044" cy="-6.5959" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8044" y="-6.5959" stroke="rgb(0,0,0)" transform="translate(106.8044 -6.5959),scale(0.00001 -0.00001),translate(-106.8044 6.5959),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-astrid</text>
     <line x1="106.8052" y1="-6.6009" x2="106.8047" y2="-6.6016" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80585098677696" y1="-6.601364990554977" x2="106.80535098677696" y2="-6.602064990554977" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8052" cy="-6.6009" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8052" y="-6.6009" stroke="rgb(0,0,0)" transform="translate(106.8052 -6.6009),scale(0.00001 -0.00001),translate(-106.8052 6.6009),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-botani-1</text>
     <line x1="106.8047" y1="-6.6016" x2="106.8068" y2="-6.6043" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80485787044347" y1="-6.601477211877297" x2="106.80695787044347" y2="-6.604177211877297" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8047" cy="-6.6016" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8047" y="-6.6016" stroke="rgb(0,0,0)" transform="translate(106.8047 -6.6016),scale(0.00001 -0.00001),translate(-106.8047 6.6016),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-botani-2</text>
     <line x1="106.8068" y1="-6.6043" x2="106.8111" y2="-6.6017" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80659303226443" y1="-6.603957707206568" x2="106.81089303226443" y2="-6.601357707206568" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8068" cy="-6.6043" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8068" y="-6.6043" stroke="rgb(0,0,0)" transform="translate(106.8068 -6.6043),scale(0.00001 -0.00001),translate(-106.8068 6.6043),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >tol-1</text>
     <line x1="106.8111" y1="-6.6017" x2="106.8071" y2="-6.6045" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81132938493774" y1="-6.602027692768208" x2="106.80732938493774" y2="-6.6048276927682075" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8111" cy="-6.6017" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8111" y="-6.6017" stroke="rgb(0,0,0)" transform="translate(106.8111 -6.6017),scale(0.00001 -0.00001),translate(-106.8111 6.6017),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >tol-2</text>
     <line x1="106.8071" y1="-6.6045" x2="106.8099" y2="-6.6078" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80740500365415" y1="-6.6042412090207225" x2="106.81020500365415" y2="-6.607541209020723" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8071" cy="-6.6045" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8071" y="-6.6045" stroke="rgb(0,0,0)" transform="translate(106.8071 -6.6045),scale(0.00001 -0.00001),translate(-106.8071 6.6045),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >tol-3</text>
     <line x1="106.8099" y1="-6.6078" x2="106.813" y2="-6.6054" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8097775653614" y1="-6.6076418552584775" x2="106.8128775653614" y2="-6.605241855258478" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8099" cy="-6.6078" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8099" y="-6.6078" stroke="rgb(0,0,0)" transform="translate(106.8099 -6.6078),scale(0.00001 -0.00001),translate(-106.8099 6.6078),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pajajaran-ciheuleut</text>
     <line x1="106.813" y1="-6.6054" x2="106.8137" y2="-6.6007" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81280218196443" y1="-6.6053705377393825" x2="106.81350218196442" y2="-6.600670537739382" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.813" cy="-6.6054" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.813" y="-6.6054" stroke="rgb(0,0,0)" transform="translate(106.813 -6.6054),scale(0.00001 -0.00001),translate(-106.813 6.6054),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-pakuanindah</text>
     <line x1="106.8137" y1="-6.6007" x2="106.8126" y2="-6.599" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81353208596856" y1="-6.6008086502556305" x2="106.81243208596857" y2="-6.599108650255631" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8137" cy="-6.6007" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8137" y="-6.6007" stroke="rgb(0,0,0)" transform="translate(106.8137 -6.6007),scale(0.00001 -0.00001),translate(-106.8137 6.6007),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-binamarga</text>
     <line x1="106.8126" y1="-6.599" x2="106.8126" y2="-6.599" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8126" y1="-6.599" x2="106.8126" y2="-6.599" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8126" cy="-6.599" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8126" y="-6.599" stroke="rgb(0,0,0)" transform="translate(106.8126 -6.599),scale(0.00001 -0.00001),translate(-106.8126 6.599),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciheuleut-tegallega</text>
   </g>
 </svg>

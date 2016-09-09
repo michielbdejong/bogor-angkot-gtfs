@@ -122,6 +122,17 @@ function warp(x) {
   }
 }
 
+function makeTextTrans(x, y) {
+  return [
+    `translate(${x} ${y})`,
+    `scale(${TEXT_FACTOR/CANVAS_SCALE} ${-TEXT_FACTOR/CANVAS_SCALE})`,
+    `translate(${-x} ${-y})`,
+    `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
+    `rotate(${-MAP_ROTATION})`,
+    `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
+  ];
+}
+
 function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
   var path = [];
@@ -130,15 +141,7 @@ function drawPath(routeName, cornerPoints) {
     var y = cornerPoints[i].coords[1];
     path.push(`${x} ${y}`);
     if (cornerPoints[i].lanesChange || cornerPoints[i].isEndPoint) {
-      var textTrans = [
-        `translate(${x} ${y})`,
-        `scale(${TEXT_FACTOR/CANVAS_SCALE} ${-TEXT_FACTOR/CANVAS_SCALE})`,
-        `translate(${-x} ${-y})`,
-        `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
-        `rotate(${-MAP_ROTATION})`,
-        `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
-      ];
-  
+      var textTrans = makeTextTrans(x, y);
       var textAttr = [
         `x="${x}"`,
         `y="${y}"`,
@@ -357,10 +360,24 @@ function finishDrawing() {
   svg += texts.map(obj => 
      `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
   ).join('\n') + '\n';
-  svg += debugLines.map(line => 
-     `    <line x1="${line[0][1]}" y1="${line[0][0]}" x2="${line[1][1]}" y2="${line[1][0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`// \n` +
-//     `    <circle cx="${line[0][1]}" cy="${line[0][0]}" stroke="rgb(255,0,0)" r=".00002" />`
-  ).join('\n') + '\n';
+  svg += debugLines.map(line => {
+    var a = line[0];
+    var b = line[1];
+    var numLanes = a[3];
+    var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
+    var fromX = a[1] + numLanes * laneVector[0];
+    var fromY = a[0] + numLanes * laneVector[1];
+    var toX = b[1] + numLanes * laneVector[0];
+    var toY = b[0] + numLanes * laneVector[1];
+    var textTrans = makeTextTrans(a[1], a[0]);
+
+    return [
+      `    <line x1="${a[1]}" y1="${a[0]}" x2="${b[1]}" y2="${b[0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX}" y1="${fromY}" x2="${toX}" y2="${toY}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <circle cx="${a[1]}" cy="${a[0]}" fill="rgb(255,0,0)" r=".0001" />`,
+      `    <text x="${a[1]}" y="${a[0]}" stroke="rgb(0,0,0)" transform="${textTrans}" >${a[2]}</text>`,
+    ].join('\n');
+  }).join('\n') + '\n';
   svg += SVG_SUFFIX;
 }
 

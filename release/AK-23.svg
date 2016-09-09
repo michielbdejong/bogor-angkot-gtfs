@@ -147,49 +147,184 @@
     <text x="106.80220886783339" y="-6.590671216906437" fill="black" text-anchor="middle" transform="translate(106.80220886783339 -6.590671216906437) scale(0.00001 -0.00001) translate(-106.80220886783339 6.590671216906437) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">23</text>
     <text x="106.80141358715514" y="-6.589196429867608" fill="black" text-anchor="middle" transform="translate(106.80141358715514 -6.589196429867608) scale(0.00001 -0.00001) translate(-106.80141358715514 6.589196429867608) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">23</text>
     <line x1="106.8152" y1="-6.5704" x2="106.8176" y2="-6.5735" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81535814474152" y1="-6.570277565361402" x2="106.81775814474152" y2="-6.573377565361402" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8152" cy="-6.5704" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8152" y="-6.5704" stroke="rgb(0,0,0)" transform="translate(106.8152 -6.5704),scale(0.00001 -0.00001),translate(-106.8152 6.5704),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >adnawijaya-1</text>
     <line x1="106.8176" y1="-6.5735" x2="106.8178" y2="-6.577" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81779967426688" y1="-6.573488590041892" x2="106.81799967426689" y2="-6.576988590041892" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8176" cy="-6.5735" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8176" y="-6.5735" stroke="rgb(0,0,0)" transform="translate(106.8176 -6.5735),scale(0.00001 -0.00001),translate(-106.8176 6.5735),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >adnawijaya-2</text>
     <line x1="106.8178" y1="-6.577" x2="106.8184" y2="-6.5792" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81799295276426" y1="-6.576947376518842" x2="106.81859295276425" y2="-6.579147376518843" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8178" cy="-6.577" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8178" y="-6.577" stroke="rgb(0,0,0)" transform="translate(106.8178 -6.577),scale(0.00001 -0.00001),translate(-106.8178 6.577),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >adnawijaya-3</text>
     <line x1="106.8184" y1="-6.5792" x2="106.8178" y2="-6.5819" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81859523741204" y1="-6.579243386091563" x2="106.81799523741205" y2="-6.581943386091563" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8184" cy="-6.5792" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8184" y="-6.5792" stroke="rgb(0,0,0)" transform="translate(106.8184 -6.5792),scale(0.00001 -0.00001),translate(-106.8184 6.5792),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >adnawijaya-4</text>
     <line x1="106.8178" y1="-6.5819" x2="106.8132" y2="-6.5816" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81778698417254" y1="-6.582099576021193" x2="106.81318698417253" y2="-6.581799576021193" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8178" cy="-6.5819" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8178" y="-6.5819" stroke="rgb(0,0,0)" transform="translate(106.8178 -6.5819),scale(0.00001 -0.00001),translate(-106.8178 6.5819),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >adnawijaya-5</text>
     <line x1="106.8132" y1="-6.5816" x2="106.811" y2="-6.5811" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81311135155856" y1="-6.5819900531423166" x2="106.81091135155857" y2="-6.581490053142317" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8132" cy="-6.5816" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8132" y="-6.5816" stroke="rgb(0,0,0)" transform="translate(106.8132 -6.5816),scale(0.00001 -0.00001),translate(-106.8132 6.5816),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >sobana-palapuhraya</text>
     <line x1="106.811" y1="-6.5811" x2="106.8067" y2="-6.5808" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.81098608034743" y1="-6.581299515020167" x2="106.80668608034743" y2="-6.580999515020167" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.811" cy="-6.5811" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.811" y="-6.5811" stroke="rgb(0,0,0)" transform="translate(106.811 -6.5811),scale(0.00001 -0.00001),translate(-106.811 6.5811),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >sobana-sungai</text>
     <line x1="106.8067" y1="-6.5808" x2="106.8049" y2="-6.5886" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80728463471742" y1="-6.580934915704019" x2="106.80548463471742" y2="-6.588734915704019" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8067" cy="-6.5808" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8067" y="-6.5808" stroke="rgb(0,0,0)" transform="translate(106.8067 -6.5808),scale(0.00001 -0.00001),translate(-106.8067 6.5808),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pajajaran-sobana</text>
     <line x1="106.8049" y1="-6.5886" x2="106.805904" y2="-6.588862" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80505150021615" y1="-6.588019441919783" x2="106.80605550021615" y2="-6.588281441919783" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8049" cy="-6.5886" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8049" y="-6.5886" stroke="rgb(0,0,0)" transform="translate(106.8049 -6.5886),scale(0.00001 -0.00001),translate(-106.8049 6.5886),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >salak-pajajaran</text>
     <line x1="106.805904" y1="-6.588862" x2="106.805706" y2="-6.591276" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80650199186671" y1="-6.5889110482144195" x2="106.80630399186671" y2="-6.5913250482144194" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.805904" cy="-6.588862" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.805904" y="-6.588862" stroke="rgb(0,0,0)" transform="translate(106.805904 -6.588862),scale(0.00001 -0.00001),translate(-106.805904 6.588862),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >lodaya-N</text>
     <line x1="106.805706" y1="-6.591276" x2="106.805701" y2="-6.592177" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.806505987682" y1="-6.591280439443297" x2="106.806500987682" y2="-6.592181439443298" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.805706" cy="-6.591276" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.805706" y="-6.591276" stroke="rgb(0,0,0)" transform="translate(106.805706 -6.591276),scale(0.00001 -0.00001),translate(-106.805706 6.591276),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >lodaya-M</text>
     <line x1="106.805701" y1="-6.592177" x2="106.8046" y2="-6.5922" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80571770843457" y1="-6.592976825498602" x2="106.80461670843457" y2="-6.592999825498602" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.805701" cy="-6.592177" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.805701" y="-6.592177" stroke="rgb(0,0,0)" transform="translate(106.805701 -6.592177),scale(0.00001 -0.00001),translate(-106.805701 6.592177),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >lodaya-S</text>
     <line x1="106.8046" y1="-6.5922" x2="106.8044" y2="-6.5959" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80559854227327" y1="-6.592253975258013" x2="106.80539854227328" y2="-6.595953975258014" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8046" cy="-6.5922" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8046" y="-6.5922" stroke="rgb(0,0,0)" transform="translate(106.8046 -6.5922),scale(0.00001 -0.00001),translate(-106.8046 6.5922),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pangrango-pajajaran</text>
     <line x1="106.8044" y1="-6.5959" x2="106.8052" y2="-6.6009" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80637488126384" y1="-6.595584018997788" x2="106.80717488126383" y2="-6.600584018997788" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8044" cy="-6.5959" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8044" y="-6.5959" stroke="rgb(0,0,0)" transform="translate(106.8044 -6.5959),scale(0.00001 -0.00001),translate(-106.8044 6.5959),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-astrid</text>
     <line x1="106.8052" y1="-6.6009" x2="106.8047" y2="-6.6016" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80650197355392" y1="-6.601829981109954" x2="106.80600197355392" y2="-6.602529981109954" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8052" cy="-6.6009" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8052" y="-6.6009" stroke="rgb(0,0,0)" transform="translate(106.8052 -6.6009),scale(0.00001 -0.00001),translate(-106.8052 6.6009),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-botani-1</text>
     <line x1="106.8047" y1="-6.6016" x2="106.7996" y2="-6.6027" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8049530054467" y1="-6.602773025252899" x2="106.7998530054467" y2="-6.6038730252528985" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8047" cy="-6.6016" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8047" y="-6.6016" stroke="rgb(0,0,0)" transform="translate(106.8047 -6.6016),scale(0.00001 -0.00001),translate(-106.8047 6.6016),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-botani-2</text>
     <line x1="106.7996" y1="-6.6027" x2="106.7967" y2="-6.6042" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80015130750265" y1="-6.603765861171786" x2="106.79725130750265" y2="-6.6052658611717865" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7996" cy="-6.6027" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7996" y="-6.6027" stroke="rgb(0,0,0)" transform="translate(106.7996 -6.6027),scale(0.00001 -0.00001),translate(-106.7996 6.6027),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-otista</text>
     <line x1="106.7967" y1="-6.6042" x2="106.7961" y2="-6.6038" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7959234197253" y1="-6.605364870412076" x2="106.79532341972529" y2="-6.6049648704120765" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7967" cy="-6.6042" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7967" y="-6.6042" stroke="rgb(0,0,0)" transform="translate(106.7967 -6.6042),scale(0.00001 -0.00001),translate(-106.7967 6.6042),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-btm-1</text>
     <line x1="106.7961" y1="-6.6038" x2="106.7937" y2="-6.5969" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79421100640658" y1="-6.604457041249881" x2="106.79181100640659" y2="-6.597557041249881" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7961" cy="-6.6038" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7961" y="-6.6038" stroke="rgb(0,0,0)" transform="translate(106.7961 -6.6038),scale(0.00001 -0.00001),translate(-106.7961 6.6038),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-btm-2</text>
     <line x1="106.7937" y1="-6.5969" x2="106.7946" y2="-6.5945" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79164007580935" y1="-6.596127528428504" x2="106.79254007580936" y2="-6.593727528428504" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7937" cy="-6.5969" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7937" y="-6.5969" stroke="rgb(0,0,0)" transform="translate(106.7937 -6.5969),scale(0.00001 -0.00001),translate(-106.7937 6.5969),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-muslihat</text>
     <line x1="106.7946" y1="-6.5945" x2="106.7973" y2="-6.593" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79343445696517" y1="-6.592402022537308" x2="106.79613445696518" y2="-6.590902022537308" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7946" cy="-6.5945" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7946" y="-6.5945" stroke="rgb(0,0,0)" transform="translate(106.7946 -6.5945),scale(0.00001 -0.00001),translate(-106.7946 6.5945),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-gedong-sawah</text>
     <line x1="106.7973" y1="-6.593" x2="106.7984" y2="-6.5935" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79812760588861" y1="-6.591179267045076" x2="106.7992276058886" y2="-6.591679267045076" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7973" cy="-6.593" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7973" y="-6.593" stroke="rgb(0,0,0)" transform="translate(106.7973 -6.593),scale(0.00001 -0.00001),translate(-106.7973 6.593),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-polisi-militer</text>
     <line x1="106.7984" y1="-6.5935" x2="106.800814" y2="-6.592262" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79748733677147" y1="-6.591720380425126" x2="106.79990133677147" y2="-6.590482380425126" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7984" cy="-6.5935" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7984" y="-6.5935" stroke="rgb(0,0,0)" transform="translate(106.7984 -6.5935),scale(0.00001 -0.00001),translate(-106.7984 6.5935),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-jalak-harupat</text>
     <line x1="106.800814" y1="-6.592262" x2="106.801806" y2="-6.592667" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80156995725771" y1="-6.590410371358906" x2="106.80256195725771" y2="-6.5908153713589055" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.800814" cy="-6.592262" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.800814" y="-6.592262" stroke="rgb(0,0,0)" transform="translate(106.800814 -6.592262),scale(0.00001 -0.00001),translate(-106.800814 6.592262),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-sempur</text>
     <line x1="106.801806" y1="-6.592667" x2="106.802112" y2="-6.591937" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80143709899667" y1="-6.59251236478491" x2="106.80174309899667" y2="-6.59178236478491" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.801806" cy="-6.592667" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.801806" y="-6.592667" stroke="rgb(0,0,0)" transform="translate(106.801806 -6.592667),scale(0.00001 -0.00001),translate(-106.801806 6.592667),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kb-salak</text>
     <line x1="106.802112" y1="-6.591937" x2="106.802069" y2="-6.591191" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80171266283999" y1="-6.591960018093668" x2="106.80166966284" y2="-6.591214018093669" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.802112" cy="-6.591937" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.802112" y="-6.591937" stroke="rgb(0,0,0)" transform="translate(106.802112 -6.591937),scale(0.00001 -0.00001),translate(-106.802112 6.591937),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >salak-1</text>
     <line x1="106.802069" y1="-6.591191" x2="106.801645" y2="-6.589918" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8016894968796" y1="-6.591317401667754" x2="106.8012654968796" y2="-6.590044401667754" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.802069" cy="-6.591191" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.802069" y="-6.591191" stroke="rgb(0,0,0)" transform="translate(106.802069 -6.591191),scale(0.00001 -0.00001),translate(-106.802069 6.591191),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >salak-2</text>
     <line x1="106.801645" y1="-6.589918" x2="106.8018" y2="-6.5893" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80125701697172" y1="-6.589820690340802" x2="106.80141201697172" y2="-6.589202690340802" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.801645" cy="-6.589918" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.801645" y="-6.589918" stroke="rgb(0,0,0)" transform="translate(106.801645 -6.589918),scale(0.00001 -0.00001),translate(-106.801645 6.589918),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >salak-3</text>
     <line x1="106.8018" y1="-6.5893" x2="106.8005" y2="-6.588" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80165857864377" y1="-6.589441421356237" x2="106.80035857864377" y2="-6.588141421356237" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8018" cy="-6.5893" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8018" y="-6.5893" stroke="rgb(0,0,0)" transform="translate(106.8018 -6.5893),scale(0.00001 -0.00001),translate(-106.8018 6.5893),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >kencana-1</text>
     <line x1="106.8005" y1="-6.588" x2="106.7998" y2="-6.586" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80031122832872" y1="-6.588066070084945" x2="106.79961122832873" y2="-6.586066070084946" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8005" cy="-6.588" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8005" y="-6.588" stroke="rgb(0,0,0)" transform="translate(106.8005 -6.588),scale(0.00001 -0.00001),translate(-106.8005 6.588),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-1</text>
     <line x1="106.7998" y1="-6.586" x2="106.8004" y2="-6.5832" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.79960443951718" y1="-6.585958094182255" x2="106.80020443951717" y2="-6.583158094182254" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.7998" cy="-6.586" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.7998" y="-6.586" stroke="rgb(0,0,0)" transform="translate(106.7998 -6.586),scale(0.00001 -0.00001),translate(-106.7998 6.586),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-2</text>
     <line x1="106.8004" y1="-6.5832" x2="106.801" y2="-6.5817" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80021430466182" y1="-6.583125721864728" x2="106.80081430466183" y2="-6.581625721864728" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8004" cy="-6.5832" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8004" y="-6.5832" stroke="rgb(0,0,0)" transform="translate(106.8004 -6.5832),scale(0.00001 -0.00001),translate(-106.8004 6.5832),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-3</text>
     <line x1="106.801" y1="-6.5817" x2="106.8018" y2="-6.5817" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.801" y1="-6.581499999999999" x2="106.8018" y2="-6.581499999999999" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.801" cy="-6.5817" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.801" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(106.801 -6.5817),scale(0.00001 -0.00001),translate(-106.801 6.5817),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-4</text>
     <line x1="106.8018" y1="-6.5817" x2="106.8024" y2="-6.5766" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80160136987914" y1="-6.581676631750486" x2="106.80220136987914" y2="-6.576576631750486" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8018" cy="-6.5817" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8018" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(106.8018 -6.5817),scale(0.00001 -0.00001),translate(-106.8018 6.5817),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-5</text>
     <line x1="106.8024" y1="-6.5766" x2="106.8045" y2="-6.5752" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80228905996076" y1="-6.576433589941132" x2="106.80438905996076" y2="-6.575033589941132" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8024" cy="-6.5766" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8024" y="-6.5766" stroke="rgb(0,0,0)" transform="translate(106.8024 -6.5766),scale(0.00001 -0.00001),translate(-106.8024 6.5766),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-6</text>
     <line x1="106.8045" y1="-6.5752" x2="106.8047" y2="-6.5744" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80430597149997" y1="-6.575151492874994" x2="106.80450597149996" y2="-6.574351492874994" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8045" cy="-6.5752" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8045" y="-6.5752" stroke="rgb(0,0,0)" transform="translate(106.8045 -6.5752),scale(0.00001 -0.00001),translate(-106.8045 6.5752),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-7</text>
     <line x1="106.8047" y1="-6.5744" x2="106.807" y2="-6.5728" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80458578710235" y1="-6.574235818959642" x2="106.80688578710236" y2="-6.572635818959642" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8047" cy="-6.5744" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8047" y="-6.5744" stroke="rgb(0,0,0)" transform="translate(106.8047 -6.5744),scale(0.00001 -0.00001),translate(-106.8047 6.5744),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-8</text>
     <line x1="106.807" y1="-6.5728" x2="106.8085" y2="-6.5701" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80682516854478" y1="-6.572702871413765" x2="106.80832516854477" y2="-6.570002871413765" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.807" cy="-6.5728" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.807" y="-6.5728" stroke="rgb(0,0,0)" transform="translate(106.807 -6.5728),scale(0.00001 -0.00001),translate(-106.807 6.5728),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-9</text>
     <line x1="106.8085" y1="-6.5701" x2="106.8075" y2="-6.5703" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80853922322703" y1="-6.570296116135138" x2="106.80753922322704" y2="-6.570496116135137" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8085" cy="-6.5701" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8085" y="-6.5701" stroke="rgb(0,0,0)" transform="translate(106.8085 -6.5701),scale(0.00001 -0.00001),translate(-106.8085 6.5701),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >ciremai-jambudua</text>
     <line x1="106.8075" y1="-6.5703" x2="106.8069" y2="-6.5695" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80734000000001" y1="-6.57042" x2="106.80674" y2="-6.5696200000000005" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8075" cy="-6.5703" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8075" y="-6.5703" stroke="rgb(0,0,0)" transform="translate(106.8075 -6.5703),scale(0.00001 -0.00001),translate(-106.8075 6.5703),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >jambudua-1</text>
     <line x1="106.8069" y1="-6.5695" x2="106.807" y2="-6.569" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80670388386486" y1="-6.569460776772971" x2="106.80680388386486" y2="-6.568960776772971" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8069" cy="-6.5695" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8069" y="-6.5695" stroke="rgb(0,0,0)" transform="translate(106.8069 -6.5695),scale(0.00001 -0.00001),translate(-106.8069 6.5695),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >jambudua-2</text>
     <line x1="106.807" y1="-6.569" x2="106.8068" y2="-6.5685" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80681430466183" y1="-6.569074278135273" x2="106.80661430466182" y2="-6.568574278135273" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.807" cy="-6.569" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.807" y="-6.569" stroke="rgb(0,0,0)" transform="translate(106.807 -6.569),scale(0.00001 -0.00001),translate(-106.807 6.569),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >jambudua-3</text>
     <line x1="106.8068" y1="-6.5685" x2="106.8074" y2="-6.5684" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80676712020254" y1="-6.568302721215233" x2="106.80736712020254" y2="-6.568202721215233" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8068" cy="-6.5685" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8068" y="-6.5685" stroke="rgb(0,0,0)" transform="translate(106.8068 -6.5685),scale(0.00001 -0.00001),translate(-106.8068 6.5685),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >jambudua-yani</text>
     <line x1="106.8074" y1="-6.5684" x2="106.8091" y2="-6.5689" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.8074564332648" y1="-6.568208126899686" x2="106.8091564332648" y2="-6.568708126899686" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8074" cy="-6.5684" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8074" y="-6.5684" stroke="rgb(0,0,0)" transform="translate(106.8074 -6.5684),scale(0.00001 -0.00001),translate(-106.8074 6.5684),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >yani-sungai</text>
     <line x1="106.8091" y1="-6.5689" x2="106.8152" y2="-6.5704" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.80914775762425" y1="-6.568705785661379" x2="106.81524775762425" y2="-6.570205785661379" style="stroke:rgb(0,0,0);stroke-width:.00002" />
+    <circle cx="106.8091" cy="-6.5689" fill="rgb(255,0,0)" r=".0001" />
+    <text x="106.8091" y="-6.5689" stroke="rgb(0,0,0)" transform="translate(106.8091 -6.5689),scale(0.00001 -0.00001),translate(-106.8091 6.5689),translate(106.8125 -6.592499999999999),rotate(-30),translate(-106.8125 6.592499999999999)" >pajajaran-jambudua</text>
   </g>
 </svg>
