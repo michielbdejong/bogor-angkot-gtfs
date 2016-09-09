@@ -21,8 +21,8 @@ const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
-const LANE_FACTOR = 10000;
-const STROKE_WIDTH = .2;
+const LANE_FACTOR = 2500;
+const STROKE_WIDTH = 5;
 const ROUTE_COLOURS = {
   'AK-01': 'blue',
   'AK-02': 'orange',
@@ -83,7 +83,7 @@ const BOUNDING_BOX_PATH = [
 const BOUNDING_BOX_TRANSFORMATIONS = [
   `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
   `rotate(${MAP_ROTATION})`,
-  `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`
+  `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
 ];
 
 const BOUNDING_BOX_ATTR = [
@@ -103,6 +103,7 @@ const SVG_SUFFIX = `  </g>\n` +
 
 // globals
 var svg;
+var texts;
 var routes = {};
 var cornerPoints = {};
 
@@ -121,23 +122,29 @@ function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
   var path = [];
   for (var i=0; i<cornerPoints.length; i++) {
-    var x = cornerPoints[i][0];
-    var y = cornerPoints[i][1];
+    var x = cornerPoints[i].coords[0];
+    var y = cornerPoints[i].coords[1];
     path.push(`${x} ${y}`);
-    var thisTextTrans = [
-      `translate(${x} ${y})`,
-      `scale(${.2/CANVAS_SCALE} ${-.2/CANVAS_SCALE})`,
-      `rotate(-30)`,
-      `translate(${-x} ${-y})`
-    ];
-
-    var textAttr = [
-      `x="${cornerPoints[i][0]}"`,
-      `y="${cornerPoints[i][1]}"`,
-      `fill="black"`,
-      `transform="${thisTextTrans.join(' ')}"`
-    ];
-    svg += `    <text ${textAttr.join(' ')}>${routeName.substring(3)}</text>\n`;
+    if (cornerPoints[i].lanesChange) {
+      var thisTextTrans = [
+        `translate(${x} ${y})`,
+        `scale(${.2/CANVAS_SCALE} ${-.2/CANVAS_SCALE})`,
+        `translate(${-x} ${-y})`,
+        `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
+        `rotate(${-MAP_ROTATION})`,
+        `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
+      ];
+  
+      var textAttr = [
+        `x="${cornerPoints[i].coords[0]}"`,
+        `y="${cornerPoints[i].coords[1]}"`,
+        `fill="black"`,
+        `text-anchor="middle"`,
+        `transform="${thisTextTrans.join(' ')}"`
+      ];
+      var textStr = routeName.substring(3);
+      texts.push(`    <text ${textAttr.join(' ')}>${textStr}</text>`);
+    }
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
@@ -165,8 +172,9 @@ function readPoints() {
   });
 }
 
+var lanes = {};
+
 function assignLanes() {
-  var numLanes = {};
   for (var routeName in routes) {
     for (var i=0; i<routes[routeName].length; i++) {
       var stretchDef = [
@@ -175,12 +183,17 @@ function assignLanes() {
         routes[routeName][(i+1) % routes[routeName].length][0],
         routes[routeName][(i+1) % routes[routeName].length][1],
       ].join(',');
-      if (typeof numLanes[stretchDef] === 'undefined') {
-        numLanes[stretchDef] = 0;
+      if (typeof lanes[stretchDef] === 'undefined') {
+        lanes[stretchDef] = [];
       }
-      var lane = ++numLanes[stretchDef];
+      lanes[stretchDef].push(routeName);
+      var lane = lanes[stretchDef].length;
+      // lane index is 1-based
+      // to make room for e.g. streetname in between left-driving forward and
+      // oncoming lanes.
       // to each point, add the lane to be used after that point
       routes[routeName][i].push(lane);
+      routes[routeName][i].push(stretchDef);
     }
   }
 }
@@ -280,7 +293,15 @@ function cutLines(a, b, fallbackCoords) {
 function makeCornerPoint(routeName, before, here, after) {
   var beforeLine = lineThrough(before, here);
   var afterLine = lineThrough(here, after);
-  return cutLines(beforeLine, afterLine, here);
+  var lanesBefore = lanes[before[3]].join(',');
+  var lanesAfter = lanes[after[3]].join(',');
+  if (lanesBefore !== lanesAfter) {
+    console.log(before[3], lanesBefore, after[3], lanesAfter);
+  }
+  return {
+    coords: cutLines(beforeLine, afterLine, here),
+    lanesChange: lanesBefore !== lanesAfter,
+  };
 }
 
 function traceRoute(routeName) {
@@ -300,20 +321,31 @@ readPoints();
 assignLanes();
 
 // draw map.svg
-svg = SVG_PREFIX;
+function initDrawing() {
+  svg = SVG_PREFIX;
+  texts = [];
+}
+
+function finishDrawing() {
+  svg += texts.join('\n') + '\n' + SVG_SUFFIX;
+}
+
+initDrawing();
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
     drawPath(routeName, traceRoute(routeName));
   }
 }
-fs.writeFileSync('./release/map.svg', svg + SVG_SUFFIX);
+finishDrawing();
+fs.writeFileSync('./release/map.svg', svg);
 
 // draw per-route maps
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
-    svg = SVG_PREFIX;
+    initDrawing();
     drawPath(routeName, traceRoute(routeName));
-    fs.writeFileSync(`./release/${routeName}.svg`, svg + SVG_SUFFIX);
+    finishDrawing();
+    fs.writeFileSync(`./release/${routeName}.svg`, svg);
   }
 }
 
