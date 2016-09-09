@@ -294,8 +294,12 @@ function cutLines(a, b, fallbackCoords) {
   console.error('Failure to cut lines', a, b, [x, y]);
 }
 
-function makeCornerPoint(routeName, before, here, after) {
+var debugLines = [];
+function makeCornerPoint(routeName, before, here, after, debug) {
   var beforeLine = lineThrough(before, here);
+  if (debug) {
+    debugLines.push([before, here]);
+  }
   var afterLine = lineThrough(here, after);
   // each of before, here, after contains:
   // [x, y, stop_name, lane, stretchDef-starting]
@@ -313,7 +317,7 @@ function makeCornerPoint(routeName, before, here, after) {
   };
 }
 
-function traceRoute(routeName) {
+function traceRoute(routeName, debug) {
   var cornerPoints = [];
   var points = routes[routeName];
   for (var i=0; i<points.length; i++) {
@@ -321,7 +325,7 @@ function traceRoute(routeName) {
       routeName,
       points[i],
       points[(i+1) % points.length],
-      points[(i+2) % points.length]));
+      points[(i+2) % points.length], debug));
   }
   return cornerPoints;
 }
@@ -333,6 +337,7 @@ assignLanes();
 function initDrawing() {
   svg = SVG_PREFIX;
   texts = [];
+  debugLines = [];
 }
 
 function finishDrawing() {
@@ -351,6 +356,10 @@ function finishDrawing() {
   svg += texts.map(obj => 
      `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
   ).join('\n') + '\n';
+  svg += debugLines.map(line => 
+     `    <line x1="${line[0][1]}" y1="${line[0][0]}" x2="${line[1][1]}" y2="${line[1][0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`// \n` +
+//     `    <circle cx="${line[0][1]}" cy="${line[0][0]}" stroke="rgb(255,0,0)" r=".00002" />`
+  ).join('\n') + '\n';
   svg += SVG_SUFFIX;
 }
 
@@ -367,7 +376,7 @@ fs.writeFileSync('./release/map.svg', svg);
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
     initDrawing();
-    drawPath(routeName, traceRoute(routeName));
+    drawPath(routeName, traceRoute(routeName, true));
     finishDrawing();
     fs.writeFileSync(`./release/${routeName}.svg`, svg);
   }

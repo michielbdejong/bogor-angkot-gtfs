@@ -789,7 +789,7 @@ AK-16,-6.533870,106.767781,11,0.11,iskandar-19-turns-N
 AK-16,-6.537281,106.769948,11,0.11,iskandar-kencana
 AK-16,-6.554080,106.776396,11,0.11,iskandar-bendright
 AK-16,-6.556041,106.778477,11,0.11,iskandar-ciampea-Y
-AK-20,-6.560033,106.787495,11,0.11,iskandar-20-rejions
+AK-16,-6.560033,106.787495,11,0.11,iskandar-20-rejions
 AK-16,-6.562889,106.797108,11,0.11,iskandar-majujaya
 AK-16,-6.561887,106.801968,11,0.11,pedes-iskandar
 AK-16,-6.561578,106.802644,11,0.11,iskandar-underloop
@@ -920,7 +920,7 @@ AK-19,-6.570302,106.756194,10,0.10,cifor-ciampea
 AK-19,-6.568074,106.759895,10,0.10,ciampea-before-river
 AK-19,-6.557864,106.770624,10,0.10,ciampea-towards-iskandar
 AK-19,-6.556041,106.778477,11,0.11,iskandar-ciampea-Y
-AK-16,-6.554080,106.776396,11,0.11,iskandar-bendright
+AK-19,-6.554080,106.776396,11,0.11,iskandar-bendright
 AK-19,-6.537281,106.769948,11,0.11,iskandar-kencana
 AK-19,-6.533870,106.767781,11,0.11,iskandar-19-turns-N
 AK-19,-6.537281,106.769948,11,0.11,iskandar-kencana
@@ -946,7 +946,7 @@ AK-19,-6.534595,106.776514,11,0.11,kencana-3-over-river
 AK-19,-6.536354,106.772963,11,0.11,kencana-2-bend-left
 AK-19,-6.536056,106.771761,11,0.11,kencana-1-bend-right
 AK-19,-6.537281,106.769948,11,0.11,iskandar-kencana
-AK-16,-6.554080,106.776396,11,0.11,iskandar-bendright
+AK-19,-6.554080,106.776396,11,0.11,iskandar-bendright
 AK-19,-6.556041,106.778477,11,0.11,iskandar-ciampea-Y
 AK-19,-6.557864,106.770624,10,0.10,ciampea-towards-iskandar
 AK-19,-6.568074,106.759895,10,0.10,ciampea-before-river

@@ -38,5 +38,22 @@
     <text x="106.79357303047264" y="-6.582377518160622" fill="black" text-anchor="middle" transform="translate(106.79357303047264 -6.582377518160622) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.79357303047264 6.582377518160622) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">12</text>
     <text x="106.7881" y="-6.589537110083469" fill="black" text-anchor="middle" transform="translate(106.7881 -6.589537110083469) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7881 6.589537110083469) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">12</text>
     <text x="106.79239693972178" y="-6.589599579126464" fill="black" text-anchor="middle" transform="translate(106.79239693972178 -6.589599579126464) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.79239693972178 6.589599579126464) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">12</text>
+    <line x1="106.7924" y1="-6.5928" x2="106.7925" y2="-6.592" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7925" y1="-6.592" x2="106.7971" y2="-6.5919" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7971" y1="-6.5919" x2="106.7968" y2="-6.5817" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7968" y1="-6.5817" x2="106.7965" y2="-6.5813" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7965" y1="-6.5813" x2="106.793232" y2="-6.582045" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.793232" y1="-6.582045" x2="106.7931" y2="-6.5827" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7931" y1="-6.5827" x2="106.7915" y2="-6.5832" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7915" y1="-6.5832" x2="106.7877" y2="-6.5829" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7877" y1="-6.5829" x2="106.788" y2="-6.5729" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.788" y1="-6.5729" x2="106.7877" y2="-6.5702" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7877" y1="-6.5702" x2="106.788" y2="-6.5729" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.788" y1="-6.5729" x2="106.7877" y2="-6.5829" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7877" y1="-6.5829" x2="106.7877" y2="-6.5903" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7877" y1="-6.5903" x2="106.7906" y2="-6.5906" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7906" y1="-6.5906" x2="106.7895" y2="-6.5958" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7895" y1="-6.5958" x2="106.7915" y2="-6.5963" style="stroke:rgb(255,0,0);stroke-width:.00002" />
+    <line x1="106.7915" y1="-6.5963" x2="106.7924" y2="-6.5928" style="stroke:rgb(255,0,0);stroke-width:.00002" />
   </g>
 </svg>
