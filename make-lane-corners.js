@@ -23,6 +23,9 @@ const LON_COL = 2;
 const STOP_COL = 5;
 const LANE_FACTOR = 2500;
 const STROKE_WIDTH = 5;
+const TEXT_CIRCLE_SIZE = 15;
+const TEXT_CIRCLE_UP = 6;
+const TEXT_CIRCLE_LEFT = 0;
 const ROUTE_COLOURS = {
   'AK-01': 'blue',
   'AK-02': 'orange',
@@ -126,9 +129,9 @@ function drawPath(routeName, cornerPoints) {
     var y = cornerPoints[i].coords[1];
     path.push(`${x} ${y}`);
     if (cornerPoints[i].lanesChange) {
-      var thisTextTrans = [
+      var textTrans = [
         `translate(${x} ${y})`,
-        `scale(${.2/CANVAS_SCALE} ${-.2/CANVAS_SCALE})`,
+        `scale(${.15/CANVAS_SCALE} ${-.15/CANVAS_SCALE})`,
         `translate(${-x} ${-y})`,
         `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
         `rotate(${-MAP_ROTATION})`,
@@ -136,14 +139,14 @@ function drawPath(routeName, cornerPoints) {
       ];
   
       var textAttr = [
-        `x="${cornerPoints[i].coords[0]}"`,
-        `y="${cornerPoints[i].coords[1]}"`,
+        `x="${x}"`,
+        `y="${y}"`,
         `fill="black"`,
         `text-anchor="middle"`,
-        `transform="${thisTextTrans.join(' ')}"`
+        `transform="${textTrans.join(' ')}"`
       ];
       var textStr = routeName.substring(3);
-      texts.push(`    <text ${textAttr.join(' ')}>${textStr}</text>`);
+      texts.push({ x, y, textTrans, textAttr, textStr});
     }
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
@@ -295,9 +298,9 @@ function makeCornerPoint(routeName, before, here, after) {
   var afterLine = lineThrough(here, after);
   var lanesBefore = lanes[before[3]].join(',');
   var lanesAfter = lanes[after[3]].join(',');
-  if (lanesBefore !== lanesAfter) {
-    console.log(before[3], lanesBefore, after[3], lanesAfter);
-  }
+  // if (lanesBefore !== lanesAfter) {
+  //   console.log(before[3], lanesBefore, after[3], lanesAfter);
+  // }
   return {
     coords: cutLines(beforeLine, afterLine, here),
     lanesChange: lanesBefore !== lanesAfter,
@@ -327,7 +330,22 @@ function initDrawing() {
 }
 
 function finishDrawing() {
-  svg += texts.join('\n') + '\n' + SVG_SUFFIX;
+  svg += texts.map(obj => 
+     `    <circle \n` +
+     `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+     `      fill="white" stroke="black" stroke-width="2"/>`
+  ).join('\n') + '\n';
+  svg += texts.map(obj => 
+     `    <circle \n` +
+     `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+     `      fill="white" stroke="none"/>`
+  ).join('\n') + '\n';
+  svg += texts.map(obj => 
+     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
+  ).join('\n') + '\n';
+  svg += SVG_SUFFIX;
 }
 
 initDrawing();
