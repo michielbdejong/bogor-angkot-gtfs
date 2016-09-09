@@ -1,0 +1,14 @@
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+AK-01,-6.59,106.80,10,0.10,top-left
+AK-01,-6.60,106.81,10,0.10,middle
+AK-01,-6.60,106.80,10,0.10,left
+AK-01,-6.61,106.82,10,0.10,bottom
+AK-01,-6.60,106.82,10,0.10,right
+AK-01,-6.59,106.82,10,0.10,top-right
+AK-01,-6.60,106.82,10,0.10,right
+AK-01,-6.61,106.82,10,0.10,bottom
+AK-01,-6.60,106.80,10,0.10,left
+AK-01,-6.60,106.81,10,0.10,middle
+AK-02,-6.60,106.81,10,0.10,middle
+AK-02,-6.60,106.80,10,0.10,left
+AK-02,-6.61,106.82,10,0.10,bottom

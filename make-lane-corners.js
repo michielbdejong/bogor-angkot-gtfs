@@ -128,7 +128,7 @@ function drawPath(routeName, cornerPoints) {
     var x = cornerPoints[i].coords[0];
     var y = cornerPoints[i].coords[1];
     path.push(`${x} ${y}`);
-    if (cornerPoints[i].lanesChange) {
+    if (cornerPoints[i].lanesChange || cornerPoints[i].isEndPoint) {
       var textTrans = [
         `translate(${x} ${y})`,
         `scale(${.15/CANVAS_SCALE} ${-.15/CANVAS_SCALE})`,
@@ -156,6 +156,7 @@ function drawPath(routeName, cornerPoints) {
 function readPoints() {
   var firstLine = true;
   fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\n').map(line => {
+  // fs.readFileSync('./test/shapes.txt').toString().split('\n').map(line => {
     if (firstLine) {
       firstLine = false;
       return;
@@ -170,7 +171,7 @@ function readPoints() {
     routes[columns[NAME_COL]].push([
       parseFloat(columns[LAT_COL]),
       parseFloat(columns[LON_COL]),
-  //    columns[STOP_COL],
+      columns[STOP_COL],
     ]);
   });
 }
@@ -214,8 +215,8 @@ function lineThrough(a, b) {
   // a = [lat, lon] -> [y, x]
   // b = [lat, lon] -> [y, x]
 
-  //console.log('line through', a, b);
-  var numLanes = a[2];
+  // console.log('line through', a, b);
+  var numLanes = a[3];
   var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
   var fromX = a[1] + numLanes * laneVector[0];
   var fromY = a[0] + numLanes * laneVector[1];
@@ -277,15 +278,15 @@ function cutLines(a, b, fallbackCoords) {
     // console.log('cutting with k', a, b, [x, y]);
     return [x, y];
   }
-  x = fallbackCoords[1];
-  y = fallbackCoords[0];
+  // x = fallbackCoords[1];
+  // y = fallbackCoords[0];
 
-  // var finishXA = a[0]+a[1];
-  // var finishYA = a[2]+a[3];
-  // var startXB = b[0];
-  // var startYB = b[2];
-  // x = (finishXA + startXB)/2;
-  // y = (finishYA + startYB)/2;
+  var finishXA = a[0]+a[1];
+  var finishYA = a[2]+a[3];
+  var startXB = b[0];
+  var startYB = b[2];
+  x = (finishXA + startXB)/2;
+  y = (finishYA + startYB)/2;
   if (coordsOK(x, y)) {
     // console.log('end point - lines are parallel', a, b, [x, y]);
     return [x, y];
@@ -296,14 +297,19 @@ function cutLines(a, b, fallbackCoords) {
 function makeCornerPoint(routeName, before, here, after) {
   var beforeLine = lineThrough(before, here);
   var afterLine = lineThrough(here, after);
-  var lanesBefore = lanes[before[3]].join(',');
-  var lanesAfter = lanes[after[3]].join(',');
-  // if (lanesBefore !== lanesAfter) {
-  //   console.log(before[3], lanesBefore, after[3], lanesAfter);
+  // each of before, here, after contains:
+  // [x, y, stop_name, lane, stretchDef-starting]
+  var lanesBefore = lanes[before[4]].join(',');
+  var lanesAfter = lanes[here[4]].join(',');
+  // if (lanesBefore.localeCompare(lanesAfter) !== 0) {
+  //   console.log(before[2].trim(), here[2].trim(), lanes[before[4]], here[2].trim(), after[2].trim(), lanes[here[4]]);
   // }
+  var isEndPoint = (before[2].localeCompare === 0);
   return {
     coords: cutLines(beforeLine, afterLine, here),
-    lanesChange: lanesBefore !== lanesAfter,
+    lanesChange: lanesBefore.localeCompare(lanesAfter) !== 0,
+    isEndPoint,
+    here,
   };
 }
 
