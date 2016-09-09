@@ -21,8 +21,9 @@ const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
-const LANE_FACTOR = 2500;
-const STROKE_WIDTH = 5;
+const LANE_FACTOR = 5000;
+const TEXT_FACTOR = .1;
+const STROKE_WIDTH = 2;
 const TEXT_CIRCLE_SIZE = 15;
 const TEXT_CIRCLE_UP = 6;
 const TEXT_CIRCLE_LEFT = 0;
@@ -131,7 +132,7 @@ function drawPath(routeName, cornerPoints) {
     if (cornerPoints[i].lanesChange || cornerPoints[i].isEndPoint) {
       var textTrans = [
         `translate(${x} ${y})`,
-        `scale(${.15/CANVAS_SCALE} ${-.15/CANVAS_SCALE})`,
+        `scale(${TEXT_FACTOR/CANVAS_SCALE} ${-TEXT_FACTOR/CANVAS_SCALE})`,
         `translate(${-x} ${-y})`,
         `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
         `rotate(${-MAP_ROTATION})`,
