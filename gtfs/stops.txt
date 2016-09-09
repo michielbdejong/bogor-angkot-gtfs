@@ -81,6 +81,8 @@ sind-barang-4,,sind-barang-4,,-6.580519,106.763566,,,,,,2
 sind-barang-adjie,,sind-barang-adjie,,-6.576235,106.753317,,,,,,2
 adjie-ciampea,,adjie-ciampea,,-6.573609,106.751377,,,,,,2
 bubulak,,bubulak,,-6.571011,106.755373,,,,,,2
+bangka-otista,,bangka-otista,,-6.601646,106.804329,,,,,,2
+otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 batutulis-1,,batutulis-1,,-6.6245,106.8089,,,,,,2
 batutulis-2,,batutulis-2,,-6.6218,106.8086,,,,,,2
 batutulis-3,,batutulis-3,,-6.6215,106.8079,,,,,,2
@@ -106,7 +108,6 @@ bangka-3,,bangka-3,,-6.6065,106.8074,,,,,,2
 bangka-5,,bangka-5,,-6.6066,106.8067,,,,,,2
 bangka-6,,bangka-6,,-6.6052,106.8058,,,,,,2
 bangka-7,,bangka-7,,-6.6052,106.8051,,,,,,2
-bangka-8,,bangka-8,,-6.6017,106.8043,,,,,,2
 cincau-kb,,cincau-kb,,-6.603941,106.797256,,,,,,2
 kb-btm-1,,kb-btm-1,,-6.6042,106.7967,,,,,,2
 ggaut-1,,ggaut-1,,-6.611545,106.802443,,,,,,2
@@ -161,6 +162,7 @@ ciheuleut-tegallega,,ciheuleut-tegallega,,-6.5990,106.8126,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
 padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
+pajajaran-otista,,pajajaran-otista,,-6.601624,106.805305,,,,,,2
 line-07-1,,line-07-1,,-6.5802,106.7967,,,,,,2
 line-07-2,,line-07-2,,-6.5734,106.7964,,,,,,2
 line-07-3,,line-07-3,,-6.5699,106.7987,,,,,,2
@@ -201,7 +203,6 @@ durian-1,,durian-1,,-6.6165,106.8177,,,,,,2
 durian-2,,durian-2,,-6.6172,106.8186,,,,,,2
 durian-3,,durian-3,,-6.6184,106.8195,,,,,,2
 pajajaran-ggmesjid,,pajajaran-ggmesjid,,-6.6175,106.8150,,,,,,2
-otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 roda-1,,roda-1,,-6.6044,106.8002,,,,,,2
 roda-2,,roda-2,,-6.6056,106.8018,,,,,,2
 roda-3,,roda-3,,-6.6077,106.8035,,,,,,2

@@ -220,12 +220,13 @@ function lineThrough(a, b) {
   // b = [lat, lon] -> [y, x]
 
   // console.log('line through', a, b);
-  var numLanes = a[3];
+  var numLanesStart = a[3];
+  var numLanesFinish = b[3];
   var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
-  var fromX = a[1] + numLanes * laneVector[0];
-  var fromY = a[0] + numLanes * laneVector[1];
-  var toX = b[1] + numLanes * laneVector[0];
-  var toY = b[0] + numLanes * laneVector[1];
+  var fromX = a[1] + numLanesStart * laneVector[0];
+  var fromY = a[0] + numLanesStart * laneVector[1];
+  var toX = b[1] + numLanesFinish * laneVector[0];
+  var toY = b[0] + numLanesFinish * laneVector[1];
   // two points define a line
   //      fix x, var x,    fix y, var y
   return [fromX, toX-fromX, fromY, toY-fromY];
@@ -363,12 +364,9 @@ function finishDrawing() {
   svg += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
-    var numLanes = a[3];
-    var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
-    var fromX = a[1] + numLanes * laneVector[0];
-    var fromY = a[0] + numLanes * laneVector[1];
-    var toX = b[1] + numLanes * laneVector[0];
-    var toY = b[0] + numLanes * laneVector[1];
+    var [fromX, deltaX, fromY, deltaY] = lineThrough(a, b);
+    var toX = fromX + deltaX;
+    var toY = fromY + deltaY;
     var textTrans = makeTextTrans(a[1], a[0]);
 
     return [
