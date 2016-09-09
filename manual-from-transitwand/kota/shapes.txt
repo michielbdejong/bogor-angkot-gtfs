@@ -779,7 +779,7 @@ AK-16,-6.569210,106.799029,11,0.11,pedes-bendrightatstart
 AK-16,-6.565255,106.801904,11,0.11,pedes-sungai
 AK-16,-6.561887,106.801968,11,0.11,pedes-iskandar
 AK-16,-6.562889,106.797108,11,0.11,iskandar-majujaya
-AK-20,-6.560033,106.787495,11,0.11,iskandar-20-rejions
+AK-16,-6.560033,106.787495,11,0.11,iskandar-20-rejions
 AK-16,-6.556041,106.778477,11,0.11,iskandar-ciampea-Y
 AK-16,-6.554080,106.776396,11,0.11,iskandar-bendright
 AK-16,-6.537281,106.769948,11,0.11,iskandar-kencana
