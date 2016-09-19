@@ -141,21 +141,21 @@ function drawPath(routeName, cornerPoints) {
     var [sXs, sXd, sYs, sYd] = cornerPoints[i].switcherLineBefore;
     var sXe = sXs + sXd;
     var sYe = sYs + sYd;
-    var corner = cornerPoints[i].coords;
+    var corner = cornerPoints[i].coords; // coords contains [x, y]
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
     if (cornerPoints[i].isEndPoint) {
-      var textTrans = makeTextTrans(x, y);
+      var textTrans = makeTextTrans(corner[0], corner[1]);
       var textAttr = [
-        `x="${x}"`,
-        `y="${y}"`,
+        `x="${corner[0]}"`,
+        `y="${corner[1]}"`,
         `fill="black"`,
         `text-anchor="middle"`,
         `transform="${textTrans.join(' ')}"`
       ];
       var textStr = routeName.substring(3);
-      texts.push({ x, y, textTrans, textAttr, textStr});
+      texts.push({ x: corner[0], y: corner[1], textTrans, textAttr, textStr});
     }
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
@@ -189,24 +189,62 @@ var lanes = {};
 
 function assignLanes() {
   for (var routeName in routes) {
-    for (var i=0; i<routes[routeName].length; i++) {
+    for (var i=1; i<=routes[routeName].length; i++) {
       var stretchDef = [
-        routes[routeName][i][0],
-        routes[routeName][i][1],
-        routes[routeName][(i+1) % routes[routeName].length][0],
-        routes[routeName][(i+1) % routes[routeName].length][1],
+        routes[routeName][i-1][0],
+        routes[routeName][i-1][1],
+        routes[routeName][i % routes[routeName].length][0],
+        routes[routeName][i % routes[routeName].length][1],
       ].join(',');
+      routes[routeName][i % routes[routeName].length].push(stretchDef);
+      // so it now contains [lat, lon, stop_name, stretchDef-before]
       if (typeof lanes[stretchDef] === 'undefined') {
         lanes[stretchDef] = [];
       }
-      lanes[stretchDef].push(routeName);
-      var lane = lanes[stretchDef].length;
-      // lane index is 1-based
-      // to make room for e.g. streetname in between left-driving forward and
-      // oncoming lanes.
-      // to each point, add the lane to be used after that point
-      routes[routeName][i].push(lane);
-      routes[routeName][i].push(stretchDef);
+      var onwardAngle = angle([
+        routes[routeName][i-1][1], // lon -> x
+        routes[routeName][i-1][0], // lat -> y
+      ], [
+        routes[routeName][i % routes[routeName].length][1],
+        routes[routeName][i % routes[routeName].length][0],
+      ], [
+        routes[routeName][(i+1) % routes[routeName].length][1],
+        routes[routeName][(i+1) % routes[routeName].length][0],
+      ]);
+      lanes[stretchDef].push({ routeName, onwardAngle });
+    }
+  }
+  // Now we have a list of routes that ride each stretch, we should
+  // decide who ends that stretch in which lane.
+  // Start lane is then always the same as last end lane.
+  // The end lane should depend on the onward angle.
+  // So at each route point, compare the angle to that of routes that
+  // have the same previous stretch.
+  for (var stretchDef in lanes) {
+   //  console.log('unsorted', lanes[stretchDef]);
+    lanes[stretchDef].sort((a, b) => {
+      return b.onwardAngle - a.onwardAngle;
+    });
+    // console.log(lanes[stretchDef]);
+  }
+  // now that we have sorted the end lanes on each stretch, we can
+  // assign those back into the route points:
+  for (var routeName in routes) {
+    for (var i=0; i<routes[routeName].length; i++) {
+      // remember this now contains [lat, lon, stop_name, stretchDef-before]
+      var stretchDef = routes[routeName][i][3];
+      for (var j=0; j<lanes[stretchDef].length; j++) {
+        if (lanes[stretchDef][j].routeName === routeName) {
+          // lane index is 1-based
+          // to make room for e.g. streetname in between left-driving
+          // forward and oncoming lanes.
+          // to each point, add the lane to be used at point
+          // (end lane of previous stretch)
+          routes[routeName][i].push(j + 1);
+          // so it now contains [lat, lon, stop_name, stretchDef-before, lane]
+          break;
+        }
+      }
     }
   }
 }
@@ -224,31 +262,60 @@ function perpendicularVector(fromX, fromY, toX, toY) {
   return [-normalized[1], normalized[0]];
 }
 
-function lineThrough(a, b) {
+function angle(before, here, after) {
+  var normFirst = parallelVector(before[0], before[1], here[0], here[1]).map(coord => coord*LANE_FACTOR);
+  var normSecond = parallelVector(here[0], here[1], after[0], after[1]).map(coord => coord*LANE_FACTOR);
+  // FIXME: these aren't really angles.
+  var firstAngle, secondAngle;
+  if (normFirst[1] < 0) {
+    firstAngle = -1 - normFirst[0]; // -1 -> 0; 0 -> -1; 1 -> -2
+  } else {
+    firstAngle = normFirst[0] + 1; // 1 -> 2; 0 -> 1; -1 -> 0
+  }
+  if (normSecond[1] < 0) {
+    secondAngle = -1 - normSecond[0];
+  } else {
+    secondAngle = normSecond[0] + 1;
+  }
+  var diff = secondAngle - firstAngle;
+  // FIXME: this doesn't really work linearly this way,
+  // but for our purposes of ordering forward destinations
+  // it's probably going to be good enough:
+  if (diff < -2) {
+    diff += 4;
+  }
+  if (diff > 2) {
+    diff -= 4;
+  }
+  // console.log({ before, here, after, normFirst, normSecond, firstAngle, secondAngle, diff });
+  return diff;
+}
+
+function lineThrough(a, b, lineLane) {
+  // each of a and b contain:
+  // [lat, lon, stop_name, stretchDef-before, lane]
   // a = [lat, lon] -> [y, x]
   // b = [lat, lon] -> [y, x]
 
-  // console.log('line through', a, b);
-  var numLanesStart = a[3];
-  var numLanesFinish = b[3];
+  // console.log('line through', a, b, lineLane);
   var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
   var preVector = parallelVector(a[1], a[0], b[1], b[0]);
   var middleX = (a[1] + b[1])/2;
   var middleY = (a[0] + b[0])/2;
-  var switchStartBaseX = middleX - Math.abs(b[3]-a[3])*preVector[0];
-  var switchStartBaseY = middleY - Math.abs(b[3]-a[3])*preVector[1];
-  var switchEndBaseX = middleX + Math.abs(b[3]-a[3])*preVector[0];
-  var switchEndBaseY = middleY + Math.abs(b[3]-a[3])*preVector[1];
+  var switchStartBaseX = middleX - Math.abs(b[4]-a[4])*preVector[0];
+  var switchStartBaseY = middleY - Math.abs(b[4]-a[4])*preVector[1];
+  var switchEndBaseX = middleX + Math.abs(b[4]-a[4])*preVector[0];
+  var switchEndBaseY = middleY + Math.abs(b[4]-a[4])*preVector[1];
 
-  var fromX = a[1] + numLanesStart * laneVector[0];
-  var fromY = a[0] + numLanesStart * laneVector[1];
-  var switchStartX = switchStartBaseX + numLanesStart * laneVector[0];
-  var switchStartY = switchStartBaseY + numLanesStart * laneVector[1];
-  var switchEndX = switchEndBaseX + numLanesFinish * laneVector[0];
-  var switchEndY = switchEndBaseY + numLanesFinish * laneVector[1];
-  var toX = b[1] + numLanesFinish * laneVector[0];
-  var toY = b[0] + numLanesFinish * laneVector[1];
-  // console.log({ a, b, laneVector, preVector, fromX, fromY, switchBaseX, switchBaseY, switchX, switchY, toX, toY });
+  var fromX = a[1] + lineLane * laneVector[0];
+  var fromY = a[0] + lineLane * laneVector[1];
+  var switchStartX = switchStartBaseX + lineLane * laneVector[0];
+  var switchStartY = switchStartBaseY + lineLane * laneVector[1];
+  var switchEndX = switchEndBaseX + lineLane * laneVector[0];
+  var switchEndY = switchEndBaseY + lineLane * laneVector[1];
+  var toX = b[1] + lineLane * laneVector[0];
+  var toY = b[0] + lineLane * laneVector[1];
+  // console.log({ a, b, lineLane, laneVector, preVector, fromX, fromY, switchStartX, switchStartY, switchEndX, switchEndY, toX, toY });
   // two points define a line
   //      fix x, var x,    fix y, var y
   return {
@@ -259,6 +326,9 @@ function lineThrough(a, b) {
 }
 
 function cutLines(a, b, fallbackCoords) {
+  // a and b are like start,switcher,end from previous function
+  // fallbackCoords contains:
+  // [lat, lon, stop_name, stretchDef-before, lane]
   // x = a[0] + a[1]*k = b[0] + b[1]*l
   // move terms  a[1]*k = b[0] + b[1]*l - a[0]
   // divide      k = (b[0] + b[1]*l - a[0]) / a[1]
@@ -327,19 +397,19 @@ function cutLines(a, b, fallbackCoords) {
 
 var debugLines = [];
 function makeCornerPoint(routeName, before, here, after, debug) {
-  var beforeLine = lineThrough(before, here);
+  // console.log('makeCornerPoint', { routeName, before, here, after, debug});
+  var beforeLine = lineThrough(before, here, here[4]);
+  // lineThrough returns an object:
+  //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
+  //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
+  //  end: [switchEndX, toX-switchEndX, switchEndY, toY-switchEndY],
   if (debug) {
     debugLines.push([before, here]);
   }
-  var afterLine = lineThrough(here, after);
+  var afterLine = lineThrough(here, after, here[4]);
   // each of before, here, after contains:
-  // [x, y, stop_name, lane, stretchDef-starting]
-  var lanesBefore = lanes[before[4]].join(',');
-  var lanesAfter = lanes[here[4]].join(',');
-  // if (lanesBefore.localeCompare(lanesAfter) !== 0) {
-  //   console.log(before[2].trim(), here[2].trim(), lanes[before[4]], here[2].trim(), after[2].trim(), lanes[here[4]]);
-  // }
-  var isEndPoint = (before[2].localeCompare === 0);
+  // [lat, lon, stop_name, stretchDef-before, lane]
+  var isEndPoint = (before[2].localeCompare(after[2]) === 0);
   // console.log(beforeLine, afterLine);
   return {
     coords: cutLines(beforeLine.end, afterLine.start, here),
@@ -391,7 +461,11 @@ function finishDrawing() {
   svg += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
-    var lines = lineThrough(a, b);
+    var lines = lineThrough(a, b, 0);
+    // lineThrough returns an object:
+    //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
+    //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
+    //  end: [switchEndX, toX-switchEndX, switchEndY, toY-switchEndY],
     var [fromX1, deltaX1, fromY1, deltaY1] = lines.start;
     var [fromX2, deltaX2, fromY2, deltaY2] = lines.switcher;
     var [fromX3, deltaX3, fromY3, deltaY3] = lines.end;
