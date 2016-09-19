@@ -395,10 +395,39 @@ function cutLines(a, b, fallbackCoords) {
   console.error('Failure to cut lines', a, b, [x, y]);
 }
 
+function getLaneAtPoint(here) {
+  // here contains: [lat, lon, stop_name, stretchDef-before, lane]
+  // shift lanes around Kebun Raya to the right to avoid
+  // overlapping with the streets surrounding the Kebun Raya:
+  var laneShift = {
+    'kb-gedong-sawah': -6,
+    'kb-polisi-militer': -6,
+    'kb-jalak-harupat': -6,
+    'kb-sempur': -6,
+    'kb-salak': -6,
+    'kb-pangrango': -6,
+    'kb-astrid': -6,
+    'kb-botani-1': -6,
+    'kb-botani-2': -6,
+    'bangka-otista': -6,
+    'otista-roda': -6,
+    'kb-otista': -6,
+    'kb-suryakencana': -6,
+    'cincau-kb': -6,
+    'kb-btm-1': -6,
+    'kb-btm-2': -6,
+    'kb-muslihat': -6,
+  };
+
+  var thisLaneShift = laneShift[here[2].trim()] || 0;
+  return here[4] + thisLaneShift;
+}
+
 var debugLines = [];
 function makeCornerPoint(routeName, before, here, after, debug) {
   // console.log('makeCornerPoint', { routeName, before, here, after, debug});
-  var beforeLine = lineThrough(before, here, here[4]);
+  var cornerLane = getLaneAtPoint(here);
+  var beforeLine = lineThrough(before, here, cornerLane);
   // lineThrough returns an object:
   //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
   //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
@@ -406,7 +435,7 @@ function makeCornerPoint(routeName, before, here, after, debug) {
   if (debug) {
     debugLines.push([before, here]);
   }
-  var afterLine = lineThrough(here, after, here[4]);
+  var afterLine = lineThrough(here, after, cornerLane);
   // each of before, here, after contains:
   // [lat, lon, stop_name, stretchDef-before, lane]
   var isEndPoint = (before[2].localeCompare(after[2]) === 0);

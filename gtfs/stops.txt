@@ -9,6 +9,8 @@ kb-astrid,,kb-astrid,,-6.5959,106.8044,,,,,,2
 kb-botani-1,,kb-botani-1,,-6.6009,106.8052,,,,,,2
 kb-botani-2,,kb-botani-2,,-6.6016,106.8047,,,,,,2
 kb-otista,,kb-otista,,-6.6027,106.7996,,,,,,2
+bangka-otista,,bangka-otista,,-6.601646,106.804329,,,,,,2
+otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 kb-suryakencana,,kb-suryakencana,,-6.6031,106.7988,,,,,,2
 suryakencana-1,,suryakencana-1,,-6.6048,106.7997,,,,,,2
 suryakencana-2,,suryakencana-2,,-6.6082,106.8025,,,,,,2
@@ -81,8 +83,6 @@ sind-barang-4,,sind-barang-4,,-6.580519,106.763566,,,,,,2
 sind-barang-adjie,,sind-barang-adjie,,-6.576235,106.753317,,,,,,2
 adjie-ciampea,,adjie-ciampea,,-6.573609,106.751377,,,,,,2
 bubulak,,bubulak,,-6.571011,106.755373,,,,,,2
-bangka-otista,,bangka-otista,,-6.601646,106.804329,,,,,,2
-otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 batutulis-1,,batutulis-1,,-6.6245,106.8089,,,,,,2
 batutulis-2,,batutulis-2,,-6.6218,106.8086,,,,,,2
 batutulis-3,,batutulis-3,,-6.6215,106.8079,,,,,,2
