@@ -22,6 +22,7 @@ const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
 const LANE_FACTOR = 5000;
+const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .1;
 const STROKE_WIDTH = 2;
 const TEXT_CIRCLE_SIZE = 15;
@@ -137,10 +138,14 @@ function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
   var path = [];
   for (var i=0; i<cornerPoints.length; i++) {
-    var x = cornerPoints[i].coords[0];
-    var y = cornerPoints[i].coords[1];
-    path.push(`${x} ${y}`);
-    if (cornerPoints[i].lanesChange || cornerPoints[i].isEndPoint) {
+    var [sXs, sXd, sYs, sYd] = cornerPoints[i].switcherLineBefore;
+    var sXe = sXs + sXd;
+    var sYe = sYs + sYd;
+    var corner = cornerPoints[i].coords;
+    path.push(`${sXs} ${sYs}`);
+    path.push(`${sXe} ${sYe}`);
+    path.push(`${corner[0]} ${corner[1]}`);
+    if (cornerPoints[i].isEndPoint) {
       var textTrans = makeTextTrans(x, y);
       var textAttr = [
         `x="${x}"`,
@@ -206,12 +211,16 @@ function assignLanes() {
   }
 }
 
-function perpendicularVector(fromX, fromY, toX, toY) {
+function parallelVector(fromX, fromY, toX, toY) {
   var distance = mathjs.distance([fromX, fromY], [toX, toY]);
   if (distance === 0) {
     return [0, 0];
   }
-  var normalized = [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
+  return [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
+}
+
+function perpendicularVector(fromX, fromY, toX, toY) {
+  var normalized = parallelVector(fromX, fromY, toX, toY);
   return [-normalized[1], normalized[0]];
 }
 
@@ -223,13 +232,30 @@ function lineThrough(a, b) {
   var numLanesStart = a[3];
   var numLanesFinish = b[3];
   var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
+  var preVector = parallelVector(a[1], a[0], b[1], b[0]);
+  var middleX = (a[1] + b[1])/2;
+  var middleY = (a[0] + b[0])/2;
+  var switchStartBaseX = middleX - Math.abs(b[3]-a[3])*preVector[0];
+  var switchStartBaseY = middleY - Math.abs(b[3]-a[3])*preVector[1];
+  var switchEndBaseX = middleX + Math.abs(b[3]-a[3])*preVector[0];
+  var switchEndBaseY = middleY + Math.abs(b[3]-a[3])*preVector[1];
+
   var fromX = a[1] + numLanesStart * laneVector[0];
   var fromY = a[0] + numLanesStart * laneVector[1];
+  var switchStartX = switchStartBaseX + numLanesStart * laneVector[0];
+  var switchStartY = switchStartBaseY + numLanesStart * laneVector[1];
+  var switchEndX = switchEndBaseX + numLanesFinish * laneVector[0];
+  var switchEndY = switchEndBaseY + numLanesFinish * laneVector[1];
   var toX = b[1] + numLanesFinish * laneVector[0];
   var toY = b[0] + numLanesFinish * laneVector[1];
+  // console.log({ a, b, laneVector, preVector, fromX, fromY, switchBaseX, switchBaseY, switchX, switchY, toX, toY });
   // two points define a line
   //      fix x, var x,    fix y, var y
-  return [fromX, toX-fromX, fromY, toY-fromY];
+  return {
+    start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
+    switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
+    end: [switchEndX, toX-switchEndX, switchEndY, toY-switchEndY],
+  };
 }
 
 function cutLines(a, b, fallbackCoords) {
@@ -314,9 +340,10 @@ function makeCornerPoint(routeName, before, here, after, debug) {
   //   console.log(before[2].trim(), here[2].trim(), lanes[before[4]], here[2].trim(), after[2].trim(), lanes[here[4]]);
   // }
   var isEndPoint = (before[2].localeCompare === 0);
+  // console.log(beforeLine, afterLine);
   return {
-    coords: cutLines(beforeLine, afterLine, here),
-    lanesChange: lanesBefore.localeCompare(lanesAfter) !== 0,
+    coords: cutLines(beforeLine.end, afterLine.start, here),
+    switcherLineBefore: beforeLine.switcher,
     isEndPoint,
     here,
   };
@@ -364,14 +391,23 @@ function finishDrawing() {
   svg += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
-    var [fromX, deltaX, fromY, deltaY] = lineThrough(a, b);
-    var toX = fromX + deltaX;
-    var toY = fromY + deltaY;
+    var lines = lineThrough(a, b);
+    var [fromX1, deltaX1, fromY1, deltaY1] = lines.start;
+    var [fromX2, deltaX2, fromY2, deltaY2] = lines.switcher;
+    var [fromX3, deltaX3, fromY3, deltaY3] = lines.end;
+    var toX1 = fromX1 + deltaX1;
+    var toY1 = fromY1 + deltaY1;
+    var toX2 = fromX2 + deltaX2;
+    var toY2 = fromY2 + deltaY2;
+    var toX3 = fromX3 + deltaX3;
+    var toY3 = fromY3 + deltaY3;
     var textTrans = makeTextTrans(a[1], a[0]);
 
     return [
       `    <line x1="${a[1]}" y1="${a[0]}" x2="${b[1]}" y2="${b[0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`,
-      `    <line x1="${fromX}" y1="${fromY}" x2="${toX}" y2="${toY}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX1}" y1="${fromY1}" x2="${toX1}" y2="${toY1}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX2}" y1="${fromY2}" x2="${toX2}" y2="${toY2}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX3}" y1="${fromY3}" x2="${toX3}" y2="${toY3}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
       `    <circle cx="${a[1]}" cy="${a[0]}" fill="rgb(255,0,0)" r=".0001" />`,
       `    <text x="${a[1]}" y="${a[0]}" stroke="rgb(0,0,0)" transform="${textTrans}" >${a[2]}</text>`,
     ].join('\n');
@@ -392,7 +428,7 @@ fs.writeFileSync('./release/map.svg', svg);
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
     initDrawing();
-    drawPath(routeName, traceRoute(routeName, true));
+    drawPath(routeName, traceRoute(routeName, true), true);
     finishDrawing();
     fs.writeFileSync(`./release/${routeName}.svg`, svg);
   }
