@@ -1,8 +1,6 @@
 // packages
 var fs = require('fs');
 var points = require('./points');
-var lines = require('./lines');
-var lanes = require('./lanes');
 var maps = require('./maps');
 
 const ROUTE_COLOURS = {
@@ -31,6 +29,21 @@ const ROUTE_COLOURS = {
   'AK-23': 'black',
 };
 
+function traceRoute(points) {
+  var cornerPoints = [];
+  for (var i=0; i<points.length; i++) {
+    var before = points[i];
+    var here = points[(i+1) % points.length];
+    cornerPoints.push({
+      coords: [here[1], here[0]],
+      isEndPoint: false,
+      here,
+      debugLine: [before, here],
+    });
+  }
+  return cornerPoints;
+}
+
 function drawMainMap() {
   var svg = maps.initDrawing();
   var texts = [];
@@ -39,7 +52,7 @@ function drawMainMap() {
       var obj = maps.drawPath(
         routeName,
         ROUTE_COLOURS[routeName],
-        lines.traceRoute(routes[routeName])
+        traceRoute(routes[routeName])
       );
       svg += obj.svgSnippet;
       texts = texts.concat(obj.texts);
@@ -54,7 +67,7 @@ function drawRouteMap(routeName) {
   var obj = maps.drawPath(
     routeName,
     ROUTE_COLOURS[routeName],
-    lines.traceRoute(routes[routeName])
+    traceRoute(routes[routeName])
   );
   svg += obj.svgSnippet;
   svg += maps.finishDrawing(obj.texts, obj.debugLines);
@@ -63,7 +76,6 @@ function drawRouteMap(routeName) {
 
 // ...
 var routes = points.readPoints();
-lanes.assignLanesTo(/* by ref */ routes);
 
 fs.writeFileSync('../release/map.svg', drawMainMap(routes));
 
