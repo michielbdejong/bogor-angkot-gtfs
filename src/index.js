@@ -105,8 +105,6 @@ const SVG_SUFFIX = `  </g>\n` +
                    `</svg>\n`;
 
 // globals
-var svg;
-var texts;
 var routes;
 var cornerPoints = {};
 
@@ -134,8 +132,10 @@ function makeTextTrans(x, y) {
 
 function drawPath(routeName, cornerPoints) {
   // console.log('drawPath', routeName, cornerPoints);
+  var svgSnippet = '';
   var path = [];
   var debugLines = [];
+  var texts = [];
   for (var i=0; i<cornerPoints.length; i++) {
     var [sXs, sXd, sYs, sYd] = cornerPoints[i].switcherLineBefore;
     var sXe = sXs + sXd;
@@ -159,32 +159,31 @@ function drawPath(routeName, cornerPoints) {
     debugLines.push(cornerPoints[i].debugLine);
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
-  svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
-  return debugLines;
+  svgSnippet += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
+  return { svgSnippet, texts, debugLines };
 }
 
 function initDrawing() {
-  svg = SVG_PREFIX;
-  texts = [];
+  return SVG_PREFIX;
 }
 
-function finishDrawing(debugLines) {
-  svg += texts.map(obj => 
+function finishDrawing(texts, debugLines) {
+  var svgSnippet = texts.map(obj => 
      `    <circle \n` +
      `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
      `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
      `      fill="white" stroke="black" stroke-width="2"/>`
   ).join('\n') + '\n';
-  svg += texts.map(obj => 
+  svgSnippet += texts.map(obj => 
      `    <circle \n` +
      `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
      `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
      `      fill="white" stroke="none"/>`
   ).join('\n') + '\n';
-  svg += texts.map(obj => 
+  svgSnippet += texts.map(obj => 
      `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
   ).join('\n') + '\n';
-  svg += debugLines.map(line => {
+  svgSnippet += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
     var lineParts = lines.lineThrough(a, b, 0);
@@ -212,30 +211,39 @@ function finishDrawing(debugLines) {
       `    <text x="${a[1]}" y="${a[0]}" stroke="rgb(0,0,0)" transform="${textTrans}" >${a[2]}</text>`,
     ].join('\n');
   }).join('\n') + '\n';
-  svg += SVG_SUFFIX;
+  svgSnippet += SVG_SUFFIX;
+  return svgSnippet;
+}
+
+function drawMainMap() {
+  var svg = initDrawing();
+  var texts = [];
+  for (var routeName in routes) {
+    if (ROUTE_COLOURS[routeName]) {
+      var obj = drawPath(routeName, lines.traceRoute(routes[routeName]));
+      svg += obj.svgSnippet;
+      texts = texts.concat(obj.texts);
+    }
+  }
+  svg += finishDrawing(texts, []);
+  return svg;
+}
+
+function drawRouteMap(routeName) {
+  var svg = initDrawing();
+  var obj = drawPath(routeName, lines.traceRoute(routes[routeName]));
+  svg += obj.svgSnippet;
+  svg += finishDrawing(obj.texts, obj.debugLines);
+  return svg;
 }
 
 // ...
 routes = points.readPoints();
 lines.assignLanesTo(/* by ref */ routes);
 
-// draw map.svg
-initDrawing();
+fs.writeFileSync('../release/map.svg', drawMainMap());
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
-    drawPath(routeName, lines.traceRoute(routes[routeName]));
+    fs.writeFileSync(`../release/${routeName}.svg`, drawRouteMap(routeName));
   }
 }
-finishDrawing([]);
-fs.writeFileSync('../release/map.svg', svg);
-
-// draw per-route maps
-for (var routeName in routes) {
-  if (ROUTE_COLOURS[routeName]) {
-    initDrawing();
-    var debugLines = drawPath(routeName, lines.traceRoute(routes[routeName]));
-    finishDrawing(debugLines);
-    fs.writeFileSync(`../release/${routeName}.svg`, svg);
-  }
-}
-
