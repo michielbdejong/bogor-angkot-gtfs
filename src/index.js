@@ -36,7 +36,7 @@ function traceRoute(points) {
     var here = points[(i+1) % points.length];
     cornerPoints.push({
       coords: [here[1], here[0]],
-      isEndPoint: false,
+      isEndPoint: true,
       here,
       debugLine: [before, here],
     });

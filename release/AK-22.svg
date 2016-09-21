@@ -2,9 +2,111 @@
   <g transform="translate(524.9999999999488 924.9999999999981) rotate(30) scale(10000 -10000) translate(-106.8125 6.592499999999999)">
     <path d="M106.76 -6.5 L106.865 -6.5 L106.865 -6.685 L106.76 -6.685 Z" fill="none" stroke="black" stroke-width="0.001" transform="translate(106.8125 -6.592499999999999) rotate(30) translate(-106.8125 6.592499999999999)" />
     <path d="M106.7973 -6.593 L106.7971 -6.5919 L106.797097 -6.590952 L106.796967 -6.588653 L106.7968 -6.5817 L106.7965 -6.5813 L106.793232 -6.582045 L106.792647 -6.577126 L106.793655 -6.573673 L106.793859 -6.568567 L106.793655 -6.573673 L106.792647 -6.577126 L106.793232 -6.582045 L106.7965 -6.5813 L106.7968 -6.5817 L106.796967 -6.588653 L106.797097 -6.590952 L106.7971 -6.5919 L106.7938 -6.5912 L106.7939 -6.5927 L106.7939 -6.5932 L106.7936 -6.5938 L106.7934 -6.594 L106.793 -6.5943 L106.7927 -6.5943 L106.792 -6.5941 L106.7915 -6.5963 L106.7937 -6.5969 L106.7946 -6.5945 Z" stroke="black" stroke-width="0.0002" fill="none" />
-
-
-
+    <ellipse 
+      cx="106.7973" cy="-12.593"
+      rx="15" ry="15" transform="translate(106.7973 -6.593) scale(0.00001 -0.00001) translate(-106.7973 6.593) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7973" y="-6.593" fill="black" text-anchor="middle" transform="translate(106.7973 -6.593) scale(0.00001 -0.00001) translate(-106.7973 6.593) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7971" cy="-12.591899999999999"
+      rx="15" ry="15" transform="translate(106.7971 -6.5919) scale(0.00001 -0.00001) translate(-106.7971 6.5919) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7971" y="-6.5919" fill="black" text-anchor="middle" transform="translate(106.7971 -6.5919) scale(0.00001 -0.00001) translate(-106.7971 6.5919) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.797097" cy="-12.590952"
+      rx="15" ry="15" transform="translate(106.797097 -6.590952) scale(0.00001 -0.00001) translate(-106.797097 6.590952) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.797097" y="-6.590952" fill="black" text-anchor="middle" transform="translate(106.797097 -6.590952) scale(0.00001 -0.00001) translate(-106.797097 6.590952) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.796967" cy="-12.588653"
+      rx="15" ry="15" transform="translate(106.796967 -6.588653) scale(0.00001 -0.00001) translate(-106.796967 6.588653) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.796967" y="-6.588653" fill="black" text-anchor="middle" transform="translate(106.796967 -6.588653) scale(0.00001 -0.00001) translate(-106.796967 6.588653) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7968" cy="-12.5817"
+      rx="15" ry="15" transform="translate(106.7968 -6.5817) scale(0.00001 -0.00001) translate(-106.7968 6.5817) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7968" y="-6.5817" fill="black" text-anchor="middle" transform="translate(106.7968 -6.5817) scale(0.00001 -0.00001) translate(-106.7968 6.5817) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7965" cy="-12.581299999999999"
+      rx="15" ry="15" transform="translate(106.7965 -6.5813) scale(0.00001 -0.00001) translate(-106.7965 6.5813) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7965" y="-6.5813" fill="black" text-anchor="middle" transform="translate(106.7965 -6.5813) scale(0.00001 -0.00001) translate(-106.7965 6.5813) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.793232" cy="-12.582045"
+      rx="15" ry="15" transform="translate(106.793232 -6.582045) scale(0.00001 -0.00001) translate(-106.793232 6.582045) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.793232" y="-6.582045" fill="black" text-anchor="middle" transform="translate(106.793232 -6.582045) scale(0.00001 -0.00001) translate(-106.793232 6.582045) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.792647" cy="-12.577126"
+      rx="15" ry="15" transform="translate(106.792647 -6.577126) scale(0.00001 -0.00001) translate(-106.792647 6.577126) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.792647" y="-6.577126" fill="black" text-anchor="middle" transform="translate(106.792647 -6.577126) scale(0.00001 -0.00001) translate(-106.792647 6.577126) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.793655" cy="-12.573673"
+      rx="15" ry="15" transform="translate(106.793655 -6.573673) scale(0.00001 -0.00001) translate(-106.793655 6.573673) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.793655" y="-6.573673" fill="black" text-anchor="middle" transform="translate(106.793655 -6.573673) scale(0.00001 -0.00001) translate(-106.793655 6.573673) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.793859" cy="-12.568567"
+      rx="15" ry="15" transform="translate(106.793859 -6.568567) scale(0.00001 -0.00001) translate(-106.793859 6.568567) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.793859" y="-6.568567" fill="black" text-anchor="middle" transform="translate(106.793859 -6.568567) scale(0.00001 -0.00001) translate(-106.793859 6.568567) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7938" cy="-12.5912"
+      rx="15" ry="15" transform="translate(106.7938 -6.5912) scale(0.00001 -0.00001) translate(-106.7938 6.5912) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7938" y="-6.5912" fill="black" text-anchor="middle" transform="translate(106.7938 -6.5912) scale(0.00001 -0.00001) translate(-106.7938 6.5912) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7939" cy="-12.5927"
+      rx="15" ry="15" transform="translate(106.7939 -6.5927) scale(0.00001 -0.00001) translate(-106.7939 6.5927) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7939" y="-6.5927" fill="black" text-anchor="middle" transform="translate(106.7939 -6.5927) scale(0.00001 -0.00001) translate(-106.7939 6.5927) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7939" cy="-12.5932"
+      rx="15" ry="15" transform="translate(106.7939 -6.5932) scale(0.00001 -0.00001) translate(-106.7939 6.5932) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7939" y="-6.5932" fill="black" text-anchor="middle" transform="translate(106.7939 -6.5932) scale(0.00001 -0.00001) translate(-106.7939 6.5932) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7936" cy="-12.5938"
+      rx="15" ry="15" transform="translate(106.7936 -6.5938) scale(0.00001 -0.00001) translate(-106.7936 6.5938) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7936" y="-6.5938" fill="black" text-anchor="middle" transform="translate(106.7936 -6.5938) scale(0.00001 -0.00001) translate(-106.7936 6.5938) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7934" cy="-12.594000000000001"
+      rx="15" ry="15" transform="translate(106.7934 -6.594) scale(0.00001 -0.00001) translate(-106.7934 6.594) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7934" y="-6.594" fill="black" text-anchor="middle" transform="translate(106.7934 -6.594) scale(0.00001 -0.00001) translate(-106.7934 6.594) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.793" cy="-12.5943"
+      rx="15" ry="15" transform="translate(106.793 -6.5943) scale(0.00001 -0.00001) translate(-106.793 6.5943) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.793" y="-6.5943" fill="black" text-anchor="middle" transform="translate(106.793 -6.5943) scale(0.00001 -0.00001) translate(-106.793 6.5943) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7927" cy="-12.5943"
+      rx="15" ry="15" transform="translate(106.7927 -6.5943) scale(0.00001 -0.00001) translate(-106.7927 6.5943) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7927" y="-6.5943" fill="black" text-anchor="middle" transform="translate(106.7927 -6.5943) scale(0.00001 -0.00001) translate(-106.7927 6.5943) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.792" cy="-12.594100000000001"
+      rx="15" ry="15" transform="translate(106.792 -6.5941) scale(0.00001 -0.00001) translate(-106.792 6.5941) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.792" y="-6.5941" fill="black" text-anchor="middle" transform="translate(106.792 -6.5941) scale(0.00001 -0.00001) translate(-106.792 6.5941) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7915" cy="-12.5963"
+      rx="15" ry="15" transform="translate(106.7915 -6.5963) scale(0.00001 -0.00001) translate(-106.7915 6.5963) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7915" y="-6.5963" fill="black" text-anchor="middle" transform="translate(106.7915 -6.5963) scale(0.00001 -0.00001) translate(-106.7915 6.5963) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7937" cy="-12.5969"
+      rx="15" ry="15" transform="translate(106.7937 -6.5969) scale(0.00001 -0.00001) translate(-106.7937 6.5969) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7937" y="-6.5969" fill="black" text-anchor="middle" transform="translate(106.7937 -6.5969) scale(0.00001 -0.00001) translate(-106.7937 6.5969) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
+    <ellipse 
+      cx="106.7946" cy="-12.5945"
+      rx="15" ry="15" transform="translate(106.7946 -6.5945) scale(0.00001 -0.00001) translate(-106.7946 6.5945) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.7946" y="-6.5945" fill="black" text-anchor="middle" transform="translate(106.7946 -6.5945) scale(0.00001 -0.00001) translate(-106.7946 6.5945) translate(106.8125 -6.592499999999999) rotate(-30) translate(-106.8125 6.592499999999999)">22</text>
     <line x1="106.7946" y1="-6.5945" x2="106.7973" y2="-6.593" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.7946" y1="-6.5945" x2="106.7973" y2="-6.593" style="stroke:rgb(0,0,0);stroke-width:.00002" />
     <circle cx="106.7946" cy="-6.5945" fill="rgb(255,0,0)" r=".0001" />
