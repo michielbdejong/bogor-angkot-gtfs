@@ -1,6 +1,7 @@
 // packages
 var fs = require('fs');
 var mathjs = require('mathjs');
+var points = require('./points');
 
 // constants
 const MAP_WEST = 106.76;
@@ -17,10 +18,6 @@ const CANVAS_SCALE = 10000;
 const CANVAS_WIDTH = MAP_WIDTH * CANVAS_SCALE;
 const CANVAS_HEIGHT = MAP_HEIGHT * CANVAS_SCALE;
 const MAP_ROTATION = 30;
-const NAME_COL = 0;
-const LAT_COL = 1;
-const LON_COL = 2;
-const STOP_COL = 5;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .1;
@@ -109,7 +106,7 @@ const SVG_SUFFIX = `  </g>\n` +
 // globals
 var svg;
 var texts;
-var routes = {};
+var routes;
 var cornerPoints = {};
 
 // functions
@@ -160,29 +157,6 @@ function drawPath(routeName, cornerPoints) {
   }
   var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svg += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
-}
-
-function readPoints() {
-  var firstLine = true;
-  fs.readFileSync('./manual-from-transitwand/kota/shapes.txt').toString().split('\n').map(line => {
-  // fs.readFileSync('./test/shapes.txt').toString().split('\n').map(line => {
-    if (firstLine) {
-      firstLine = false;
-      return;
-    }
-    var columns = line.split(',');
-    if (columns.length < 5) {
-      return;
-    }
-    if (typeof routes[columns[NAME_COL]] === 'undefined') {
-      routes[columns[NAME_COL]] = [];
-    }
-    routes[columns[NAME_COL]].push([
-      parseFloat(columns[LAT_COL]),
-      parseFloat(columns[LON_COL]),
-      columns[STOP_COL],
-    ]);
-  });
 }
 
 var lanes = {};
@@ -463,10 +437,6 @@ function traceRoute(routeName, debug) {
   return cornerPoints;
 }
 
-readPoints();
-assignLanes();
-
-// draw map.svg
 function initDrawing() {
   svg = SVG_PREFIX;
   texts = [];
@@ -520,6 +490,11 @@ function finishDrawing() {
   svg += SVG_SUFFIX;
 }
 
+// ...
+routes = points.readPoints();
+assignLanes();
+
+// draw map.svg
 initDrawing();
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
@@ -527,7 +502,7 @@ for (var routeName in routes) {
   }
 }
 finishDrawing();
-fs.writeFileSync('./release/map.svg', svg);
+fs.writeFileSync('../release/map.svg', svg);
 
 // draw per-route maps
 for (var routeName in routes) {
@@ -535,7 +510,7 @@ for (var routeName in routes) {
     initDrawing();
     drawPath(routeName, traceRoute(routeName, true), true);
     finishDrawing();
-    fs.writeFileSync(`./release/${routeName}.svg`, svg);
+    fs.writeFileSync(`../release/${routeName}.svg`, svg);
   }
 }
 

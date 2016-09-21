@@ -13,6 +13,7 @@ node ./joinData.js > release/from-www.json
 node ./gen-gtfs.js
 cd gtfs
 zip -r ../release/gtfs.zip *
-cd ..
+cd ../src
 # generate the map and save it as ./release/map.svg:
-node --harmony_destructuring make-lane-corners.js
+node --harmony_destructuring index.js
+cd ..
