@@ -104,10 +104,6 @@ const SVG_PREFIX = `<svg ${CANVAS_ATTR.join(' ')} >\n` +
 const SVG_SUFFIX = `  </g>\n` +
                    `</svg>\n`;
 
-// globals
-var routes;
-var cornerPoints = {};
-
 // functions
 function warp(x) {
   return x/100;
@@ -130,8 +126,8 @@ function makeTextTrans(x, y) {
   ];
 }
 
-function drawPath(routeName, cornerPoints) {
-  // console.log('drawPath', routeName, cornerPoints);
+function drawPath(routeName, colour, cornerPoints) {
+  // console.log('drawPath', routeName, colour, cornerPoints);
   var svgSnippet = '';
   var path = [];
   var debugLines = [];
@@ -158,7 +154,7 @@ function drawPath(routeName, cornerPoints) {
     }
     debugLines.push(cornerPoints[i].debugLine);
   }
-  var attributes = `stroke="${ROUTE_COLOURS[routeName]}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
+  var attributes = `stroke="${colour}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svgSnippet += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
   return { svgSnippet, texts, debugLines };
 }
@@ -220,7 +216,11 @@ function drawMainMap() {
   var texts = [];
   for (var routeName in routes) {
     if (ROUTE_COLOURS[routeName]) {
-      var obj = drawPath(routeName, lines.traceRoute(routes[routeName]));
+      var obj = drawPath(
+        routeName,
+        ROUTE_COLOURS[routeName],
+        lines.traceRoute(routes[routeName])
+      );
       svg += obj.svgSnippet;
       texts = texts.concat(obj.texts);
     }
@@ -231,17 +231,21 @@ function drawMainMap() {
 
 function drawRouteMap(routeName) {
   var svg = initDrawing();
-  var obj = drawPath(routeName, lines.traceRoute(routes[routeName]));
+  var obj = drawPath(
+    routeName,
+    ROUTE_COLOURS[routeName],
+    lines.traceRoute(routes[routeName])
+  );
   svg += obj.svgSnippet;
   svg += finishDrawing(obj.texts, obj.debugLines);
   return svg;
 }
 
 // ...
-routes = points.readPoints();
+var routes = points.readPoints();
 lines.assignLanesTo(/* by ref */ routes);
 
-fs.writeFileSync('../release/map.svg', drawMainMap());
+fs.writeFileSync('../release/map.svg', drawMainMap(routes));
 for (var routeName in routes) {
   if (ROUTE_COLOURS[routeName]) {
     fs.writeFileSync(`../release/${routeName}.svg`, drawRouteMap(routeName));
