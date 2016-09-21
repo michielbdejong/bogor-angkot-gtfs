@@ -60,6 +60,7 @@ halte-empang,,halte-empang,,-6.6060,106.7954,,,,,,2
 btm-3,,btm-3,,-6.6046,106.7965,,,,,,2
 kb-btm-2,,kb-btm-2,,-6.6038,106.7961,,,,,,2
 kb-muslihat,,kb-muslihat,,-6.5969,106.7937,,,,,,2
+muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
 stasiun-paledang,,stasiun-paledang,,-6.5959,106.7897,,,,,,2
 veteran-merdeka,,veteran-merdeka,,-6.5955,106.7884,,,,,,2
 veteran-kemerdekaan,,veteran-kemerdekaan,,-6.5956,106.7876,,,,,,2
@@ -68,7 +69,6 @@ merdeka,,merdeka,,-6.5931,106.7878,,,,,,2
 merdeka-salamun,,merdeka-salamun,,-6.5903,106.7877,,,,,,2
 salamun-oking,,salamun-oking,,-6.5906,106.7906,,,,,,2
 muslihat-oking,,muslihat-oking,,-6.5958,106.7895,,,,,,2
-muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
 dewisartika-mekah,,dewisartika-mekah,,-6.5928,106.7924,,,,,,2
 mekah-gedongsawah,,mekah-gedongsawah,,-6.5927,106.7939,,,,,,2
 gedongsawah-1,,gedongsawah-1,,-6.5932,106.7939,,,,,,2
@@ -166,6 +166,10 @@ ciheuleut-tegallega,,ciheuleut-tegallega,,-6.5990,106.8126,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
 padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
+sudirman-pengadilan,,sudirman-pengadilan,,-6.5919,106.7971,,,,,,2
+ggbaru-sudirman,,ggbaru-sudirman,,-6.590952,106.797097,,,,,,2
+sudirman-sawojajar,,sudirman-sawojajar,,-6.588653,106.796967,,,,,,2
+sudirman-airmancur,,sudirman-airmancur,,-6.5817,106.7968,,,,,,2
 pemuda-hewan,,pemuda-hewan,,-6.573345,106.796486,,,,,,2
 pemuda-pedes,,pemuda-pedes,,-6.569892,106.798900,,,,,,2
 line-07-4,,line-07-4,,-6.5689,106.8002,,,,,,2
@@ -178,8 +182,6 @@ pajajaran-jambudua,,pajajaran-jambudua,,-6.5689,106.8091,,,,,,2
 yani-2,,yani-2,,-6.5692,106.8054,,,,,,2
 yani-3,,yani-3,,-6.5705,106.8044,,,,,,2
 yani-4,,yani-4,,-6.5788,106.7981,,,,,,2
-sudirman-airmancur,,sudirman-airmancur,,-6.5817,106.7968,,,,,,2
-sudirman-pengadilan,,sudirman-pengadilan,,-6.5919,106.7971,,,,,,2
 pengadilan-gedongsawah,,pengadilan-gedongsawah,,-6.5912,106.7938,,,,,,2
 gedongsawah-2,,gedongsawah-2,,-6.5940,106.7934,,,,,,2
 gedongsawah-3,,gedongsawah-3,,-6.5943,106.7930,,,,,,2
@@ -289,12 +291,10 @@ semeru-pasar-kemerdekaan,,semeru-pasar-kemerdekaan,,-6.593028,106.786514,,,,,,2
 kemerdekaan-semboja,,kemerdekaan-semboja,,-6.591259,106.786009,,,,,,2
 semboja-1,,semboja-1,,-6.590971,106.785194,,,,,,2
 semboja-cempaka,,semboja-cempaka,,-6.590449,106.785462,,,,,,2
-sudirman-sawojajar,,sudirman-sawojajar,,-6.588653,106.796967,,,,,,2
 sawojajar-cibalok,,sawojajar-cibalok,,-6.588586,106.794769,,,,,,2
 cibalok-pabaton,,cibalok-pabaton,,-6.590637,106.794469,,,,,,2
 pabaton-turnsouth,,pabaton-turnsouth,,-6.590611,106.793267,,,,,,2
 pabaton-ggbaru,,pabaton-ggbaru,,-6.591027,106.793192,,,,,,2
-ggbaru-sudirman,,ggbaru-sudirman,,-6.590952,106.797097,,,,,,2
 pedes-bendrightatstart,,pedes-bendrightatstart,,-6.569210,106.799029,,,,,,2
 pedes-sungai,,pedes-sungai,,-6.565255,106.801904,,,,,,2
 pedes-iskandar,,pedes-iskandar,,-6.561887,106.801968,,,,,,2
