@@ -66,6 +66,7 @@ veteran-merdeka,,veteran-merdeka,,-6.5955,106.7884,,,,,,2
 veteran-kemerdekaan,,veteran-kemerdekaan,,-6.5956,106.7876,,,,,,2
 kemerdekaan,,kemerdekaan,,-6.5932,106.7866,,,,,,2
 merdeka,,merdeka,,-6.5931,106.7878,,,,,,2
+merdeka-semeru,,merdeka-semeru,,-6.592841,106.787774,,,,,,2
 merdeka-salamun,,merdeka-salamun,,-6.5903,106.7877,,,,,,2
 salamun-oking,,salamun-oking,,-6.5906,106.7906,,,,,,2
 muslihat-oking,,muslihat-oking,,-6.5958,106.7895,,,,,,2
@@ -234,6 +235,7 @@ martadinata-3,,martadinata-3,,-6.5832,106.7915,,,,,,2
 martadinata-tentpelajar,,martadinata-tentpelajar,,-6.5829,106.7877,,,,,,2
 tentpelajar,,tentpelajar,,-6.5729,106.7880,,,,,,2
 tentpelajar-cimanggu,,tentpelajar-cimanggu,,-6.5702,106.7877,,,,,,2
+mawar-merdeka,,mawar-merdeka,,-6.589474,106.787731,,,,,,2
 rambutan,,rambutan,,-6.618061,106.820295,,,,,,2
 banteng-sungai,,banteng-sungai,,-6.624926,106.827982,,,,,,2
 katulampa,,katulampa,,-6.627059,106.829010,,,,,,2
@@ -284,8 +286,6 @@ darulquran-semeru,,darulquran-semeru,,-6.581309,106.777367,,,,,,2
 semeru-1,,semeru-1,,-6.587896,106.784770,,,,,,2
 semboja-semeru,,semboja-semeru,,-6.590204,106.786020,,,,,,2
 semeru-mawar,,semeru-mawar,,-6.590305,106.786122,,,,,,2
-mawar-merdeka,,mawar-merdeka,,-6.589474,106.787731,,,,,,2
-merdeka-semeru,,merdeka-semeru,,-6.592841,106.787774,,,,,,2
 semeru-pasar,,semeru-pasar,,-6.592495,106.787608,,,,,,2
 semeru-pasar-kemerdekaan,,semeru-pasar-kemerdekaan,,-6.593028,106.786514,,,,,,2
 kemerdekaan-semboja,,kemerdekaan-semboja,,-6.591259,106.786009,,,,,,2

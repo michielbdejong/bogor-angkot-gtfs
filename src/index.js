@@ -4,19 +4,9 @@ var points = require('./points');
 var maps = require('./maps');
 
 const ROUTE_COLOURS = {
-  'AK-11': 'blue',
-  'AK-12': 'orange',
-  'AK-13': 'red',
-  'AK-14': 'green',
-  'AK-15': 'pink',
-  'AK-16': 'yellow',
-  'AK-17': 'purple',
-  'AK-18': 'grey',
-  'AK-19': 'black',
-  'AK-20': 'brown',
-//  'AK-21': 'black',
-//  'AK-22': 'black',
-//  'AK-23': 'black',
+  'AK-21': 'blue',
+  'AK-22': 'orange',
+  'AK-23': 'red',
 };
 
 function traceRoute(points) {
