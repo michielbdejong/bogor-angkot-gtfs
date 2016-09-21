@@ -53,6 +53,7 @@ function lineThrough(a, b, lineLane) {
 }
 
 function cutLines(a, b, fallbackCoords) {
+  // return [fallbackCoords[1], fallbackCoords[0]];
   // a and b are like start,switcher,end from previous function
   // fallbackCoords contains:
   // [lat, lon, stop_name, stretchDef-before, lane]
@@ -153,7 +154,7 @@ function getLaneAtPoint(here) {
 }
 
 function makeCornerPoint(before, here, after) {
-  // console.log('makeCornerPoint', { routeName, before, here, after, debug});
+  // console.log('makeCornerPoint', { before, here, after });
   var cornerLane = getLaneAtPoint(here);
   var beforeLine = lineThrough(before, here, cornerLane);
   // lineThrough returns an object:

@@ -163,8 +163,8 @@ ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
 padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
 pajajaran-otista,,pajajaran-otista,,-6.601624,106.805305,,,,,,2
-line-07-1,,line-07-1,,-6.5802,106.7967,,,,,,2
-line-07-2,,line-07-2,,-6.5734,106.7964,,,,,,2
+pemuda-hewan,,pemuda-hewan,,-6.573345,106.796486,,,,,,2
+pemuda-pedes,,pemuda-pedes,,-6.569892,106.798900,,,,,,2
 line-07-3,,line-07-3,,-6.5699,106.7987,,,,,,2
 line-07-4,,line-07-4,,-6.5689,106.8002,,,,,,2
 line-07-5,,line-07-5,,-6.5676,106.8012,,,,,,2
@@ -300,8 +300,6 @@ cibalok-pabaton,,cibalok-pabaton,,-6.590637,106.794469,,,,,,2
 pabaton-turnsouth,,pabaton-turnsouth,,-6.590611,106.793267,,,,,,2
 pabaton-ggbaru,,pabaton-ggbaru,,-6.591027,106.793192,,,,,,2
 ggbaru-sudirman,,ggbaru-sudirman,,-6.590952,106.797097,,,,,,2
-pemuda-hewan,,pemuda-hewan,,-6.573345,106.796486,,,,,,2
-pemuda-pedes,,pemuda-pedes,,-6.569892,106.798900,,,,,,2
 pedes-bendrightatstart,,pedes-bendrightatstart,,-6.569210,106.799029,,,,,,2
 pedes-sungai,,pedes-sungai,,-6.565255,106.801904,,,,,,2
 pedes-iskandar,,pedes-iskandar,,-6.561887,106.801968,,,,,,2
