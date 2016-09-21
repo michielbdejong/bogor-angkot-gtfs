@@ -2,6 +2,7 @@
 var fs = require('fs');
 var points = require('./points');
 var lines = require('./lines');
+var lanes = require('./lanes');
 var maps = require('./maps');
 
 const ROUTE_COLOURS = {
@@ -62,7 +63,7 @@ function drawRouteMap(routeName) {
 
 // ...
 var routes = points.readPoints();
-lines.assignLanesTo(/* by ref */ routes);
+lanes.assignLanesTo(/* by ref */ routes);
 
 fs.writeFileSync('../release/map.svg', drawMainMap(routes));
 
