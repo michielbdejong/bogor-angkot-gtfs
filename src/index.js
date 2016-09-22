@@ -59,7 +59,7 @@ function drawMap(routesInMap, routesToDraw, drawDebugLines) {
 var routes = points.readPoints();
 lanes.assignLanesTo(/* by ref */ routes);
 
-fs.writeFileSync('../release/map.svg', drawMap(routes, Object.keys(routes), false));
+fs.writeFileSync('../release/map.svg', drawMap(routes, Object.keys(routes), true));
 
 for (var routeName in routes) {
   if (ROUTE_BASICS[routeName]) {

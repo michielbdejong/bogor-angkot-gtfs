@@ -1,13 +1,10 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
 kb-gedong-sawah,,kb-gedong-sawah,,-6.5945,106.7946,,,,,,2
 kb-polisi-militer,,kb-polisi-militer,,-6.5930,106.7973,,,,,,2
-kb-jalak-harupat,,kb-jalak-harupat,,-6.5935,106.7984,,,,,,2
-kb-sempur,,kb-sempur,,-6.5922,106.8008,,,,,,2
 kb-salak,,kb-salak,,-6.5926,106.8018,,,,,,2
 kb-pangrango,,kb-pangrango,,-6.5935,106.8029,,,,,,2
 kb-astrid,,kb-astrid,,-6.5959,106.8044,,,,,,2
 kb-botani-1,,kb-botani-1,,-6.6009,106.8052,,,,,,2
-kb-botani-2,,kb-botani-2,,-6.6016,106.8047,,,,,,2
 bangka-otista,,bangka-otista,,-6.6016,106.8043,,,,,,2
 otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
 kb-otista,,kb-otista,,-6.6027,106.7996,,,,,,2
@@ -58,7 +55,6 @@ pahlawan-4,,pahlawan-4,,-6.6082,106.7964,,,,,,2
 pahlawan-empang,,pahlawan-empang,,-6.6077,106.7949,,,,,,2
 halte-empang,,halte-empang,,-6.6060,106.7954,,,,,,2
 btm-3,,btm-3,,-6.6046,106.7965,,,,,,2
-kb-btm-2,,kb-btm-2,,-6.6038,106.7961,,,,,,2
 kb-muslihat,,kb-muslihat,,-6.5969,106.7937,,,,,,2
 muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
 stasiun-paledang,,stasiun-paledang,,-6.5959,106.7897,,,,,,2
@@ -101,10 +97,8 @@ salak-4,,salak-4,,-6.5884,106.8030,,,,,,2
 salak-5,,salak-5,,-6.5883,106.8041,,,,,,2
 salak-pajajaran,,salak-pajajaran,,-6.5886,106.8049,,,,,,2
 pangrango-pajajaran,,pangrango-pajajaran,,-6.5922,106.8046,,,,,,2
-pajajaran-otista,,pajajaran-otista,,-6.6016,106.8053,,,,,,2
 tol-1,,tol-1,,-6.6043,106.8068,,,,,,2
 tol-2,,tol-2,,-6.6017,106.8111,,,,,,2
-tol-3,,tol-3,,-6.6045,106.8071,,,,,,2
 bangka-1,,bangka-1,,-6.6066,106.8087,,,,,,2
 pajajaran-ciheuleut,,pajajaran-ciheuleut,,-6.6078,106.8099,,,,,,2
 pajajaran-michelle-bakery,,pajajaran-michelle-bakery,,-6.6087,106.8105,,,,,,2
@@ -113,8 +107,6 @@ bangka-3,,bangka-3,,-6.6065,106.8074,,,,,,2
 bangka-5,,bangka-5,,-6.6066,106.8067,,,,,,2
 bangka-6,,bangka-6,,-6.6052,106.8058,,,,,,2
 bangka-7,,bangka-7,,-6.6052,106.8051,,,,,,2
-cincau-kb,,cincau-kb,,-6.6039,106.7972,,,,,,2
-kb-btm-1,,kb-btm-1,,-6.6042,106.7967,,,,,,2
 ggaut-1,,ggaut-1,,-6.6115,106.8024,,,,,,2
 ggaut-2,,ggaut-2,,-6.6115,106.8028,,,,,,2
 ggaut-padasuka,,ggaut-padasuka,,-6.6103,106.8038,,,,,,2
