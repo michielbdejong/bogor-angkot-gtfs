@@ -97,8 +97,8 @@ function makeTextTrans(x, y) {
   ];
 }
 
-function drawPath(routeName, colour, cornerPoints) {
-  // console.log('drawPath', routeName, colour, cornerPoints);
+function drawPath(routeName, basics, cornerPoints) {
+  // console.log('drawPath', routeName, basics, cornerPoints);
   var svgSnippet = '';
   var path = [];
   var debugLines = [];
@@ -125,7 +125,7 @@ function drawPath(routeName, colour, cornerPoints) {
     texts.push({ x: basePoint[0], y: basePoint[1], textTrans, textAttr, textStr});
     debugLines.push(cornerPoints[i].debugLine);
   }
-  var attributes = `stroke="${colour}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
+  var attributes = `stroke="${basics.color}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svgSnippet += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
   return { svgSnippet, texts, debugLines };
 }
