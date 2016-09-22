@@ -2,7 +2,7 @@
 var mathjs = require('mathjs');
 
 // constants
-const LANE_FACTOR = 5000;
+const LANE_FACTOR = 20000;
 
 // functions
 function parallelVector(fromX, fromY, toX, toY) {
@@ -18,12 +18,14 @@ function perpendicularVector(fromX, fromY, toX, toY) {
   return [-normalized[1], normalized[0]];
 }
 
-function lineThrough(a, b, lineLane) {
+function lineThrough(a, b) {
   // each of a and b contain:
   // [lat, lon, stop_name, stretchDef-before, lane]
   // a = [lat, lon] -> [y, x]
   // b = [lat, lon] -> [y, x]
 
+  var startLane = getLaneAtPoint(a);
+  var endLane = getLaneAtPoint(b);
   // console.log('line through', a, b, lineLane);
   var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
   var preVector = parallelVector(a[1], a[0], b[1], b[0]);
@@ -34,14 +36,14 @@ function lineThrough(a, b, lineLane) {
   var switchEndBaseX = middleX + Math.abs(b[4]-a[4])*preVector[0];
   var switchEndBaseY = middleY + Math.abs(b[4]-a[4])*preVector[1];
 
-  var fromX = a[1] + lineLane * laneVector[0];
-  var fromY = a[0] + lineLane * laneVector[1];
-  var switchStartX = switchStartBaseX + lineLane * laneVector[0];
-  var switchStartY = switchStartBaseY + lineLane * laneVector[1];
-  var switchEndX = switchEndBaseX + lineLane * laneVector[0];
-  var switchEndY = switchEndBaseY + lineLane * laneVector[1];
-  var toX = b[1] + lineLane * laneVector[0];
-  var toY = b[0] + lineLane * laneVector[1];
+  var fromX = a[1] + startLane * laneVector[0];
+  var fromY = a[0] + startLane * laneVector[1];
+  var switchStartX = switchStartBaseX + startLane * laneVector[0];
+  var switchStartY = switchStartBaseY + startLane * laneVector[1];
+  var switchEndX = switchEndBaseX + endLane * laneVector[0];
+  var switchEndY = switchEndBaseY + endLane * laneVector[1];
+  var toX = b[1] + endLane * laneVector[0];
+  var toY = b[0] + endLane * laneVector[1];
   // console.log({ a, b, lineLane, laneVector, preVector, fromX, fromY, switchStartX, switchStartY, switchEndX, switchEndY, toX, toY });
   // two points define a line
   //      fix x, var x,    fix y, var y
@@ -153,21 +155,18 @@ function getLaneAtPoint(here) {
 
 function makeCornerPoint(before, here, after) {
   // console.log('makeCornerPoint', { before, here, after });
-  var cornerLane = getLaneAtPoint(here);
-  var beforeLine = lineThrough(before, here, cornerLane);
+  var beforeLine = lineThrough(before, here); // before.end should be at cornerLane; before.switcher should be from previous c.L.
   // lineThrough returns an object:
   //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
   //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
   //  end: [switchEndX, toX-switchEndX, switchEndY, toY-switchEndY],
-  var afterLine = lineThrough(here, after, cornerLane);
+  var afterLine = lineThrough(here, after);
   // each of before, here, after contains:
   // [lat, lon, stop_name, stretchDef-before, lane]
-  var isEndPoint = (before[2].localeCompare(after[2]) === 0);
   // console.log(beforeLine, afterLine);
   return {
     coords: cutLines(beforeLine.end, afterLine.start, here),
     switcherLineBefore: beforeLine.switcher,
-    isEndPoint,
     here,
     debugLine: [before, here],
   };
