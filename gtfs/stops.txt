@@ -102,10 +102,6 @@ tol-2,,tol-2,,-6.6017,106.8111,,,,,,2
 bangka-1,,bangka-1,,-6.6066,106.8087,,,,,,2
 pajajaran-ciheuleut,,pajajaran-ciheuleut,,-6.6078,106.8099,,,,,,2
 pajajaran-michelle-bakery,,pajajaran-michelle-bakery,,-6.6087,106.8105,,,,,,2
-bangka-2,,bangka-2,,-6.6069,106.8080,,,,,,2
-bangka-3,,bangka-3,,-6.6065,106.8074,,,,,,2
-bangka-5,,bangka-5,,-6.6066,106.8067,,,,,,2
-bangka-6,,bangka-6,,-6.6052,106.8058,,,,,,2
 bangka-7,,bangka-7,,-6.6052,106.8051,,,,,,2
 ggaut-1,,ggaut-1,,-6.6115,106.8024,,,,,,2
 ggaut-2,,ggaut-2,,-6.6115,106.8028,,,,,,2
@@ -191,9 +187,6 @@ pajajaran-pjjindah,,pajajaran-pjjindah,,-6.6125,106.8130,,,,,,2
 pajajaran-durian,,pajajaran-durian,,-6.6161,106.8145,,,,,,2
 pajajaran-ggmesjid,,pajajaran-ggmesjid,,-6.6175,106.8150,,,,,,2
 lippo-n,,lippo-n,,-6.6210,106.8163,,,,,,2
-lippo-e,,lippo-e,,-6.6212,106.8164,,,,,,2
-lippo-s,,lippo-s,,-6.6214,106.8162,,,,,,2
-lippo-w,,lippo-w,,-6.6211,106.8159,,,,,,2
 durian-1,,durian-1,,-6.6165,106.8177,,,,,,2
 durian-2,,durian-2,,-6.6172,106.8186,,,,,,2
 durian-3,,durian-3,,-6.6184,106.8195,,,,,,2

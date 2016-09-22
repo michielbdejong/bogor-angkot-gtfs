@@ -518,26 +518,6 @@
       fill="white" stroke="black" stroke-width="2"/>
     <text x="106.8105" y="-6.6087" fill="black" text-anchor="middle" transform="translate(106.8105 -6.6087) scale(0.00001 -0.00001) translate(-106.8105 6.6087) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 06, 09, 11, 13, 21</text>
     <ellipse 
-      cx="106.808" cy="-12.6069"
-      rx="60" ry="15" transform="translate(106.808 -6.6069) scale(0.00001 -0.00001) translate(-106.808 6.6069) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.808" y="-6.6069" fill="black" text-anchor="middle" transform="translate(106.808 -6.6069) scale(0.00001 -0.00001) translate(-106.808 6.6069) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 09, 11, 13</text>
-    <ellipse 
-      cx="106.8074" cy="-12.6065"
-      rx="60" ry="15" transform="translate(106.8074 -6.6065) scale(0.00001 -0.00001) translate(-106.8074 6.6065) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8074" y="-6.6065" fill="black" text-anchor="middle" transform="translate(106.8074 -6.6065) scale(0.00001 -0.00001) translate(-106.8074 6.6065) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 09, 11, 13</text>
-    <ellipse 
-      cx="106.8067" cy="-12.6066"
-      rx="60" ry="15" transform="translate(106.8067 -6.6066) scale(0.00001 -0.00001) translate(-106.8067 6.6066) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8067" y="-6.6066" fill="black" text-anchor="middle" transform="translate(106.8067 -6.6066) scale(0.00001 -0.00001) translate(-106.8067 6.6066) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 09, 11, 13</text>
-    <ellipse 
-      cx="106.8058" cy="-12.6052"
-      rx="60" ry="15" transform="translate(106.8058 -6.6052) scale(0.00001 -0.00001) translate(-106.8058 6.6052) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8058" y="-6.6052" fill="black" text-anchor="middle" transform="translate(106.8058 -6.6052) scale(0.00001 -0.00001) translate(-106.8058 6.6052) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 09, 11, 13</text>
-    <ellipse 
       cx="106.8051" cy="-12.6052"
       rx="60" ry="15" transform="translate(106.8051 -6.6052) scale(0.00001 -0.00001) translate(-106.8051 6.6052) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
@@ -957,21 +937,6 @@
       rx="45" ry="15" transform="translate(106.8163 -6.621) scale(0.00001 -0.00001) translate(-106.8163 6.621) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
     <text x="106.8163" y="-6.621" fill="black" text-anchor="middle" transform="translate(106.8163 -6.621) scale(0.00001 -0.00001) translate(-106.8163 6.621) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">09, 10, 21</text>
-    <ellipse 
-      cx="106.8164" cy="-12.6212"
-      rx="45" ry="15" transform="translate(106.8164 -6.6212) scale(0.00001 -0.00001) translate(-106.8164 6.6212) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8164" y="-6.6212" fill="black" text-anchor="middle" transform="translate(106.8164 -6.6212) scale(0.00001 -0.00001) translate(-106.8164 6.6212) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">09, 10, 21</text>
-    <ellipse 
-      cx="106.8162" cy="-12.621400000000001"
-      rx="45" ry="15" transform="translate(106.8162 -6.6214) scale(0.00001 -0.00001) translate(-106.8162 6.6214) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8162" y="-6.6214" fill="black" text-anchor="middle" transform="translate(106.8162 -6.6214) scale(0.00001 -0.00001) translate(-106.8162 6.6214) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">09, 10, 21</text>
-    <ellipse 
-      cx="106.8159" cy="-12.6211"
-      rx="45" ry="15" transform="translate(106.8159 -6.6211) scale(0.00001 -0.00001) translate(-106.8159 6.6211) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8159" y="-6.6211" fill="black" text-anchor="middle" transform="translate(106.8159 -6.6211) scale(0.00001 -0.00001) translate(-106.8159 6.6211) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">09, 10, 21</text>
     <ellipse 
       cx="106.8177" cy="-12.6165"
       rx="30" ry="15" transform="translate(106.8177 -6.6165) scale(0.00001 -0.00001) translate(-106.8177 6.6165) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
