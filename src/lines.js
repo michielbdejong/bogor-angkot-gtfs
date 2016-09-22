@@ -124,8 +124,6 @@ function cutLines(a, b, fallbackCoords) {
 }
 
 function getLaneAtPoint(here) {
-  return 0;
-
   // here contains: [lat, lon, stop_name, stretchDef-before, lane]
   // shift lanes around Kebun Raya to the right to avoid
   // overlapping with the streets surrounding the Kebun Raya:
