@@ -148,7 +148,6 @@ function getLaneAtPoint(here) {
     'kb-btm-2': -6,
     'kb-muslihat': -6,
   };
-
   var thisLaneShift = laneShift[here[2].trim()] || 0;
   return here[4] + thisLaneShift;
 }
