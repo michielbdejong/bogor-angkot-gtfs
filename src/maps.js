@@ -1,10 +1,10 @@
 var lines = require('./lines');
 
 // constants
-const MAP_WEST = 106.76;
-const MAP_EAST = 106.865;
-const MAP_NORTH = -6.50;
-const MAP_SOUTH = -6.685;
+const MAP_WEST = 106.725;
+const MAP_EAST = 106.87;
+const MAP_NORTH = -6.515;
+const MAP_SOUTH = -6.67;
 
 const MAP_CENTER_LON = (MAP_WEST + MAP_EAST)/2;
 const MAP_CENTER_LAT = (MAP_NORTH + MAP_SOUTH)/2;
@@ -14,7 +14,7 @@ const MAP_HEIGHT = MAP_NORTH - MAP_SOUTH;
 const CANVAS_SCALE = 10000;
 const CANVAS_WIDTH = MAP_WIDTH * CANVAS_SCALE;
 const CANVAS_HEIGHT = MAP_HEIGHT * CANVAS_SCALE;
-const MAP_ROTATION = 30;
+const MAP_ROTATION = 0;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .1;
