@@ -4,6 +4,7 @@ var points = require('./points');
 var lines = require('./lines');
 var lanes = require('./lanes');
 var maps = require('./maps');
+var legenda = require('./legenda');
 
 const ROUTE_BASICS = {
   'AK-01': { color: 'blue', destinations: ['Term. Merdeka', 'Cipaku', 'Cipinang Gading'] },
@@ -51,6 +52,7 @@ function drawMap(routesInMap, routesToDraw, drawDebugLines) {
       }
     }
   }
+  svg += legenda.getLegenda(ROUTE_BASICS);
   svg += maps.finishDrawing(texts, debugLines);
   return svg;
 }

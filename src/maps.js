@@ -86,14 +86,24 @@ function warp(x) {
   }
 }
 
-function makeTextTrans(x, y) {
+function makeTextTrans(basePoint, factor) {
   return [
-    `translate(${x} ${y})`,
-    `scale(${TEXT_FACTOR/CANVAS_SCALE} ${-TEXT_FACTOR/CANVAS_SCALE})`,
-    `translate(${-x} ${-y})`,
+    `translate(${basePoint[0]} ${basePoint[1]})`,
+    `scale(${factor/CANVAS_SCALE} ${-factor/CANVAS_SCALE})`,
+    `translate(${-basePoint[0]} ${-basePoint[1]})`,
     `translate(${MAP_CENTER_LON} ${MAP_CENTER_LAT})`,
     `rotate(${-MAP_ROTATION})`,
     `translate(${-MAP_CENTER_LON} ${-MAP_CENTER_LAT})`,
+  ];
+}
+
+function makeTextAttr(basePoint, textTrans, textAnchor) {
+  return [
+    `x="${basePoint[0]}"`,
+    `y="${basePoint[1]}"`,
+    `fill="black"`,
+    `text-anchor="${textAnchor}"`,
+    `transform="${textTrans.join(' ')}"`
   ];
 }
 
@@ -113,14 +123,8 @@ function drawPath(routeName, basics, cornerPoints) {
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
-    var textTrans = makeTextTrans(basePoint[0], basePoint[1]);
-    var textAttr = [
-      `x="${basePoint[0]}"`,
-      `y="${basePoint[1]}"`,
-      `fill="black"`,
-      `text-anchor="middle"`,
-      `transform="${textTrans.join(' ')}"`
-    ];
+    var textTrans = makeTextTrans(basePoint, TEXT_FACTOR);
+    var textAttr = makeTextAttr(basePoint, textTrans, 'middle');
     var textStr = routeName.substring(3);
     texts.push({ x: basePoint[0], y: basePoint[1], textTrans, textAttr, textStr});
     debugLines.push(cornerPoints[i].debugLine);
@@ -188,4 +192,4 @@ function finishDrawing(texts, debugLines) {
   return svgSnippet;
 }
 
-module.exports = { initDrawing, drawPath, finishDrawing };
+module.exports = { initDrawing, drawPath, finishDrawing, makeTextTrans, makeTextAttr };
