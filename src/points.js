@@ -4,6 +4,7 @@ const NAME_COL = 0;
 const LAT_COL = 1;
 const LON_COL = 2;
 const STOP_COL = 5;
+const GRID_SNAP_FACTOR = 10000;
 
 function readPoints() {
   var routes = {};
@@ -22,8 +23,8 @@ function readPoints() {
       routes[columns[NAME_COL]] = [];
     }
     routes[columns[NAME_COL]].push([
-      parseFloat(columns[LAT_COL]),
-      parseFloat(columns[LON_COL]),
+      Math.floor(parseFloat(columns[LAT_COL])*GRID_SNAP_FACTOR)/GRID_SNAP_FACTOR,
+      Math.floor(parseFloat(columns[LON_COL])*GRID_SNAP_FACTOR)/GRID_SNAP_FACTOR,
       columns[STOP_COL],
     ]);
   });
