@@ -18,7 +18,7 @@ const MAP_ROTATION = 0;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .1;
-const STROKE_WIDTH = 2;
+const STROKE_WIDTH = 1;
 const TEXT_CIRCLE_SIZE = 15;
 const TEXT_CIRCLE_UP = 6;
 const TEXT_CIRCLE_LEFT = 0;
@@ -108,21 +108,21 @@ function drawPath(routeName, colour, cornerPoints) {
     var sXe = sXs + sXd;
     var sYe = sYs + sYd;
     var corner = cornerPoints[i].coords; // coords contains [x, y]
+    var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]]; // here contains [lat, lon]
+    // console.log({ corner, basePoint });
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
-    if (cornerPoints[i].isEndPoint) {
-      var textTrans = makeTextTrans(corner[0], corner[1]);
-      var textAttr = [
-        `x="${corner[0]}"`,
-        `y="${corner[1]}"`,
-        `fill="black"`,
-        `text-anchor="middle"`,
-        `transform="${textTrans.join(' ')}"`
-      ];
-      var textStr = routeName.substring(3);
-      texts.push({ x: corner[0], y: corner[1], textTrans, textAttr, textStr});
-    }
+    var textTrans = makeTextTrans(basePoint[0], basePoint[1]);
+    var textAttr = [
+      `x="${basePoint[0]}"`,
+      `y="${basePoint[1]}"`,
+      `fill="black"`,
+      `text-anchor="middle"`,
+      `transform="${textTrans.join(' ')}"`
+    ];
+    var textStr = routeName.substring(3);
+    texts.push({ x: basePoint[0], y: basePoint[1], textTrans, textAttr, textStr});
     debugLines.push(cornerPoints[i].debugLine);
   }
   var attributes = `stroke="${colour}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
@@ -153,7 +153,7 @@ function finishDrawing(texts, debugLines) {
   svgSnippet += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
-    var lineParts = lines.lineThrough(a, b, 0);
+    var lineParts = lines.lineThrough(a, b);
     // lineThrough returns an object:
     //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
     //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
@@ -170,10 +170,10 @@ function finishDrawing(texts, debugLines) {
     var textTrans = makeTextTrans(a[1], a[0]);
 
     return [
-      `    <line x1="${a[1]}" y1="${a[0]}" x2="${b[1]}" y2="${b[0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`,
-      `    <line x1="${fromX1}" y1="${fromY1}" x2="${toX1}" y2="${toY1}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
-      `    <line x1="${fromX2}" y1="${fromY2}" x2="${toX2}" y2="${toY2}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
-      `    <line x1="${fromX3}" y1="${fromY3}" x2="${toX3}" y2="${toY3}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      // `    <line x1="${a[1]}" y1="${a[0]}" x2="${b[1]}" y2="${b[0]}" style="stroke:rgb(255,255,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX1}" y1="${fromY1}" x2="${toX1}" y2="${toY1}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`,
+      // `    <line x1="${fromX2}" y1="${fromY2}" x2="${toX2}" y2="${toY2}" style="stroke:rgb(0,255,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX3}" y1="${fromY3}" x2="${toX3}" y2="${toY3}" style="stroke:rgb(0,0,255);stroke-width:.00002" />`,
       `    <circle cx="${a[1]}" cy="${a[0]}" fill="rgb(255,0,0)" r=".0001" />`,
       `    <text x="${a[1]}" y="${a[0]}" stroke="rgb(0,0,0)" transform="${textTrans}" >${a[2]}</text>`,
     ].join('\n');
