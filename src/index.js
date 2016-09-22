@@ -31,33 +31,27 @@ const ROUTE_BASICS = {
   'AK-23': { color: 'black', destinations: ['Ramayana', 'Taman Kencana', 'Warung Jambu'], aka: '08A' },
 };
 
-function drawMainMap() {
+function drawMap(routesInMap, routesToDraw, drawDebugLines) {
   var svg = maps.initDrawing();
   var texts = [];
-  for (var routeName in routes) {
+  var debugLines = [];
+  for (var routeName in routesInMap) {
     if (ROUTE_BASICS[routeName]) {
       var obj = maps.drawPath(
         routeName,
-        ROUTE_BASICS[routeName],
-        lines.traceRoute(routes[routeName])
+        ROUTE_BASICS[routeName], // global
+        lines.traceRoute(routesInMap[routeName])
       );
-      svg += obj.svgSnippet;
-      texts = texts.concat(obj.texts);
+      texts = texts.concat(obj.texts); // always draw all texts
+      if (routesToDraw.indexOf(routeName) !== -1) {
+        svg += obj.svgSnippet;
+        if (drawDebugLines) {
+          debugLines = debugLines.concat(obj.debugLines);
+        }
+      }
     }
   }
-  svg += maps.finishDrawing(texts, []);
-  return svg;
-}
-
-function drawRouteMap(routeName) {
-  var svg = maps.initDrawing();
-  var obj = maps.drawPath(
-    routeName,
-    ROUTE_BASICS[routeName],
-    lines.traceRoute(routes[routeName])
-  );
-  svg += obj.svgSnippet;
-  svg += maps.finishDrawing(obj.texts, obj.debugLines);
+  svg += maps.finishDrawing(texts, debugLines);
   return svg;
 }
 
@@ -65,10 +59,10 @@ function drawRouteMap(routeName) {
 var routes = points.readPoints();
 lanes.assignLanesTo(/* by ref */ routes);
 
-fs.writeFileSync('../release/map.svg', drawMainMap(routes));
+fs.writeFileSync('../release/map.svg', drawMap(routes, Object.keys(routes), false));
 
 for (var routeName in routes) {
   if (ROUTE_BASICS[routeName]) {
-    fs.writeFileSync(`../release/${routeName}.svg`, drawRouteMap(routeName));
+    fs.writeFileSync(`../release/${routeName}.svg`, drawMap(routes, [ routeName ], true));
   }
 }
