@@ -135,21 +135,27 @@ function initDrawing() {
 }
 
 function finishDrawing(texts, debugLines) {
-  var svgSnippet = texts.map(obj => 
-     `    <circle \n` +
+  var groupedTexts = {};
+  var point; // let not supported outside strict-mode
+  for (var i=0; i<texts.length; i++) {
+    point = `${texts[i].x},${texts[i].y}`;
+    if (typeof groupedTexts[point] === 'undefined') {
+      groupedTexts[point] = texts[i];
+      groupedTexts[point].size = 1;
+    } else if (groupedTexts[point].textStr.indexOf(texts[i].textStr) === -1) {
+      groupedTexts[point].textStr += ', ' + texts[i].textStr;
+      groupedTexts[point].size++;
+    }
+  }
+  var svgSnippet = '';
+  for (point in groupedTexts) {
+    var obj = groupedTexts[point];
+    svgSnippet += `    <ellipse \n` +
      `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-     `      fill="white" stroke="black" stroke-width="2"/>`
-  ).join('\n') + '\n';
-  svgSnippet += texts.map(obj => 
-     `    <circle \n` +
-     `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-     `      fill="white" stroke="none"/>`
-  ).join('\n') + '\n';
-  svgSnippet += texts.map(obj => 
-     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
-  ).join('\n') + '\n';
+     `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+     `      fill="white" stroke="black" stroke-width="2"/>\n` +
+     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>\n`;
+  }
   svgSnippet += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
