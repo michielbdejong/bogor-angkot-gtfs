@@ -62,7 +62,7 @@ const BOUNDING_BOX_TRANSFORMATIONS = [
 
 const BOUNDING_BOX_ATTR = [
   `d="${BOUNDING_BOX_PATH.join(' ')}"`,
-  `fill="none"`,
+  `fill="#75FFB2"`,
   `stroke="black"`,
   `stroke-width="${5*STROKE_WIDTH/CANVAS_SCALE}"`,
   `transform="${BOUNDING_BOX_TRANSFORMATIONS.join(' ')}"`,

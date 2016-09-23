@@ -1,98 +1,194 @@
 <svg width="1450.0000000001023" height="1550.0000000000025" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
   <g transform="translate(725.0000000000512 775.0000000000013) rotate(0) scale(10000 -10000) translate(-106.7975 6.592499999999999)">
-    <path d="M106.725 -6.515 L106.87 -6.515 L106.87 -6.67 L106.725 -6.67 Z" fill="none" stroke="black" stroke-width="0.0005" transform="translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)" />
+    <path d="M106.725 -6.515 L106.87 -6.515 L106.87 -6.67 L106.725 -6.67 Z" fill="#75FFB2" stroke="black" stroke-width="0.0005" transform="translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)" />
     <path d="M106.79240038610617 -6.59239379826327 L106.79240038610617 -6.59239379826327 L106.79245336197229 -6.591969991334267 L106.79312379512871 -6.591557417084164 L106.79312379512871 -6.591557417084164 L106.79379082002596 -6.591146940224314 L106.79546037521042 -6.591501088293745 L106.79546037521042 -6.591501088293745 L106.7970434396051 -6.5918368898320105 L106.79700522332644 -6.591454727045462 L106.79694552109503 -6.591360198512392 L106.79690021651349 -6.590907152697055 L106.79685009438415 -6.589754343722428 L106.79685009438415 -6.589754343722428 L106.7968000314845 -6.588602897030236 L106.79675145962354 -6.585251438622842 L106.7966485718775 -6.585052908746707 L106.79660096380493 -6.581767951739908 L106.79658 -6.581740000000001 L106.79652 -6.581410000000003 L106.79647915123097 -6.581355534974622 L106.79490928691668 -6.581688536495837 L106.79482183871457 -6.581758198622928 L106.79328911204563 -6.582083322461794 L106.79325606601718 -6.582314644660941 L106.79319242640686 -6.5824065685424955 L106.79314503459364 -6.582738311235158 L106.79231491374965 -6.582997723998902 L106.79231491374965 -6.582997723998902 L106.79150569417682 -6.583250605115413 L106.78959606487574 -6.583099844907433 L106.78959606487574 -6.583099844907433 L106.78764859458747 -6.582946097253097 L106.78780002248482 -6.577898500674545 L106.78780002248482 -6.577898500674545 L106.78794991687194 -6.572902021104278 L106.78780030581326 -6.571555521576304 L106.78780030581326 -6.571555521576304 L106.7877 -6.5702 L106.78789969418672 -6.5715444784236965 L106.78789969418672 -6.5715444784236965 L106.78805008312807 -6.57289797889575 L106.78789997751517 -6.5779014993254545 L106.78789997751517 -6.5779014993254545 L106.78775 -6.582900749831013 L106.78775 -6.58615 L106.78775 -6.58615 L106.78775 -6.5894 L106.78775 -6.5898 L106.7878 -6.5899 L106.7878 -6.590209811174227 L106.78916028991512 -6.590350530820618 L106.78916028991512 -6.590350530820618 L106.7907208353989 -6.590511966560321 L106.79014783497033 -6.593220695859104 L106.79014783497033 -6.593220695859104 L106.78961778862016 -6.5957263695144 L106.79047574643751 -6.595940858968733 L106.79056063390627 -6.596013619656245 L106.79146394411497 -6.596239447208421 L106.79188912330137 -6.594585972594639 L106.79186560275873 -6.59447667124939 L106.79235157535336 -6.59278754794801 L106.7924 -6.5928 L106.7924 -6.5928 L106.79237519305309 -6.592796899131636 Z" stroke="yellow" stroke-width="0.0001" fill="none" />
-    <text x="106.73" y="-6.62" fill="black" text-anchor="left" transform="translate(106.73 -6.62) scale(0.0001 -0.0001) translate(-106.73 6.62) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.52" fill="black" text-anchor="left" transform="translate(106.826 -6.52) scale(0.0001 -0.0001) translate(-106.826 6.52) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-01:
         Term. Merdeka - Cipaku - Cipinang Gading
         </text>
-    <text x="106.73" y="-6.622" fill="black" text-anchor="left" transform="translate(106.73 -6.622) scale(0.0001 -0.0001) translate(-106.73 6.622) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.521999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.521999999999999) scale(0.0001 -0.0001) translate(-106.826 6.521999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-02:
         Sukasari - Term. Bubulak
         </text>
-    <text x="106.73" y="-6.624" fill="black" text-anchor="left" transform="translate(106.73 -6.624) scale(0.0001 -0.0001) translate(-106.73 6.624) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.523999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.523999999999999) scale(0.0001 -0.0001) translate(-106.826 6.523999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-03:
         Term. Bubulak - Term. Baranangsiang
         </text>
-    <text x="106.73" y="-6.626" fill="black" text-anchor="left" transform="translate(106.73 -6.626) scale(0.0001 -0.0001) translate(-106.73 6.626) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.526" fill="black" text-anchor="left" transform="translate(106.826 -6.526) scale(0.0001 -0.0001) translate(-106.826 6.526) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-04:
         Warung Nangka - Rancamaya - Ramayana
         </text>
-    <text x="106.73" y="-6.628" fill="black" text-anchor="left" transform="translate(106.73 -6.628) scale(0.0001 -0.0001) translate(-106.73 6.628) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.528" fill="black" text-anchor="left" transform="translate(106.826 -6.528) scale(0.0001 -0.0001) translate(-106.826 6.528) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-05:
         Cimahpar - Ramayana
         </text>
-    <text x="106.73" y="-6.63" fill="black" text-anchor="left" transform="translate(106.73 -6.63) scale(0.0001 -0.0001) translate(-106.73 6.63) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.529999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.529999999999999) scale(0.0001 -0.0001) translate(-106.826 6.529999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-06:
         Cileuheut - Ramayana
         </text>
-    <text x="106.73" y="-6.632" fill="black" text-anchor="left" transform="translate(106.73 -6.632) scale(0.0001 -0.0001) translate(-106.73 6.632) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.531999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.531999999999999) scale(0.0001 -0.0001) translate(-106.826 6.531999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-07:
         Ciparigi - Term. Merdeka
         </text>
-    <text x="106.73" y="-6.634" fill="black" text-anchor="left" transform="translate(106.73 -6.634) scale(0.0001 -0.0001) translate(-106.73 6.634) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.534" fill="black" text-anchor="left" transform="translate(106.826 -6.534) scale(0.0001 -0.0001) translate(-106.826 6.534) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-08:
         Warung Jambu - Ramayana
         </text>
-    <text x="106.73" y="-6.636" fill="black" text-anchor="left" transform="translate(106.73 -6.636) scale(0.0001 -0.0001) translate(-106.73 6.636) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.536" fill="black" text-anchor="left" transform="translate(106.826 -6.536) scale(0.0001 -0.0001) translate(-106.826 6.536) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-09:
         Ciparigi - Sukasari
         </text>
-    <text x="106.73" y="-6.638" fill="black" text-anchor="left" transform="translate(106.73 -6.638) scale(0.0001 -0.0001) translate(-106.73 6.638) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.537999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.537999999999999) scale(0.0001 -0.0001) translate(-106.826 6.537999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-10:
         Bantar Kemang - Sukasari - Term. Merdeka
         </text>
-    <text x="106.73" y="-6.64" fill="black" text-anchor="left" transform="translate(106.73 -6.64) scale(0.0001 -0.0001) translate(-106.73 6.64) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.539999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.539999999999999) scale(0.0001 -0.0001) translate(-106.826 6.539999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-11:
         Pajajaran Indah - Pasar Bogor
         </text>
-    <text x="106.73" y="-6.642" fill="black" text-anchor="left" transform="translate(106.73 -6.642) scale(0.0001 -0.0001) translate(-106.73 6.642) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.542" fill="black" text-anchor="left" transform="translate(106.826 -6.542) scale(0.0001 -0.0001) translate(-106.826 6.542) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-12:
         Cimanggu - Pasar Anyar
         </text>
-    <text x="106.73" y="-6.644" fill="black" text-anchor="left" transform="translate(106.73 -6.644) scale(0.0001 -0.0001) translate(-106.73 6.644) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.544" fill="black" text-anchor="left" transform="translate(106.826 -6.544) scale(0.0001 -0.0001) translate(-106.826 6.544) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-13:
         Ramayana - Bantar Kemang - Mutiara Bogor Raya
         </text>
-    <text x="106.73" y="-6.646" fill="black" text-anchor="left" transform="translate(106.73 -6.646) scale(0.0001 -0.0001) translate(-106.73 6.646) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.545999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.545999999999999) scale(0.0001 -0.0001) translate(-106.826 6.545999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-14:
         Sukasari - Term. Bubulak
         </text>
-    <text x="106.73" y="-6.648" fill="black" text-anchor="left" transform="translate(106.73 -6.648) scale(0.0001 -0.0001) translate(-106.73 6.648) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.547999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.547999999999999) scale(0.0001 -0.0001) translate(-106.826 6.547999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-15:
         Term. Merdeka - Term. Bubulak - Sindang Barang Jero
         </text>
-    <text x="106.73" y="-6.65" fill="black" text-anchor="left" transform="translate(106.73 -6.65) scale(0.0001 -0.0001) translate(-106.73 6.65) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.55" fill="black" text-anchor="left" transform="translate(106.826 -6.55) scale(0.0001 -0.0001) translate(-106.826 6.55) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-16:
         Pasar Anyar - Salabenda
         </text>
-    <text x="106.73" y="-6.652" fill="black" text-anchor="left" transform="translate(106.73 -6.652) scale(0.0001 -0.0001) translate(-106.73 6.652) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.552" fill="black" text-anchor="left" transform="translate(106.826 -6.552) scale(0.0001 -0.0001) translate(-106.826 6.552) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-17:
         Pomad - Tanah Baru - Bina Marga
         </text>
-    <text x="106.73" y="-6.654" fill="black" text-anchor="left" transform="translate(106.73 -6.654) scale(0.0001 -0.0001) translate(-106.73 6.654) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.553999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.553999999999999) scale(0.0001 -0.0001) translate(-106.826 6.553999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-18:
         Ramayana - Mulyaharja
         </text>
-    <text x="106.73" y="-6.656" fill="black" text-anchor="left" transform="translate(106.73 -6.656) scale(0.0001 -0.0001) translate(-106.73 6.656) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.555999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.555999999999999) scale(0.0001 -0.0001) translate(-106.826 6.555999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-19:
         Term. Bubulak - Taman Griya Kencana
         </text>
-    <text x="106.73" y="-6.658" fill="black" text-anchor="left" transform="translate(106.73 -6.658) scale(0.0001 -0.0001) translate(-106.73 6.658) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.558" fill="black" text-anchor="left" transform="translate(106.826 -6.558) scale(0.0001 -0.0001) translate(-106.826 6.558) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-20:
         Pasar Anyar - Taman Griya Kencana
         </text>
-    <text x="106.73" y="-6.66" fill="black" text-anchor="left" transform="translate(106.73 -6.66) scale(0.0001 -0.0001) translate(-106.73 6.66) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.56" fill="black" text-anchor="left" transform="translate(106.826 -6.56) scale(0.0001 -0.0001) translate(-106.826 6.56) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-21 (a.k.a. 01A):
         Term. Baranangsiang - Ciawi
         </text>
-    <text x="106.73" y="-6.662" fill="black" text-anchor="left" transform="translate(106.73 -6.662) scale(0.0001 -0.0001) translate(-106.73 6.662) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.561999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.561999999999999) scale(0.0001 -0.0001) translate(-106.826 6.561999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-22 (a.k.a. 07A):
         Pasar Anyar - Pondok Rumput
         </text>
-    <text x="106.73" y="-6.664" fill="black" text-anchor="left" transform="translate(106.73 -6.664) scale(0.0001 -0.0001) translate(-106.73 6.664) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+    <text x="106.826" y="-6.563999999999999" fill="black" text-anchor="left" transform="translate(106.826 -6.563999999999999) scale(0.0001 -0.0001) translate(-106.826 6.563999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
         AK-23 (a.k.a. 08A):
         Ramayana - Taman Kencana - Warung Jambu
+        </text>
+    <text x="106.727" y="-6.6" fill="black" text-anchor="left" transform="translate(106.727 -6.6) scale(0.0001 -0.0001) translate(-106.727 6.6) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        It's Raining Angkots in Bogor! :)
+        </text>
+    <text x="106.727" y="-6.601999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.601999999999999) scale(0.0001 -0.0001) translate(-106.727 6.601999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.603999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.603999999999999) scale(0.0001 -0.0001) translate(-106.727 6.603999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        This is a zoomable map of mini-buses in Bogor (West Java, Indonesia),
+        </text>
+    <text x="106.727" y="-6.606" fill="black" text-anchor="left" transform="translate(106.727 -6.606) scale(0.0001 -0.0001) translate(-106.727 6.606) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        a.k.a. Kota Angkot (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).
+        </text>
+    <text x="106.727" y="-6.608" fill="black" text-anchor="left" transform="translate(106.727 -6.608) scale(0.0001 -0.0001) translate(-106.727 6.608) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.609999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.609999999999999) scale(0.0001 -0.0001) translate(-106.727 6.609999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        This map only shows the central angkots ("Angutan Kota"), which are green at the top, and
+        </text>
+    <text x="106.727" y="-6.611999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.611999999999999) scale(0.0001 -0.0001) translate(-106.727 6.611999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        have one other color at the bottom indicating their route; not the regional minibuses
+        </text>
+    <text x="106.727" y="-6.614" fill="black" text-anchor="left" transform="translate(106.727 -6.614) scale(0.0001 -0.0001) translate(-106.727 6.614) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        ("Angutan Perkotaan") which are either entirely green, or dark blue.
+        </text>
+    <text x="106.727" y="-6.616" fill="black" text-anchor="left" transform="translate(106.727 -6.616) scale(0.0001 -0.0001) translate(-106.727 6.616) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.617999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.617999999999999) scale(0.0001 -0.0001) translate(-106.727 6.617999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        To hop on anywhere, just hail an angkot with the right route number, in the right direction.
+        </text>
+    <text x="106.727" y="-6.619999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.619999999999999) scale(0.0001 -0.0001) translate(-106.727 6.619999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        You usually see one within 2 or 3 minutes (only line 20 is less frequent).
+        </text>
+    <text x="106.727" y="-6.622" fill="black" text-anchor="left" transform="translate(106.727 -6.622) scale(0.0001 -0.0001) translate(-106.727 6.622) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.624" fill="black" text-anchor="left" transform="translate(106.727 -6.624) scale(0.0001 -0.0001) translate(-106.727 6.624) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        To hop off, say "Kiri!" (which means "left"/"pull over")
+        </text>
+    <text x="106.727" y="-6.6259999999999994" fill="black" text-anchor="left" transform="translate(106.727 -6.6259999999999994) scale(0.0001 -0.0001) translate(-106.727 6.6259999999999994) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Get out through the tiny door first, then pay the driver through the window; both are always open.
+        </text>
+    <text x="106.727" y="-6.627999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.627999999999999) scale(0.0001 -0.0001) translate(-106.727 6.627999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        The price is Rp.3500 (~ 0.25 US$) for one ride in one direction (or Rp.2500 for students).
+        </text>
+    <text x="106.727" y="-6.63" fill="black" text-anchor="left" transform="translate(106.727 -6.63) scale(0.0001 -0.0001) translate(-106.727 6.63) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.632" fill="black" text-anchor="left" transform="translate(106.727 -6.632) scale(0.0001 -0.0001) translate(-106.727 6.632) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Angkots may customize their route depending on where passengers need to go.
+        </text>
+    <text x="106.727" y="-6.6339999999999995" fill="black" text-anchor="left" transform="translate(106.727 -6.6339999999999995) scale(0.0001 -0.0001) translate(-106.727 6.6339999999999995) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Wait times at end-points can be long if the angkot is not full yet - waiting for enough
+        </text>
+    <text x="106.727" y="-6.635999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.635999999999999) scale(0.0001 -0.0001) translate(-106.727 6.635999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        passengers before driving off is called "mengetem" in Jakarta slang.
+        </text>
+    <text x="106.727" y="-6.638" fill="black" text-anchor="left" transform="translate(106.727 -6.638) scale(0.0001 -0.0001) translate(-106.727 6.638) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.64" fill="black" text-anchor="left" transform="translate(106.727 -6.64) scale(0.0001 -0.0001) translate(-106.727 6.64) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Bogor has several "Ramayana" shops, but on angkots this destination means Bogor Trade
+        </text>
+    <text x="106.727" y="-6.6419999999999995" fill="black" text-anchor="left" transform="translate(106.727 -6.6419999999999995) scale(0.0001 -0.0001) translate(-106.727 6.6419999999999995) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Mall (BTM). Lines 07 and 09 are supposed to go "Ciparigi", and lines 08 and 23 are
+        </text>
+    <text x="106.727" y="-6.643999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.643999999999999) scale(0.0001 -0.0001) translate(-106.727 6.643999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        supposed to go to "Wr. Jambu", but at Jambu Dua they usually ask you where you are going and if
+        </text>
+    <text x="106.727" y="-6.646" fill="black" text-anchor="left" transform="translate(106.727 -6.646) scale(0.0001 -0.0001) translate(-106.727 6.646) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        you want to get off, then make a U-turn, and start their mengetem ritual for the route back.
+        </text>
+    <text x="106.727" y="-6.648" fill="black" text-anchor="left" transform="translate(106.727 -6.648) scale(0.0001 -0.0001) translate(-106.727 6.648) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Also, lines 07 and 10 are supposed to go Term. Merdeka, but usually turn around at Pasar Anyar.
+        </text>
+    <text x="106.727" y="-6.6499999999999995" fill="black" text-anchor="left" transform="translate(106.727 -6.6499999999999995) scale(0.0001 -0.0001) translate(-106.727 6.6499999999999995) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.651999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.651999999999999) scale(0.0001 -0.0001) translate(-106.727 6.651999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Empty angkots can be chartered, e.g. negotiate a price to take you and 2 bicycles somewhere!
+        </text>
+    <text x="106.727" y="-6.654" fill="black" text-anchor="left" transform="translate(106.727 -6.654) scale(0.0001 -0.0001) translate(-106.727 6.654) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Angkot drivers may decide to take a shortcut to avoid traffic - especially taking Jl. Paledang
+        </text>
+    <text x="106.727" y="-6.656" fill="black" text-anchor="left" transform="translate(106.727 -6.656) scale(0.0001 -0.0001) translate(-106.727 6.656) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        instead of Jl. Muslihat is popular during the day.
+        </text>
+    <text x="106.727" y="-6.6579999999999995" fill="black" text-anchor="left" transform="translate(106.727 -6.6579999999999995) scale(0.0001 -0.0001) translate(-106.727 6.6579999999999995) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        
+        </text>
+    <text x="106.727" y="-6.659999999999999" fill="black" text-anchor="left" transform="translate(106.727 -6.659999999999999) scale(0.0001 -0.0001) translate(-106.727 6.659999999999999) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        Don't confuse "Taman Griya Kencana" of lines 19, 20 with "Taman Kencana" of lines 23 and 03
+        </text>
+    <text x="106.727" y="-6.662" fill="black" text-anchor="left" transform="translate(106.727 -6.662) scale(0.0001 -0.0001) translate(-106.727 6.662) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">
+        (and sometimes also 08 or 09 if they take the Jl. Salak shortcut instead of Jl. Pangrango).
         </text>
     <path d="M106.79603741572761,-6.593701435706882 L106.79614182895783,-6.593271641712789 L106.79572174782234,-6.5931332334774035 Z" stroke="none" fill="black" />
     <path d="M106.79964960726409,-6.592791146020972 L106.79992408061396,-6.592490664107697 L106.79960091037943,-6.592243306068592 Z" stroke="none" fill="black" />
