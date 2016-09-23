@@ -3,6 +3,7 @@ var mathjs = require('mathjs');
 
 // constants
 const LANE_FACTOR = 20000;
+const MIN_ARROW_DIST = 50/LANE_FACTOR;
 
 // functions
 function parallelVector(fromX, fromY, toX, toY) {
@@ -10,12 +11,52 @@ function parallelVector(fromX, fromY, toX, toY) {
   if (distance === 0) {
     return [0, 0];
   }
-  return [(toX-fromX)/(LANE_FACTOR*distance), (toY-fromY)/(LANE_FACTOR*distance)];
+  return [
+    (toX-fromX)/(LANE_FACTOR*distance),
+    (toY-fromY)/(LANE_FACTOR*distance)
+  ];
 }
 
 function perpendicularVector(fromX, fromY, toX, toY) {
   var normalized = parallelVector(fromX, fromY, toX, toY);
   return [-normalized[1], normalized[0]];
+}
+
+function getVectors(a, b) {
+  // console.log('getVectors', a, b);
+  var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
+  var preVector = parallelVector(a[1], a[0], b[1], b[0]);
+  var middleX = (a[1] + b[1])/2;
+  var middleY = (a[0] + b[0])/2;
+  return { laneVector, preVector, middleX, middleY };
+}
+
+function makeArrow(a, b, numLanes) {
+  // console.log('makeArrow', a, b, numLanes);
+  var vectors = getVectors(a, b);
+  var distance = mathjs.distance([a[1], a[0]], [b[1], b[0]]);
+  // console.log({ distance, MIN_ARROW_DIST });
+  if (distance < MIN_ARROW_DIST) {
+    //stretch is too short to sensibly draw arrows on it
+    return;
+  }
+  var sideways = [
+    vectors.laneVector[0]*(numLanes+1)/2,
+    vectors.laneVector[1]*(numLanes+1)/2,
+  ];
+  var inside = [
+    vectors.middleX+2*vectors.preVector[0],
+    vectors.middleY+2*vectors.preVector[1]
+  ];
+  var tip = [
+    vectors.middleX+4*vectors.preVector[0]+sideways[0],
+    vectors.middleY+4*vectors.preVector[1]+sideways[1],
+  ];
+  var outside = [
+    vectors.middleX-2*vectors.preVector[0]+2*sideways[0],
+    vectors.middleY-2*vectors.preVector[1]+2*sideways[1],
+  ];
+  return { inside, tip, outside };
 }
 
 function lineThrough(a, b) {
@@ -27,24 +68,22 @@ function lineThrough(a, b) {
   var startLane = getLaneAtPoint(a);
   var endLane = getLaneAtPoint(b);
   // console.log('line through', a, b, lineLane);
-  var laneVector = perpendicularVector(a[1], a[0], b[1], b[0]);
-  var preVector = parallelVector(a[1], a[0], b[1], b[0]);
-  var middleX = (a[1] + b[1])/2;
-  var middleY = (a[0] + b[0])/2;
-  var switchStartBaseX = middleX - Math.abs(b[4]-a[4])*preVector[0];
-  var switchStartBaseY = middleY - Math.abs(b[4]-a[4])*preVector[1];
-  var switchEndBaseX = middleX + Math.abs(b[4]-a[4])*preVector[0];
-  var switchEndBaseY = middleY + Math.abs(b[4]-a[4])*preVector[1];
+  var vectors = getVectors(a, b);
 
-  var fromX = a[1] + startLane * laneVector[0];
-  var fromY = a[0] + startLane * laneVector[1];
-  var switchStartX = switchStartBaseX + startLane * laneVector[0];
-  var switchStartY = switchStartBaseY + startLane * laneVector[1];
-  var switchEndX = switchEndBaseX + endLane * laneVector[0];
-  var switchEndY = switchEndBaseY + endLane * laneVector[1];
-  var toX = b[1] + endLane * laneVector[0];
-  var toY = b[0] + endLane * laneVector[1];
-  // console.log({ a, b, lineLane, laneVector, preVector, fromX, fromY, switchStartX, switchStartY, switchEndX, switchEndY, toX, toY });
+  var switchStartBaseX = vectors.middleX - Math.abs(b[4]-a[4])*vectors.preVector[0];
+  var switchStartBaseY = vectors.middleY - Math.abs(b[4]-a[4])*vectors.preVector[1];
+  var switchEndBaseX = vectors.middleX + Math.abs(b[4]-a[4])*vectors.preVector[0];
+  var switchEndBaseY = vectors.middleY + Math.abs(b[4]-a[4])*vectors.preVector[1];
+
+  var fromX = a[1] + startLane * vectors.laneVector[0];
+  var fromY = a[0] + startLane * vectors.laneVector[1];
+  var switchStartX = switchStartBaseX + startLane * vectors.laneVector[0];
+  var switchStartY = switchStartBaseY + startLane * vectors.laneVector[1];
+  var switchEndX = switchEndBaseX + endLane * vectors.laneVector[0];
+  var switchEndY = switchEndBaseY + endLane * vectors.laneVector[1];
+  var toX = b[1] + endLane * vectors.laneVector[0];
+  var toY = b[0] + endLane * vectors.laneVector[1];
+  // console.log({ a, b, lineLane, vectors.laneVector, vectors.preVector, fromX, fromY, switchStartX, switchStartY, switchEndX, switchEndY, toX, toY });
   // two points define a line
   //      fix x, var x,    fix y, var y
   return {
@@ -182,4 +221,10 @@ function traceRoute(points) {
   return cornerPoints;
 }
 
-module.exports = { lineThrough, LANE_FACTOR, parallelVector, traceRoute };
+module.exports = {
+  lineThrough,
+  LANE_FACTOR,
+  makeArrow,
+  parallelVector,
+  traceRoute,
+};

@@ -145,6 +145,17 @@ function drawPath(routeName, basics, cornerPoints) {
   return { svgSnippet, texts, debugLines };
 }
 
+function drawArrow(obj) {
+  if (typeof obj === 'undefined') {
+    // stretch without arrow
+    return '';
+  }
+  // arrow contains inside, tip, outside, each of which are [x, y];
+  var path = [ obj.inside, obj.tip, obj.outside ];
+  var attributes = `stroke="none" fill="black"`;
+  return `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
+}
+
 function initDrawing() {
   return SVG_PREFIX;
 }
@@ -210,4 +221,11 @@ function finishDrawing(texts, debugLines) {
   return svgSnippet;
 }
 
-module.exports = { initDrawing, drawPath, finishDrawing, makeTextTrans, makeTextAttr };
+module.exports = {
+  drawArrow,
+  drawPath,
+  finishDrawing,
+  initDrawing,
+  makeTextAttr,
+  makeTextTrans,
+};
