@@ -830,6 +830,11 @@
       fill="white" stroke="black" stroke-width="2"/>
     <text x="106.8091" y="-6.5689" fill="black" text-anchor="middle" transform="translate(106.8091 -6.5689) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8091 6.5689) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 08, 09, 23</text>
     <ellipse 
+      cx="106.8181" cy="-12.5549"
+      rx="135" ry="15" transform="translate(106.8181 -6.5549) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8181 6.5549) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      fill="white" stroke="black" stroke-width="2"/>
+    <text x="106.8181" y="-6.5549" fill="black" text-anchor="middle" transform="translate(106.8181 -6.5549) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8181 6.5549) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 09 Ciparigi (?)</text>
+    <ellipse 
       cx="106.8054" cy="-12.5692"
       rx="15" ry="15" transform="translate(106.8054 -6.5692) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8054 6.5692) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
