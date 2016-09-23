@@ -17,7 +17,7 @@ const CANVAS_HEIGHT = MAP_HEIGHT * CANVAS_SCALE;
 const MAP_ROTATION = 0;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
-const TEXT_FACTOR = .1;
+const TEXT_FACTOR = .15;
 const STROKE_WIDTH = 1;
 const TEXT_CIRCLE_SIZE = 15;
 const TEXT_CIRCLE_UP = 6;
@@ -117,8 +117,12 @@ function drawPath(routeName, basics, cornerPoints) {
     var [sXs, sXd, sYs, sYd] = cornerPoints[i].switcherLineBefore;
     var sXe = sXs + sXd;
     var sYe = sYs + sYd;
-    var corner = cornerPoints[i].coords; // coords contains [x, y]
-    var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]]; // here contains [lat, lon]
+    // coords contains [x, y]
+    var corner = cornerPoints[i].coords;
+    // here contains [lat, lon, stop_name, stretchDef-before, lane]
+    var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]];
+    var pointName = cornerPoints[i].here[2];
+
     // console.log({ corner, basePoint });
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
@@ -126,7 +130,14 @@ function drawPath(routeName, basics, cornerPoints) {
     var textTrans = makeTextTrans(basePoint, TEXT_FACTOR);
     var textAttr = makeTextAttr(basePoint, textTrans, 'middle');
     var textStr = routeName.substring(3);
-    texts.push({ x: basePoint[0], y: basePoint[1], textTrans, textAttr, textStr});
+    texts.push({
+      x: basePoint[0],
+      y: basePoint[1],
+      textTrans,
+      textAttr,
+      textStr,
+      pointName,
+    });
     debugLines.push(cornerPoints[i].debugLine);
   }
   var attributes = `stroke="${basics.color}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
@@ -154,6 +165,11 @@ function finishDrawing(texts, debugLines) {
   var svgSnippet = '';
   for (point in groupedTexts) {
     var obj = groupedTexts[point];
+    // console.log(obj);
+    if (obj.pointName.substring(0, 1) === '*') {
+      obj.textStr += ` ${obj.pointName.substring(1).trim()}`;
+      obj.size += obj.pointName.length/2;
+    }
     svgSnippet += `    <ellipse \n` +
      `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
      `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
