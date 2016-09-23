@@ -8,7 +8,7 @@ This gtfs feed contains data from the following data sources:
   * http://lovelybogor.com/rute-angkot-kota-bogor/ (very complete list, especially for inner city lines - Kota as opposed to Kabupaten)
   * http://www.majalahtransportasi.com/2015/04/rute-angkutan-umum-wilayah-bogor.html (also contains Kabupaten lines)
   * http://kotabogor.go.id/index.php/rute (only official one from the city hall apparently, but only lists a few lines)
-  * http://bogor.2menit.com/Transportasi%20-%20Angkutan%20Umum%20(Angkot)%20Bogor.html (only one that includes the line colour codes)
+  * https://web.archive.org/web/20150707025713/http://bogor.2menit.com/Transportasi%20-%20Angkutan%20Umum%20(Angkot)%20Bogor.html (only one that includes the line colour codes)
   * A printed list of provincial angkots, which I personally obtained from the DLLAJ office.
   * by hand from personal experience (riding angkots myself with a GPS tracker)
   * I also found http://angkotkotabogor.big.go.id/ but unfortunately its server seems to be broken (there are 501 responses to XHR requests when I tried to use it).
