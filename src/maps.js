@@ -1,3 +1,5 @@
+var lines = require('./lines');
+
 // constants
 const MAP_WEST = 106.76;
 const MAP_EAST = 106.865;
@@ -95,14 +97,19 @@ function makeTextTrans(x, y) {
   ];
 }
 
-function drawPath(routeName, basics, cornerPoints) {
-  // console.log('drawPath', routeName, basics, cornerPoints);
+function drawPath(routeName, colour, cornerPoints) {
+  // console.log('drawPath', routeName, colour, cornerPoints);
   var svgSnippet = '';
   var path = [];
   var debugLines = [];
   var texts = [];
   for (var i=0; i<cornerPoints.length; i++) {
+    var [sXs, sXd, sYs, sYd] = cornerPoints[i].switcherLineBefore;
+    var sXe = sXs + sXd;
+    var sYe = sYs + sYd;
     var corner = cornerPoints[i].coords; // coords contains [x, y]
+    path.push(`${sXs} ${sYs}`);
+    path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
     if (cornerPoints[i].isEndPoint) {
       var textTrans = makeTextTrans(corner[0], corner[1]);
@@ -118,7 +125,7 @@ function drawPath(routeName, basics, cornerPoints) {
     }
     debugLines.push(cornerPoints[i].debugLine);
   }
-  var attributes = `stroke="${basics.color}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
+  var attributes = `stroke="${colour}" stroke-width="${STROKE_WIDTH/CANVAS_SCALE}" fill="none"`;
   svgSnippet += `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
   return { svgSnippet, texts, debugLines };
 }
@@ -128,40 +135,45 @@ function initDrawing() {
 }
 
 function finishDrawing(texts, debugLines) {
-  var groupedTexts = {};
-  var point; // let not supported outside strict-mode
-  for (var i=0; i<texts.length; i++) {
-    point = `${texts[i].x},${texts[i].y}`;
-    if (typeof groupedTexts[point] === 'undefined') {
-      groupedTexts[point] = texts[i];
-      groupedTexts[point].size = 1;
-    } else if (groupedTexts[point].textStr.indexOf(texts[i].textStr) === -1) {
-      groupedTexts[point].textStr += ', ' + texts[i].textStr;
-      groupedTexts[point].size++;
-    }
-  }
-  var svgSnippet = '';
-  for (point in groupedTexts) {
-    var obj = groupedTexts[point];
-    svgSnippet += `    <ellipse \n` +
+  var svgSnippet = texts.map(obj => 
+     `    <circle \n` +
      `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-     `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-     `      fill="white" stroke="black" stroke-width="2"/>\n` +
-     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>\n`;
-  }
+     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+     `      fill="white" stroke="black" stroke-width="2"/>`
+  ).join('\n') + '\n';
+  svgSnippet += texts.map(obj => 
+     `    <circle \n` +
+     `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+     `      r="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+     `      fill="white" stroke="none"/>`
+  ).join('\n') + '\n';
+  svgSnippet += texts.map(obj => 
+     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>`
+  ).join('\n') + '\n';
   svgSnippet += debugLines.map(line => {
     var a = line[0];
     var b = line[1];
-    // convert from [lon, lat] to [x, y] (x = lat = horizontal; y = lon = vertical)
-    var fromX = a[1];
-    var fromY = a[0];
-    var toX = b[1];
-    var toY = b[0];
+    var lineParts = lines.lineThrough(a, b, 0);
+    // lineThrough returns an object:
+    //  start: [fromX, switchStartX-fromX, fromY, switchStartY-fromY],
+    //  switcher: [switchStartX, switchEndX-switchStartX, switchStartY, switchEndY-switchStartY],
+    //  end: [switchEndX, toX-switchEndX, switchEndY, toY-switchEndY],
+    var [fromX1, deltaX1, fromY1, deltaY1] = lineParts.start;
+    var [fromX2, deltaX2, fromY2, deltaY2] = lineParts.switcher;
+    var [fromX3, deltaX3, fromY3, deltaY3] = lineParts.end;
+    var toX1 = fromX1 + deltaX1;
+    var toY1 = fromY1 + deltaY1;
+    var toX2 = fromX2 + deltaX2;
+    var toY2 = fromY2 + deltaY2;
+    var toX3 = fromX3 + deltaX3;
+    var toY3 = fromY3 + deltaY3;
     var textTrans = makeTextTrans(a[1], a[0]);
 
     return [
       `    <line x1="${a[1]}" y1="${a[0]}" x2="${b[1]}" y2="${b[0]}" style="stroke:rgb(255,0,0);stroke-width:.00002" />`,
-      `    <line x1="${fromX}" y1="${fromY}" x2="${toX}" y2="${toY}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX1}" y1="${fromY1}" x2="${toX1}" y2="${toY1}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX2}" y1="${fromY2}" x2="${toX2}" y2="${toY2}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
+      `    <line x1="${fromX3}" y1="${fromY3}" x2="${toX3}" y2="${toY3}" style="stroke:rgb(0,0,0);stroke-width:.00002" />`,
       `    <circle cx="${a[1]}" cy="${a[0]}" fill="rgb(255,0,0)" r=".0001" />`,
       `    <text x="${a[1]}" y="${a[0]}" stroke="rgb(0,0,0)" transform="${textTrans}" >${a[2]}</text>`,
     ].join('\n');
