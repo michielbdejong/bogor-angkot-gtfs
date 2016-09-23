@@ -21,7 +21,7 @@ const TEXT_FACTOR = .15;
 const HEADER_UP = .0001;
 const STROKE_WIDTH = 1;
 const TEXT_CIRCLE_SIZE = 4;
-const TEXT_CIRCLE_UP = 3;
+const TEXT_CIRCLE_UP = 5;
 const TEXT_CIRCLE_LEFT = 0;
 
 const CANVAS_ATTR = [
@@ -124,8 +124,8 @@ function drawPath(routeName, basics, cornerPoints) {
     var corner = cornerPoints[i].coords;
     // here contains [lat, lon, stop_name, stretchDef-before, lane]
     var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]];
-    var headerPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] + HEADER_UP];
-    var numbersPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] -1.5*HEADER_UP];
+    var headerPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] + 1.2*HEADER_UP];
+    var numbersPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] -2*HEADER_UP];
     var pointName = cornerPoints[i].here[2];
 
     // console.log({ corner, basePoint });
@@ -194,8 +194,8 @@ function finishDrawing(texts, debugLines) {
         textSnippet = `    <text ${obj.textAttrHeader.join(' ')}>${obj.pointName.substring(1).trim()}</text>\n` +
             `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
       } else {
-        textWidth = obj.textStr.length;
-        textHeight = 2.5;
+        textWidth = 1+obj.textStr.length*.75;
+        textHeight = 3;
         textSnippet = `    <text ${obj.textAttrJustNumbers.join(' ')}>${obj.textStr}</text>\n`;
       }
       svgSnippet += `    <ellipse \n` +
