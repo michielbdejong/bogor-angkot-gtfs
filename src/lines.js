@@ -49,12 +49,12 @@ function makeArrow(a, b, numLanes) {
     vectors.middleY+2*vectors.preVector[1]
   ];
   var tip = [
-    vectors.middleX+4*vectors.preVector[0]+sideways[0],
-    vectors.middleY+4*vectors.preVector[1]+sideways[1],
+    vectors.middleX+8*vectors.preVector[0]+sideways[0],
+    vectors.middleY+8*vectors.preVector[1]+sideways[1],
   ];
   var outside = [
-    vectors.middleX-2*vectors.preVector[0]+2*sideways[0],
-    vectors.middleY-2*vectors.preVector[1]+2*sideways[1],
+    vectors.middleX+2*vectors.preVector[0]+2*sideways[0],
+    vectors.middleY+2*vectors.preVector[1]+2*sideways[1],
   ];
   return { inside, tip, outside };
 }
