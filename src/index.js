@@ -32,7 +32,7 @@ const ROUTE_BASICS = {
   'AK-23': { color: 'black', destinations: ['Ramayana', 'Taman Kencana', 'Warung Jambu'], aka: '08A' },
 };
 
-function drawMap(routesInMap, routesToDraw, drawDebugLines) {
+function drawMap(routesInMap, arrowsInMap, routesToDraw, drawDebugLines) {
   var svg = maps.initDrawing();
   var texts = [];
   var debugLines = [];
@@ -53,18 +53,33 @@ function drawMap(routesInMap, routesToDraw, drawDebugLines) {
     }
   }
   svg += legenda.getLegenda(ROUTE_BASICS);
+  arrows.map(arrow => { svg += maps.drawArrow(arrow); });
   svg += maps.finishDrawing(texts, debugLines);
   return svg;
 }
 
+function makeArrows(lanes) {
+  var arrows = [];
+  for (var stretchDef in lanes) {
+    var [fromLat, fromLon, toLat, toLon] = stretchDef.split(',');
+    arrows.push(lines.makeArrow(
+      [parseFloat(fromLat), parseFloat(fromLon)],
+      [parseFloat(toLat), parseFloat(toLon)],
+      lanes[stretchDef].length
+    ));
+  }
+  return arrows;
+}
+
 // ...
 var routes = points.readPoints();
-lanes.assignLanesTo(/* by ref */ routes);
+var lanes = lanes.assignLanesTo(/* by ref */ routes);
+var arrows = makeArrows(lanes);
 
-fs.writeFileSync('../release/map.svg', drawMap(routes, Object.keys(routes), false));
+fs.writeFileSync('../release/map.svg', drawMap(routes, arrows, Object.keys(routes), false));
 
 for (var routeName in routes) {
   if (ROUTE_BASICS[routeName]) {
-    fs.writeFileSync(`../release/${routeName}.svg`, drawMap(routes, [ routeName ], true));
+    fs.writeFileSync(`../release/${routeName}.svg`, drawMap(routes, arrows, [ routeName ], true));
   }
 }

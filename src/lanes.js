@@ -62,6 +62,7 @@ function assignLanesTo(/* by ref */ routes) {
       lanes[stretchDef].push({ routeName, onwardAngle });
     }
   }
+
   // Now we have a list of routes that ride each stretch, we should
   // decide who ends that stretch in which lane.
   // Start lane is then always the same as last end lane.
@@ -95,6 +96,8 @@ function assignLanesTo(/* by ref */ routes) {
       }
     }
   }
+
+  return lanes;
 }
 
 module.exports = { assignLanesTo };
