@@ -21,6 +21,7 @@ This repo also contains a gtfs shapes.txt viewer, copied from https://gist.githu
 * clone this repo
 * Run `sh ./build.sh`
 * It will generate a gtfs feed and a [map svg-file](https://github.com/michielbdejong/bogor-angkot-gtfs/blob/master/release/map.svg) in the release folder.
+* I also have `sh ./publish.sh` to publish the svg file on http://michielbdejong.com/angkots.svg (a gh-pages site)
 
 # License
 <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png">
