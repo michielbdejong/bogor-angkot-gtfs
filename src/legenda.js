@@ -11,7 +11,7 @@ const DID_YOU_KNOW = [
   'It\'s Raining Angkots in Bogor! :)',
   '',
   'This is a zoomable map of mini-buses in Bogor (West Java, Indonesia),',
-  'a.k.a. Kota Angkot (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
+  'a.k.a. Kota Hujan (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
   '',
   'This map only shows the central angkots ("Angutan Kota"), which are green at the top, and',
   'have one other color at the bottom indicating their route; not the regional minibuses',
@@ -48,7 +48,7 @@ function getLegenda(routeBasics) {
   for (var routeName in routeBasics) {
     var basePoint = [LEGENDA_LEFT, (LEGENDA_TOP - (counter++)*LEGENDA_LINE_HEIGHT)];
     var textTrans = maps.makeTextTrans(basePoint, LEGENDA_SCALE_FACTOR);
-    var textAttr = maps.makeTextAttr(basePoint, textTrans, 'left');
+    var textAttr = maps.makeTextAttr(basePoint, textTrans, 'left', 'normal', '12');
     var obj = routeBasics[routeName];
     snippet += 
      `    <text ${textAttr.join(' ')}>\n` +
@@ -59,9 +59,13 @@ function getLegenda(routeBasics) {
 
   counter = 0;
   for (var i=0; i<DID_YOU_KNOW.length; i++) {
-    var basePoint = [DYK_LEFT, (DYK_TOP - (counter++)*LEGENDA_LINE_HEIGHT)];
-    var textTrans = maps.makeTextTrans(basePoint, LEGENDA_SCALE_FACTOR);
-    var textAttr = maps.makeTextAttr(basePoint, textTrans, 'left');
+    basePoint = [DYK_LEFT, (DYK_TOP - (counter++)*LEGENDA_LINE_HEIGHT)];
+    textTrans = maps.makeTextTrans(basePoint, LEGENDA_SCALE_FACTOR);
+    if (i === 0) {
+      textAttr = maps.makeTextAttr(basePoint, textTrans, 'left', 'bold', '24');
+    } else {
+      textAttr = maps.makeTextAttr(basePoint, textTrans, 'left', 'normal', '12');
+    }
     snippet += 
      `    <text ${textAttr.join(' ')}>\n` +
      `        ${DID_YOU_KNOW[i]}\n` +

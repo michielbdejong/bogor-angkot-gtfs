@@ -18,6 +18,7 @@ const MAP_ROTATION = 0;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .15;
+const HEADER_UP = .0002;
 const STROKE_WIDTH = 1;
 const TEXT_CIRCLE_SIZE = 15;
 const TEXT_CIRCLE_UP = 6;
@@ -97,11 +98,13 @@ function makeTextTrans(basePoint, factor) {
   ];
 }
 
-function makeTextAttr(basePoint, textTrans, textAnchor) {
+function makeTextAttr(basePoint, textTrans, textAnchor, fontWeight, fontSize) {
   return [
     `x="${basePoint[0]}"`,
     `y="${basePoint[1]}"`,
     `fill="black"`,
+    `font-weight="${fontWeight}"`,
+    `font-size="${fontSize}px"`,
     `text-anchor="${textAnchor}"`,
     `transform="${textTrans.join(' ')}"`
   ];
@@ -121,20 +124,24 @@ function drawPath(routeName, basics, cornerPoints) {
     var corner = cornerPoints[i].coords;
     // here contains [lat, lon, stop_name, stretchDef-before, lane]
     var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]];
+    var headerPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] + HEADER_UP];
     var pointName = cornerPoints[i].here[2];
 
     // console.log({ corner, basePoint });
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
+    var headerTrans = makeTextTrans(headerPoint, TEXT_FACTOR);
+    var textAttrHeader = makeTextAttr(headerPoint, headerTrans, 'middle', 'bold', '24');
     var textTrans = makeTextTrans(basePoint, TEXT_FACTOR);
-    var textAttr = makeTextAttr(basePoint, textTrans, 'middle');
+    var textAttrNumbers = makeTextAttr(basePoint, textTrans, 'middle', 'normal', '12');
     var textStr = routeName.substring(3);
     texts.push({
       x: basePoint[0],
       y: basePoint[1],
       textTrans,
-      textAttr,
+      textAttrHeader,
+      textAttrNumbers,
       textStr,
       pointName,
     });
@@ -179,14 +186,20 @@ function finishDrawing(texts, debugLines) {
     // console.log(obj);
     if (obj.pointName.substring(0, 1) !== '#') {
       if (obj.pointName.substring(0, 1) === '*') {
-        obj.textStr += ` ${obj.pointName.substring(1).trim()}`;
         obj.size += obj.pointName.length/3;
+        svgSnippet += `    <ellipse \n` +
+         `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+         `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE*3}" transform="${obj.textTrans.join(' ')}"\n` +
+         `      fill="white" stroke="black" stroke-width="2"/>\n` +
+         `    <text ${obj.textAttrHeader.join(' ')}>${obj.pointName.substring(1).trim()}</text>\n` +
+         `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
+      } else {
+        svgSnippet += `    <ellipse \n` +
+         `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+         `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+         `      fill="white" stroke="black" stroke-width="2"/>\n` +
+         `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
       }
-      svgSnippet += `    <ellipse \n` +
-       `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-       `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-       `      fill="white" stroke="black" stroke-width="2"/>\n` +
-       `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>\n`;
     }
   }
   svgSnippet += debugLines.map(line => {
