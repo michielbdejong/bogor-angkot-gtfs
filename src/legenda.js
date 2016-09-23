@@ -34,12 +34,14 @@ const DID_YOU_KNOW = [
   'you want to get off, then make a U-turn, and start their mengetem ritual for the route back.',
   'Also, lines 07 and 10 are supposed to go Term. Merdeka, but usually turn around at Pasar Anyar.',
   '',
-  'Empty angkots can be chartered, e.g. negotiate a price to take you and 2 bicycles somewhere!',
-  'Angkot drivers may decide to take a shortcut to avoid traffic - especially taking Jl. Paledang',
-  'instead of Jl. Muslihat is popular during the day.',
-  '',
   'Don\'t confuse "Taman Griya Kencana" of lines 19, 20 with "Taman Kencana" of lines 23 and 03',
   '(and sometimes also 08 or 09 if they take the Jl. Salak shortcut instead of Jl. Pangrango).',
+  '',
+  'Empty angkots can be chartered, e.g. negotiate a price to take you and 2 bicycles somewhere! Angkot drivers may decide',
+  'to take a shortcut to avoid traffic - especially taking Jl. Paledang instead of Jl. Muslihat is popular during the day.',
+  '',
+  'I made this map by putting GPS coordinates into scalable vector graphics (SVG). The route data is also available in gtfs format, and you are free to remix it under',
+  'Creative Commons (CC-BY-SA 3.0). Corrections and improvements are also very welcome! Email michiel@unhosted.org, or see the github repo: https://github.com/michielbdejong/bogor-angkot-gtfs.'
 ];
 
 function getLegenda(routeBasics) {

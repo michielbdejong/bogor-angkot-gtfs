@@ -18,10 +18,10 @@ const MAP_ROTATION = 0;
 const LANE_FACTOR = 5000;
 const LANE_SWITCH_DIST = 10/LANE_FACTOR;
 const TEXT_FACTOR = .15;
-const HEADER_UP = .0002;
+const HEADER_UP = .0001;
 const STROKE_WIDTH = 1;
-const TEXT_CIRCLE_SIZE = 15;
-const TEXT_CIRCLE_UP = 6;
+const TEXT_CIRCLE_SIZE = 4;
+const TEXT_CIRCLE_UP = 3;
 const TEXT_CIRCLE_LEFT = 0;
 
 const CANVAS_ATTR = [
@@ -125,16 +125,19 @@ function drawPath(routeName, basics, cornerPoints) {
     // here contains [lat, lon, stop_name, stretchDef-before, lane]
     var basePoint = [cornerPoints[i].here[1], cornerPoints[i].here[0]];
     var headerPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] + HEADER_UP];
+    var numbersPoint = [cornerPoints[i].here[1], cornerPoints[i].here[0] -1.5*HEADER_UP];
     var pointName = cornerPoints[i].here[2];
 
     // console.log({ corner, basePoint });
     path.push(`${sXs} ${sYs}`);
     path.push(`${sXe} ${sYe}`);
     path.push(`${corner[0]} ${corner[1]}`);
-    var headerTrans = makeTextTrans(headerPoint, TEXT_FACTOR);
-    var textAttrHeader = makeTextAttr(headerPoint, headerTrans, 'middle', 'bold', '24');
     var textTrans = makeTextTrans(basePoint, TEXT_FACTOR);
-    var textAttrNumbers = makeTextAttr(basePoint, textTrans, 'middle', 'normal', '12');
+    var headerTrans = makeTextTrans(headerPoint, TEXT_FACTOR);
+    var numbersTrans = makeTextTrans(numbersPoint, TEXT_FACTOR);
+    var textAttrHeader = makeTextAttr(headerPoint, headerTrans, 'middle', 'bold', '24');
+    var textAttrNumbers = makeTextAttr(numbersPoint, numbersTrans, 'middle', 'normal', '12');
+    var textAttrJustNumbers = makeTextAttr(basePoint, textTrans, 'middle', 'normal', '12');
     var textStr = routeName.substring(3);
     texts.push({
       x: basePoint[0],
@@ -142,6 +145,7 @@ function drawPath(routeName, basics, cornerPoints) {
       textTrans,
       textAttrHeader,
       textAttrNumbers,
+      textAttrJustNumbers,
       textStr,
       pointName,
     });
@@ -174,32 +178,30 @@ function finishDrawing(texts, debugLines) {
     point = `${texts[i].x},${texts[i].y}`;
     if (typeof groupedTexts[point] === 'undefined') {
       groupedTexts[point] = texts[i];
-      groupedTexts[point].size = 1;
     } else if (groupedTexts[point].textStr.indexOf(texts[i].textStr) === -1) {
       groupedTexts[point].textStr += ', ' + texts[i].textStr;
-      groupedTexts[point].size++;
     }
   }
   var svgSnippet = '';
   for (point in groupedTexts) {
     var obj = groupedTexts[point];
+    var textSnippet;
     // console.log(obj);
     if (obj.pointName.substring(0, 1) !== '#') {
       if (obj.pointName.substring(0, 1) === '*') {
-        obj.size += obj.pointName.length/3;
-        svgSnippet += `    <ellipse \n` +
-         `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-         `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE*3}" transform="${obj.textTrans.join(' ')}"\n` +
-         `      fill="white" stroke="black" stroke-width="2"/>\n` +
-         `    <text ${obj.textAttrHeader.join(' ')}>${obj.pointName.substring(1).trim()}</text>\n` +
-         `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
+        textWidth = Math.max(obj.pointName.length*2 /* (times two because of bigger font size) */, obj.textStr.length);
+        textHeight = 10;
+        textSnippet = `    <text ${obj.textAttrHeader.join(' ')}>${obj.pointName.substring(1).trim()}</text>\n` +
+            `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
       } else {
-        svgSnippet += `    <ellipse \n` +
-         `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-         `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-         `      fill="white" stroke="black" stroke-width="2"/>\n` +
-         `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
+        textWidth = obj.textStr.length;
+        textHeight = 2.5;
+        textSnippet = `    <text ${obj.textAttrJustNumbers.join(' ')}>${obj.textStr}</text>\n`;
       }
+      svgSnippet += `    <ellipse \n` +
+       `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+       `      rx="${TEXT_CIRCLE_SIZE*textWidth}" ry="${TEXT_CIRCLE_SIZE*textHeight}" transform="${obj.textTrans.join(' ')}"\n` +
+       `      fill="white" stroke="black" stroke-width="2"/>\n` + textSnippet;
     }
   }
   svgSnippet += debugLines.map(line => {
