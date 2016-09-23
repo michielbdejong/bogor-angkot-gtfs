@@ -1,17 +1,17 @@
 shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
 AK-01,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-01,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-01,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-01,-6.5926,106.8018,10,0.10,#kb-salak
 AK-01,-6.5926,106.8018,10,0.10,#kb-salak
 AK-01,-6.5926,106.8018,10,0.10,#kb-salak
-AK-01,-6.5935,106.8029,10,0.10,kb-pangrango
-AK-01,-6.5959,106.8044,7,0.07,kb-astrid
-AK-01,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-01,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-01,-6.5935,106.8029,10,0.10,*Jl. Pangrango
+AK-01,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-01,-6.6009,106.8052,8,0.08,*Botani Square
+AK-01,-6.6009,106.8052,8,0.08,*Botani Square
 AK-01,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-01,-6.6027,106.7999,10,0.10,#otista-roda
 AK-01,-6.6027,106.7999,10,0.10,#otista-roda
-AK-01,-6.6031,106.7988,10,0.10,kb-suryakencana
+AK-01,-6.6031,106.7988,10,0.10,*China Town
 AK-01,-6.6048,106.7997,10,0.10,suryakencana-1
 AK-01,-6.6082,106.8025,10,0.10,suryakencana-2
 AK-01,-6.6099,106.8045,10,0.10,roda-siliwangi
@@ -48,9 +48,9 @@ AK-01,-6.6113,106.8000,10,0.10,pahlawan-3
 AK-01,-6.6082,106.7964,10,0.10,pahlawan-4
 AK-01,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-01,-6.6060,106.7954,10,0.10,halte-empang
-AK-01,-6.6046,106.7965,10,0.10,*Ramayana
-AK-01,-6.6046,106.7965,10,0.10,*Ramayana
-AK-01,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-01,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-01,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-01,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-01,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-01,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-01,-6.5955,106.7884,10,0.10,#veteran-merdeka
@@ -67,7 +67,7 @@ AK-01,-6.5928,106.7924,11,0.11,dewisartika-mekah
 AK-01,-6.5927,106.7939,11,0.11,mekah-gedongsawah
 AK-01,-6.5938,106.7936,11,0.11,gedongsawah-crossing
 AK-01,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-02,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-02,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-02,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-02,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-02,-6.5958,106.7895,11,0.11,muslihat-oking
@@ -97,20 +97,20 @@ AK-02,-6.5955,106.7884,10,0.10,#veteran-merdeka
 AK-02,-6.5958,106.7895,11,0.11,muslihat-oking
 AK-02,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-02,-6.5963,106.7915,11,0.11,muslihat-dewisartika
-AK-02,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-02,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-02,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-02,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-02,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-02,-6.5926,106.8018,10,0.10,#kb-salak
 AK-02,-6.5926,106.8018,10,0.10,#kb-salak
 AK-02,-6.5926,106.8018,10,0.10,#kb-salak
-AK-02,-6.5935,106.8029,10,0.10,kb-pangrango
-AK-02,-6.5959,106.8044,7,0.07,kb-astrid
-AK-02,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-02,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-02,-6.5935,106.8029,10,0.10,*Jl. Pangrango
+AK-02,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-02,-6.6009,106.8052,8,0.08,*Botani Square
+AK-02,-6.6009,106.8052,8,0.08,*Botani Square
 AK-02,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-02,-6.6027,106.7999,10,0.10,#otista-roda
 AK-02,-6.6027,106.7999,10,0.10,#otista-roda
-AK-02,-6.6031,106.7988,10,0.10,kb-suryakencana
+AK-02,-6.6031,106.7988,10,0.10,*China Town
 AK-02,-6.6048,106.7997,10,0.10,suryakencana-1
 AK-02,-6.6082,106.8025,10,0.10,suryakencana-2
 AK-02,-6.6099,106.8045,10,0.10,roda-siliwangi
@@ -128,10 +128,10 @@ AK-02,-6.6113,106.8000,10,0.10,pahlawan-3
 AK-02,-6.6082,106.7964,10,0.10,pahlawan-4
 AK-02,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-02,-6.6060,106.7954,10,0.10,halte-empang
-AK-02,-6.6046,106.7965,10,0.10,*Ramayana
-AK-02,-6.6046,106.7965,10,0.10,*Ramayana
-AK-02,-6.5969,106.7937,10,0.10,kb-muslihat
-AK-03,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-02,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-02,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-02,-6.5969,106.7937,10,0.10,*Jl. Muslihat
+AK-03,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-03,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-03,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-03,-6.5958,106.7895,11,0.11,muslihat-oking
@@ -161,9 +161,9 @@ AK-03,-6.5955,106.7884,10,0.10,#veteran-merdeka
 AK-03,-6.5958,106.7895,11,0.11,muslihat-oking
 AK-03,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-03,-6.5963,106.7915,11,0.11,muslihat-dewisartika
-AK-03,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-03,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-03,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-03,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-03,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-03,-6.5926,106.8018,10,0.10,#kb-salak
 AK-03,-6.5926,106.8018,10,0.10,#kb-salak
 AK-03,-6.5926,106.8018,10,0.10,#kb-salak
@@ -174,13 +174,13 @@ AK-03,-6.5893,106.8018,10,0.10,*Taman Kencana
 AK-03,-6.5888,106.8024,10,0.10,kencana-2
 AK-03,-6.5884,106.8030,10,0.10,salak-4
 AK-03,-6.5883,106.8041,10,0.10,salak-5
-AK-03,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-03,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-03,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-03,-6.5959,106.8044,7,0.07,kb-astrid
-AK-03,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-03,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-03,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-03,-6.6009,106.8052,8,0.08,*Botani Square
+AK-03,-6.6009,106.8052,8,0.08,*Botani Square
 AK-03,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-03,-6.6017,106.8111,8,0.08,tol-2
+AK-03,-6.6017,106.8111,8,0.08,*Tol
 AK-03,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-03,-6.6066,106.8087,8,0.08,bangka-1
 AK-03,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
@@ -191,11 +191,11 @@ AK-03,-6.6052,106.8051,8,0.08,bangka-7
 AK-03,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-03,-6.6027,106.7999,10,0.10,#otista-roda
 AK-03,-6.6027,106.7999,10,0.10,#otista-roda
-AK-03,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-03,-6.6046,106.7965,10,0.10,*Ramayana
-AK-03,-6.6046,106.7965,10,0.10,*Ramayana
-AK-03,-6.6046,106.7965,10,0.10,*Ramayana
-AK-03,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-03,-6.6031,106.7988,10,0.10,*China Town
+AK-03,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-03,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-03,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-03,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-04,-6.6115,106.8024,0,0,ggaut-1
 AK-04,-6.6115,106.8028,0,0,ggaut-2
 AK-04,-6.6103,106.8038,0,0,ggaut-padasuka
@@ -203,9 +203,9 @@ AK-04,-6.6085,106.8012,0,0,padasuka-1
 AK-04,-6.6080,106.8013,0,0,padasuka-cincau
 AK-04,-6.6080,106.8005,0,0,cincau-1
 AK-04,-6.6068,106.7989,0,0,cincau-2
-AK-04,-6.6046,106.7965,10,0.10,*Ramayana
-AK-04,-6.6046,106.7965,10,0.10,*Ramayana
-AK-04,-6.6046,106.7965,10,0.10,*Ramayana
+AK-04,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-04,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-04,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
 AK-04,-6.6060,106.7954,10,0.10,halte-empang
 AK-04,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-04,-6.6082,106.7964,10,0.10,pahlawan-4
@@ -282,23 +282,23 @@ AK-05,-6.5912,106.8057,1,0.01,line-05-2
 AK-05,-6.5912,106.8057,1,0.01,lodaya-M
 AK-05,-6.5921,106.8057,10,0.10,#lodaya-S
 AK-05,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-05,-6.5959,106.8044,7,0.07,kb-astrid
-AK-05,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-05,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-05,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-05,-6.6009,106.8052,8,0.08,*Botani Square
+AK-05,-6.6009,106.8052,8,0.08,*Botani Square
 AK-05,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-05,-6.6027,106.7999,10,0.10,#otista-roda
 AK-05,-6.6027,106.7999,10,0.10,#otista-roda
-AK-05,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-05,-6.6046,106.7965,10,0.10,*Ramayana
-AK-05,-6.6046,106.7965,10,0.10,*Ramayana
-AK-05,-6.6046,106.7965,10,0.10,*Ramayana
-AK-05,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-05,-6.6031,106.7988,10,0.10,*China Town
+AK-05,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-05,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-05,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-05,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-05,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-05,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-05,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-05,-6.5926,106.8018,10,0.10,#kb-salak
 AK-05,-6.5926,106.8018,10,0.10,#kb-salak
 AK-05,-6.5926,106.8018,10,0.10,#kb-salak
-AK-05,-6.5935,106.8029,10,0.10,kb-pangrango
+AK-05,-6.5935,106.8029,10,0.10,*Jl. Pangrango
 AK-05,-6.5922,106.8046,10,0.10,pangrango-pajajaran
 AK-05,-6.5921,106.8057,10,0.10,#lodaya-S
 AK-05,-6.5912,106.8057,1,0.01,lodaya-M
@@ -335,27 +335,27 @@ AK-06,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
 AK-06,-6.6066,106.8087,8,0.08,bangka-1
 AK-06,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-06,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-06,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-06,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-06,-6.6009,106.8052,8,0.08,*Botani Square
+AK-06,-6.6009,106.8052,8,0.08,*Botani Square
 AK-06,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-06,-6.6027,106.7999,10,0.10,#otista-roda
 AK-06,-6.6027,106.7999,10,0.10,#otista-roda
-AK-06,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-06,-6.6046,106.7965,10,0.10,*Ramayana
-AK-06,-6.6046,106.7965,10,0.10,*Ramayana
-AK-06,-6.6046,106.7965,10,0.10,*Ramayana
-AK-06,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-06,-6.6031,106.7988,10,0.10,*China Town
+AK-06,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-06,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-06,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-06,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-06,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-06,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-06,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-06,-6.5926,106.8018,10,0.10,#kb-salak
 AK-06,-6.5926,106.8018,10,0.10,#kb-salak
 AK-06,-6.5926,106.8018,10,0.10,#kb-salak
-AK-06,-6.5935,106.8029,10,0.10,kb-pangrango
-AK-06,-6.5959,106.8044,7,0.07,kb-astrid
-AK-06,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-06,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-06,-6.5935,106.8029,10,0.10,*Jl. Pangrango
+AK-06,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-06,-6.6009,106.8052,8,0.08,*Botani Square
+AK-06,-6.6009,106.8052,8,0.08,*Botani Square
 AK-06,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-06,-6.6017,106.8111,8,0.08,tol-2
+AK-06,-6.6017,106.8111,8,0.08,*Tol
 AK-06,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-06,-6.6066,106.8087,8,0.08,bangka-1
 AK-06,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
@@ -364,12 +364,12 @@ AK-06,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
 AK-06,-6.5990,106.8126,8,0.08,*Ciheuleut
 AK-06,-6.5990,106.8126,8,0.08,*Ciheuleut
 AK-07,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-07,-6.5930,106.7973,10,0.10,kb-polisi-militer
-AK-07,-6.5919,106.7971,11,0.11,sudirman-pengadilan
+AK-07,-6.5930,106.7973,10,0.10,*Polisi Militer
+AK-07,-6.5919,106.7971,11,0.11,*Jl. Sudirman
 AK-07,-6.5909,106.7970,10,0.10,ggbaru-sudirman
 AK-07,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-07,-6.5817,106.7968,11,0.11,sudirman-airmancur
-AK-07,-6.5733,106.7964,11,0.11,pemuda-hewan
+AK-07,-6.5817,106.7968,11,0.11,*Air Mancur
+AK-07,-6.5733,106.7964,11,0.11,*Jl. Pemuda
 AK-07,-6.5698,106.7989,11,0.11,pemuda-pedes
 AK-07,-6.5689,106.8002,4,0.0,line-07-4
 AK-07,-6.5676,106.8012,5,0.0,line-07-5
@@ -384,44 +384,44 @@ AK-07,-6.5684,106.8074,10,0.10,yani-sungai
 AK-07,-6.5685,106.8068,10,0.10,jambudua-yani
 AK-07,-6.5689,106.8056,7,0.0,line-07-7
 AK-07,-6.5692,106.8054,11,0.11,yani-2
-AK-07,-6.5705,106.8044,11,0.11,yani-3
+AK-07,-6.5705,106.8044,11,0.11,*Jl. Yani
 AK-07,-6.5788,106.7981,11,0.11,yani-4
-AK-07,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-07,-6.5817,106.7968,11,0.11,*Air Mancur
 AK-07,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-07,-6.5909,106.7970,10,0.10,ggbaru-sudirman
-AK-07,-6.5919,106.7971,11,0.11,sudirman-pengadilan
+AK-07,-6.5919,106.7971,11,0.11,*Jl. Sudirman
 AK-07,-6.5912,106.7938,11,0.11,pengadilan-gedongsawah
 AK-07,-6.5927,106.7939,11,0.11,mekah-gedongsawah
 AK-07,-6.5938,106.7936,11,0.11,gedongsawah-crossing
 AK-07,-6.5941,106.7920,11,0.11,gedongsawah-dewisartika
 AK-07,-6.5963,106.7915,11,0.11,muslihat-dewisartika
-AK-07,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-07,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-07,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-08,-6.5808,106.8067,10,0.10,pajajaran-sobana
-AK-08,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-08,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-08,-6.5888,106.8059,10,0.10,#lodaya-N
 AK-08,-6.5912,106.8057,1,0.01,lodaya-M
 AK-08,-6.5921,106.8057,10,0.10,#lodaya-S
 AK-08,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-08,-6.5959,106.8044,7,0.07,kb-astrid
-AK-08,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-08,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-08,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-08,-6.6009,106.8052,8,0.08,*Botani Square
+AK-08,-6.6009,106.8052,8,0.08,*Botani Square
 AK-08,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-08,-6.6027,106.7999,10,0.10,#otista-roda
 AK-08,-6.6027,106.7999,10,0.10,#otista-roda
-AK-08,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-08,-6.6046,106.7965,10,0.10,*Ramayana
-AK-08,-6.6046,106.7965,10,0.10,*Ramayana
-AK-08,-6.6046,106.7965,10,0.10,*Ramayana
-AK-08,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-08,-6.6031,106.7988,10,0.10,*China Town
+AK-08,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-08,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-08,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-08,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-08,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-08,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-08,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-08,-6.5926,106.8018,10,0.10,#kb-salak
 AK-08,-6.5926,106.8018,10,0.10,#kb-salak
 AK-08,-6.5926,106.8018,10,0.10,#kb-salak
-AK-08,-6.5935,106.8029,10,0.10,kb-pangrango
+AK-08,-6.5935,106.8029,10,0.10,*Jl. Pangrango
 AK-08,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-08,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-08,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-08,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-08,-6.5811,106.8110,10,0.10,sobana-sungai
 AK-08,-6.5816,106.8132,10,0.10,sobana-palapuhraya
@@ -434,16 +434,16 @@ AK-08,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-09,-6.5549,106.8181,10,0.10,*Ciparigi (?)
 AK-09,-6.5689,106.8091,10,0.10,*Jambu Dua
 AK-09,-6.5808,106.8067,10,0.10,pajajaran-sobana
-AK-09,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-09,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-09,-6.5888,106.8059,10,0.10,#lodaya-N
 AK-09,-6.5912,106.8057,1,0.01,lodaya-M
 AK-09,-6.5921,106.8057,10,0.10,#lodaya-S
 AK-09,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-09,-6.5959,106.8044,7,0.07,kb-astrid
-AK-09,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-09,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-09,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-09,-6.6009,106.8052,8,0.08,*Botani Square
+AK-09,-6.6009,106.8052,8,0.08,*Botani Square
 AK-09,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-09,-6.6017,106.8111,8,0.08,tol-2
+AK-09,-6.6017,106.8111,8,0.08,*Tol
 AK-09,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-09,-6.6066,106.8087,8,0.08,bangka-1
 AK-09,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
@@ -466,40 +466,40 @@ AK-09,-6.6052,106.8051,8,0.08,bangka-7
 AK-09,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-09,-6.6027,106.7999,10,0.10,#otista-roda
 AK-09,-6.6027,106.7999,10,0.10,#otista-roda
-AK-09,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-09,-6.6046,106.7965,10,0.10,*Ramayana
-AK-09,-6.6046,106.7965,10,0.10,*Ramayana
-AK-09,-6.6046,106.7965,10,0.10,*Ramayana
-AK-09,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-09,-6.6031,106.7988,10,0.10,*China Town
+AK-09,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-09,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-09,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-09,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-09,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-09,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-09,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-09,-6.5926,106.8018,10,0.10,#kb-salak
 AK-09,-6.5926,106.8018,10,0.10,#kb-salak
 AK-09,-6.5926,106.8018,10,0.10,#kb-salak
-AK-09,-6.5935,106.8029,10,0.10,kb-pangrango
+AK-09,-6.5935,106.8029,10,0.10,*Jl. Pangrango
 AK-09,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-09,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-09,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-09,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-09,-6.5689,106.8091,10,0.10,*Jambu Dua
 AK-09,-6.5549,106.8181,10,0.10,*Ciparigi (?)
-AK-10,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-10,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-10,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-10,-6.5959,106.7897,10,0.10,#stasiun-paledang
 AK-10,-6.5963,106.7915,11,0.11,muslihat-dewisartika
-AK-10,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-10,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-10,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-10,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-10,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-10,-6.5926,106.8018,10,0.10,#kb-salak
 AK-10,-6.5926,106.8018,10,0.10,#kb-salak
 AK-10,-6.5926,106.8018,10,0.10,#kb-salak
-AK-10,-6.5935,106.8029,10,0.10,kb-pangrango
-AK-10,-6.5959,106.8044,7,0.07,kb-astrid
-AK-10,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-10,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-10,-6.5935,106.8029,10,0.10,*Jl. Pangrango
+AK-10,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-10,-6.6009,106.8052,8,0.08,*Botani Square
+AK-10,-6.6009,106.8052,8,0.08,*Botani Square
 AK-10,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-10,-6.6027,106.7999,10,0.10,#otista-roda
 AK-10,-6.6027,106.7999,10,0.10,#otista-roda
-AK-10,-6.6031,106.7988,10,0.10,kb-suryakencana
+AK-10,-6.6031,106.7988,10,0.10,*China Town
 AK-10,-6.6048,106.7997,10,0.10,suryakencana-1
 AK-10,-6.6082,106.8025,10,0.10,suryakencana-2
 AK-10,-6.6099,106.8045,10,0.10,roda-siliwangi
@@ -533,9 +533,9 @@ AK-10,-6.6113,106.8000,10,0.10,pahlawan-3
 AK-10,-6.6082,106.7964,10,0.10,pahlawan-4
 AK-10,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-10,-6.6060,106.7954,10,0.10,halte-empang
-AK-10,-6.6046,106.7965,10,0.10,*Ramayana
-AK-10,-6.6046,106.7965,10,0.10,*Ramayana
-AK-10,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-10,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-10,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-10,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-11,-6.6125,106.8130,10,0.10,pajajaran-pjjindah
 AK-11,-6.6161,106.8145,10,0.10,pajajaran-durian
 AK-11,-6.6175,106.8150,10,0.10,pajajaran-ggmesjid
@@ -596,11 +596,11 @@ AK-11,-6.6125,106.8130,10,0.10,pajajaran-pjjindah
 AK-12,-6.5928,106.7924,11,0.11,dewisartika-mekah
 AK-12,-6.5920,106.7925,11,0.11,dewisartika-pengadilan
 AK-12,-6.5912,106.7938,11,0.11,pengadilan-gedongsawah
-AK-12,-6.5919,106.7971,11,0.11,sudirman-pengadilan
+AK-12,-6.5919,106.7971,11,0.11,*Jl. Sudirman
 AK-12,-6.5909,106.7970,10,0.10,ggbaru-sudirman
 AK-12,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-12,-6.5817,106.7968,11,0.11,sudirman-airmancur
-AK-12,-6.5813,106.7965,11,0.11,martadinata-airmancur
+AK-12,-6.5817,106.7968,11,0.11,*Air Mancur
+AK-12,-6.5813,106.7965,11,0.11,#martadinata-airmancur
 AK-12,-6.5820,106.7932,11,0.11,martadinata-bubulak
 AK-12,-6.5827,106.7931,11,0.11,martadinata-2
 AK-12,-6.5832,106.7915,11,0.11,martadinata-3
@@ -646,22 +646,22 @@ AK-13,-6.6052,106.8051,8,0.08,bangka-7
 AK-13,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-13,-6.6027,106.7999,10,0.10,#otista-roda
 AK-13,-6.6027,106.7999,10,0.10,#otista-roda
-AK-13,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-13,-6.6046,106.7965,10,0.10,*Ramayana
-AK-13,-6.6046,106.7965,10,0.10,*Ramayana
-AK-13,-6.6046,106.7965,10,0.10,*Ramayana
-AK-13,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-13,-6.6031,106.7988,10,0.10,*China Town
+AK-13,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-13,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-13,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-13,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-13,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-13,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-13,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-13,-6.5926,106.8018,10,0.10,#kb-salak
 AK-13,-6.5926,106.8018,10,0.10,#kb-salak
 AK-13,-6.5926,106.8018,10,0.10,#kb-salak
-AK-13,-6.5935,106.8029,10,0.10,kb-pangrango
-AK-13,-6.5959,106.8044,7,0.07,kb-astrid
-AK-13,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-13,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-13,-6.5935,106.8029,10,0.10,*Jl. Pangrango
+AK-13,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-13,-6.6009,106.8052,8,0.08,*Botani Square
+AK-13,-6.6009,106.8052,8,0.08,*Botani Square
 AK-13,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-13,-6.6017,106.8111,8,0.08,tol-2
+AK-13,-6.6017,106.8111,8,0.08,*Tol
 AK-13,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-13,-6.6066,106.8087,8,0.08,bangka-1
 AK-13,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
@@ -766,14 +766,14 @@ AK-15,-6.5762,106.7533,10,0.10,sind-barang-adjie
 AK-15,-6.5805,106.7635,10,0.10,sind-barang-4
 AK-15,-6.5802,106.7673,10,0.10,sind-barang-3
 AK-15,-6.5848,106.7711,10,0.10,sind-barang-darulquran
-AK-15,-6.5813,106.7773,10,0.10,darulquran-semeru
-AK-15,-6.5902,106.7860,10,0.10,semboja-semeru
+AK-15,-6.5813,106.7773,10,0.10,*Bogor Golf Club
+AK-15,-6.5902,106.7860,10,0.10,#semboja-semeru
 AK-15,-6.5894,106.7877,10,0.10,mawar-merdeka
 AK-15,-6.5903,106.7877,11,0.11,*Term. Merdeka
 AK-15,-6.5928,106.7877,10,0.10,merdeka-semeru
 AK-15,-6.5932,106.7866,10,0.10,#kemerdekaan
-AK-15,-6.5902,106.7860,10,0.10,semboja-semeru
-AK-15,-6.5813,106.7773,10,0.10,darulquran-semeru
+AK-15,-6.5902,106.7860,10,0.10,#semboja-semeru
+AK-15,-6.5813,106.7773,10,0.10,*Bogor Golf Club
 AK-15,-6.5848,106.7711,10,0.10,sind-barang-darulquran
 AK-15,-6.5802,106.7673,10,0.10,sind-barang-3
 AK-15,-6.5805,106.7635,10,0.10,sind-barang-4
@@ -786,12 +786,12 @@ AK-16,-6.5885,106.7947,10,0.10,sawojajar-cibalok
 AK-16,-6.5906,106.7932,10,0.10,*Pasar Anyar
 AK-16,-6.5909,106.7970,10,0.10,ggbaru-sudirman
 AK-16,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-16,-6.5817,106.7968,11,0.11,sudirman-airmancur
-AK-16,-6.5733,106.7964,11,0.11,pemuda-hewan
+AK-16,-6.5817,106.7968,11,0.11,*Air Mancur
+AK-16,-6.5733,106.7964,11,0.11,*Jl. Pemuda
 AK-16,-6.5698,106.7989,11,0.11,pemuda-pedes
 AK-16,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-16,-6.5652,106.8019,11,0.11,pedes-sungai
-AK-16,-6.5618,106.8019,11,0.11,pedes-iskandar
+AK-16,-6.5618,106.8019,11,0.11,#pedes-iskandar
 AK-16,-6.5628,106.7971,11,0.11,iskandar-majujaya
 AK-16,-6.5600,106.7874,11,0.11,iskandar-20-rejions
 AK-16,-6.5560,106.7784,11,0.11,iskandar-ciampea-Y
@@ -805,14 +805,14 @@ AK-16,-6.5540,106.7763,11,0.11,iskandar-bendright
 AK-16,-6.5560,106.7784,11,0.11,iskandar-ciampea-Y
 AK-16,-6.5600,106.7874,11,0.11,iskandar-20-rejions
 AK-16,-6.5628,106.7971,11,0.11,iskandar-majujaya
-AK-16,-6.5618,106.8019,11,0.11,pedes-iskandar
-AK-16,-6.5615,106.8026,11,0.11,iskandar-underloop
-AK-16,-6.5618,106.8019,11,0.11,pedes-iskandar
+AK-16,-6.5618,106.8019,11,0.11,#pedes-iskandar
+AK-16,-6.5615,106.8026,11,0.11,*Jl. Iskandar (Jalan Baru)
+AK-16,-6.5618,106.8019,11,0.11,#pedes-iskandar
 AK-16,-6.5652,106.8019,11,0.11,pedes-sungai
 AK-16,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-16,-6.5698,106.7989,11,0.11,pemuda-pedes
-AK-16,-6.5733,106.7964,11,0.11,pemuda-hewan
-AK-16,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-16,-6.5733,106.7964,11,0.11,*Jl. Pemuda
+AK-16,-6.5817,106.7968,11,0.11,*Air Mancur
 AK-16,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-17,-6.6039,106.8091,8,0.08,*Bina Marga
 AK-17,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
@@ -864,7 +864,7 @@ AK-17,-6.5979,106.8175,8,0.08,padi-ramp
 AK-17,-6.5982,106.8172,8,0.08,padi-jagung
 AK-17,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
 AK-17,-6.6039,106.8091,8,0.08,*Bina Marga
-AK-18,-6.6046,106.7965,10,0.10,*Ramayana
+AK-18,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
 AK-18,-6.6060,106.7954,10,0.10,halte-empang
 AK-18,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-18,-6.6073,106.7934,10,0.10,sedane-pahlawan-empang
@@ -928,9 +928,9 @@ AK-18,-6.6085,106.8012,0,0,padasuka-1
 AK-18,-6.6080,106.8013,0,0,padasuka-cincau
 AK-18,-6.6080,106.8005,0,0,cincau-1
 AK-18,-6.6068,106.7989,0,0,cincau-2
-AK-18,-6.6046,106.7965,10,0.10,*Ramayana
-AK-18,-6.6046,106.7965,10,0.10,*Ramayana
-AK-18,-6.6046,106.7965,10,0.10,*Ramayana
+AK-18,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-18,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-18,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
 AK-19,-6.5690,106.7549,10,0.10,bubulak-far-exit
 AK-19,-6.5703,106.7561,10,0.10,cifor-ciampea
 AK-19,-6.5680,106.7598,10,0.10,ciampea-before-river
@@ -974,12 +974,12 @@ AK-20,-6.5885,106.7947,10,0.10,sawojajar-cibalok
 AK-20,-6.5906,106.7932,10,0.10,*Pasar Anyar
 AK-20,-6.5909,106.7970,10,0.10,ggbaru-sudirman
 AK-20,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-20,-6.5817,106.7968,11,0.11,sudirman-airmancur
-AK-20,-6.5733,106.7964,11,0.11,pemuda-hewan
+AK-20,-6.5817,106.7968,11,0.11,*Air Mancur
+AK-20,-6.5733,106.7964,11,0.11,*Jl. Pemuda
 AK-20,-6.5698,106.7989,11,0.11,pemuda-pedes
 AK-20,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-20,-6.5652,106.8019,11,0.11,pedes-sungai
-AK-20,-6.5618,106.8019,11,0.11,pedes-iskandar
+AK-20,-6.5618,106.8019,11,0.11,#pedes-iskandar
 AK-20,-6.5628,106.7971,11,0.11,iskandar-majujaya
 AK-20,-6.5600,106.7874,11,0.11,iskandar-20-rejions
 AK-20,-6.5582,106.7883,11,0.11,cimanggu-wates-1
@@ -1019,19 +1019,19 @@ AK-20,-6.5536,106.7881,11,0.11,cimanggu-wates-setapak
 AK-20,-6.5582,106.7883,11,0.11,cimanggu-wates-1
 AK-20,-6.5600,106.7874,11,0.11,iskandar-20-rejions
 AK-20,-6.5628,106.7971,11,0.11,iskandar-majujaya
-AK-20,-6.5618,106.8019,11,0.11,pedes-iskandar
-AK-20,-6.5615,106.8026,11,0.11,iskandar-underloop
-AK-20,-6.5618,106.8019,11,0.11,pedes-iskandar
+AK-20,-6.5618,106.8019,11,0.11,#pedes-iskandar
+AK-20,-6.5615,106.8026,11,0.11,*Jl. Iskandar (Jalan Baru)
+AK-20,-6.5618,106.8019,11,0.11,#pedes-iskandar
 AK-20,-6.5652,106.8019,11,0.11,pedes-sungai
 AK-20,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-20,-6.5698,106.7989,11,0.11,pemuda-pedes
-AK-20,-6.5733,106.7964,11,0.11,pemuda-hewan
-AK-20,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-20,-6.5733,106.7964,11,0.11,*Jl. Pemuda
+AK-20,-6.5817,106.7968,11,0.11,*Air Mancur
 AK-20,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-21,-6.6009,106.8052,8,0.08,*Botani Square
+AK-21,-6.6009,106.8052,8,0.08,*Botani Square
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-21,-6.6017,106.8111,8,0.08,tol-2
+AK-21,-6.6017,106.8111,8,0.08,*Tol
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-21,-6.6066,106.8087,8,0.08,bangka-1
 AK-21,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
@@ -1072,16 +1072,16 @@ AK-21,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
 AK-21,-6.6066,106.8087,8,0.08,bangka-1
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
-AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-21,-6.6009,106.8052,8,0.08,*Botani Square
+AK-21,-6.6009,106.8052,8,0.08,*Botani Square
+AK-21,-6.6009,106.8052,8,0.08,*Botani Square
 AK-22,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-22,-6.5930,106.7973,10,0.10,kb-polisi-militer
-AK-22,-6.5919,106.7971,11,0.11,sudirman-pengadilan
+AK-22,-6.5930,106.7973,10,0.10,*Polisi Militer
+AK-22,-6.5919,106.7971,11,0.11,*Jl. Sudirman
 AK-22,-6.5909,106.7970,10,0.10,ggbaru-sudirman
 AK-22,-6.5886,106.7969,10,0.10,sudirman-sawojajar
-AK-22,-6.5817,106.7968,11,0.11,sudirman-airmancur
-AK-22,-6.5813,106.7965,11,0.11,martadinata-airmancur
+AK-22,-6.5817,106.7968,11,0.11,*Air Mancur
+AK-22,-6.5813,106.7965,11,0.11,#martadinata-airmancur
 AK-22,-6.5820,106.7932,11,0.11,martadinata-bubulak
 AK-22,-6.5771,106.7926,11,0.11,jl-bubulak-1
 AK-22,-6.5736,106.7936,11,0.11,jl-bubulak-pondok-rumput
@@ -1089,17 +1089,17 @@ AK-22,-6.5685,106.7938,11,0.11,*Pondok Rumput
 AK-22,-6.5736,106.7936,11,0.11,jl-bubulak-pondok-rumput
 AK-22,-6.5771,106.7926,11,0.11,jl-bubulak-1
 AK-22,-6.5820,106.7932,11,0.11,martadinata-bubulak
-AK-22,-6.5813,106.7965,11,0.11,martadinata-airmancur
-AK-22,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-22,-6.5813,106.7965,11,0.11,#martadinata-airmancur
+AK-22,-6.5817,106.7968,11,0.11,*Air Mancur
 AK-22,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-22,-6.5909,106.7970,10,0.10,ggbaru-sudirman
-AK-22,-6.5919,106.7971,11,0.11,sudirman-pengadilan
+AK-22,-6.5919,106.7971,11,0.11,*Jl. Sudirman
 AK-22,-6.5912,106.7938,11,0.11,pengadilan-gedongsawah
 AK-22,-6.5927,106.7939,11,0.11,mekah-gedongsawah
 AK-22,-6.5938,106.7936,11,0.11,gedongsawah-crossing
 AK-22,-6.5941,106.7920,11,0.11,gedongsawah-dewisartika
 AK-22,-6.5963,106.7915,11,0.11,muslihat-dewisartika
-AK-22,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-22,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-22,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-23,-6.5699,106.8125,10,0.10,ciparigi-3
 AK-23,-6.5704,106.8152,10,0.10,adnawijaya-1
@@ -1110,24 +1110,24 @@ AK-23,-6.5819,106.8178,10,0.10,adnawijaya-5
 AK-23,-6.5816,106.8132,10,0.10,sobana-palapuhraya
 AK-23,-6.5811,106.8110,10,0.10,sobana-sungai
 AK-23,-6.5808,106.8067,10,0.10,pajajaran-sobana
-AK-23,-6.5886,106.8049,10,0.10,salak-pajajaran
+AK-23,-6.5886,106.8049,10,0.10,*Jl. Salak
 AK-23,-6.5888,106.8059,10,0.10,#lodaya-N
 AK-23,-6.5912,106.8057,1,0.01,lodaya-M
 AK-23,-6.5921,106.8057,10,0.10,#lodaya-S
 AK-23,-6.5922,106.8046,10,0.10,pangrango-pajajaran
-AK-23,-6.5959,106.8044,7,0.07,kb-astrid
-AK-23,-6.6009,106.8052,8,0.08,kb-botani-1
-AK-23,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-23,-6.5959,106.8044,7,0.07,*Kebun Raya
+AK-23,-6.6009,106.8052,8,0.08,*Botani Square
+AK-23,-6.6009,106.8052,8,0.08,*Botani Square
 AK-23,-6.6016,106.8043,10,0.10,#bangka-otista
 AK-23,-6.6027,106.7999,10,0.10,#otista-roda
 AK-23,-6.6027,106.7999,10,0.10,#otista-roda
-AK-23,-6.6031,106.7988,10,0.10,kb-suryakencana
-AK-23,-6.6046,106.7965,10,0.10,*Ramayana
-AK-23,-6.6046,106.7965,10,0.10,*Ramayana
-AK-23,-6.6046,106.7965,10,0.10,*Ramayana
-AK-23,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-23,-6.6031,106.7988,10,0.10,*China Town
+AK-23,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-23,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-23,-6.6046,106.7965,10,0.10,*Ramayana (BTM)
+AK-23,-6.5969,106.7937,10,0.10,*Jl. Muslihat
 AK-23,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
-AK-23,-6.5930,106.7973,10,0.10,kb-polisi-militer
+AK-23,-6.5930,106.7973,10,0.10,*Polisi Militer
 AK-23,-6.5926,106.8018,10,0.10,#kb-salak
 AK-23,-6.5926,106.8018,10,0.10,#kb-salak
 AK-23,-6.5926,106.8018,10,0.10,#kb-salak

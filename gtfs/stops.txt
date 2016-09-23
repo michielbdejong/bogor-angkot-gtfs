@@ -1,13 +1,13 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
 #kb-gedong-sawah,,#kb-gedong-sawah,,-6.5945,106.7946,,,,,,2
-kb-polisi-militer,,kb-polisi-militer,,-6.5930,106.7973,,,,,,2
+*Polisi Militer,,*Polisi Militer,,-6.5930,106.7973,,,,,,2
 #kb-salak,,#kb-salak,,-6.5926,106.8018,,,,,,2
-kb-pangrango,,kb-pangrango,,-6.5935,106.8029,,,,,,2
-kb-astrid,,kb-astrid,,-6.5959,106.8044,,,,,,2
-kb-botani-1,,kb-botani-1,,-6.6009,106.8052,,,,,,2
+*Jl. Pangrango,,*Jl. Pangrango,,-6.5935,106.8029,,,,,,2
+*Kebun Raya,,*Kebun Raya,,-6.5959,106.8044,,,,,,2
+*Botani Square,,*Botani Square,,-6.6009,106.8052,,,,,,2
 #bangka-otista,,#bangka-otista,,-6.6016,106.8043,,,,,,2
 #otista-roda,,#otista-roda,,-6.6027,106.7999,,,,,,2
-kb-suryakencana,,kb-suryakencana,,-6.6031,106.7988,,,,,,2
+*China Town,,*China Town,,-6.6031,106.7988,,,,,,2
 suryakencana-1,,suryakencana-1,,-6.6048,106.7997,,,,,,2
 suryakencana-2,,suryakencana-2,,-6.6082,106.8025,,,,,,2
 roda-siliwangi,,roda-siliwangi,,-6.6099,106.8045,,,,,,2
@@ -42,8 +42,8 @@ pahlawan-3,,pahlawan-3,,-6.6113,106.8000,,,,,,2
 pahlawan-4,,pahlawan-4,,-6.6082,106.7964,,,,,,2
 pahlawan-empang,,pahlawan-empang,,-6.6077,106.7949,,,,,,2
 halte-empang,,halte-empang,,-6.6060,106.7954,,,,,,2
-*Ramayana,,*Ramayana,,-6.6046,106.7965,,,,,,2
-kb-muslihat,,kb-muslihat,,-6.5969,106.7937,,,,,,2
+*Ramayana (BTM),,*Ramayana (BTM),,-6.6046,106.7965,,,,,,2
+*Jl. Muslihat,,*Jl. Muslihat,,-6.5969,106.7937,,,,,,2
 muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
 #stasiun-paledang,,#stasiun-paledang,,-6.5959,106.7897,,,,,,2
 #veteran-merdeka,,#veteran-merdeka,,-6.5955,106.7884,,,,,,2
@@ -74,10 +74,10 @@ pahlawan-1,,pahlawan-1,,-6.6163,106.8045,,,,,,2
 kencana-2,,kencana-2,,-6.5888,106.8024,,,,,,2
 salak-4,,salak-4,,-6.5884,106.8030,,,,,,2
 salak-5,,salak-5,,-6.5883,106.8041,,,,,,2
-salak-pajajaran,,salak-pajajaran,,-6.5886,106.8049,,,,,,2
+*Jl. Salak,,*Jl. Salak,,-6.5886,106.8049,,,,,,2
 pangrango-pajajaran,,pangrango-pajajaran,,-6.5922,106.8046,,,,,,2
 *Term. Baranangsiang,,*Term. Baranangsiang,,-6.6043,106.8068,,,,,,2
-tol-2,,tol-2,,-6.6017,106.8111,,,,,,2
+*Tol,,*Tol,,-6.6017,106.8111,,,,,,2
 bangka-1,,bangka-1,,-6.6066,106.8087,,,,,,2
 pajajaran-ciheuleut,,pajajaran-ciheuleut,,-6.6078,106.8099,,,,,,2
 pajajaran-michelle-bakery,,pajajaran-michelle-bakery,,-6.6087,106.8105,,,,,,2
@@ -134,11 +134,11 @@ syam-norththturn,,syam-norththturn,,-6.5872,106.8162,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
 padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
-sudirman-pengadilan,,sudirman-pengadilan,,-6.5919,106.7971,,,,,,2
+*Jl. Sudirman,,*Jl. Sudirman,,-6.5919,106.7971,,,,,,2
 ggbaru-sudirman,,ggbaru-sudirman,,-6.5909,106.7970,,,,,,2
 sudirman-sawojajar,,sudirman-sawojajar,,-6.5886,106.7969,,,,,,2
-sudirman-airmancur,,sudirman-airmancur,,-6.5817,106.7968,,,,,,2
-pemuda-hewan,,pemuda-hewan,,-6.5733,106.7964,,,,,,2
+*Air Mancur,,*Air Mancur,,-6.5817,106.7968,,,,,,2
+*Jl. Pemuda,,*Jl. Pemuda,,-6.5733,106.7964,,,,,,2
 pemuda-pedes,,pemuda-pedes,,-6.5698,106.7989,,,,,,2
 line-07-4,,line-07-4,,-6.5689,106.8002,,,,,,2
 line-07-5,,line-07-5,,-6.5676,106.8012,,,,,,2
@@ -149,7 +149,7 @@ yani-sungai,,yani-sungai,,-6.5684,106.8074,,,,,,2
 *Jambu Dua,,*Jambu Dua,,-6.5689,106.8091,,,,,,2
 *Ciparigi (?),,*Ciparigi (?),,-6.5549,106.8181,,,,,,2
 yani-2,,yani-2,,-6.5692,106.8054,,,,,,2
-yani-3,,yani-3,,-6.5705,106.8044,,,,,,2
+*Jl. Yani,,*Jl. Yani,,-6.5705,106.8044,,,,,,2
 yani-4,,yani-4,,-6.5788,106.7981,,,,,,2
 pengadilan-gedongsawah,,pengadilan-gedongsawah,,-6.5912,106.7938,,,,,,2
 gedongsawah-dewisartika,,gedongsawah-dewisartika,,-6.5941,106.7920,,,,,,2
@@ -190,7 +190,7 @@ pjjindah-east-2,,pjjindah-east-2,,-6.6112,106.8211,,,,,,2
 pjjindah-bigroadbend,,pjjindah-bigroadbend,,-6.6130,106.8201,,,,,,2
 pjjindah-bigroadturnsouth,,pjjindah-bigroadturnsouth,,-6.6135,106.8207,,,,,,2
 dewisartika-pengadilan,,dewisartika-pengadilan,,-6.5920,106.7925,,,,,,2
-martadinata-airmancur,,martadinata-airmancur,,-6.5813,106.7965,,,,,,2
+#martadinata-airmancur,,#martadinata-airmancur,,-6.5813,106.7965,,,,,,2
 martadinata-bubulak,,martadinata-bubulak,,-6.5820,106.7932,,,,,,2
 martadinata-2,,martadinata-2,,-6.5827,106.7931,,,,,,2
 martadinata-3,,martadinata-3,,-6.5832,106.7915,,,,,,2
@@ -239,13 +239,13 @@ cangkrang-2,,cangkrang-2,,-6.5451,106.7285,,,,,,2
 cangkrang-3,,cangkrang-3,,-6.5453,106.7308,,,,,,2
 cangkrang-4,,cangkrang-4,,-6.5476,106.7325,,,,,,2
 cangkrang-5,,cangkrang-5,,-6.5510,106.7317,,,,,,2
-darulquran-semeru,,darulquran-semeru,,-6.5813,106.7773,,,,,,2
-semboja-semeru,,semboja-semeru,,-6.5902,106.7860,,,,,,2
+*Bogor Golf Club,,*Bogor Golf Club,,-6.5813,106.7773,,,,,,2
+#semboja-semeru,,#semboja-semeru,,-6.5902,106.7860,,,,,,2
 sawojajar-cibalok,,sawojajar-cibalok,,-6.5885,106.7947,,,,,,2
 *Pasar Anyar,,*Pasar Anyar,,-6.5906,106.7932,,,,,,2
 pedes-bendrightatstart,,pedes-bendrightatstart,,-6.5692,106.7990,,,,,,2
 pedes-sungai,,pedes-sungai,,-6.5652,106.8019,,,,,,2
-pedes-iskandar,,pedes-iskandar,,-6.5618,106.8019,,,,,,2
+#pedes-iskandar,,#pedes-iskandar,,-6.5618,106.8019,,,,,,2
 iskandar-majujaya,,iskandar-majujaya,,-6.5628,106.7971,,,,,,2
 iskandar-20-rejions,,iskandar-20-rejions,,-6.5600,106.7874,,,,,,2
 iskandar-ciampea-Y,,iskandar-ciampea-Y,,-6.5560,106.7784,,,,,,2
@@ -253,7 +253,7 @@ iskandar-bendright,,iskandar-bendright,,-6.5540,106.7763,,,,,,2
 iskandar-kencana,,iskandar-kencana,,-6.5372,106.7699,,,,,,2
 iskandar-19-turns-N,,iskandar-19-turns-N,,-6.5338,106.7677,,,,,,2
 *Salabenda,,*Salabenda,,-6.5205,106.7594,,,,,,2
-iskandar-underloop,,iskandar-underloop,,-6.5615,106.8026,,,,,,2
+*Jl. Iskandar (Jalan Baru),,*Jl. Iskandar (Jalan Baru),,-6.5615,106.8026,,,,,,2
 *Bina Marga,,*Bina Marga,,-6.6039,106.8091,,,,,,2
 padi-ramp,,padi-ramp,,-6.5979,106.8175,,,,,,2
 ramp-syam,,ramp-syam,,-6.5996,106.8179,,,,,,2

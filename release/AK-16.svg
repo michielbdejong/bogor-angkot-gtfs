@@ -380,29 +380,29 @@
     <path d="M106.81089593655015,-6.569428216632399 L106.81119785451682,-6.569464898254518 L106.81092415318255,-6.569332280082242 Z" stroke="none" fill="black" />
     <ellipse 
       cx="106.7973" cy="-12.593"
-      rx="180" ry="15" transform="translate(106.7973 -6.593) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7973 6.593) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="260" ry="15" transform="translate(106.7973 -6.593) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7973 6.593) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7973" y="-6.593" fill="black" text-anchor="middle" transform="translate(106.7973 -6.593) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7973 6.593) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 07, 08, 09, 10, 13, 22, 23</text>
+    <text x="106.7973" y="-6.593" fill="black" text-anchor="middle" transform="translate(106.7973 -6.593) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7973 6.593) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 07, 08, 09, 10, 13, 22, 23 Polisi Militer</text>
     <ellipse 
       cx="106.8029" cy="-12.593499999999999"
-      rx="120" ry="15" transform="translate(106.8029 -6.5935) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8029 6.5935) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="195" ry="15" transform="translate(106.8029 -6.5935) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8029 6.5935) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8029" y="-6.5935" fill="black" text-anchor="middle" transform="translate(106.8029 -6.5935) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8029 6.5935) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 05, 06, 08, 09, 10, 13</text>
+    <text x="106.8029" y="-6.5935" fill="black" text-anchor="middle" transform="translate(106.8029 -6.5935) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8029 6.5935) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 05, 06, 08, 09, 10, 13 Jl. Pangrango</text>
     <ellipse 
       cx="106.8044" cy="-12.5959"
-      rx="150" ry="15" transform="translate(106.8044 -6.5959) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5959) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="210" ry="15" transform="translate(106.8044 -6.5959) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5959) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8044" y="-6.5959" fill="black" text-anchor="middle" transform="translate(106.8044 -6.5959) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5959) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 23</text>
+    <text x="106.8044" y="-6.5959" fill="black" text-anchor="middle" transform="translate(106.8044 -6.5959) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5959) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 23 Kebun Raya</text>
     <ellipse 
       cx="106.8052" cy="-12.6009"
-      rx="165" ry="15" transform="translate(106.8052 -6.6009) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8052 6.6009) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="240" ry="15" transform="translate(106.8052 -6.6009) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8052 6.6009) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8052" y="-6.6009" fill="black" text-anchor="middle" transform="translate(106.8052 -6.6009) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8052 6.6009) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 21, 23</text>
+    <text x="106.8052" y="-6.6009" fill="black" text-anchor="middle" transform="translate(106.8052 -6.6009) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8052 6.6009) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 21, 23 Botani Square</text>
     <ellipse 
       cx="106.7988" cy="-12.603100000000001"
-      rx="150" ry="15" transform="translate(106.7988 -6.6031) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7988 6.6031) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="210" ry="15" transform="translate(106.7988 -6.6031) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7988 6.6031) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7988" y="-6.6031" fill="black" text-anchor="middle" transform="translate(106.7988 -6.6031) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7988 6.6031) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 23</text>
+    <text x="106.7988" y="-6.6031" fill="black" text-anchor="middle" transform="translate(106.7988 -6.6031) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7988 6.6031) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 08, 09, 10, 13, 23 China Town</text>
     <ellipse 
       cx="106.7997" cy="-12.604800000000001"
       rx="45" ry="15" transform="translate(106.7997 -6.6048) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7997 6.6048) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -575,14 +575,14 @@
     <text x="106.7954" y="-6.606" fill="black" text-anchor="middle" transform="translate(106.7954 -6.606) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7954 6.606) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 04, 10, 18</text>
     <ellipse 
       cx="106.7965" cy="-12.6046"
-      rx="230" ry="15" transform="translate(106.7965 -6.6046) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.6046) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="260" ry="15" transform="translate(106.7965 -6.6046) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.6046) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7965" y="-6.6046" fill="black" text-anchor="middle" transform="translate(106.7965 -6.6046) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.6046) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 04, 05, 06, 08, 09, 10, 13, 18, 23 Ramayana</text>
+    <text x="106.7965" y="-6.6046" fill="black" text-anchor="middle" transform="translate(106.7965 -6.6046) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.6046) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 04, 05, 06, 08, 09, 10, 13, 18, 23 Ramayana (BTM)</text>
     <ellipse 
       cx="106.7937" cy="-12.5969"
-      rx="180" ry="15" transform="translate(106.7937 -6.5969) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7937 6.5969) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="250.00000000000003" ry="15" transform="translate(106.7937 -6.5969) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7937 6.5969) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7937" y="-6.5969" fill="black" text-anchor="middle" transform="translate(106.7937 -6.5969) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7937 6.5969) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 07, 08, 09, 10, 13, 22, 23</text>
+    <text x="106.7937" y="-6.5969" fill="black" text-anchor="middle" transform="translate(106.7937 -6.5969) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7937 6.5969) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">01, 02, 03, 05, 06, 07, 08, 09, 10, 13, 22, 23 Jl. Muslihat</text>
     <ellipse 
       cx="106.7915" cy="-12.5963"
       rx="105" ry="15" transform="translate(106.7915 -6.5963) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7915 6.5963) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -705,9 +705,9 @@
     <text x="106.8041" y="-6.5883" fill="black" text-anchor="middle" transform="translate(106.8041 -6.5883) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8041 6.5883) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03</text>
     <ellipse 
       cx="106.8049" cy="-12.5886"
-      rx="60" ry="15" transform="translate(106.8049 -6.5886) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8049 6.5886) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="114.99999999999999" ry="15" transform="translate(106.8049 -6.5886) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8049 6.5886) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8049" y="-6.5886" fill="black" text-anchor="middle" transform="translate(106.8049 -6.5886) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8049 6.5886) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 08, 09, 23</text>
+    <text x="106.8049" y="-6.5886" fill="black" text-anchor="middle" transform="translate(106.8049 -6.5886) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8049 6.5886) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 08, 09, 23 Jl. Salak</text>
     <ellipse 
       cx="106.8046" cy="-12.5922"
       rx="75" ry="15" transform="translate(106.8046 -6.5922) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8046 6.5922) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -720,9 +720,9 @@
     <text x="106.8068" y="-6.6043" fill="black" text-anchor="middle" transform="translate(106.8068 -6.6043) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8068 6.6043) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 06, 09, 13, 21 Term. Baranangsiang</text>
     <ellipse 
       cx="106.8111" cy="-12.601700000000001"
-      rx="75" ry="15" transform="translate(106.8111 -6.6017) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8111 6.6017) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="100" ry="15" transform="translate(106.8111 -6.6017) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8111 6.6017) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8111" y="-6.6017" fill="black" text-anchor="middle" transform="translate(106.8111 -6.6017) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8111 6.6017) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 06, 09, 13, 21</text>
+    <text x="106.8111" y="-6.6017" fill="black" text-anchor="middle" transform="translate(106.8111 -6.6017) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8111 6.6017) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">03, 06, 09, 13, 21 Tol</text>
     <ellipse 
       cx="106.8087" cy="-12.6066"
       rx="90" ry="15" transform="translate(106.8087 -6.6066) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8087 6.6066) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -990,9 +990,9 @@
     <text x="106.8126" y="-6.599" fill="black" text-anchor="middle" transform="translate(106.8126 -6.599) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8126 6.599) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">06 Ciheuleut</text>
     <ellipse 
       cx="106.7971" cy="-12.591899999999999"
-      rx="45" ry="15" transform="translate(106.7971 -6.5919) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7971 6.5919) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="115" ry="15" transform="translate(106.7971 -6.5919) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7971 6.5919) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7971" y="-6.5919" fill="black" text-anchor="middle" transform="translate(106.7971 -6.5919) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7971 6.5919) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 12, 22</text>
+    <text x="106.7971" y="-6.5919" fill="black" text-anchor="middle" transform="translate(106.7971 -6.5919) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7971 6.5919) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 12, 22 Jl. Sudirman</text>
     <ellipse 
       cx="106.797" cy="-12.590900000000001"
       rx="75" ry="15" transform="translate(106.797 -6.5909) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.797 6.5909) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1005,14 +1005,14 @@
     <text x="106.7969" y="-6.5886" fill="black" text-anchor="middle" transform="translate(106.7969 -6.5886) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7969 6.5886) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 12, 16, 20, 22</text>
     <ellipse 
       cx="106.7968" cy="-12.5817"
-      rx="75" ry="15" transform="translate(106.7968 -6.5817) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7968 6.5817) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="135" ry="15" transform="translate(106.7968 -6.5817) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7968 6.5817) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7968" y="-6.5817" fill="black" text-anchor="middle" transform="translate(106.7968 -6.5817) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7968 6.5817) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 12, 16, 20, 22</text>
+    <text x="106.7968" y="-6.5817" fill="black" text-anchor="middle" transform="translate(106.7968 -6.5817) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7968 6.5817) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 12, 16, 20, 22 Air Mancur</text>
     <ellipse 
       cx="106.7964" cy="-12.5733"
-      rx="45" ry="15" transform="translate(106.7964 -6.5733) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7964 6.5733) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="105" ry="15" transform="translate(106.7964 -6.5733) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7964 6.5733) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7964" y="-6.5733" fill="black" text-anchor="middle" transform="translate(106.7964 -6.5733) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7964 6.5733) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 16, 20</text>
+    <text x="106.7964" y="-6.5733" fill="black" text-anchor="middle" transform="translate(106.7964 -6.5733) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7964 6.5733) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07, 16, 20 Jl. Pemuda</text>
     <ellipse 
       cx="106.7989" cy="-12.5698"
       rx="45" ry="15" transform="translate(106.7989 -6.5698) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7989 6.5698) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1065,9 +1065,9 @@
     <text x="106.8054" y="-6.5692" fill="black" text-anchor="middle" transform="translate(106.8054 -6.5692) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8054 6.5692) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07</text>
     <ellipse 
       cx="106.8044" cy="-12.5705"
-      rx="15" ry="15" transform="translate(106.8044 -6.5705) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5705) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="65.00000000000001" ry="15" transform="translate(106.8044 -6.5705) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5705) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8044" y="-6.5705" fill="black" text-anchor="middle" transform="translate(106.8044 -6.5705) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5705) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07</text>
+    <text x="106.8044" y="-6.5705" fill="black" text-anchor="middle" transform="translate(106.8044 -6.5705) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8044 6.5705) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">07 Jl. Yani</text>
     <ellipse 
       cx="106.7981" cy="-12.578800000000001"
       rx="15" ry="15" transform="translate(106.7981 -6.5788) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7981 6.5788) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1263,11 +1263,6 @@
       rx="15" ry="15" transform="translate(106.7925 -6.592) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7925 6.592) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
     <text x="106.7925" y="-6.592" fill="black" text-anchor="middle" transform="translate(106.7925 -6.592) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7925 6.592) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">12</text>
-    <ellipse 
-      cx="106.7965" cy="-12.581299999999999"
-      rx="30" ry="15" transform="translate(106.7965 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7965" y="-6.5813" fill="black" text-anchor="middle" transform="translate(106.7965 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7965 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">12, 22</text>
     <ellipse 
       cx="106.7932" cy="-12.582"
       rx="30" ry="15" transform="translate(106.7932 -6.582) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7932 6.582) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1505,14 +1500,9 @@
     <text x="106.7561" y="-6.5703" fill="black" text-anchor="middle" transform="translate(106.7561 -6.5703) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7561 6.5703) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">15, 19</text>
     <ellipse 
       cx="106.7773" cy="-12.581299999999999"
-      rx="15" ry="15" transform="translate(106.7773 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7773 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="100" ry="15" transform="translate(106.7773 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7773 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.7773" y="-6.5813" fill="black" text-anchor="middle" transform="translate(106.7773 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7773 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">15</text>
-    <ellipse 
-      cx="106.786" cy="-12.5902"
-      rx="15" ry="15" transform="translate(106.786 -6.5902) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.786 6.5902) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.786" y="-6.5902" fill="black" text-anchor="middle" transform="translate(106.786 -6.5902) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.786 6.5902) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">15</text>
+    <text x="106.7773" y="-6.5813" fill="black" text-anchor="middle" transform="translate(106.7773 -6.5813) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7773 6.5813) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">15 Bogor Golf Club</text>
     <ellipse 
       cx="106.7947" cy="-12.5885"
       rx="30" ry="15" transform="translate(106.7947 -6.5885) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7947 6.5885) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1533,11 +1523,6 @@
       rx="30" ry="15" transform="translate(106.8019 -6.5652) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8019 6.5652) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
     <text x="106.8019" y="-6.5652" fill="black" text-anchor="middle" transform="translate(106.8019 -6.5652) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8019 6.5652) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">16, 20</text>
-    <ellipse 
-      cx="106.8019" cy="-12.5618"
-      rx="30" ry="15" transform="translate(106.8019 -6.5618) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8019 6.5618) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
-      fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8019" y="-6.5618" fill="black" text-anchor="middle" transform="translate(106.8019 -6.5618) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8019 6.5618) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">16, 20</text>
     <ellipse 
       cx="106.7971" cy="-12.5628"
       rx="30" ry="15" transform="translate(106.7971 -6.5628) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7971 6.5628) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -1575,9 +1560,9 @@
     <text x="106.7594" y="-6.5205" fill="black" text-anchor="middle" transform="translate(106.7594 -6.5205) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.7594 6.5205) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">16 Salabenda</text>
     <ellipse 
       cx="106.8026" cy="-12.561499999999999"
-      rx="30" ry="15" transform="translate(106.8026 -6.5615) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8026 6.5615) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
+      rx="165" ry="15" transform="translate(106.8026 -6.5615) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8026 6.5615) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
       fill="white" stroke="black" stroke-width="2"/>
-    <text x="106.8026" y="-6.5615" fill="black" text-anchor="middle" transform="translate(106.8026 -6.5615) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8026 6.5615) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">16, 20</text>
+    <text x="106.8026" y="-6.5615" fill="black" text-anchor="middle" transform="translate(106.8026 -6.5615) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8026 6.5615) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)">16, 20 Jl. Iskandar (Jalan Baru)</text>
     <ellipse 
       cx="106.8175" cy="-12.5979"
       rx="15" ry="15" transform="translate(106.8175 -6.5979) scale(0.000014999999999999999 -0.000014999999999999999) translate(-106.8175 6.5979) translate(106.7975 -6.592499999999999) rotate(0) translate(-106.7975 6.592499999999999)"
@@ -2056,11 +2041,11 @@
     <line x1="106.79670011318623" y1="-6.581704756514942" x2="106.79650011318624" y2="-6.577504756514942" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.79650011318624" y1="-6.577504756514942" x2="106.79630011318623" y2="-6.573304756514942" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7968" cy="-6.5817" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.7968" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.0006581699999999999 0.0006581699999999999),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >sudirman-airmancur</text>
+    <text x="106.7968" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.0006581699999999999 0.0006581699999999999),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >*Air Mancur</text>
     <line x1="106.79631862665289" y1="-6.573241876180628" x2="106.79756862665289" y2="-6.5714918761806285" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.79756862665289" y1="-6.5714918761806285" x2="106.79881862665289" y2="-6.569741876180628" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7964" cy="-6.5733" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.7964" y="-6.5733" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065733 0.00065733),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >pemuda-hewan</text>
+    <text x="106.7964" y="-6.5733" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065733 0.00065733),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >*Jl. Pemuda</text>
     <line x1="106.79880136060763" y1="-6.569783560101269" x2="106.79884314065826" y2="-6.56953287979746" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.79890890025318" y1="-6.569442460354442" x2="106.79895068030382" y2="-6.569191780050635" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7989" cy="-6.5698" fill="rgb(255,0,0)" r=".0001" />
@@ -2076,7 +2061,7 @@
     <line x1="106.80191019771271" y1="-6.561848949020987" x2="106.7995101977127" y2="-6.562348949020987" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.7995101977127" y1="-6.562348949020987" x2="106.79711019771271" y2="-6.562848949020987" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.8019" cy="-6.5618" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >pedes-iskandar</text>
+    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >#pedes-iskandar</text>
     <line x1="106.79708613317536" y1="-6.562848038642511" x2="106.79228417181787" y2="-6.561461905467153" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.79217422770819" y1="-6.5614822104603805" x2="106.78737226635072" y2="-6.5600960772850225" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7971" cy="-6.5628" fill="rgb(255,0,0)" r=".0001" />
@@ -2132,15 +2117,15 @@
     <line x1="106.80188030403508" y1="-6.561754042748499" x2="106.80223030403508" y2="-6.561604042748499" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.80223030403508" y1="-6.561604042748499" x2="106.80258030403508" y2="-6.561454042748498" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.8019" cy="-6.5618" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >pedes-iskandar</text>
+    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >#pedes-iskandar</text>
     <line x1="106.80261969596492" y1="-6.561545957251501" x2="106.80226969596492" y2="-6.5616959572515015" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.80226969596492" y1="-6.5616959572515015" x2="106.80191969596493" y2="-6.561845957251501" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.8026" cy="-6.5615" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.8026" y="-6.5615" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065615 0.00065615),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >iskandar-underloop</text>
+    <text x="106.8026" y="-6.5615" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065615 0.00065615),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >*Jl. Iskandar (Jalan Baru)</text>
     <line x1="106.80195" y1="-6.5618" x2="106.80195" y2="-6.5634999999999994" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.80195" y1="-6.5634999999999994" x2="106.80195" y2="-6.5652" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.8019" cy="-6.5618" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >pedes-iskandar</text>
+    <text x="106.8019" y="-6.5618" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065618 0.00065618),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >#pedes-iskandar</text>
     <line x1="106.80194048052218" y1="-6.565229348378573" x2="106.80049048052219" y2="-6.567229348378572" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.80049048052219" y1="-6.567229348378572" x2="106.79904048052218" y2="-6.569229348378573" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.8019" cy="-6.5652" fill="rgb(255,0,0)" r=".0001" />
@@ -2156,11 +2141,11 @@
     <line x1="106.7964499434069" y1="-6.573297621742529" x2="106.7966499434069" y2="-6.577497621742529" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.7966499434069" y1="-6.577497621742529" x2="106.7968499434069" y2="-6.581697621742529" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7964" cy="-6.5733" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.7964" y="-6.5733" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065733 0.00065733),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >pemuda-hewan</text>
+    <text x="106.7964" y="-6.5733" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.00065733 0.00065733),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >*Jl. Pemuda</text>
     <line x1="106.79684999474983" y1="-6.581699275438408" x2="106.79689854562665" y2="-6.585049285938749" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.79700143337269" y1="-6.585247815814883" x2="106.79704998424948" y2="-6.588597826315224" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7968" cy="-6.5817" fill="rgb(255,0,0)" r=".0001" />
-    <text x="106.7968" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.0006581699999999999 0.0006581699999999999),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >sudirman-airmancur</text>
+    <text x="106.7968" y="-6.5817" stroke="rgb(0,0,0)" transform="translate(undefined undefined),scale(-0.0006581699999999999 0.0006581699999999999),translate(NaN NaN),translate(106.7975 -6.592499999999999),rotate(0),translate(-106.7975 6.592499999999999)" >*Air Mancur</text>
     <line x1="106.7969" y1="-6.5886" x2="106.7969" y2="-6.5886" style="stroke:rgb(255,0,0);stroke-width:.00002" />
     <line x1="106.7969" y1="-6.5886" x2="106.7969" y2="-6.5886" style="stroke:rgb(0,0,255);stroke-width:.00002" />
     <circle cx="106.7969" cy="-6.5886" fill="rgb(255,0,0)" r=".0001" />
