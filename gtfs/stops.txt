@@ -1,13 +1,12 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
-kb-gedong-sawah,,kb-gedong-sawah,,-6.5945,106.7946,,,,,,2
+#kb-gedong-sawah,,#kb-gedong-sawah,,-6.5945,106.7946,,,,,,2
 kb-polisi-militer,,kb-polisi-militer,,-6.5930,106.7973,,,,,,2
-kb-salak,,kb-salak,,-6.5926,106.8018,,,,,,2
+#kb-salak,,#kb-salak,,-6.5926,106.8018,,,,,,2
 kb-pangrango,,kb-pangrango,,-6.5935,106.8029,,,,,,2
 kb-astrid,,kb-astrid,,-6.5959,106.8044,,,,,,2
 kb-botani-1,,kb-botani-1,,-6.6009,106.8052,,,,,,2
-bangka-otista,,bangka-otista,,-6.6016,106.8043,,,,,,2
-otista-roda,,otista-roda,,-6.6027,106.7999,,,,,,2
-kb-otista,,kb-otista,,-6.6027,106.7996,,,,,,2
+#bangka-otista,,#bangka-otista,,-6.6016,106.8043,,,,,,2
+#otista-roda,,#otista-roda,,-6.6027,106.7999,,,,,,2
 kb-suryakencana,,kb-suryakencana,,-6.6031,106.7988,,,,,,2
 suryakencana-1,,suryakencana-1,,-6.6048,106.7997,,,,,,2
 suryakencana-2,,suryakencana-2,,-6.6082,106.8025,,,,,,2
@@ -16,15 +15,8 @@ siliwangi-1,,siliwangi-1,,-6.6118,106.8065,,,,,,2
 siliwangi-2,,siliwangi-2,,-6.6164,106.8103,,,,,,2
 siliwangi-jlsukasari,,siliwangi-jlsukasari,,-6.6178,106.8120,,,,,,2
 siliwangi-lawanggintung,,siliwangi-lawanggintung,,-6.6201,106.8145,,,,,,2
-lawanggintung-5,,lawanggintung-5,,-6.6250,106.8093,,,,,,2
 lawanggintung-cipaku,,lawanggintung-cipaku,,-6.6248,106.8091,,,,,,2
-cipaku-1,,cipaku-1,,-6.6251,106.8091,,,,,,2
-cipaku-2,,cipaku-2,,-6.6254,106.8099,,,,,,2
-cipaku-3,,cipaku-3,,-6.6259,106.8101,,,,,,2
-cipaku-4,,cipaku-4,,-6.6258,106.8095,,,,,,2
-cipaku-danasasmita,,cipaku-danasasmita,,-6.6260,106.8093,,,,,,2
-danasasmita-1,,danasasmita-1,,-6.6264,106.8097,,,,,,2
-danasasmita-diredja,,danasasmita-diredja,,-6.6277,106.8102,,,,,,2
+*Cipaku,,*Cipaku,,-6.6277,106.8102,,,,,,2
 diredja-1,,diredja-1,,-6.6280,106.8085,,,,,,2
 diredja-2,,diredja-2,,-6.6286,106.8084,,,,,,2
 diredja-3,,diredja-3,,-6.6283,106.8077,,,,,,2
@@ -33,7 +25,7 @@ cipinanggading-1,,cipinanggading-1,,-6.6271,106.8032,,,,,,2
 cipinanggading-2,,cipinanggading-2,,-6.6234,106.8014,,,,,,2
 cipinanggading-ranggamekar,,cipinanggading-ranggamekar,,-6.6230,106.8005,,,,,,2
 ranggamekar-1,,ranggamekar-1,,-6.6220,106.8006,,,,,,2
-ranggamekar-2,,ranggamekar-2,,-6.6214,106.7989,,,,,,2
+*Cipinang Gading,,*Cipinang Gading,,-6.6214,106.7989,,,,,,2
 cipinanggading-nirwana,,cipinanggading-nirwana,,-6.6235,106.7992,,,,,,2
 nirwana-1,,nirwana-1,,-6.6226,106.7986,,,,,,2
 nirwana-2,,nirwana-2,,-6.6231,106.7979,,,,,,2
@@ -50,26 +42,20 @@ pahlawan-3,,pahlawan-3,,-6.6113,106.8000,,,,,,2
 pahlawan-4,,pahlawan-4,,-6.6082,106.7964,,,,,,2
 pahlawan-empang,,pahlawan-empang,,-6.6077,106.7949,,,,,,2
 halte-empang,,halte-empang,,-6.6060,106.7954,,,,,,2
-btm-3,,btm-3,,-6.6046,106.7965,,,,,,2
+*Ramayana,,*Ramayana,,-6.6046,106.7965,,,,,,2
 kb-muslihat,,kb-muslihat,,-6.5969,106.7937,,,,,,2
 muslihat-dewisartika,,muslihat-dewisartika,,-6.5963,106.7915,,,,,,2
-stasiun-paledang,,stasiun-paledang,,-6.5959,106.7897,,,,,,2
-veteran-merdeka,,veteran-merdeka,,-6.5955,106.7884,,,,,,2
+#stasiun-paledang,,#stasiun-paledang,,-6.5959,106.7897,,,,,,2
+#veteran-merdeka,,#veteran-merdeka,,-6.5955,106.7884,,,,,,2
 veteran-kemerdekaan,,veteran-kemerdekaan,,-6.5956,106.7876,,,,,,2
-kemerdekaan,,kemerdekaan,,-6.5932,106.7866,,,,,,2
-merdeka,,merdeka,,-6.5931,106.7878,,,,,,2
+#kemerdekaan,,#kemerdekaan,,-6.5932,106.7866,,,,,,2
 merdeka-semeru,,merdeka-semeru,,-6.5928,106.7877,,,,,,2
-merdeka-salamun,,merdeka-salamun,,-6.5903,106.7877,,,,,,2
+*Term. Merdeka,,*Term. Merdeka,,-6.5903,106.7877,,,,,,2
 salamun-oking,,salamun-oking,,-6.5906,106.7906,,,,,,2
 muslihat-oking,,muslihat-oking,,-6.5958,106.7895,,,,,,2
 dewisartika-mekah,,dewisartika-mekah,,-6.5928,106.7924,,,,,,2
 mekah-gedongsawah,,mekah-gedongsawah,,-6.5927,106.7939,,,,,,2
-gedongsawah-1,,gedongsawah-1,,-6.5932,106.7939,,,,,,2
 gedongsawah-crossing,,gedongsawah-crossing,,-6.5938,106.7936,,,,,,2
-veteran,,veteran,,-6.5953,106.7846,,,,,,2
-veteran-gnbatu,,veteran-gnbatu,,-6.5944,106.7826,,,,,,2
-gnbatu-1,,gnbatu-1,,-6.5963,106.7807,,,,,,2
-gnbatu-2,,gnbatu-2,,-6.5961,106.7795,,,,,,2
 abdullah-batu,,abdullah-batu,,-6.5961,106.7793,,,,,,2
 sind-barang-1,,sind-barang-1,,-6.5877,106.7721,,,,,,2
 sind-barang-2,,sind-barang-2,,-6.5859,106.7717,,,,,,2
@@ -78,22 +64,19 @@ sind-barang-3,,sind-barang-3,,-6.5802,106.7673,,,,,,2
 sind-barang-4,,sind-barang-4,,-6.5805,106.7635,,,,,,2
 sind-barang-adjie,,sind-barang-adjie,,-6.5762,106.7533,,,,,,2
 adjie-ciampea,,adjie-ciampea,,-6.5736,106.7513,,,,,,2
-bubulak,,bubulak,,-6.5710,106.7553,,,,,,2
-batutulis-1,,batutulis-1,,-6.6245,106.8089,,,,,,2
-batutulis-2,,batutulis-2,,-6.6218,106.8086,,,,,,2
-batutulis-3,,batutulis-3,,-6.6215,106.8079,,,,,,2
+*Term. Bubulak,,*Term. Bubulak,,-6.5710,106.7553,,,,,,2
 batutulis-pahlawan,,batutulis-pahlawan,,-6.6188,106.8069,,,,,,2
 pahlawan-1,,pahlawan-1,,-6.6163,106.8045,,,,,,2
-salak-1,,salak-1,,-6.5919,106.8021,,,,,,2
-salak-2,,salak-2,,-6.5911,106.8020,,,,,,2
-salak-3,,salak-3,,-6.5899,106.8016,,,,,,2
-kencana-1,,kencana-1,,-6.5893,106.8018,,,,,,2
+#salak-1,,#salak-1,,-6.5919,106.8021,,,,,,2
+#salak-2,,#salak-2,,-6.5911,106.8020,,,,,,2
+#salak-3,,#salak-3,,-6.5899,106.8016,,,,,,2
+*Taman Kencana,,*Taman Kencana,,-6.5893,106.8018,,,,,,2
 kencana-2,,kencana-2,,-6.5888,106.8024,,,,,,2
 salak-4,,salak-4,,-6.5884,106.8030,,,,,,2
 salak-5,,salak-5,,-6.5883,106.8041,,,,,,2
 salak-pajajaran,,salak-pajajaran,,-6.5886,106.8049,,,,,,2
 pangrango-pajajaran,,pangrango-pajajaran,,-6.5922,106.8046,,,,,,2
-tol-1,,tol-1,,-6.6043,106.8068,,,,,,2
+*Term. Baranangsiang,,*Term. Baranangsiang,,-6.6043,106.8068,,,,,,2
 tol-2,,tol-2,,-6.6017,106.8111,,,,,,2
 bangka-1,,bangka-1,,-6.6066,106.8087,,,,,,2
 pajajaran-ciheuleut,,pajajaran-ciheuleut,,-6.6078,106.8099,,,,,,2
@@ -113,8 +96,8 @@ raya-cipaku-4,,raya-cipaku-4,,-6.6365,106.8134,,,,,,2
 raya-cipaku-5,,raya-cipaku-5,,-6.6366,106.8134,,,,,,2
 raya-cipaku-dekeng,,raya-cipaku-dekeng,,-6.6384,106.8148,,,,,,2
 dekeng-1,,dekeng-1,,-6.6388,106.8154,,,,,,2
-dekeng-2,,dekeng-2,,-6.6398,106.8154,,,,,,2
-dekeng-3,,dekeng-3,,-6.6398,106.8166,,,,,,2
+#dekeng-2,,#dekeng-2,,-6.6398,106.8154,,,,,,2
+*Rancamaya,,*Rancamaya,,-6.6398,106.8166,,,,,,2
 dekeng-4,,dekeng-4,,-6.6447,106.8196,,,,,,2
 dekeng-5,,dekeng-5,,-6.6506,106.8268,,,,,,2
 dekeng-6,,dekeng-6,,-6.6507,106.8287,,,,,,2
@@ -123,7 +106,7 @@ dekeng-8,,dekeng-8,,-6.6569,106.8314,,,,,,2
 dekeng-9,,dekeng-9,,-6.6578,106.8312,,,,,,2
 dekeng-10,,dekeng-10,,-6.6599,106.8336,,,,,,2
 dekeng-11,,dekeng-11,,-6.6603,106.8365,,,,,,2
-dekeng-rancamaya-utama,,dekeng-rancamaya-utama,,-6.6616,106.8373,,,,,,2
+*Warung Nangka,,*Warung Nangka,,-6.6616,106.8373,,,,,,2
 line-05-21,,line-05-21,,-6.5913,106.8599,,,,,,2
 line-05-20,,line-05-20,,-6.5901,106.8539,,,,,,2
 line-05-19,,line-05-19,,-6.5875,106.8523,,,,,,2
@@ -144,10 +127,10 @@ line-05-4,,line-05-4,,-6.5916,106.8086,,,,,,2
 line-05-3,,line-05-3,,-6.5912,106.8082,,,,,,2
 line-05-2,,line-05-2,,-6.5912,106.8057,,,,,,2
 lodaya-M,,lodaya-M,,-6.5912,106.8057,,,,,,2
-lodaya-S,,lodaya-S,,-6.5921,106.8057,,,,,,2
+#lodaya-S,,#lodaya-S,,-6.5921,106.8057,,,,,,2
 syam-norththturn,,syam-norththturn,,-6.5872,106.8162,,,,,,2
-line-05-22,,line-05-22,,-6.5893,106.8651,,,,,,2
-ciheuleut-tegallega,,ciheuleut-tegallega,,-6.5990,106.8126,,,,,,2
+*Cimahpar,,*Cimahpar,,-6.5893,106.8651,,,,,,2
+*Ciheuleut,,*Ciheuleut,,-6.5990,106.8126,,,,,,2
 ciheuleut-binamarga,,ciheuleut-binamarga,,-6.6007,106.8137,,,,,,2
 padi-jagung,,padi-jagung,,-6.5982,106.8172,,,,,,2
 ciheuleut-pakuanindah,,ciheuleut-pakuanindah,,-6.6054,106.8130,,,,,,2
@@ -163,17 +146,15 @@ line-07-6,,line-07-6,,-6.5663,106.8019,,,,,,2
 line-07-7,,line-07-7,,-6.5689,106.8056,,,,,,2
 jambudua-yani,,jambudua-yani,,-6.5685,106.8068,,,,,,2
 yani-sungai,,yani-sungai,,-6.5684,106.8074,,,,,,2
-pajajaran-jambudua,,pajajaran-jambudua,,-6.5689,106.8091,,,,,,2
+*Jambu Dua,,*Jambu Dua,,-6.5689,106.8091,,,,,,2
+*Ciparigi (?),,*Ciparigi (?),,-6.5549,106.8181,,,,,,2
 yani-2,,yani-2,,-6.5692,106.8054,,,,,,2
 yani-3,,yani-3,,-6.5705,106.8044,,,,,,2
 yani-4,,yani-4,,-6.5788,106.7981,,,,,,2
 pengadilan-gedongsawah,,pengadilan-gedongsawah,,-6.5912,106.7938,,,,,,2
-gedongsawah-2,,gedongsawah-2,,-6.5940,106.7934,,,,,,2
-gedongsawah-3,,gedongsawah-3,,-6.5943,106.7930,,,,,,2
-gedongsawah-4,,gedongsawah-4,,-6.5943,106.7927,,,,,,2
 gedongsawah-dewisartika,,gedongsawah-dewisartika,,-6.5941,106.7920,,,,,,2
 pajajaran-sobana,,pajajaran-sobana,,-6.5808,106.8067,,,,,,2
-lodaya-N,,lodaya-N,,-6.5888,106.8059,,,,,,2
+#lodaya-N,,#lodaya-N,,-6.5888,106.8059,,,,,,2
 sobana-sungai,,sobana-sungai,,-6.5811,106.8110,,,,,,2
 sobana-palapuhraya,,sobana-palapuhraya,,-6.5816,106.8132,,,,,,2
 ciparigi-1,,ciparigi-1,,-6.5784,106.8112,,,,,,2
@@ -182,12 +163,12 @@ ciparigi-3,,ciparigi-3,,-6.5699,106.8125,,,,,,2
 pajajaran-pjjindah,,pajajaran-pjjindah,,-6.6125,106.8130,,,,,,2
 pajajaran-durian,,pajajaran-durian,,-6.6161,106.8145,,,,,,2
 pajajaran-ggmesjid,,pajajaran-ggmesjid,,-6.6175,106.8150,,,,,,2
-lippo-n,,lippo-n,,-6.6210,106.8163,,,,,,2
+*Sukasari,,*Sukasari,,-6.6210,106.8163,,,,,,2
 durian-1,,durian-1,,-6.6165,106.8177,,,,,,2
 durian-2,,durian-2,,-6.6172,106.8186,,,,,,2
-durian-3,,durian-3,,-6.6184,106.8195,,,,,,2
+*Bantar Kemang,,*Bantar Kemang,,-6.6184,106.8195,,,,,,2
 roda-1,,roda-1,,-6.6044,106.8002,,,,,,2
-roda-2,,roda-2,,-6.6056,106.8018,,,,,,2
+*Pasar Bogor,,*Pasar Bogor,,-6.6056,106.8018,,,,,,2
 roda-3,,roda-3,,-6.6077,106.8035,,,,,,2
 roda-4,,roda-4,,-6.6096,106.8048,,,,,,2
 jlsukasari-1,,jlsukasari-1,,-6.6177,106.8123,,,,,,2
@@ -203,7 +184,7 @@ pjjindah-7,,pjjindah-7,,-6.6138,106.8188,,,,,,2
 pjjindah-8,,pjjindah-8,,-6.6137,106.8193,,,,,,2
 pjjindah-9,,pjjindah-9,,-6.6119,106.8188,,,,,,2
 pjjindah-bigroad,,pjjindah-bigroad,,-6.6115,106.8198,,,,,,2
-pjjindah-bigroadturnnorth,,pjjindah-bigroadturnnorth,,-6.6084,106.8194,,,,,,2
+*Pajajaran Indah,,*Pajajaran Indah,,-6.6084,106.8194,,,,,,2
 pjjindah-east-1,,pjjindah-east-1,,-6.6113,106.8204,,,,,,2
 pjjindah-east-2,,pjjindah-east-2,,-6.6112,106.8211,,,,,,2
 pjjindah-bigroadbend,,pjjindah-bigroadbend,,-6.6130,106.8201,,,,,,2
@@ -215,13 +196,13 @@ martadinata-2,,martadinata-2,,-6.5827,106.7931,,,,,,2
 martadinata-3,,martadinata-3,,-6.5832,106.7915,,,,,,2
 martadinata-tentpelajar,,martadinata-tentpelajar,,-6.5829,106.7877,,,,,,2
 tentpelajar,,tentpelajar,,-6.5729,106.7880,,,,,,2
-tentpelajar-cimanggu,,tentpelajar-cimanggu,,-6.5702,106.7877,,,,,,2
+*Cimanggu,,*Cimanggu,,-6.5702,106.7877,,,,,,2
 mawar-merdeka,,mawar-merdeka,,-6.5894,106.7877,,,,,,2
 rambutan,,rambutan,,-6.6180,106.8202,,,,,,2
 banteng-sungai,,banteng-sungai,,-6.6249,106.8279,,,,,,2
 katulampa,,katulampa,,-6.6270,106.8290,,,,,,2
 banteng-busyro,,banteng-busyro,,-6.6220,106.8296,,,,,,2
-banteng-tol,,banteng-tol,,-6.6185,106.8338,,,,,,2
+*Mutiara Bogor Raya,,*Mutiara Bogor Raya,,-6.6185,106.8338,,,,,,2
 pasirangin-1,,pasirangin-1,,-6.6130,106.8371,,,,,,2
 pasirangin-novotel,,pasirangin-novotel,,-6.6050,106.8387,,,,,,2
 layungsari-sedane,,layungsari-sedane,,-6.6138,106.7956,,,,,,2
@@ -236,7 +217,6 @@ suryalaga-3,,suryalaga-3,,-6.6038,106.7865,,,,,,2
 suryalaga-4,,suryalaga-4,,-6.6009,106.7829,,,,,,2
 suryalaga-5,,suryalaga-5,,-6.6009,106.7829,,,,,,2
 suryalaga-ciomas,,suryalaga-ciomas,,-6.6011,106.7795,,,,,,2
-batutulis-loop,,batutulis-loop,,-6.6185,106.8092,,,,,,2
 cifor-ciampea,,cifor-ciampea,,-6.5703,106.7561,,,,,,2
 bubulak-far-exit,,bubulak-far-exit,,-6.5690,106.7549,,,,,,2
 cifor-1,,cifor-1,,-6.5658,106.7518,,,,,,2
@@ -254,28 +234,15 @@ pinus-2,,pinus-2,,-6.5502,106.7463,,,,,,2
 pinus-3,,pinus-3,,-6.5490,106.7466,,,,,,2
 pinus-4,,pinus-4,,-6.5481,106.7466,,,,,,2
 pinus-cangkrang,,pinus-cangkrang,,-6.5438,106.7346,,,,,,2
-cangkrang-1,,cangkrang-1,,-6.5435,106.7286,,,,,,2
+*Sindang Barang Jero,,*Sindang Barang Jero,,-6.5435,106.7286,,,,,,2
 cangkrang-2,,cangkrang-2,,-6.5451,106.7285,,,,,,2
 cangkrang-3,,cangkrang-3,,-6.5453,106.7308,,,,,,2
 cangkrang-4,,cangkrang-4,,-6.5476,106.7325,,,,,,2
 cangkrang-5,,cangkrang-5,,-6.5510,106.7317,,,,,,2
-darulquran-1,,darulquran-1,,-6.5837,106.7743,,,,,,2
-darulquran-2,,darulquran-2,,-6.5839,106.7771,,,,,,2
-darulquran-3,,darulquran-3,,-6.5828,106.7781,,,,,,2
-darulquran-4,,darulquran-4,,-6.5818,106.7771,,,,,,2
 darulquran-semeru,,darulquran-semeru,,-6.5813,106.7773,,,,,,2
-semeru-1,,semeru-1,,-6.5878,106.7847,,,,,,2
 semboja-semeru,,semboja-semeru,,-6.5902,106.7860,,,,,,2
-semeru-mawar,,semeru-mawar,,-6.5903,106.7861,,,,,,2
-semeru-pasar,,semeru-pasar,,-6.5924,106.7876,,,,,,2
-semeru-pasar-kemerdekaan,,semeru-pasar-kemerdekaan,,-6.5930,106.7865,,,,,,2
-kemerdekaan-semboja,,kemerdekaan-semboja,,-6.5912,106.7860,,,,,,2
-semboja-1,,semboja-1,,-6.5909,106.7851,,,,,,2
-semboja-cempaka,,semboja-cempaka,,-6.5904,106.7854,,,,,,2
 sawojajar-cibalok,,sawojajar-cibalok,,-6.5885,106.7947,,,,,,2
-cibalok-pabaton,,cibalok-pabaton,,-6.5906,106.7944,,,,,,2
-pabaton-turnsouth,,pabaton-turnsouth,,-6.5906,106.7932,,,,,,2
-pabaton-ggbaru,,pabaton-ggbaru,,-6.5910,106.7931,,,,,,2
+*Pasar Anyar,,*Pasar Anyar,,-6.5906,106.7932,,,,,,2
 pedes-bendrightatstart,,pedes-bendrightatstart,,-6.5692,106.7990,,,,,,2
 pedes-sungai,,pedes-sungai,,-6.5652,106.8019,,,,,,2
 pedes-iskandar,,pedes-iskandar,,-6.5618,106.8019,,,,,,2
@@ -285,9 +252,9 @@ iskandar-ciampea-Y,,iskandar-ciampea-Y,,-6.5560,106.7784,,,,,,2
 iskandar-bendright,,iskandar-bendright,,-6.5540,106.7763,,,,,,2
 iskandar-kencana,,iskandar-kencana,,-6.5372,106.7699,,,,,,2
 iskandar-19-turns-N,,iskandar-19-turns-N,,-6.5338,106.7677,,,,,,2
-iskandar-tariganta,,iskandar-tariganta,,-6.5205,106.7594,,,,,,2
+*Salabenda,,*Salabenda,,-6.5205,106.7594,,,,,,2
 iskandar-underloop,,iskandar-underloop,,-6.5615,106.8026,,,,,,2
-binamarga-pos,,binamarga-pos,,-6.6044,106.8082,,,,,,2
+*Bina Marga,,*Bina Marga,,-6.6039,106.8091,,,,,,2
 padi-ramp,,padi-ramp,,-6.5979,106.8175,,,,,,2
 ramp-syam,,ramp-syam,,-6.5996,106.8179,,,,,,2
 syam-start,,syam-start,,-6.5995,106.8180,,,,,,2
@@ -295,15 +262,15 @@ syam-papapia,,syam-papapia,,-6.5946,106.8175,,,,,,2
 wiradiredja-sogiri,,wiradiredja-sogiri,,-6.5886,106.8209,,,,,,2
 sogiri-swingleft,,sogiri-swingleft,,-6.5829,106.8229,,,,,,2
 sogiri-swingright,,sogiri-swingright,,-6.5827,106.8219,,,,,,2
-tanahbaru-swingleft,,tanahbaru-swingleft,,-6.5741,106.8230,,,,,,2
-tanahbaru-swingright,,tanahbaru-swingright,,-6.5735,106.8223,,,,,,2
+*Tanah Baru,,*Tanah Baru,,-6.5741,106.8230,,,,,,2
+#tanahbaru-swingright,,#tanahbaru-swingright,,-6.5735,106.8223,,,,,,2
 tanahbaru-tol,,tanahbaru-tol,,-6.5696,106.8219,,,,,,2
 tanahbaru-bendright,,tanahbaru-bendright,,-6.5566,106.8230,,,,,,2
 tanahbaru-bendleft1,,tanahbaru-bendleft1,,-6.5523,106.8249,,,,,,2
 tanahbaru-bendleft2,,tanahbaru-bendleft2,,-6.5503,106.8246,,,,,,2
 tanahbaru-bendleft3,,tanahbaru-bendleft3,,-6.5494,106.8240,,,,,,2
 tanahbaru-almostthere,,tanahbaru-almostthere,,-6.5491,106.8232,,,,,,2
-tanahbaru-cibuluh,,tanahbaru-cibuluh,,-6.5480,106.8231,,,,,,2
+*Pomad,,*Pomad,,-6.5480,106.8231,,,,,,2
 syam-turn,,syam-turn,,-6.6018,106.8183,,,,,,2
 kapten-Y,,kapten-Y,,-6.6109,106.7923,,,,,,2
 to-cibeureum-1,,to-cibeureum-1,,-6.6149,106.7926,,,,,,2
@@ -324,7 +291,7 @@ jl-cibeureum-riverbendsright,,jl-cibeureum-riverbendsright,,-6.6356,106.7861,,,,
 jl-cibeureum-riverbendsleft,,jl-cibeureum-riverbendsleft,,-6.6362,106.7853,,,,,,2
 jl-cibeureum-lastbend,,jl-cibeureum-lastbend,,-6.6389,106.7853,,,,,,2
 jl-cibeureum-harmony,,jl-cibeureum-harmony,,-6.6404,106.7848,,,,,,2
-jl-junglefest,,jl-junglefest,,-6.6411,106.7872,,,,,,2
+*Mulyaharja,,*Mulyaharja,,-6.6411,106.7872,,,,,,2
 ciampea-before-river,,ciampea-before-river,,-6.5680,106.7598,,,,,,2
 ciampea-towards-iskandar,,ciampea-towards-iskandar,,-6.5578,106.7706,,,,,,2
 kencana-1-bend-right,,kencana-1-bend-right,,-6.5360,106.7717,,,,,,2
@@ -337,7 +304,7 @@ kencana-corner-kalimurni,,kencana-corner-kalimurni,,-6.5338,106.7959,,,,,,2
 kalimurni-1-right,,kalimurni-1-right,,-6.5315,106.7961,,,,,,2
 kalimurni-2-left,,kalimurni-2-left,,-6.5314,106.7964,,,,,,2
 kalimurni-pendidikan,,kalimurni-pendidikan,,-6.5309,106.7965,,,,,,2
-pendidikan-cilebut,,pendidikan-cilebut,,-6.5307,106.8003,,,,,,2
+*Taman Griya Kencana,,*Taman Griya Kencana,,-6.5307,106.8003,,,,,,2
 cimanggu-wates-1,,cimanggu-wates-1,,-6.5582,106.7883,,,,,,2
 cimanggu-wates-setapak,,cimanggu-wates-setapak,,-6.5536,106.7881,,,,,,2
 setapak-1,,setapak-1,,-6.5487,106.7876,,,,,,2
@@ -357,10 +324,10 @@ line-21-16,,line-21-16,,-6.6405,106.8353,,,,,,2
 line-21-17,,line-21-17,,-6.6470,106.8424,,,,,,2
 line-21-18,,line-21-18,,-6.6489,106.8436,,,,,,2
 line-21-19,,line-21-19,,-6.6506,106.8449,,,,,,2
-line-21-20,,line-21-20,,-6.6550,106.8468,,,,,,2
+*Ciawi,,*Ciawi,,-6.6550,106.8468,,,,,,2
 jl-bubulak-1,,jl-bubulak-1,,-6.5771,106.7926,,,,,,2
 jl-bubulak-pondok-rumput,,jl-bubulak-pondok-rumput,,-6.5736,106.7936,,,,,,2
-pondok-rumput-end,,pondok-rumput-end,,-6.5685,106.7938,,,,,,2
+*Pondok Rumput,,*Pondok Rumput,,-6.5685,106.7938,,,,,,2
 adnawijaya-1,,adnawijaya-1,,-6.5704,106.8152,,,,,,2
 adnawijaya-2,,adnawijaya-2,,-6.5735,106.8176,,,,,,2
 adnawijaya-3,,adnawijaya-3,,-6.5770,106.8178,,,,,,2

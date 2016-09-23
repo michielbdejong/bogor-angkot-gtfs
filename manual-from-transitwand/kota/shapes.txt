@@ -66,6 +66,7 @@ AK-01,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-01,-6.5928,106.7924,11,0.11,dewisartika-mekah
 AK-01,-6.5927,106.7939,11,0.11,mekah-gedongsawah
 AK-01,-6.5938,106.7936,11,0.11,gedongsawah-crossing
+AK-01,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-02,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-02,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-02,-6.5959,106.7897,10,0.10,#stasiun-paledang
@@ -129,6 +130,7 @@ AK-02,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-02,-6.6060,106.7954,10,0.10,halte-empang
 AK-02,-6.6046,106.7965,10,0.10,*Ramayana
 AK-02,-6.6046,106.7965,10,0.10,*Ramayana
+AK-02,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-03,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-03,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-03,-6.5959,106.7897,10,0.10,#stasiun-paledang
@@ -193,6 +195,7 @@ AK-03,-6.6031,106.7988,10,0.10,kb-suryakencana
 AK-03,-6.6046,106.7965,10,0.10,*Ramayana
 AK-03,-6.6046,106.7965,10,0.10,*Ramayana
 AK-03,-6.6046,106.7965,10,0.10,*Ramayana
+AK-03,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-04,-6.6115,106.8024,0,0,ggaut-1
 AK-04,-6.6115,106.8028,0,0,ggaut-2
 AK-04,-6.6103,106.8038,0,0,ggaut-padasuka
@@ -255,6 +258,7 @@ AK-04,-6.6188,106.8069,10,0.10,batutulis-pahlawan
 AK-04,-6.6163,106.8045,10,0.10,pahlawan-1
 AK-04,-6.6142,106.8034,10,0.10,dreded-pahlawan
 AK-04,-6.6123,106.8021,10,0.10,pahlawan-ggaut
+AK-04,-6.6115,106.8024,0,0,ggaut-1
 AK-05,-6.5913,106.8599,1,0.01,line-05-21
 AK-05,-6.5901,106.8539,1,0.01,line-05-20
 AK-05,-6.5875,106.8523,1,0.01,line-05-19
@@ -319,6 +323,7 @@ AK-05,-6.5875,106.8523,1,0.01,line-05-19
 AK-05,-6.5901,106.8539,1,0.01,line-05-20
 AK-05,-6.5913,106.8599,1,0.01,line-05-21
 AK-05,-6.5893,106.8651,1,0.01,*Cimahpar
+AK-05,-6.5913,106.8599,1,0.01,line-05-21
 AK-06,-6.5990,106.8126,8,0.08,*Ciheuleut
 AK-06,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
 AK-06,-6.5982,106.8172,8,0.08,padi-jagung
@@ -357,6 +362,7 @@ AK-06,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
 AK-06,-6.6054,106.8130,8,0.08,ciheuleut-pakuanindah
 AK-06,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
 AK-06,-6.5990,106.8126,8,0.08,*Ciheuleut
+AK-06,-6.5990,106.8126,8,0.08,*Ciheuleut
 AK-07,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-07,-6.5930,106.7973,10,0.10,kb-polisi-militer
 AK-07,-6.5919,106.7971,11,0.11,sudirman-pengadilan
@@ -390,6 +396,7 @@ AK-07,-6.5938,106.7936,11,0.11,gedongsawah-crossing
 AK-07,-6.5941,106.7920,11,0.11,gedongsawah-dewisartika
 AK-07,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-07,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-07,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-08,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-08,-6.5886,106.8049,10,0.10,salak-pajajaran
 AK-08,-6.5888,106.8059,10,0.10,#lodaya-N
@@ -423,6 +430,7 @@ AK-08,-6.5784,106.8112,10,0.10,ciparigi-1
 AK-08,-6.5770,106.8109,10,0.10,ciparigi-2
 AK-08,-6.5699,106.8125,10,0.10,ciparigi-3
 AK-08,-6.5689,106.8091,10,0.10,*Jambu Dua
+AK-08,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-09,-6.5549,106.8181,10,0.10,*Ciparigi (?)
 AK-09,-6.5689,106.8091,10,0.10,*Jambu Dua
 AK-09,-6.5808,106.8067,10,0.10,pajajaran-sobana
@@ -473,6 +481,7 @@ AK-09,-6.5922,106.8046,10,0.10,pangrango-pajajaran
 AK-09,-6.5886,106.8049,10,0.10,salak-pajajaran
 AK-09,-6.5808,106.8067,10,0.10,pajajaran-sobana
 AK-09,-6.5689,106.8091,10,0.10,*Jambu Dua
+AK-09,-6.5549,106.8181,10,0.10,*Ciparigi (?)
 AK-10,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-10,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-10,-6.5959,106.7897,10,0.10,#stasiun-paledang
@@ -526,6 +535,7 @@ AK-10,-6.6077,106.7949,10,0.10,pahlawan-empang
 AK-10,-6.6060,106.7954,10,0.10,halte-empang
 AK-10,-6.6046,106.7965,10,0.10,*Ramayana
 AK-10,-6.6046,106.7965,10,0.10,*Ramayana
+AK-10,-6.5969,106.7937,10,0.10,kb-muslihat
 AK-11,-6.6125,106.8130,10,0.10,pajajaran-pjjindah
 AK-11,-6.6161,106.8145,10,0.10,pajajaran-durian
 AK-11,-6.6175,106.8150,10,0.10,pajajaran-ggmesjid
@@ -582,6 +592,7 @@ AK-11,-6.6133,106.8179,10,0.10,pjjindah-4
 AK-11,-6.6134,106.8173,10,0.10,pjjindah-3
 AK-11,-6.6139,106.8169,10,0.10,pjjindah-2
 AK-11,-6.6116,106.8149,10,0.10,pjjindah-1
+AK-11,-6.6125,106.8130,10,0.10,pajajaran-pjjindah
 AK-12,-6.5928,106.7924,11,0.11,dewisartika-mekah
 AK-12,-6.5920,106.7925,11,0.11,dewisartika-pengadilan
 AK-12,-6.5912,106.7938,11,0.11,pengadilan-gedongsawah
@@ -603,6 +614,7 @@ AK-12,-6.5903,106.7877,11,0.11,*Term. Merdeka
 AK-12,-6.5906,106.7906,11,0.11,salamun-oking
 AK-12,-6.5958,106.7895,11,0.11,muslihat-oking
 AK-12,-6.5963,106.7915,11,0.11,muslihat-dewisartika
+AK-12,-6.5928,106.7924,11,0.11,dewisartika-mekah
 AK-13,-6.6161,106.8145,10,0.10,pajajaran-durian
 AK-13,-6.6165,106.8177,10,0.10,durian-1
 AK-13,-6.6172,106.8186,10,0.10,durian-2
@@ -655,6 +667,7 @@ AK-13,-6.6066,106.8087,8,0.08,bangka-1
 AK-13,-6.6078,106.8099,8,0.08,pajajaran-ciheuleut
 AK-13,-6.6087,106.8105,8,0.08,pajajaran-michelle-bakery
 AK-13,-6.6125,106.8130,8,0.08,pajajaran-pjjindah
+AK-13,-6.6161,106.8145,10,0.10,pajajaran-durian
 AK-14,-6.6188,106.8069,10,0.10,batutulis-pahlawan
 AK-14,-6.6163,106.8045,10,0.10,pahlawan-1
 AK-14,-6.6142,106.8034,10,0.10,dreded-pahlawan
@@ -712,6 +725,7 @@ AK-14,-6.6164,106.8103,10,0.10,siliwangi-2
 AK-14,-6.6178,106.8120,10,0.10,siliwangi-jlsukasari
 AK-14,-6.6201,106.8145,10,0.10,siliwangi-lawanggintung
 AK-14,-6.6248,106.8091,10,0.10,lawanggintung-cipaku
+AK-14,-6.6188,106.8069,10,0.10,batutulis-pahlawan
 AK-15,-6.5703,106.7561,10,0.10,cifor-ciampea
 AK-15,-6.5690,106.7549,10,0.10,bubulak-far-exit
 AK-15,-6.5658,106.7518,10,0.10,cifor-1
@@ -766,6 +780,7 @@ AK-15,-6.5805,106.7635,10,0.10,sind-barang-4
 AK-15,-6.5762,106.7533,10,0.10,sind-barang-adjie
 AK-15,-6.5736,106.7513,10,0.10,adjie-ciampea
 AK-15,-6.5710,106.7553,10,0.10,*Term. Bubulak
+AK-15,-6.5703,106.7561,10,0.10,cifor-ciampea
 AK-16,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-16,-6.5885,106.7947,10,0.10,sawojajar-cibalok
 AK-16,-6.5906,106.7932,10,0.10,*Pasar Anyar
@@ -798,6 +813,7 @@ AK-16,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-16,-6.5698,106.7989,11,0.11,pemuda-pedes
 AK-16,-6.5733,106.7964,11,0.11,pemuda-hewan
 AK-16,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-16,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-17,-6.6039,106.8091,8,0.08,*Bina Marga
 AK-17,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
 AK-17,-6.5982,106.8172,8,0.08,padi-jagung
@@ -847,6 +863,7 @@ AK-17,-6.5996,106.8179,8,0.08,ramp-syam
 AK-17,-6.5979,106.8175,8,0.08,padi-ramp
 AK-17,-6.5982,106.8172,8,0.08,padi-jagung
 AK-17,-6.6007,106.8137,8,0.08,ciheuleut-binamarga
+AK-17,-6.6039,106.8091,8,0.08,*Bina Marga
 AK-18,-6.6046,106.7965,10,0.10,*Ramayana
 AK-18,-6.6060,106.7954,10,0.10,halte-empang
 AK-18,-6.6077,106.7949,10,0.10,pahlawan-empang
@@ -913,6 +930,7 @@ AK-18,-6.6080,106.8005,0,0,cincau-1
 AK-18,-6.6068,106.7989,0,0,cincau-2
 AK-18,-6.6046,106.7965,10,0.10,*Ramayana
 AK-18,-6.6046,106.7965,10,0.10,*Ramayana
+AK-18,-6.6046,106.7965,10,0.10,*Ramayana
 AK-19,-6.5690,106.7549,10,0.10,bubulak-far-exit
 AK-19,-6.5703,106.7561,10,0.10,cifor-ciampea
 AK-19,-6.5680,106.7598,10,0.10,ciampea-before-river
@@ -950,6 +968,7 @@ AK-19,-6.5578,106.7706,10,0.10,ciampea-towards-iskandar
 AK-19,-6.5680,106.7598,10,0.10,ciampea-before-river
 AK-19,-6.5703,106.7561,10,0.10,cifor-ciampea
 AK-19,-6.5710,106.7553,10,0.10,*Term. Bubulak
+AK-19,-6.5690,106.7549,10,0.10,bubulak-far-exit
 AK-20,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-20,-6.5885,106.7947,10,0.10,sawojajar-cibalok
 AK-20,-6.5906,106.7932,10,0.10,*Pasar Anyar
@@ -1008,6 +1027,7 @@ AK-20,-6.5692,106.7990,11,0.11,pedes-bendrightatstart
 AK-20,-6.5698,106.7989,11,0.11,pemuda-pedes
 AK-20,-6.5733,106.7964,11,0.11,pemuda-hewan
 AK-20,-6.5817,106.7968,11,0.11,sudirman-airmancur
+AK-20,-6.5886,106.7969,10,0.10,sudirman-sawojajar
 AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
 AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
@@ -1054,6 +1074,7 @@ AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-21,-6.6043,106.8068,8,0.08,*Term. Baranangsiang
 AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
 AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
+AK-21,-6.6009,106.8052,8,0.08,kb-botani-1
 AK-22,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-22,-6.5930,106.7973,10,0.10,kb-polisi-militer
 AK-22,-6.5919,106.7971,11,0.11,sudirman-pengadilan
@@ -1079,6 +1100,7 @@ AK-22,-6.5938,106.7936,11,0.11,gedongsawah-crossing
 AK-22,-6.5941,106.7920,11,0.11,gedongsawah-dewisartika
 AK-22,-6.5963,106.7915,11,0.11,muslihat-dewisartika
 AK-22,-6.5969,106.7937,10,0.10,kb-muslihat
+AK-22,-6.5945,106.7946,10,0.10,#kb-gedong-sawah
 AK-23,-6.5699,106.8125,10,0.10,ciparigi-3
 AK-23,-6.5704,106.8152,10,0.10,adnawijaya-1
 AK-23,-6.5735,106.8176,10,0.10,adnawijaya-2
@@ -1129,3 +1151,4 @@ AK-23,-6.5690,106.8070,10,0.10,jambudua-3
 AK-23,-6.5685,106.8068,10,0.10,jambudua-yani
 AK-23,-6.5684,106.8074,10,0.10,yani-sungai
 AK-23,-6.5689,106.8091,10,0.10,*Jambu Dua
+AK-23,-6.5699,106.8125,10,0.10,ciparigi-3
