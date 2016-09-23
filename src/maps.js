@@ -166,15 +166,17 @@ function finishDrawing(texts, debugLines) {
   for (point in groupedTexts) {
     var obj = groupedTexts[point];
     // console.log(obj);
-    if (obj.pointName.substring(0, 1) === '*') {
-      obj.textStr += ` ${obj.pointName.substring(1).trim()}`;
-      obj.size += obj.pointName.length/2;
+    if (obj.pointName.substring(0, 1) !== '#') {
+      if (obj.pointName.substring(0, 1) === '*') {
+        obj.textStr += ` ${obj.pointName.substring(1).trim()}`;
+        obj.size += obj.pointName.length/3;
+      }
+      svgSnippet += `    <ellipse \n` +
+       `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
+       `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
+       `      fill="white" stroke="black" stroke-width="2"/>\n` +
+       `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>\n`;
     }
-    svgSnippet += `    <ellipse \n` +
-     `      cx="${obj.x-TEXT_CIRCLE_LEFT}" cy="${obj.y-TEXT_CIRCLE_UP}"\n` +
-     `      rx="${TEXT_CIRCLE_SIZE*obj.size}" ry="${TEXT_CIRCLE_SIZE}" transform="${obj.textTrans.join(' ')}"\n` +
-     `      fill="white" stroke="black" stroke-width="2"/>\n` +
-     `    <text ${obj.textAttr.join(' ')}>${obj.textStr}</text>\n`;
   }
   svgSnippet += debugLines.map(line => {
     var a = line[0];
