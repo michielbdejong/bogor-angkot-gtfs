@@ -3,9 +3,11 @@ var maps = require('./maps');
 const DYK_TOP = -6.60;
 const DYK_LEFT = 106.727;
 const LEGENDA_TOP = -6.52;
-const LEGENDA_LEFT = 106.826;
+const LEGENDA_LEFT = 106.83;
 const LEGENDA_LINE_HEIGHT = 0.002;
 const LEGENDA_SCALE_FACTOR = 1.0;
+const ICON_UP = .135;
+const TEXT_TO_RIGHT = .6;
 
 const DID_YOU_KNOW = [
   'It\'s Raining Angkots in Bogor! :)',
@@ -48,15 +50,20 @@ function getLegenda(routeBasics) {
   var snippet = '';
   var counter = 0;
   for (var routeName in routeBasics) {
-    var basePoint = [LEGENDA_LEFT, (LEGENDA_TOP - (counter++)*LEGENDA_LINE_HEIGHT)];
+    var basePoint = [LEGENDA_LEFT + TEXT_TO_RIGHT*LEGENDA_LINE_HEIGHT, (LEGENDA_TOP - counter*LEGENDA_LINE_HEIGHT)];
+    var iconPoint = [LEGENDA_LEFT, (LEGENDA_TOP - (counter-ICON_UP)*LEGENDA_LINE_HEIGHT)];
     var textTrans = maps.makeTextTrans(basePoint, LEGENDA_SCALE_FACTOR);
+    var iconTrans = maps.makeTextTrans(iconPoint, LEGENDA_SCALE_FACTOR);
     var textAttr = maps.makeTextAttr(basePoint, textTrans, 'left', 'normal', '12');
     var obj = routeBasics[routeName];
     snippet += 
+     `    <circle transform="${iconTrans.join(' ')}" cx="${iconPoint[0]}" cy="${iconPoint[1]}" r="8" \n` +
+     `        fill="${routeBasics[routeName].color}" />\n` +
      `    <text ${textAttr.join(' ')}>\n` +
-     `        ${routeName}${(typeof obj.aka === 'undefined'?'':' (a.k.a. '+obj.aka+')')}:\n` +
+     `        ${routeName.substring(3)}${(typeof obj.aka === 'undefined'?'':' (a.k.a. '+obj.aka+')')}:\n` +
      `        ${obj.destinations.join(' - ')}\n` +
      `        </text>\n`;
+    counter++;
   }
 
   counter = 0;
