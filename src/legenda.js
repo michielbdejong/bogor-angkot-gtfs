@@ -3,17 +3,17 @@ var maps = require('./maps');
 const DYK_TOP = -6.60;
 const DYK_LEFT = 106.727;
 const LEGENDA_TOP = -6.52;
-const LEGENDA_LEFT = 106.83;
+const LEGENDA_LEFT = 106.8265;
 const LEGENDA_LINE_HEIGHT = 0.002;
 const LEGENDA_SCALE_FACTOR = 1.0;
 const ICON_UP = -.1;
-const TEXT_TO_RIGHT = 2.0;
+const TEXT_TO_RIGHT = 1.8;
 
 const DID_YOU_KNOW = [
   'It\'s Raining Angkots in Bogor!',
   '',
   'This is a zoomable map of mini-buses in Bogor (West Java, Indonesia),',
-  'a.k.a. Kota Hujan (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
+  'a.k.a. Kota Hujan (City of Rain), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
   'To zoom in, hold the Ctrl key down and then hit "+" (see "View" menu of your browser).',
   '',
   'This map only shows the central angkots ("Angutan Kota"), which are green at the top, and',
@@ -37,11 +37,11 @@ const DID_YOU_KNOW = [
   'you want to get off, then make a U-turn, and start their mengetem ritual for the route back.',
   'Also, lines 07 and 10 are supposed to go Term. Merdeka, but usually turn around at Pasar Anyar.',
   '',
-  'Don\'t confuse "Taman Griya Kencana" of lines 19, 20 with "Taman Kencana" of lines 23 and 03',
-  '(and sometimes also 08 or 09 if they take the Jl. Salak shortcut instead of Jl. Pangrango).',
+  'Angkot drivers may decide to take a shortcut to avoid traffic - especially taking Jl. Paledang instead of Jl. Muslihat',
+  'is popular during the day. Don\'t confuse "Taman Griya Kencana" of lines 19, 20 with "Taman Kencana" of lines 23',
+  'and 03 (and sometimes also 08 or 09 if they take the Jl. Salak shortcut instead of Jl. Pangrango).',
   '',
-  'Empty angkots can be chartered, e.g. negotiate a price to take you and 2 bicycles somewhere! Angkot drivers may decide',
-  'to take a shortcut to avoid traffic - especially taking Jl. Paledang instead of Jl. Muslihat is popular during the day.',
+  'Empty angkots can be chartered, e.g. negotiate a price to take you and 2 bicycles somewhere!',
   '',
   'I made this map by putting GPS coordinates into scalable vector graphics (SVG). The route data is also available in gtfs format, and you are free to remix it under',
   'Creative Commons (CC-BY-SA 3.0). Corrections and improvements are also very welcome! Email michiel@unhosted.org, or see the github repo: https://github.com/michielbdejong/bogor-angkot-gtfs.'
