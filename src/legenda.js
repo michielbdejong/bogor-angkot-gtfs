@@ -14,6 +14,7 @@ const DID_YOU_KNOW = [
   '',
   'This is a zoomable map of mini-buses in Bogor (West Java, Indonesia),',
   'a.k.a. Kota Hujan (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
+  'To zoom in, hold the Ctrl key down and then hit "+" (see "View" menu of your browser).',
   '',
   'This map only shows the central angkots ("Angutan Kota"), which are green at the top, and',
   'have one other color at the bottom indicating their route; not the regional minibuses',
