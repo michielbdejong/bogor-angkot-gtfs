@@ -237,8 +237,8 @@ function finishDrawing(texts, debugLines) {
     // console.log(obj);
     if (obj.pointName.substring(0, 1) !== '#') {
       if (obj.pointName.substring(0, 1) === '*') {
-        textWidth = Math.max(obj.pointName.length*2 /* (times two because of bigger font size) */, obj.textStr.length);
-        textHeight = 10;
+        textWidth = Math.max(obj.pointName.length*2.2 /* (times 2.2 because of bigger font size) */, obj.textStr.length);
+        textHeight = 12;
         textSnippet = `    <text ${obj.textAttrHeader.join(' ')}>${obj.pointName.substring(1).trim()}</text>\n` +
             `    <text ${obj.textAttrNumbers.join(' ')}>${obj.textStr}</text>\n`;
       } else {

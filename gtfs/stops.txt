@@ -218,8 +218,8 @@ suryalaga-ciomas,,suryalaga-ciomas,,-6.6011,106.7795,,,,,,2
 #cifor-ciampea,,#cifor-ciampea,,-6.5703,106.7561,,,,,,2
 bubulak-far-exit,,bubulak-far-exit,,-6.5690,106.7549,,,,,,2
 cifor-1,,cifor-1,,-6.5658,106.7518,,,,,,2
-cifor-2,,cifor-2,,-6.5610,106.7495,,,,,,2
-cifor-3,,cifor-3,,-6.5596,106.7492,,,,,,2
+*Jl. Cifor,,*Jl. Cifor,,-6.5610,106.7495,,,,,,2
+#cifor-3,,#cifor-3,,-6.5596,106.7492,,,,,,2
 cifor-4,,cifor-4,,-6.5568,106.7504,,,,,,2
 cifor-5,,cifor-5,,-6.5561,106.7502,,,,,,2
 #cifor-6,,#cifor-6,,-6.5559,106.7482,,,,,,2
@@ -252,7 +252,7 @@ iskandar-kencana,,iskandar-kencana,,-6.5372,106.7699,,,,,,2
 iskandar-19-turns-N,,iskandar-19-turns-N,,-6.5338,106.7677,,,,,,2
 *Salabenda,,*Salabenda,,-6.5205,106.7594,,,,,,2
 *Jl. Iskandar (Jalan Baru),,*Jl. Iskandar (Jalan Baru),,-6.5615,106.8026,,,,,,2
-*Bina Marga,,*Bina Marga,,-6.6037,106.8106,,,,,,2
+*Bina Marga,,*Bina Marga,,-6.6035,106.8111,,,,,,2
 #padi-ramp,,#padi-ramp,,-6.5979,106.8175,,,,,,2
 #ramp-syam,,#ramp-syam,,-6.5996,106.8179,,,,,,2
 syam-start,,syam-start,,-6.5995,106.8180,,,,,,2
