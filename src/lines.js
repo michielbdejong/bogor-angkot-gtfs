@@ -4,6 +4,7 @@ var mathjs = require('mathjs');
 // constants
 const LANE_FACTOR = 20000;
 const MIN_ARROW_DIST = 50/LANE_FACTOR;
+const DARK_LINES = ['AK-08', 'AK-11', 'AK-19', 'AK-20'];
 
 // functions
 function parallelVector(fromX, fromY, toX, toY) {
@@ -32,7 +33,7 @@ function getVectors(a, b) {
 }
 
 function makeArrow(a, b, numLanes, routes) {
-  console.log('makeArrow', a, b, numLanes, routes);
+  // console.log('makeArrow', a, b, numLanes, routes);
   var vectors = getVectors(a, b);
   var distance = mathjs.distance([a[1], a[0]], [b[1], b[0]]);
   // console.log({ distance, MIN_ARROW_DIST });
@@ -52,12 +53,21 @@ function makeArrow(a, b, numLanes, routes) {
     vectors.middleX+8*vectors.preVector[0]+sideways[0],
     vectors.middleY+8*vectors.preVector[1]+sideways[1],
   ];
+  if (numLanes > 4) {
+    tip = [
+      vectors.middleX+16*vectors.preVector[0]+sideways[0],
+      vectors.middleY+16*vectors.preVector[1]+sideways[1],
+    ];
+  }
   var outside = [
     vectors.middleX+2*vectors.preVector[0]+2*sideways[0],
     vectors.middleY+2*vectors.preVector[1]+2*sideways[1],
   ];
   var color = 'black';
-  if (routes.length === 1 && routes[0] === 'AK-19') {
+  if (routes.length <= 2 && (
+      (DARK_LINES.indexOf(routes[0]) !== -1) ||
+      (DARK_LINES.indexOf(routes[1]) !== -1)
+  )) {
     color = 'white';
   }
   return { inside, tip, outside, color };
