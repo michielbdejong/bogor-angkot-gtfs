@@ -31,8 +31,8 @@ function getVectors(a, b) {
   return { laneVector, preVector, middleX, middleY };
 }
 
-function makeArrow(a, b, numLanes) {
-  // console.log('makeArrow', a, b, numLanes);
+function makeArrow(a, b, numLanes, routes) {
+  console.log('makeArrow', a, b, numLanes, routes);
   var vectors = getVectors(a, b);
   var distance = mathjs.distance([a[1], a[0]], [b[1], b[0]]);
   // console.log({ distance, MIN_ARROW_DIST });
@@ -56,7 +56,11 @@ function makeArrow(a, b, numLanes) {
     vectors.middleX+2*vectors.preVector[0]+2*sideways[0],
     vectors.middleY+2*vectors.preVector[1]+2*sideways[1],
   ];
-  return { inside, tip, outside };
+  var color = 'black';
+  if (routes.length === 1 && routes[0] === 'AK-19') {
+    color = 'white';
+  }
+  return { inside, tip, outside, color };
 }
 
 function lineThrough(a, b) {

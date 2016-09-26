@@ -168,7 +168,7 @@ function drawArrow(obj) {
   }
   // arrow contains inside, tip, outside, each of which are [x, y];
   var path = [ obj.inside, obj.tip, obj.outside ];
-  var attributes = `stroke="none" fill="black"`;
+  var attributes = `stroke="none" fill="${obj.color}"`;
   return `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 

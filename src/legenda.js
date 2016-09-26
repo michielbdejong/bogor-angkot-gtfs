@@ -3,11 +3,11 @@ var maps = require('./maps');
 const DYK_TOP = -6.60;
 const DYK_LEFT = 106.727;
 const LEGENDA_TOP = -6.52;
-const LEGENDA_LEFT = 106.8265;
+const LEGENDA_LEFT = 106.826;
 const LEGENDA_LINE_HEIGHT = 0.002;
 const LEGENDA_SCALE_FACTOR = 1.0;
 const ICON_UP = -.1;
-const TEXT_TO_RIGHT = 1.8;
+const TEXT_TO_RIGHT = 1.7;
 
 const DID_YOU_KNOW = [
   'It\'s Raining Angkots in Bogor!',

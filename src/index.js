@@ -66,7 +66,8 @@ function makeArrows(lanes) {
     arrows.push(lines.makeArrow(
       [parseFloat(fromLat), parseFloat(fromLon)],
       [parseFloat(toLat), parseFloat(toLon)],
-      lanes[stretchDef].length
+      lanes[stretchDef].length,
+      lanes[stretchDef].map(obj => obj.routeName) 
     ));
   }
   return arrows;
