@@ -6,11 +6,11 @@ const LEGENDA_TOP = -6.52;
 const LEGENDA_LEFT = 106.83;
 const LEGENDA_LINE_HEIGHT = 0.002;
 const LEGENDA_SCALE_FACTOR = 1.0;
-const ICON_UP = .135;
-const TEXT_TO_RIGHT = .6;
+const ICON_UP = -.1;
+const TEXT_TO_RIGHT = 2.0;
 
 const DID_YOU_KNOW = [
-  'It\'s Raining Angkots in Bogor! :)',
+  'It\'s Raining Angkots in Bogor!',
   '',
   'This is a zoomable map of mini-buses in Bogor (West Java, Indonesia),',
   'a.k.a. Kota Hujan (Rain City), a.k.a. Kota Seribu Angkot (City of a Thousand Minibuses).',
@@ -46,6 +46,7 @@ const DID_YOU_KNOW = [
   'Creative Commons (CC-BY-SA 3.0). Corrections and improvements are also very welcome! Email michiel@unhosted.org, or see the github repo: https://github.com/michielbdejong/bogor-angkot-gtfs.'
 ];
 
+
 function getLegenda(routeBasics) {
   var snippet = '';
   var counter = 0;
@@ -56,10 +57,8 @@ function getLegenda(routeBasics) {
     var iconTrans = maps.makeTextTrans(iconPoint, LEGENDA_SCALE_FACTOR);
     var textAttr = maps.makeTextAttr(basePoint, textTrans, 'left', 'normal', '12');
     var obj = routeBasics[routeName];
-    snippet += 
-     `    <circle transform="${iconTrans.join(' ')}" cx="${iconPoint[0]}" cy="${iconPoint[1]}" r="8" \n` +
-     `        fill="${routeBasics[routeName].color}" />\n` +
-     `    <text ${textAttr.join(' ')}>\n` +
+    snippet += maps.drawIcon(iconTrans, iconPoint, routeBasics[routeName].color);
+    snippet += `    <text ${textAttr.join(' ')}>\n` +
      `        ${routeName.substring(3)}${(typeof obj.aka === 'undefined'?'':' (a.k.a. '+obj.aka+')')}:\n` +
      `        ${obj.destinations.join(' - ')}\n` +
      `        </text>\n`;

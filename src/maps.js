@@ -24,6 +24,9 @@ const TEXT_CIRCLE_SIZE = 4;
 const TEXT_CIRCLE_UP = 5;
 const TEXT_CIRCLE_LEFT = 0;
 
+const ICON_GRID_SIZE_X = 2;
+const ICON_GRID_SIZE_Y = 3;
+
 const MAIN_GREEN_COLOR = '#35B744';
 
 const CANVAS_ATTR = [
@@ -169,6 +172,52 @@ function drawArrow(obj) {
   return `    <path d="M${path.join(' L')} Z" ${attributes} />\n`;
 }
 
+function drawIcon(iconTrans, iconPoint, routeColor) {
+  // 4 ****************
+  // 3 ******************
+  // 2 +++00+++++++++00+++
+  // 1 ++0000+++++++0000++
+  // 0    00         00
+  //   0123456789012345678
+  //
+  function project(coords) {
+    return [
+      iconPoint[0] + coords[0]*ICON_GRID_SIZE_X,
+      iconPoint[1] - coords[1]*ICON_GRID_SIZE_Y,
+    ];
+  }
+  // ***: 0,2 0,4 16,4 18,2
+  var topPath = [[0,2], [0,4], [16,4], [18,2]].map(project);
+  // +++: 0,0 0,2 18,2 18,0
+  var bottomPath = [[0,0], [0,2], [18,2], [18,0]].map(project);
+  // +++: 0,0 0,2 18,2 18,0
+  var outerPath = [[0,0], [0,4], [16,4], [18,2], [18,0]].map(project);
+
+  // 000: c3.5,0.5 / c14.5,0.5 r1.5
+  var r=1.5;
+  var wheelAttr = [
+    project([3.5, 0.5]),
+    project([14.5, 0.5]),
+  ].map(c => {
+    return [
+      `cx="${c[0]}"`,
+      `cy="${c[1]}"`,
+      `rx="${r*ICON_GRID_SIZE_X}"`,
+      `ry="${r*ICON_GRID_SIZE_Y}"`,
+      `fill="black"`
+    ];
+  });
+  
+  return `    <path transform="${iconTrans.join(' ')}" \n` +
+    `      d="M${topPath.join(' L')} Z" fill="${MAIN_GREEN_COLOR}" />\n` +
+    `    <path transform="${iconTrans.join(' ')}" \n` +
+    `      d="M${bottomPath.join(' L')} Z" fill="${routeColor}" />\n` +
+    `    <path transform="${iconTrans.join(' ')}" \n` +
+    `      d="M${outerPath.join(' L')} Z" fill="none" stroke="black" />\n` +
+    `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[0].join(' ')} />\n` +
+    `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[1].join(' ')} />\n`;
+}
+
 function initDrawing() {
   return SVG_PREFIX;
 }
@@ -240,6 +289,7 @@ function finishDrawing(texts, debugLines) {
 
 module.exports = {
   drawArrow,
+  drawIcon,
   drawPath,
   finishDrawing,
   initDrawing,
