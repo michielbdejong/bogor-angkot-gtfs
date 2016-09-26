@@ -151,6 +151,7 @@ jambudua-yani,,jambudua-yani,,-6.5685,106.8068,,,,,,2
 yani-4,,yani-4,,-6.5788,106.7981,,,,,,2
 pengadilan-gedongsawah,,pengadilan-gedongsawah,,-6.5915,106.7938,,,,,,2
 gedongsawah-dewisartika,,gedongsawah-dewisartika,,-6.5941,106.7920,,,,,,2
+*Ciparigi,,*Ciparigi,,-6.5549,106.8181,,,,,,2
 pajajaran-sobana,,pajajaran-sobana,,-6.5808,106.8067,,,,,,2
 #lodaya-N,,#lodaya-N,,-6.5888,106.8059,,,,,,2
 sobana-sungai,,sobana-sungai,,-6.5811,106.8110,,,,,,2

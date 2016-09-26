@@ -14,6 +14,7 @@ const ROUTE_BASICS = {
   'AK-05': { color: '#D094C9', destinations: ['Cimahpar', 'Ramayana'] },
   'AK-06': { color: '#968417', destinations: ['Cileuheut', 'Ramayana'] },
   'AK-07': { color: '#A7AEDA', destinations: ['Ciparigi', 'Term. Merdeka'] },
+  'AK-07A': { color: '#A7AEDA', destinations: ['Ciparigi', 'Ramayana'] },
   'AK-08': { color: '#6B112E', destinations: ['Ramayana', 'Indra Prasta', 'Warung Jambu'] },
   'AK-09': { color: '#6D5099', destinations: ['Ciparigi', 'Sukasari'] },
   'AK-10': { color: '#B6B1B8', destinations: ['Bantar Kemang', 'Sukasari', 'Term. Merdeka'] },
@@ -28,7 +29,7 @@ const ROUTE_BASICS = {
   'AK-19': { color: '#211F20', destinations: ['Term. Bubulak', 'Taman Griya Kencana'] },
   'AK-20': { color: '#2E585A', destinations: ['Pasar Anyar', 'Taman Griya Kencana'] },
   'AK-21': { color: '#3959CA', destinations: ['Term. Baranangsiang', 'Ciawi'], aka: '01A' },
-  'AK-22': { color: '#FFFEFC', destinations: ['Pasar Anyar', 'Pondok Rumput'], aka: '07A' },
+  'AK-22': { color: '#FFFEFC', destinations: ['Pasar Anyar', 'Pondok Rumput'] },
   'AK-23': { color: '#9A919A', destinations: ['Ramayana', 'Taman Kencana', 'Warung Jambu'], aka: '08A' },
 };
 
