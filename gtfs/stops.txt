@@ -155,9 +155,9 @@ pajajaran-sobana,,pajajaran-sobana,,-6.5808,106.8067,,,,,,2
 #lodaya-N,,#lodaya-N,,-6.5888,106.8059,,,,,,2
 sobana-sungai,,sobana-sungai,,-6.5811,106.8110,,,,,,2
 sobana-palapuhraya,,sobana-palapuhraya,,-6.5816,106.8132,,,,,,2
-ciparigi-1,,ciparigi-1,,-6.5784,106.8112,,,,,,2
-ciparigi-2,,ciparigi-2,,-6.5770,106.8109,,,,,,2
-ciparigi-3,,ciparigi-3,,-6.5699,106.8125,,,,,,2
+indraprasta-1,,indraprasta-1,,-6.5784,106.8112,,,,,,2
+*Indra Prasta,,*Indra Prasta,,-6.5770,106.8109,,,,,,2
+indraprasta-3,,indraprasta-3,,-6.5699,106.8125,,,,,,2
 pajajaran-pjjindah,,pajajaran-pjjindah,,-6.6125,106.8130,,,,,,2
 pajajaran-durian,,pajajaran-durian,,-6.6161,106.8145,,,,,,2
 pajajaran-ggmesjid,,pajajaran-ggmesjid,,-6.6175,106.8150,,,,,,2
@@ -328,6 +328,7 @@ line-21-19,,line-21-19,,-6.6506,106.8449,,,,,,2
 jl-bubulak-1,,jl-bubulak-1,,-6.5771,106.7926,,,,,,2
 jl-bubulak-pondok-rumput,,jl-bubulak-pondok-rumput,,-6.5736,106.7936,,,,,,2
 *Pondok Rumput,,*Pondok Rumput,,-6.5685,106.7938,,,,,,2
+ciparigi-3,,ciparigi-3,,-6.5699,106.8125,,,,,,2
 adnawijaya-1,,adnawijaya-1,,-6.5704,106.8152,,,,,,2
 adnawijaya-2,,adnawijaya-2,,-6.5735,106.8176,,,,,,2
 adnawijaya-3,,adnawijaya-3,,-6.5770,106.8178,,,,,,2

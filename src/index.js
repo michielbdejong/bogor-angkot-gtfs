@@ -7,16 +7,16 @@ var maps = require('./maps');
 var legenda = require('./legenda');
 
 const ROUTE_BASICS = {
-  'AK-01': { color: 'blue', destinations: ['Term. Merdeka', 'Cipaku', 'Cipinang Gading'] },
+  'AK-01': { color: '#73BBFF', destinations: ['Term. Merdeka', 'Cipaku', 'Cipinang Gading'] },
   'AK-02': { color: '#8D0908', destinations: ['Sukasari', 'Term. Bubulak'] },
-  'AK-03': { color: 'blue', destinations: ['Term. Bubulak', 'Term. Baranangsiang'] },
+  'AK-03': { color: '#0197BB', destinations: ['Term. Bubulak', 'Term. Baranangsiang'] },
   'AK-04': { color: 'blue', destinations: ['Warung Nangka', 'Rancamaya', 'Ramayana'] },
-  'AK-05': { color: 'pink', destinations: ['Cimahpar', 'Ramayana'] },
+  'AK-05': { color: '#D094C9', destinations: ['Cimahpar', 'Ramayana'] },
   'AK-06': { color: '#968417', destinations: ['Cileuheut', 'Ramayana'] },
   'AK-07': { color: '#A7AEDA', destinations: ['Ciparigi', 'Term. Merdeka'] },
-  'AK-08': { color: 'red', destinations: ['Warung Jambu', 'Ramayana'] },
-  'AK-09': { color: '#430082', destinations: ['Ciparigi', 'Sukasari'] },
-  'AK-10': { color: 'silver', destinations: ['Bantar Kemang', 'Sukasari', 'Term. Merdeka'] },
+  'AK-08': { color: '#6B112E', destinations: ['Ramayana', 'Indra Prasta', 'Warung Jambu'] },
+  'AK-09': { color: '#6D5099', destinations: ['Ciparigi', 'Sukasari'] },
+  'AK-10': { color: '#B6B1B8', destinations: ['Bantar Kemang', 'Sukasari', 'Term. Merdeka'] },
   'AK-11': { color: 'brown', destinations: ['Pajajaran Indah', 'Pasar Bogor'] },
   'AK-12': { color: 'yellow', destinations: ['Cimanggu', 'Pasar Anyar'] },
   'AK-13': { color: '#A30015', destinations: ['Ramayana', 'Bantar Kemang', 'Mutiara Bogor Raya'] },
@@ -28,8 +28,8 @@ const ROUTE_BASICS = {
   'AK-19': { color: '#211F20', destinations: ['Term. Bubulak', 'Taman Griya Kencana'] },
   'AK-20': { color: '#2E585A', destinations: ['Pasar Anyar', 'Taman Griya Kencana'] },
   'AK-21': { color: '#3959CA', destinations: ['Term. Baranangsiang', 'Ciawi'], aka: '01A' },
-  'AK-22': { color: 'black', destinations: ['Pasar Anyar', 'Pondok Rumput'], aka: '07A' },
-  'AK-23': { color: 'black', destinations: ['Ramayana', 'Taman Kencana', 'Warung Jambu'], aka: '08A' },
+  'AK-22': { color: '#FFFEFC', destinations: ['Pasar Anyar', 'Pondok Rumput'], aka: '07A' },
+  'AK-23': { color: '#9A919A', destinations: ['Ramayana', 'Taman Kencana', 'Warung Jambu'], aka: '08A' },
 };
 
 function drawMap(routesInMap, arrowsInMap, routesToDraw, drawDebugLines) {

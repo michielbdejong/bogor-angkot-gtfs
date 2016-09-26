@@ -24,6 +24,8 @@ const TEXT_CIRCLE_SIZE = 4;
 const TEXT_CIRCLE_UP = 5;
 const TEXT_CIRCLE_LEFT = 0;
 
+const MAIN_GREEN_COLOR = '#35B744';
+
 const CANVAS_ATTR = [
   `width="${CANVAS_WIDTH}"`,
   `height="${CANVAS_HEIGHT}"`,
@@ -63,7 +65,7 @@ const BOUNDING_BOX_TRANSFORMATIONS = [
 
 const BOUNDING_BOX_ATTR = [
   `d="${BOUNDING_BOX_PATH.join(' ')}"`,
-  `fill="#75FFB2"`,
+  `fill="${MAIN_GREEN_COLOR}"`,
   `stroke="black"`,
   `stroke-width="${5*STROKE_WIDTH/CANVAS_SCALE}"`,
   `transform="${BOUNDING_BOX_TRANSFORMATIONS.join(' ')}"`,
