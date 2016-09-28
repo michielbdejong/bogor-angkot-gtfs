@@ -28,6 +28,7 @@ const ICON_GRID_SIZE_X = 1.55;
 const ICON_GRID_SIZE_Y = 3;
 
 const MAIN_GREEN_COLOR = '#7CFC00';
+const BACKGROUND_COLOR = '#BEFE80'; // about twice as bright as main green color
 
 const CANVAS_ATTR = [
   `width="${CANVAS_WIDTH}"`,
@@ -68,7 +69,7 @@ const BOUNDING_BOX_TRANSFORMATIONS = [
 
 const BOUNDING_BOX_ATTR = [
   `d="${BOUNDING_BOX_PATH.join(' ')}"`,
-  `fill="${MAIN_GREEN_COLOR}"`,
+  `fill="${BACKGROUND_COLOR}"`,
   `stroke="black"`,
   `stroke-width="${5*STROKE_WIDTH/CANVAS_SCALE}"`,
   `transform="${BOUNDING_BOX_TRANSFORMATIONS.join(' ')}"`,
@@ -187,7 +188,7 @@ function drawIcon(iconTrans, iconPoint, routeColor) {
       iconPoint[1] - coords[1]*ICON_GRID_SIZE_Y,
     ];
   }
-  // var topPath = [[0,2], [1,4.5], [14,4.5], [18,2]].map(project);
+  var topPath = [[0,2], [1,4.5], [14,4.5], [18,2]].map(project);
   var bottomPath = [[0,0], [0,2], [18,2], [18,0]].map(project);
   var outerPath = [[0,0], [0,2], [1,4.5], [14,4.5], [18,2], [18,0]].map(project);
 
@@ -205,14 +206,14 @@ function drawIcon(iconTrans, iconPoint, routeColor) {
     ];
   });
   
-  // return `    <path transform="${iconTrans.join(' ')}" \n` +
-  //   `      d="M${topPath.join(' L')} Z" fill="${MAIN_GREEN_COLOR}" />\n` +
-  return  `    <path transform="${iconTrans.join(' ')}" \n` +
-    `      d="M${bottomPath.join(' L')} Z" fill="${routeColor}" />\n` +
-    `    <path transform="${iconTrans.join(' ')}" \n` +
-    `      d="M${outerPath.join(' L')} Z" fill="none" stroke="black" />\n` +
-    `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[0].join(' ')} />\n` +
-    `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[1].join(' ')} />\n`;
+  return `    <path transform="${iconTrans.join(' ')}" \n` +
+      `      d="M${topPath.join(' L')} Z" fill="${MAIN_GREEN_COLOR}" />\n` +
+      `    <path transform="${iconTrans.join(' ')}" \n` +
+      `      d="M${bottomPath.join(' L')} Z" fill="${routeColor}" />\n` +
+      `    <path transform="${iconTrans.join(' ')}" \n` +
+      `      d="M${outerPath.join(' L')} Z" fill="none" stroke="black" />\n` +
+      `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[0].join(' ')} />\n` +
+      `    <ellipse transform="${iconTrans.join(' ')}" ${wheelAttr[1].join(' ')} />\n`;
 }
 
 function initDrawing() {
