@@ -8,7 +8,7 @@ node ./enterbogor-blogspot-co-id.js > ../build/enterbogor.json
 cd ..
 # join those json files into one joined file for easy comparison:
 node ./joinData.js > release/from-www.json
-# generate a gtfs feed (currently broken because routes don't loop, see #3)
+# generate a gtfs feed
 # and save it as ./release/gtfs.zip:
 node ./gen-gtfs.js
 cd gtfs
@@ -17,5 +17,7 @@ cd ..
 
 # generate the map and save it as ./release/map.svg:
 cd src
-node --harmony_destructuring index.js
+# for older versions of nodejs, use:
+# node --harmony_destructuring index.js
+node index.js
 cd ..

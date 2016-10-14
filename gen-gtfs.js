@@ -34,6 +34,9 @@ function getStop(lat, lon, name) {
     name = `ll_${lat}_${lon}`;
   } else {
     name = name.trim();
+    if (name[0] === '#' || name[0] === '*') {
+      name = name.substr(1);
+    }
   }
   if (!stops[name]) {
     stops[name] = [lat, lon];
