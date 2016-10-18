@@ -3,6 +3,14 @@
 
 A gtfs feed for public minibuses ("angkots") in Bogor, Indonesia.
 
+This gtfs feed is available on transitland:
+
+https://transit.land/feed-registry/operators/o-qqgfq-pemerintahkotabogorangkotankota
+
+and on transitfeeds.com (includes per-route maps):
+
+https://transitfeeds.com/p/bogor-angkots/725/latest/routes
+
 This gtfs feed contains data from the following data sources:
   * http://enterbogor.blogspot.co.id/2016/03/inilah-rute-terbaru-angkot-bogor-mulai.html (updated in 2016 for the one-way central ring)
   * http://lovelybogor.com/rute-angkot-kota-bogor/ (very complete list, especially for inner city lines - Kota as opposed to Kabupaten)
