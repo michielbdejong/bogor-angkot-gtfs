@@ -2,7 +2,9 @@
 
 A gtfs feed for public minibuses ("angkots") in Bogor, Indonesia.
 
-This gtfs feed is available on transitland:
+See https://michielbdejong.com/angkots.svg for a scalable map.
+
+This gtfs feed is also available on transitland:
 
 https://transit.land/feed-registry/operators/o-qqgfq-pemerintahkotabogorangkotankota
 
