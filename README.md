@@ -1,5 +1,4 @@
 # bogor-angkot-gtfs
-# A work in progress!
 
 A gtfs feed for public minibuses ("angkots") in Bogor, Indonesia.
 
