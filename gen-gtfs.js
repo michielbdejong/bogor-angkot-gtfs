@@ -1,5 +1,7 @@
 var fs = require('fs');
 
+const HEAD_MINUTES = 10; // minutes between one angkot and the next one of the same route, at any given stop
+
 var headers = {
   agency: 'agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url',
   calendar: 'service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date',
@@ -46,11 +48,29 @@ function getStop(lat, lon, name) {
   return name;
 }
 
-function toTime(seqNo) {
-  if (seqNo < 10) {
-    seqNo = `0${seqNo}`;
+function toTime(seqNo, hour, minute) {
+  var seqMinute = minute + seqNo;
+  var seqHour = hour;
+  var minuteStr;
+  var hourStr;
+  if (seqMinute >= 60) {
+    seqHour++;
+    seqMinute -= 60;
   }
-  return `12:${seqNo}:00`;
+  if (seqHour >= 24) {
+    seqHour -= 24;
+  }
+  if (seqMinute < 10) {
+    minuteStr = `0${seqMinute}`;
+  } else {
+    minuteStr = `${seqMinute}`;
+  }
+  if (seqHour < 10) {
+    hourStr = `0${seqHour}`;
+  } else {
+    hourStr = `${seqHour}`;
+  }
+  return `${hourStr}:${minuteStr}:00`;
 }
 
 for (var i=1; i<data.length; i++) {
@@ -65,7 +85,12 @@ for (var i=1; i<data.length; i++) {
     seq[line[0]]++;
   }
 //  stop_times: 'trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,drop_off_type,shape_dist_traveled,timepoint',
-  stopTimes.push(`${line[0]},${toTime(seq[line[0]])},${toTime(seq[line[0]])},${getStop(line[1], line[2], line[5])},${seq[line[0]]},,,,,0`);
+  for (var hour = 0; hour<24; hour++) {
+    for (var minute = 0; minute<60; minute += HEAD_MINUTES) {
+      var time = toTime(seq[line[0]], hour, minute);
+      stopTimes.push(`${line[0]},${time},${time},${getStop(line[1], line[2], line[5])},${seq[line[0]]},,,,,0`);
+    }
+  }
 //  shapes: 'shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence',
   shapes.push(`${line[0]},${line[1]},${line[2]},${seq[line[0]]}`);
 }
