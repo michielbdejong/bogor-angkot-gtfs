@@ -21,7 +21,7 @@
     "gtfs"
   ],
   "dependencies": {
-    "mathjs": "^3.4.1"
+    "mathjs": "^5.9.0"
   },
   "devDependencies": {},
   "scripts": {
