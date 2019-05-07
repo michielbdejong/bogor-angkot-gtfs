@@ -1,5 +1,7 @@
 # bogor-angkot-gtfs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/michielbdejong/bogor-angkot-gtfs.svg)](https://greenkeeper.io/)
+
 A gtfs feed for public minibuses ("angkots") in Bogor, Indonesia.
 
 See https://michielbdejong.com/angkots.svg for a scalable map.
